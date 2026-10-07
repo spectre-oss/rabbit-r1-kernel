@@ -1,0 +1,13 @@
+{
+  "observed_date": "2026-10-07",
+  "access": "read-only authenticated SSH",
+  "kernel_release": "7.1.0-rabbit-r1+",
+  "kernel_version": "#49 SMP PREEMPT Mon Sep 28 11:50:35 CEST 2026",
+  "architecture": "aarch64",
+  "kernel_config_sha256": "d67dd7d67bb53460f9f4fe6595c4636b4c67019663b770785228b899d15941f3",
+  "source_correspondence_verified": false,
+  "external_module_correspondence_verified": false,
+  "active_boot_slot": "a",
+  "active_boot_kernel_sha256": "46560253fe0264cb27e5a162ff1ef73c02a2e9ed37c45ebf82da9ca6bb644f12",
+  "active_boot_kernel_matches_retained_image": true
+}

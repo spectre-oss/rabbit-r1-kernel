@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "publication_ready": false,
+  "checks": {
+    "upstream_reference_git_objects": "pass",
+    "live_device_identity": "pass",
+    "kernel_source_correspondence": "pass",
+    "external_module_correspondence": "pass",
+    "embedded_init_corresponding_source": "pass",
+    "panel_table_redistribution": "unresolved",
+    "full_license_review": "pending",
+    "privacy_review": "pass",
+    "clean_release_build": "pass",
+    "kernel_build_recipe": "pass",
+    "wlan_input_redistribution": "unresolved",
+    "camera_receiver_input_provenance": "pass",
+    "encoder_mode_input_redistribution": "pass",
+    "nondeferred_license_review": "pass"
+  },
+  "deferred_by_owner": [
+    "panel_table_redistribution",
+    "wlan_input_redistribution"
+  ],
+  "full_license_review_note": "Nondeferred scope passes; full review remains pending only for deferred panel/WLAN scope."
+}

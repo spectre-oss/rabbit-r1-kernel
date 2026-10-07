@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "kind": "partial-source-snapshot",
+  "excluded_paths": [
+    "external/rabbit-r1/wlan",
+    "external/rabbit-r1/connectivity/adaptor",
+    "drivers/gpu/drm/panel/panel-rabbit-r1.c",
+    "scripts/rabbit-r1/prepare-panel.py",
+    "scripts/rabbit-r1/tests/test_prepare_panel.py",
+    "scripts/rabbit-r1/tests/test_wlan_inputs.py"
+  ],
+  "full_device_release": false,
+  "fresh_history_required": true,
+  "scope_document": "partial-release.md"
+}

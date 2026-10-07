@@ -1,0 +1,511 @@
+{
+  "status": "All 21 supported source recipes packaged and clean-built; scoped module correspondence verified. Nondeferred license review complete; panel and WLAN review deferred.",
+  "groups": [
+    {
+      "name": "audio",
+      "files": [
+        {
+          "path": "external/rabbit-r1/audio/r1_audio.c",
+          "original_source_sha256": "ce677d8230983a5037fb55cad95bd337d6050d1dd0d0386867b54b926f9a810c",
+          "changes": "Append vendor-reference attribution only; no code changes"
+        },
+        {
+          "path": "external/rabbit-r1/audio/r1-audio-analog.h",
+          "original_source_sha256": "2f59ba63b244af1cc9c45c3c0fce59b7111da646e7d999d8c98885029903773b",
+          "changes": "Append vendor-reference attribution only; no code changes"
+        }
+      ],
+      "vendor_references": [
+        {
+          "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+          "path": "sound/soc/mediatek/codec/mt6357/mtk-soc-codec-6357.c",
+          "sha256": "3010dc4cd012496fdc372e3501eec41ce30a4bf2887d6be177d9c9d3fd3d520f",
+          "observed_license": "GPL-2.0",
+          "copyright": "2019 MediaTek Inc."
+        },
+        {
+          "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+          "path": "sound/soc/mediatek/mt6765/mt6765-sound.c",
+          "sha256": "c204bd6d6c23d7e0dbe5e418c0736c0a2f6b60619629d428e9cc3036839873de",
+          "observed_license": "GPL-2.0",
+          "copyright": "2019 MediaTek Inc."
+        }
+      ],
+      "upstream_ALSA_sources": "sound/ in the pinned kernel source tree",
+      "validation": "All five staged audio modules rebuilt; loaded contents/relocations/globals match after build-ID/source-root normalization. All five binaries repeat byte-identically across two clean output directories on the same toolchain."
+    },
+    {
+      "name": "core-helpers",
+      "kernel_source_paths": [
+        "drivers/iio/adc/mt6359-auxadc.c",
+        "drivers/media/platform/mediatek/jpeg/r1_vcodec_owner.c",
+        "drivers/media/platform/mediatek/jpeg/r1_vcodec_owner.h"
+      ],
+      "validation": "Both modules rebuilt from staged sources; allocated contents except build IDs, relocations, global symbols and layout match device copies."
+    },
+    {
+      "name": "camera",
+      "files": [
+        {
+          "path": "external/rabbit-r1/camera/r1_camera_probe.c",
+          "reference_source_sha256": "8d4857c0b60bc2fc84425170ff2a388af17eaf70f48275debbbd182e68e3e3ab"
+        },
+        {
+          "path": "external/rabbit-r1/camera/r1_camera_capture.h",
+          "reference_source_sha256": "77049d40bc2c750b58e4b7e69f977fc80c9c256c965f7527c3c0f34ccc3b64ab"
+        },
+        {
+          "path": "external/rabbit-r1/camera/r1_camera_pipeline.h",
+          "reference_source_sha256": "e8e9444850f913d909aba3f643d81b78814220aa7b09cb42684f0112cbd7dfc9"
+        },
+        {
+          "path": "external/rabbit-r1/camera/r1_camera_stream.h",
+          "reference_source_sha256": "67e0f7f0d17619e8025c54a8383a18b3082c78eddf0b8a784e667c04f8423936"
+        },
+        {
+          "path": "external/rabbit-r1/camera/sensor-tables.h",
+          "reference_source_sha256": "101c89eeeabd5b6043ef3793c3fa6df93c6227cbad02cf27384435a8948c06f5"
+        },
+        {
+          "path": "scripts/rabbit-r1/camera-receiver-template.json",
+          "sha256": "06d284dcf3a9c3806e15fa02343628eaaf3202139f93622f1fac8a67b974f13e",
+          "origin": "Local calibration-separated reconstruction; see camera-calibration-provenance.json"
+        },
+        {
+          "path": "scripts/rabbit-r1/prepare-camera-calibration.py",
+          "sha256": "dfa4b0413b01308b5ae176abcaa79c47b92f96a5c1cc64f1c8723a89e3474617",
+          "origin": "Local calibration-separated reconstruction; see camera-calibration-provenance.json"
+        }
+      ],
+      "changes": "Receiver table is an explicit private generated include; sensor and power-sequence reference notices retained",
+      "sensor_reference_sha256": "c9a399d957170a53970ae3c278769074cacd409c8e2ca2a926109e423dba497c",
+      "private_dependency": "Two target-specific calibration words supplied in hash-pinned private JSON; legacy private table input remains supported.",
+      "validation": "Calibration-aware full build reproduces both previously verified modules byte-for-byte; see camera-calibration-provenance.json.",
+      "power_sequence_reference": {
+        "path": "drivers/clk/mediatek/clk-mt6765-pg.c",
+        "sha256": "990157bf81cf40b412c6d7b981f972c66dfe72fb7df698cb55419cd9b51b3bcc",
+        "observed_license": "GPL-2.0",
+        "copyright": "2020 MediaTek Inc."
+      }
+    },
+    {
+      "name": "board",
+      "files": [
+        {
+          "path": "external/rabbit-r1/board/r1_battery.c",
+          "reference_source_sha256": "289e4f21b72d3b62b62940f4a1d4feeb0d622fce5b476d1b19991b60973f901e",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/r1_haptics.c",
+          "reference_source_sha256": "6bf8762b084dbe32f5ca005922313287da67d8a786012820843effd85f9ef65d",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/r1_icm42607.c",
+          "reference_source_sha256": "eaa1b619af707a541a0fd03bd2f9e82d8155727cf7120eb342b9fa51e1ea5ee9",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/r1_ms35774.c",
+          "reference_source_sha256": "15b23457e86c4bf1a9508bcb9ca88fd20834f1453878d582ce6cdd51146f63c8",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/r1_input_power.c",
+          "reference_source_sha256": "570cbb7111d9c3868f245a6e018ca0207c2f8a4d30ad36c6ee2e7781c6808b07",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/r1_keypad.c",
+          "reference_source_sha256": "d535f6bfcb7c10370e7e6a06af8bc902abdad01f982c832dd56d4607d5e99aa5",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/tcpc.c",
+          "reference_source_sha256": "8c65a144837343fb9fe6b4ac98ce038a0e4151eed16608cc52f7ad336d3e26af",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/bus.c",
+          "reference_source_sha256": "66b578cdd4d7e6d2dfc35f9c3e45ee98fbb09e95d3f16c81baa2a33f9e284a53",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/i2c-algo-bit.c",
+          "reference_source_sha256": "d807c3af2466ade9438e62a501de2e92533bb3d5667bb94f844ececb5451c961",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/session-v2.c",
+          "reference_source_sha256": "4b3fa450c36e07b364a5fec6795d13928fa7bef6286631dd4701c0fce23ea710",
+          "changes": "none"
+        },
+        {
+          "path": "external/rabbit-r1/board/host-speed.c",
+          "reference_source_sha256": "19acaa8c7328dca7d85c0e11267c030ce56a908dbd9b2c277331e5f6982e52db",
+          "changes": "none"
+        }
+      ],
+      "source_selection": "Saved sources associated with exact installed artifact matches; IMU source confirmed by rebuilt correspondence",
+      "validation": "All ten modules rebuilt from staged sources; allocated code/data, relocations and global symbols match installed references except build IDs",
+      "license_review": "GPL SPDX notices retained, including original I2C contributor notices; full review pending"
+    },
+    {
+      "name": "cpu",
+      "files": [
+        {
+          "path": "external/rabbit-r1/cpu/r1_cpu_dvfs.c",
+          "reference_source_sha256": "4d277f3bf3c2e585411398a5283aa37adb97c2b19143401d5bdd11e30b44528a",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/cpu/r1_cpu_hotplug.c",
+          "reference_source_sha256": "38067bfd51bce96c0414157420eba356ac4ff453964e6d9c875caaed268bab38",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/cpu/r1_cpu_idle_smp.c",
+          "reference_source_sha256": "55a50325cb0a44b64c2e752f5d497c443734653f24a67b240c4dc9a11b5391d6",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/cpu/r1_cpu_power.c",
+          "reference_source_sha256": "24fc018adff13ef4151f567d27730ebbd7111cce87659cb24b7f139d4b5ed429",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/cpu/r1_cpu_power.h",
+          "reference_source_sha256": "2325b179eb9ad500ef84f53a115fc1f68d39afc8cc592134d956e682298bc30e",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/cpu/r1_cpu_voltage.h",
+          "reference_source_sha256": "ea16e3daf00e81798f2ec78b99c48bef4e556a118ed654c98060be43f81d5f5e",
+          "observed_license": "GPL-2.0-only"
+        }
+      ],
+      "validation": "All four modules rebuilt; allocated contents except GNU build ID, allocated relocations, global symbols and layout match recorded installed references. Final provenance review remains pending."
+    },
+    {
+      "name": "display",
+      "files": [
+        {
+          "path": "external/rabbit-r1/display/r1_backlight.c",
+          "sha256": "20cca260d2d0dff8634a82a5530600c2f4f4b880100d5096f1c4644494d830a4"
+        },
+        {
+          "path": "external/rabbit-r1/display/r1_display_nodes.c",
+          "sha256": "ad9cd23e22fa121ff9f4d3bdb164449e59e51f9b0a3fb3a94ae81bcb365718d8"
+        }
+      ],
+      "validation": "Rebuilt allocated contents, relocations and global symbols match recorded references after build-ID/source-root normalization. No hardware test performed.",
+      "generated_input": "scripts/rabbit-r1/prepare-display-overlays.py generates all13 runtime overlay stages from source; no boot DTB is substituted.",
+      "vendor_references": [
+        {
+          "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+          "path": "drivers/misc/mediatek/video/common/pwm10/ddp_pwm.c",
+          "sha256": "22acabfd8966a8ca8ee2dc464bdbf4cc592bf980211b4852e0a21c3a3fe03383",
+          "observed_license": "GPL-2.0",
+          "copyright": "2019 MediaTek Inc."
+        },
+        {
+          "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+          "path": "drivers/misc/mediatek/video/mt6765/dispsys/ddp_reg_pq.h",
+          "sha256": "39fbd7727a960e6215b58cff424c817b289983a34931e7019971b97a47d59ec1",
+          "observed_license": "GPL-2.0",
+          "copyright": "2019 MediaTek Inc."
+        }
+      ]
+    },
+    {
+      "name": "bluetooth-voice",
+      "files": [
+        {
+          "path": "external/rabbit-r1/bluetooth-voice/r1_sco.c",
+          "sha256": "d16c24fa6ab26382420952d253f602f15a99ed66ff9c335a58381a49ead476d2"
+        }
+      ],
+      "validation": "Rebuilt allocated contents, relocations and global symbols match recorded references after build-ID/source-root normalization. No hardware test performed.",
+      "layout_normalization": "Only .rodata size differs: original1328/rebuilt1216 bytes. Exact source-root replacements account for all112 bytes.",
+      "vendor_references": [
+        {
+          "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+          "path": "sound/soc/mediatek/common/mtk-btcvsd.c",
+          "sha256": "fd2ed49d7ee45dd16ebbec53a1b01abbb13d3b47976aa4994846c5ae473d1020",
+          "observed_license": "GPL-2.0",
+          "copyright": "2019 MediaTek Inc."
+        }
+      ]
+    },
+    {
+      "name": "storage",
+      "files": [
+        {
+          "path": "external/rabbit-r1/storage/r1_emmc.c",
+          "sha256": "527605432fe3db63d1c1448e71d7cd9b2dda87204038489cde95b98cabf349c6"
+        }
+      ],
+      "validation": "Rebuilt allocated contents, relocations and global symbols match recorded references after build-ID/source-root normalization. No hardware test performed.",
+      "upstream_sources": [
+        "drivers/mmc/host/mtk-sd.c",
+        "drivers/mmc/host/cqhci.h",
+        "drivers/mmc/host/mmc_hsq.h"
+      ],
+      "adaptations": "Driver renamed r1-msdc; fallback OCR3.0V range retained only on MT6765 when absent. Existing MT6765 36-bit DMA correction required.",
+      "compiler": "clang22.1.8; matches original storage module toolchain"
+    },
+    {
+      "name": "xfrm",
+      "kernel_source_paths": [
+        "net/xfrm/xfrm_user.c"
+      ],
+      "validation": "Allocated contents, relocations, global symbols and layout match after exact source-root string/offset normalization; GNU build ID differs."
+    },
+    {
+      "name": "rfcomm",
+      "kernel_source_paths": [
+        "net/bluetooth/rfcomm/core.c",
+        "net/bluetooth/rfcomm/sock.c",
+        "net/bluetooth/rfcomm/tty.c"
+      ],
+      "historical_configuration_header": "external/rabbit-r1/rfcomm/historical-config.h",
+      "reference_config_sha256": "7a7686a5f52d79b2c5553e2049e6f48aef2cb437b63fb44886ded6f6629e84b3",
+      "configuration_difference": "Recorded September12 module predates SECURITY_NETWORK, NETWORK_SECMARK and SECURITY_SELINUX enablement; disable these three only for the matching external compilation. This preserves historical behavior, not a security improvement.",
+      "compiler": "clang22.1.8",
+      "validation": "Final packaged build code and non-string data match, except GNU build ID. Normalized merged string pools have identical contents; every relocation matches by exact string or non-string data referent. Global symbols and remaining section layout match."
+    },
+    {
+      "name": "jpeg-helpers",
+      "files": [
+        {
+          "path": "external/rabbit-r1/jpeg-helpers/r1_jpeg_iommu_nodes.c",
+          "sha256": "c7b67b9ec878344923e178bea1ec932c7b18966cef9312e763d9abe50c34dd99",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/jpeg-helpers/r1_jpeg_nodes.c",
+          "sha256": "017959dad91e9d5ff2c842f54684525320260b6e2cd111a87808823d3133b7c9",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/jpeg-helpers/r1_jpeg_power_clocks.c",
+          "sha256": "d20a51a90e790e8e3593811ef99977e8f4c239dd433e8976cd50cbb0f654b173",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/jpeg-helpers/r1_jpeg_power_links.c",
+          "sha256": "ad7b0f529d37a5875ee642a10984fde4100fc28cfb84d3c0eed02275a08aad8f",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/jpeg-helpers/r1_jpeg_power_nodes.c",
+          "sha256": "cf6288c6e9118ccb9395b4d3f0fcac5a6f4e04010f53f8ae085e8ade94920ee1",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/jpeg-helpers/r1_jpeg_selector_nodes.c",
+          "sha256": "d0e5d20bdee7745345f46b8902aa4561d9d9476e881dedda45d1f050a78402f9",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/jpeg-helpers/vcodec-power.dts",
+          "sha256": "cea41c7ae917eaa99fb9e24c57d756624664f7a44a68c750d69d49689e654963",
+          "observed_license": "GPL-2.0-only"
+        }
+      ],
+      "validation": "Six modules including regenerated source DTS overlay match allocated contents except build ID, relocations, globals and layout."
+    },
+    {
+      "name": "media",
+      "kernel_source_directories": [
+        "drivers/media/mc",
+        "drivers/media/v4l2-core",
+        "drivers/media/common/videobuf2",
+        "drivers/media/platform/mediatek/jpeg"
+      ],
+      "kernel_source_files": [
+        "drivers/iommu/mtk_iommu.c",
+        "drivers/memory/mtk-smi.c"
+      ],
+      "reference_module_config_sha256": "2c4aec2607f3abb6109453d681ff7b633a4e9e604cc38ed28c13e431819384e7",
+      "validation": "Twelve reference modules match allocated contents, relocations, globals and layout after excluding GNU build IDs and exactly the intree=Y metadata field/length. Diagnostic paths reproduce original relative paths and generic /tmp/r1-jpeg-kernel spelling; no original owner path retained.",
+      "configuration": "16 media options from recorded module configuration supplied to external build; main kernel configuration unchanged.",
+      "limitations": "An external build omits the in-tree marker and can affect kernel taint reporting. No deployment, hardware acceptance or cross-configuration ABI-safety claim."
+    },
+    {
+      "name": "ion",
+      "files": [
+        {
+          "path": "external/rabbit-r1/ion/r1_ion.c",
+          "sha256": "afe60bb8a88db6e1d0d13234d0884811cc7c88bc542400464a60dfa6fa186d27"
+        },
+        {
+          "path": "external/rabbit-r1/ion/r1_system_heap.c",
+          "sha256": "ea4d6d5ffdf1f10d8ed1e9f36fcda519d77f51db1bc752f1a5fd11bb78ec6ca2"
+        }
+      ],
+      "upstream_reference": "drivers/dma-buf/heaps/system_heap.c",
+      "notices": "Original GPL-2.0, Google, Linaro and Texas Instruments notices retained",
+      "adaptations": "Use normal non-confidential system allocation, fixed exporter name and compatibility ioctl endpoint; optional memcg charging disabled as in installed driver; no duplicate heap module init.",
+      "validation": "Allocated contents/relocations/globals/layout match with exact source-root normalization; build ID differs."
+    },
+    {
+      "name": "powervr",
+      "source_manifest": "Documentation/rabbit-r1/powervr-sources.json",
+      "source_selection": "394 compiled source/build inputs plus two MediaTek headers and two standard license texts. No firmware or vendor userspace libraries.",
+      "observed_notices": "Original source/header MIT/GPL notices retained; notice-less vendor Makefile replaced by locally authored fixed recipe, verified by rebuilt correspondence.",
+      "validation": "Final clean build matches installed allocated contents, relocations, globals and layout with exact source-root normalization; build ID differs.",
+      "build_warnings": {
+        "compiler_warning_categories": {
+          "-Wenum-conversion": 5,
+          "-Wattribute-warning": 1,
+          "-Wunused-function": 6,
+          "-Wunused-variable": 1
+        },
+        "modpost_missing_module_description": true,
+        "errors": 0
+      },
+      "configuration_change": "Disable obsolete declaration-after-statement warning; no driver code changes relative to matched snapshot."
+    },
+    {
+      "name": "connectivity",
+      "source_manifest": "Documentation/rabbit-r1/connectivity-sources.json",
+      "selection": "Compiled BTIF, WMT and adapter source closure from matched build; Linux 7.1 local GPIO compatibility header retains explicit failure for unsupported operations.",
+      "validation": "BTIF allocated contents/relocations/globals/layout match except build ID. WMT/adapter additionally normalize exact source-root strings and merged string-table ordering; every relocated referent verified.",
+      "compiler": "Clang22.1.8",
+      "compiler_warning_categories": {
+        "-Wundef": 8,
+        "-Wmissing-prototypes": 109,
+        "-Wstrict-prototypes": 5,
+        "-Wattribute-warning": 1
+      },
+      "exclusions": "No firmware, WLAN driver or WLAN restrictive/unclear-license inputs imported."
+    },
+    {
+      "name": "modem",
+      "source_manifest": "Documentation/rabbit-r1/modem-sources.json",
+      "observed_notices": "All133 compiled source/header inputs contain GPL notices; original notices retained. Build recipe relocates snapshot paths.",
+      "compiler": "Clang22.1.8",
+      "validation": "AUXADC allocated contents/relocations/globals/layout match except build ID. ECCCI/CCCI utility additionally normalize source-root strings and merged pool ordering; every relocated string/data referent and nonstring contents match.",
+      "compiler_warning_categories": {
+        "-Wmissing-prototypes": 140,
+        "-Wformat": 6,
+        "-Wunused-variable": 5,
+        "-Wunused-function": 9,
+        "-Wmacro-redefined": 2,
+        "-Wimplicit-fallthrough": 2,
+        "-Wpointer-to-int-cast": 2
+      },
+      "exclusions": "No modem firmware, IMS userspace binaries, SIM material, credentials, NVRAM or device dumps."
+    },
+    {
+      "name": "video-decoder",
+      "files": [
+        {
+          "path": "external/rabbit-r1/video/r1_h264_limits.h",
+          "sha256": "481f9a3eed9ef92aff35aa3ad56b86a31607a4683a6be08a698d87dde42e8dd3",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_h264_lists.h",
+          "sha256": "a25d14dd084bc0e17e6e7b368607507cbdd37a9eb5d2e9bdf3991c59e8ab9abd",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_h264_regs.h",
+          "sha256": "139ca3f5f45ab9f806c9a42d247283bd913fce85dc3ec89b005232024592c844",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_h264_reorder_check.h",
+          "sha256": "2d0182ecf9a6419093c3f576d637ade55545c8530e9a8d61e95548805eb6ff5a",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_h264_weight_span.h",
+          "sha256": "7f3d59e8b7091414cc92df4b890e3be8e1e84ad5db46878ddcc87b4eb589e09f",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_vdec_hw.inc",
+          "sha256": "a5b0f3f78ae0450a79d92a088decaeb029e8373c3c40a3562b2cc2f23905d387",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_vdec_pcm.inc",
+          "sha256": "72a8f8a2a125fb1f027d60c0c1df80dd15dee8ef5a0f451aa87f3e3c84866690",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_vdec_probe.c",
+          "sha256": "5318382bbcf28b349bde62ffd160f9f2fa292d1aff8debe3f9915359adc5a1e6",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_vdec_v4l2.inc",
+          "sha256": "cfbf9beb88c77577c778ee5a78ca1f9e1ba123e2c588eeb6824db4b55f8890f2",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_venc_nodes.c",
+          "sha256": "3ce689feb09c00a684adbc9750e7818dc6ca3a64ce4a8c716416bda84c38e970",
+          "observed_license": "GPL-2.0-only"
+        }
+      ],
+      "origin": "Local stateless V4L2 decoder, register conversion helpers and device-node adapter; notices retained. Hardware register behavior was reverse engineered from stock userspace and tested during prior development.",
+      "dependencies": "Rebuilds the existing media group and uses the shared codec-owner header. No vendor userspace library, firmware or encoder mode table is bundled.",
+      "validation": "Final clean build matches decoder and encoder-node reference allocated contents/relocations/globals/layout exactly except GNU build IDs.",
+      "diagnostic_prefix": "/tmp/r1-jpeg-kernel reproduced with compiler path mapping; it is not a required directory or owner path."
+    },
+    {
+      "name": "video",
+      "files": [
+        {
+          "path": "external/rabbit-r1/video/r1_venc.c",
+          "sha256": "bce8f5db22cd57c53f326ee2cb7fda55823dba2f9dbf87ee11cae3d8fb4a4d81",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_venc_regs.h",
+          "sha256": "e0725bfd15b9583c321b90e316ba1a01de4ad14dd26c98f907edb4f6ed4d420f",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/r1_venc_v4l2.inc",
+          "sha256": "c15d09b4d62b706dddc32b56f7bee9a06181cf4c2d738b9a8df046a2b04cfc68",
+          "observed_license": "GPL-2.0-only"
+        },
+        {
+          "path": "external/rabbit-r1/video/encoder-modes.json",
+          "sha256": "c73a15dd1c862c52f6fb3a522d544becb3046f572ad6ce7286d38fb70bb3306d",
+          "origin": "Recovered functional hardware configuration; see encoder-mode-provenance.json"
+        }
+      ],
+      "code_change": "Generated mode include; bundled functional mode data preserves verified register/header/buffer settings.",
+      "validation": "Bundled mode default full build reproduces all previously verified video-group modules byte-for-byte; generated comment later changed only.",
+      "generator": "scripts/rabbit-r1/prepare-encoder-modes.py validates bounded numeric input and emits outside source tree.",
+      "runtime_dependency": "Separate r1-venc-rc.bin firmware remains excluded."
+    },
+    {
+      "name": "bluetooth-transport",
+      "source_manifest": "bluetooth-transport-sources.json",
+      "dependencies": "Shared connectivity group; firmware and personal runtime configuration excluded",
+      "validation": "Allocated code/data and relocation referents match installed saved artifacts with documented build-ID/source-root normalization"
+    },
+    {
+      "name": "gps",
+      "source_manifest": "gps-sources.json",
+      "dependencies": "Shared connectivity group; firmware and personal runtime configuration excluded",
+      "validation": "Allocated code/data and relocation referents match installed saved artifacts with documented build-ID/source-root normalization"
+    },
+    {
+      "name": "wlan",
+      "source_manifest": "wlan-sources.json",
+      "source_packaging_complete": false,
+      "status": "Fixed recipe verified against installed reference with four excluded, hash-pinned private inputs; redistribution unresolved.",
+      "dependencies": "Shared connectivity headers, firmware and unresolved inputs; no firmware bundled",
+      "build_recipe_verified": true
+    }
+  ]
+}

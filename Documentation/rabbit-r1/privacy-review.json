@@ -1,0 +1,20 @@
+{
+  "scope": "Reviewed local source payload and preparation-commit metadata; review must be repeated for later changes",
+  "regular_files_scanned": 94906,
+  "internal_symlinks_reviewed": 99,
+  "configured_findings": 0,
+  "index_entries_verified": 95005,
+  "excluded": [
+    "Private development Git history",
+    "Raw device inventories and logs",
+    "Credentials and target calibration",
+    "Build outputs and vendor firmware/userspace binaries"
+  ],
+  "public_commit_identity": "sadraiiali with verified GitHub no-reply address",
+  "preserved": "Upstream copyright notices, contributor names and public attribution",
+  "limits": [
+    "Bounded pattern and exact-private-term scan, not proof of absence of every possible sensitive value",
+    "No public push or remote CI run performed",
+    "Any later source or history change requires renewed review"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Private reconstruction of installed build49 from staged kernel source; not byte-identical public release artifact",
+  "target_image_sha256": "6931f8914450221fbd08312238573f0fb8b2624e5969d06d90b80580f6b404a2",
+  "image_bytes": 26804232,
+  "different_bytes": 40,
+  "excluded_fields": [
+    {
+      "offset": 13673184,
+      "length": 20,
+      "type": "NT_GNU_BUILD_ID"
+    },
+    {
+      "offset": 20863636,
+      "length": 20,
+      "type": "NT_GNU_BUILD_ID"
+    }
+  ],
+  "all_other_bytes_equal": true,
+  "reconstruction_adjustments": [
+    "Historical build identity used only in private audit",
+    "Original initramfs mtime preserved instead of kernel timestamp override",
+    "Temporary UTS version timestamp left empty; final build49 timestamp retained",
+    "Private line directive restores pre-SPDX initcall line number; public license notice retained",
+    "Debug source path mapped to historical build root privately"
+  ],
+  "limitations": [
+    "Private panel input still required and redistribution unresolved",
+    "Public normalized-identity build is not byte-identical to installed image",
+    "No new runtime or hardware acceptance test"
+  ]
+}

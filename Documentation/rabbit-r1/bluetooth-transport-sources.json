@@ -1,0 +1,71 @@
+{
+  "scope": "Bluetooth transport compiled sources; shared GPL headers are provided by connectivity group. Firmware, device addresses and runtime configuration excluded.",
+  "files": [
+    {
+      "path": "include/btif/btmtk_dbg_tp_evt.h",
+      "sha256": "1f2455c6e0077644b61fee66f1bdd3b51b526d884120a3fc6f2846c63afe74b7",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/bt/mt66xx/include/btif/btmtk_dbg_tp_evt.h",
+      "vendor_sha256": "1f2455c6e0077644b61fee66f1bdd3b51b526d884120a3fc6f2846c63afe74b7",
+      "modified": false,
+      "vendor_git_blob": "437c3bc80517d5387c41b1f935407add5af31af6",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "include/btif/btmtk_dbg_tp_evt_if.h",
+      "sha256": "bb36fe2a2d15683374478f3602e1c8b836ae6826ff173391f3a9794c3535f73a",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/bt/mt66xx/include/btif/btmtk_dbg_tp_evt_if.h",
+      "vendor_sha256": "bb36fe2a2d15683374478f3602e1c8b836ae6826ff173391f3a9794c3535f73a",
+      "modified": false,
+      "vendor_git_blob": "6215c1038a6678ecd881ad4e3c37952d8814b546",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/Makefile",
+      "sha256": "d00ddd774fe02b438a364c7769c9e54a461653b616a06638e5de3bb53fae26b1",
+      "observed_license": "GPL-2.0-only",
+      "origin": "Authored fixed target recipe from 3 recorded object commands; replaces vendor build file"
+    },
+    {
+      "path": "wmt/bt.h",
+      "sha256": "cfac655c7327a607ab355a8a61bf57370df4543bd882f23add8f2d622e3b34a9",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/bt/mt66xx/wmt/bt.h",
+      "vendor_sha256": "cfac655c7327a607ab355a8a61bf57370df4543bd882f23add8f2d622e3b34a9",
+      "modified": false,
+      "vendor_git_blob": "a54b685f4b71dfe2aa15b29efeb1573ac70cd3e6",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/btmtk_dbg.c",
+      "sha256": "fd2c4ffbaea636255d47a1316f84a12c4ffbd1f8d65b39245e243e2ca760ace6",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/bt/mt66xx/wmt/btmtk_dbg.c",
+      "vendor_sha256": "c5ba2ac59aba0fd07e547827e1042d3972ac3a231c849141e7fcb4923af8dd9d",
+      "modified": true,
+      "vendor_git_blob": "4c7957c656ac7de54cfced6295e16dba6cca61f3",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/btmtk_dbg_tp_evt_if.c",
+      "sha256": "e2736b29206528cb5d700cf16519906586b95bd2bf87de1f5fec1e2c296ec1f8",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/bt/mt66xx/wmt/btmtk_dbg_tp_evt_if.c",
+      "vendor_sha256": "e2736b29206528cb5d700cf16519906586b95bd2bf87de1f5fec1e2c296ec1f8",
+      "modified": false,
+      "vendor_git_blob": "acfdbc5196b75852144a1658514d680131771c83",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/stp_chrdev_bt.c",
+      "sha256": "72abc9138132d2a640b983527b6ebaaf9dcf8e7511584c19070fc58e05bf8189",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/bt/mt66xx/wmt/stp_chrdev_bt.c",
+      "vendor_sha256": "c6dbe7b4b6b24ea6617fbb2f7affceabef41927034e8a7bf2d46e545c79b336d",
+      "modified": true,
+      "vendor_git_blob": "dd80fae1608426e1208c0c72fa0ab688cc8b6d65",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    }
+  ]
+}

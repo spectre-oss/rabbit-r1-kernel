@@ -1,0 +1,26 @@
+[
+  {
+    "name": "libc.a",
+    "sha256": "51a6346d755ee0450f44792920e70a74a57576dee698345c9b15a32e657ff78d"
+  },
+  {
+    "name": "crt1.o",
+    "sha256": "2c3476a2a735a1a92159569fb2153e033ccdad3f995806b158bfc0ae49cebdb4"
+  },
+  {
+    "name": "crti.o",
+    "sha256": "319808549a226635e5e7666d1dfa0d92520664ccd922399253787d191ac9175b"
+  },
+  {
+    "name": "crtn.o",
+    "sha256": "7fc9a7509e8b8dd02db2f0d49e3d8e606d6adb5cb99fd39cea8b4fd874eabbe9"
+  },
+  {
+    "name": "libgcc.a",
+    "sha256": "ed0069f95cd9f4447301c1ebf60a1aa298faf04cafcf54ff3cd2bb3ec4d8d7d1"
+  },
+  {
+    "name": "libgcc_eh.a",
+    "sha256": "f0154a0de57840282794e073b20e8e8ab601c69aaa22969bd367d845087520e9"
+  }
+]

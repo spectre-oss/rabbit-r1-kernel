@@ -1,0 +1,914 @@
+{
+  "observed_date": "2026-10-07",
+  "scope": "60 loaded modules observed read-only; on-demand/unloaded modules still require selection and verification",
+  "not_a_hardware_functional_test": true,
+  "not_a_license_clearance": true,
+  "modules": [
+    {
+      "name": "btif_drv",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "01b366d43427d733c2a6cda2a99bd465429a0561302ac7294a9ffa1251541902"
+      ],
+      "loaded_build_note_sha256": "da62d46830f2659c15fb04bb3fc097dc57f7529c89c54809e659cfe3c2a0c9dc",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "connectivity",
+      "source_validation": "Allocated code/data, globals and relocated string/data references match after exact source-root/string-pool normalization; build IDs differ",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mc",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "689bbef29e2c20864469cbd2d8ba56f35e2c6e5aaf1d40eba9bce5393b8309ee"
+      ],
+      "loaded_build_note_sha256": "5e3b957352cd33ddd98bdabe37235256af2576dbf7eb6be1fbfa95c5f7596e20",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mediatek_drm",
+      "observed_license_declarations": [
+        "GPL v2"
+      ],
+      "reference_file_sha256": [
+        "09b9dcbb3398dfc0160fc99876f385a66556ff58b4f3fc90e06c9cf5019ce07b",
+        "f00a02bf1c595e013829c03561248060def077fdc3a01de6b89245638e2ad7ac"
+      ],
+      "loaded_build_note_sha256": "0a33c01f63fcc565a6ee0fd7400a5f3829af4457cdebc7153df593004433984c",
+      "evidence": "duplicate files have identical allocated bytes, relocations, global symbols and layout",
+      "release_source_packaging_complete": true,
+      "source_build_group": "main-kernel",
+      "source_validation": "Clean main build matches allocated code/data, relocations, globals and layout after build-ID and two DRM include-path spelling adjustments",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mt6359_auxadc",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "59645270e6e86cda35736ca92b01cb9df3e4b3715810a507cd74cf3ace8bb287"
+      ],
+      "loaded_build_note_sha256": "674b8810e5f85afe880eeed36ac445888c9cc0a5c43a4cb077b89bf994d794bb",
+      "evidence": "rebuilt allocated bytes, relocations, global symbols and layout match; build ID differs",
+      "release_source_packaging_complete": true,
+      "source_build_group": "core-helpers",
+      "source_validation": "Rebuilt from staged sources; allocated contents/relocations/globals match after documented build-ID and source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mtk_iommu",
+      "observed_license_declarations": [
+        "GPL v2"
+      ],
+      "reference_file_sha256": [
+        "4f0efe8770704d934122e90cdbeb44b6a08b2799ca940c6ee16141efd8a48bd7"
+      ],
+      "loaded_build_note_sha256": "c569e028e904c2f4dc40da8921a159f443819758e9ae2162c577394afb417567",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mtk_jpeg",
+      "observed_license_declarations": [
+        "GPL v2"
+      ],
+      "reference_file_sha256": [
+        "306edee0ad8fcbd0ac297c7b9f054ebdc7620d40d9e4d45b0521d1e98b0da7ac"
+      ],
+      "loaded_build_note_sha256": "a7cb65670b64c748423d611efdd4594e445a2427877ec6ac4e219670c64d18d5",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mtk_jpeg_dec_hw",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "c4ad0e906bfa3fa79192fa50b7a789e03e80a3e8da4e5138168381463268ca3d"
+      ],
+      "loaded_build_note_sha256": "47ea76fb7bfec0c2432af1977122b1c09f2a11bb746b806ec8237f9be4099b1b",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mtk_jpeg_enc_hw",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "afe790f551d20ae81534c84d150a882d0ccad728988f1c2057ac6c5e0f15ba72"
+      ],
+      "loaded_build_note_sha256": "a6f7f6a6cc9835f59960b41b0d3b346b412707f34e38a018d6f747c0f8a85b82",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "mtk_smi",
+      "observed_license_declarations": [
+        "GPL v2"
+      ],
+      "reference_file_sha256": [
+        "d7a38dfcf784400ea0fbcec3dbbc16782aa666e8eb8ed53e03788b6c4c0ce5d6"
+      ],
+      "loaded_build_note_sha256": "f042dd0a24df2146e672f2438ff7912b8ad4599aeebe8a5126710ea341c57516",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "panel_rabbit_r1",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "518f6862dc95e3efa43ca7e59a96b176ebaa4d67d94b3ff135fb4ab6c12c0f4d"
+      ],
+      "loaded_build_note_sha256": "c3dd47ea3c5475eaa3b54f3052e284f4630a9236def498c47c0253bbe1541e57",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "main-kernel",
+      "source_validation": "Clean main build matches allocated code/data, relocations, globals and layout after build-ID and two DRM include-path spelling adjustments",
+      "final_license_review_complete": false,
+      "private_dependency": "Generated panel input required; redistribution rights unresolved; do not publish panel table or resulting image/module"
+    },
+    {
+      "name": "pvrsrvkm",
+      "observed_license_declarations": [
+        "Dual MIT/GPL"
+      ],
+      "reference_file_sha256": [
+        "f601893063757d4279b069b8df51bfa301e9d1bb7b8fa01d7fef44362c509573"
+      ],
+      "loaded_build_note_sha256": "0a2a32cda12c41f365b35fd9e589f88cab457214a5f6beab66aa90e101ec862a",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "powervr",
+      "source_validation": "Rebuilt allocated code/data, relocations, globals and layout match after exact source-root normalization; GNU build ID differs",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_audio",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "ac73ca5869e4c8820a10a50344b4b31574d5a4636702e188de3e4cff83a50c3d"
+      ],
+      "loaded_build_note_sha256": "e145311bddaeb16f6de81042a434357d79ddf1559ec31c7358bd0a28793da9c5",
+      "evidence": "rebuilt allocated bytes, relocations, global symbols and layout match; build ID differs",
+      "release_source_packaging_complete": true,
+      "source_build_group": "audio",
+      "source_validation": "Rebuilt from staged sources; allocated contents/relocations/globals match after documented build-ID and source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_auxadc",
+      "observed_license_declarations": [
+        "GPL v2"
+      ],
+      "reference_file_sha256": [
+        "38e45b5658c16c78b5b7aa81a7e2afe5f6c916f750600c6f7f7b4b9a090800e2"
+      ],
+      "loaded_build_note_sha256": "e45d903b8adbb3637b21ae275f9bf9c30270594fdd52df94c5303f134fcd832b",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "modem",
+      "source_validation": "Rebuilt allocated contents, globals, section layout and every relocated referent match after exact source-root/string-pool normalization; build IDs differ",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_backlight",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "9e9ba85837caede6e2fcc8f8094de84559c39c2c266a12085eb8a68a0ee85295"
+      ],
+      "loaded_build_note_sha256": "af90d024efc54c4f3ea80d76be568223a5e543e5b8582da422ee322204227ab4",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "display",
+      "source_validation": "Rebuilt allocated contents, relocations, global symbols and layout match after documented build-ID/source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_battery",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "d38548cda478878981bc0ac80833ebf477d578e910086404800457d80b2bc2e3"
+      ],
+      "loaded_build_note_sha256": "bcd92a72cea107c31703572b4c05f7b1f202b6ed42e19e9d529a381e4c35e14e",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_ccci_util",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "80c0853c2bce97ec4e5f4e56e7d13e75fae2b6b8cd7495a9fc964adc8e132acd"
+      ],
+      "loaded_build_note_sha256": "0b82f5b54b0e9b001c9ecfc3c648e3fe101772e3b5f892e5f40877e3eda6295b",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "modem",
+      "source_validation": "Rebuilt allocated contents, globals, section layout and every relocated referent match after exact source-root/string-pool normalization; build IDs differ",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_cpu_dvfs",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "46460044c3dca5f47177b6d97adbe42033bd1fc7f99617fb79c8a36d994c0f25"
+      ],
+      "loaded_build_note_sha256": "26e9bc9aa3684a495d44b74d527e6b8a279bd6eeaad7a3c52159c4274f6a0f77",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "cpu",
+      "source_validation": "Rebuilt allocated contents except GNU build ID, relocations, global symbols and layout match recorded installed references",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_cpu_hotplug",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "9c3b51b9cbb37c6fbbb3c276ba35103a23edf8260850d0d9bf52c06677cea625"
+      ],
+      "loaded_build_note_sha256": "ea42357379161e7d61e151f1b32fadade127cf953f4162dc9fd0d14576fd9d96",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "cpu",
+      "source_validation": "Rebuilt allocated contents except GNU build ID, relocations, global symbols and layout match recorded installed references",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_cpu_idle_smp",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "e71f9d556643b4b34fb4931a23efb66e8a24af9e68c8c38212bf0a94b6a9cda4"
+      ],
+      "loaded_build_note_sha256": "18e9814c0f1fca25f1d094d159438f2dea7f0c2beb4640f3cb1a320da7c11c3c",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "cpu",
+      "source_validation": "Rebuilt allocated contents except GNU build ID, relocations, global symbols and layout match recorded installed references",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_cpu_power",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "6701af2ad5c5fa59bed1856da24412d9ddf53e548b4fbb5a330bfc2eefb122eb"
+      ],
+      "loaded_build_note_sha256": "e295f2466d03a2953d2843d1f7d6ef4a10d920905ddd25d48986f535ae9c8af6",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "cpu",
+      "source_validation": "Rebuilt allocated contents except GNU build ID, relocations, global symbols and layout match recorded installed references",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_display_nodes",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "6dbdbae9c868b3ffec6cd91a4b645d64cb7112f4e6c04ec2fb857d4e389979e2"
+      ],
+      "loaded_build_note_sha256": "cca6053bc38721b8fedcfa08f440bc34850b609f4f78ac6d8d190df1ac72f337",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "display",
+      "source_validation": "Rebuilt allocated contents, relocations, global symbols and layout match after documented build-ID/source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_eccci",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "7f021f7ed4440e1db1bb889c5d6bde4cee5173fcf4355f0d3f3a8afde45c88e2"
+      ],
+      "loaded_build_note_sha256": "90c3f016b8650324df8f8f286c7ae1a05bd2e248e83d3d212adba71ffcec25ad",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "modem",
+      "source_validation": "Rebuilt allocated contents, globals, section layout and every relocated referent match after exact source-root/string-pool normalization; build IDs differ",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_emmc",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "ecc52309f2e5fa996ca07829b36168291f1c57c540145111029931ad271937a7"
+      ],
+      "loaded_build_note_sha256": "30d3a223fe856d465947421a3c1a5e37e5e59a670bb5e0b0d10a8305fc3c8c50",
+      "evidence": "exact active boot ramdisk artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "storage",
+      "source_validation": "Rebuilt allocated contents, relocations, global symbols and layout match after documented build-ID/source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_haptics",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "9396bdc2637dcee484d4d995f21397e829d7227bd660708046a82fcbbe2551dd"
+      ],
+      "loaded_build_note_sha256": "89ecf9fc533981bc6b757039d2d3663c935d3577e6bb4f9ce135f8880ccb9957",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_icm42607",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "bdac99bd84a6768be84d67be35a6f8027128bb0f482297c8de40e3faa9d03266"
+      ],
+      "loaded_build_note_sha256": "c1a35b062a6aa39c194ec7a6574fe494afb98db0e533c39eadce50cd407eddd5",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_input_power",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "95d8cd5149215f54b7a76e801c98f9c040a7e706af41b3fea4ffc73ce32dc2c2"
+      ],
+      "loaded_build_note_sha256": "ddbc3b4de8326555760916f1afca386467b987c7a685415d31908b0b5c2e2072",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_ion",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "fcaa71fb0e02f7c2982048006bc4b382c4636a3b40a22f223021d9a6b50aef07"
+      ],
+      "loaded_build_note_sha256": "020900a679293640cf38e9ed7920541635f267f4b82e9f7bcca37bdf322f2eca",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "ion",
+      "source_validation": "Rebuilt allocated code/data, relocations, globals and layout match after exact source-root normalization; GNU build ID differs",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_jpeg_iommu_nodes",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "5ffdecd6d9995496907a37939a47e34e34b441524fce7ef1681df020a8ea29cf"
+      ],
+      "loaded_build_note_sha256": "06e4030b74e38995e464c491a1ca720941d6614c0d1b451975e09c9fb337ff5e",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "jpeg-helpers",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_jpeg_nodes",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "c76cd0f3bba2c1b236b3c206c5f02d74abd6de0492b6a12447eeb90cc9e9e4a9"
+      ],
+      "loaded_build_note_sha256": "9c6e0fe23141211b6f1d26ba07982e89ccbd2f32b62429a060eb58d00f721988",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "jpeg-helpers",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_jpeg_power_clocks",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "ac36acc91714be2e7b04b28ea751b7be2815ff6fb98dd7cde16c10ce9b14264f"
+      ],
+      "loaded_build_note_sha256": "28a7cab60182d66026a86d0038ad178b931f8891ce070fff807949c6288974de",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "jpeg-helpers",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_jpeg_power_links",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "8f6694dd2b583f74661d9b71114744cfe007d72b96518389eb5c6a3506bdac69"
+      ],
+      "loaded_build_note_sha256": "bf2fd4878e1907e073c7c7638ac8ed54b18a9acf31f3b452b43b0a4268cc3659",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "jpeg-helpers",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_jpeg_power_nodes",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "a447d085c081c8878ae3e9a7b6adfd1ec1cdb2119382e29227d63412b97e4640"
+      ],
+      "loaded_build_note_sha256": "b09d12510dd5a6de7703ddaa8064b46211e890f5e210a63ad54e553a349ead13",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "jpeg-helpers",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_jpeg_selector_nodes",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "7f52efd2cf5f0a955dc3ed07e8e8652a5bb0a7f4f2a9fb6b78d9d43b7e8b5419"
+      ],
+      "loaded_build_note_sha256": "29e6139b6ec99304f4a3d660dd28915e7b00edb7dde649126e5794cc2ca02546",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "jpeg-helpers",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_keypad",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "faf466751594de8bb48c2fdef36f8174873f878b2c64dea789aa35749733a5c7"
+      ],
+      "loaded_build_note_sha256": "aea85e3accdddb53c6656f1d1ed28bc6247db89ba712d1fe24b4e2d471ccf5b7",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_ms35774",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "8d19d432c7132751d1fb6206467f8e99f7053f28ed90234ce5b3d994bd0e57b9"
+      ],
+      "loaded_build_note_sha256": "85bc69592225c698fc0f35545ece1c01f21930b558079f93a88a70adefa2f1ef",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_msdc",
+      "observed_license_declarations": [
+        "GPL v2"
+      ],
+      "reference_file_sha256": [
+        "afb650626285b8fd86dd7e81894a38901acdba635c4913527527a3db6ea3cb59"
+      ],
+      "loaded_build_note_sha256": "9dc85ea4c0dc38fc46d85630d430a0f88c079539d2ed5cf87c9244263816f9cb",
+      "evidence": "exact active boot ramdisk artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "storage",
+      "source_validation": "Rebuilt allocated contents, relocations, global symbols and layout match after documented build-ID/source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_sco",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "ed0999ec2a9f56b23d1bc5c9cdd8a96e06f3089f1e6f98d7df004deb7672baa2"
+      ],
+      "loaded_build_note_sha256": "7a7883d919a93763f7cd3198c1446afef4b495f7f4f253755d816fb1bfdfa8d2",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "bluetooth-voice",
+      "source_validation": "Rebuilt allocated contents, relocations, global symbols and layout match after documented build-ID/source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_typec_bus",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "5ec0650386639ec20bc19879543e0c0239b46ea385b0d6b0996467cb6531633b"
+      ],
+      "loaded_build_note_sha256": "59d35e0d0db93fd28eb5a3cff651013fb77643d0d066ee3ecd4c1fd86c92182c",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_usb_host_speed",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "baa4485abd4cec2b2fe753fbbb5a046dd5d795580068ae47d42552911fd52dfe"
+      ],
+      "loaded_build_note_sha256": "2ba0d32279a985a25c396263d31c8f1c377382ca1ddd6a077ee270296d6dcec1",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_usb_session_v2",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "9ff07f3ec8eeaafdef594813eddc5b47d8012f53ebed3dc7b08742dc14abff59"
+      ],
+      "loaded_build_note_sha256": "78c8e51e7a6129672e63c79b20242f55928244c4d07dbe5de033c6502fdb8e2f",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_usb_tcpc",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "f6ab48e5f4fbc906fb638fbdfbe72e77005bbb724a061d43e8a1860f7a464f24"
+      ],
+      "loaded_build_note_sha256": "c3ca2955078162cbbada5fec985b3ff8d9906969d663c368608734e5081a9cab",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "board",
+      "source_validation": "Clean staged-source rebuild matches allocated code/data, relocations and global symbols, except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_vcodec_owner",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "1410561a89594e1b5c961b9aad4a69b2a4f720ea38465c76962f0a398f2c196c"
+      ],
+      "loaded_build_note_sha256": "4cbb58f219afe854a5b54895aa7377b6e3503f8df0a60b774894c0f453b48493",
+      "evidence": "rebuilt allocated bytes, relocations, global symbols and layout match; build ID differs",
+      "release_source_packaging_complete": true,
+      "source_build_group": "core-helpers",
+      "source_validation": "Rebuilt from staged sources; allocated contents/relocations/globals match after documented build-ID and source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_vdec_probe",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "999d4367d989b1507ab257ec622c2c9dee128f28746c05362b1a6575ccd76157"
+      ],
+      "loaded_build_note_sha256": "7dbc2c5ca34b262dba31a943091b27e5d558ca6fa47d6f074e911fd7e2fce857",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "video-decoder",
+      "source_validation": "Final clean build matches allocated contents, relocations, globals and section layout except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_venc",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "1ca08bd26db4b7983586fc18050ee860089c925c1ec86a8f7550b12979ad874e"
+      ],
+      "loaded_build_note_sha256": "f2631c4833c09058a74ab6b08623a9127c128ecde76ed9a2691554a0fca238c5",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "video",
+      "source_validation": "Final private-input build matches allocated contents/relocations/globals/layout except GNU build ID",
+      "private_dependency": "Numeric mode input and runtime rate-control firmware not bundled; redistribution rights unresolved; do not publish generated table or built encoder artifact",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "r1_venc_nodes",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "b1e590a75d67dd8955eacbced450bb902db17cd759e7d6221121cdb2b88f3f23"
+      ],
+      "loaded_build_note_sha256": "d5f90a6ff1b018587490ebabdeff29086c7800361e0a3b9f88d13e200fd3f542",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "video-decoder",
+      "source_validation": "Final clean build matches allocated contents, relocations, globals and section layout except GNU build ID",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "rfcomm",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "9974cfde09e1591ddbf889d871c28d2888a27eb3eb4ea9516a6c8c9c80342760"
+      ],
+      "loaded_build_note_sha256": "fc9f7f8af3fefc8a0ae91f146f0f6c7e56b578f5d92bf8f51eb8f55a091e928a",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "rfcomm",
+      "source_validation": "Final historical-config build code/data/string referents/relocations/globals match after documented build-ID and merged-string-pool normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "snd",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "4facf07b82998c41b964e78866e6edb29d8b86579227e5e7a0c32bf44d6c1f37"
+      ],
+      "loaded_build_note_sha256": "9c54856f759860f447793921f5ca818f2e86e4c1b23b34b21f7aa7a84d4871e1",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "audio",
+      "source_validation": "Rebuilt from staged sources; allocated contents/relocations/globals match after documented build-ID and source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "snd_pcm",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "09e0d22876bc32753e36e640cd6bd426082bf934584d71f04d6153e543fe071f"
+      ],
+      "loaded_build_note_sha256": "1ed30aec81febdfff2b303e977737df7fddc27b2de2451656bc39a31b43a026d",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "audio",
+      "source_validation": "Rebuilt from staged sources; allocated contents/relocations/globals match after documented build-ID and source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "snd_timer",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "19026744821f334aff4583415f0ecb7a35a2e9b9b75a3fb70161e00793863001"
+      ],
+      "loaded_build_note_sha256": "c04faa88e79cde65028794c77f192f34d5b0814dc5766accf5bb738797f4f9c5",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "audio",
+      "source_validation": "Rebuilt from staged sources; allocated contents/relocations/globals match after documented build-ID and source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "soundcore",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "b23aed030975190164959c25bec5fd14118e3c26ac12ba86e08ce792602e2bb0"
+      ],
+      "loaded_build_note_sha256": "cda2e89190032b205f776d2445556bb25691e7c8e7130d4023c09efa3f6a51c1",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "audio",
+      "source_validation": "Rebuilt from staged sources; allocated contents/relocations/globals match after documented build-ID and source-root normalization",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "v4l2_mem2mem",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "8fb7fb218f1717956fc6d6ca976b2243d623a12438ed4b3bb9bcfa50fcdf6736"
+      ],
+      "loaded_build_note_sha256": "2fc060e55b17597e28b473d595550687a94e87fe128f23dede28057f46f3af7f",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "videobuf2_common",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "60719cca8788d27fc057b15511e321445bfabb6abacd64c3febb84528a058234"
+      ],
+      "loaded_build_note_sha256": "96e4777cfa76e9d79a9ddaf267b0dc0367327173c65a1f2feff5fc745b48cdde",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "videobuf2_dma_contig",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "4a026316a7fd85f1536825d9c9918b38886c66f84c4b4e6a8e6733355cbf3c08"
+      ],
+      "loaded_build_note_sha256": "fa6b50e002278d862b01d15787a36c7b6b527c1d0f2537f109f542e48edb9643",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "videobuf2_memops",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "9b04854a8a851d88ab9237ff65db08368c5e6901e8cc55de0bc7954725b4a046"
+      ],
+      "loaded_build_note_sha256": "16add0b0479d335493697c96997cebd3c61ac65b8c52266bf514c50421e8ae8a",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "videobuf2_v4l2",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "8c9cab4cf6ab390029cf3d9516020a2fa4618eeb1567be52bcd653d5647a2f4e"
+      ],
+      "loaded_build_note_sha256": "2fc1acc26cf8a87f28e1d3703636d44bdde79ec597beac22ec168a5b5285a9d0",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "videodev",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "f2088a1233a934755bcd1e07e0ee1ad76e104140051d362b8cf5b290f5c5d958"
+      ],
+      "loaded_build_note_sha256": "79b979360ea33e063e35767ef8da549a253d8be43ae28a691f7a7437cdd1c591",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "media",
+      "source_validation": "Allocated code/data, relocations and globals match; GNU build ID differs. Media external builds also omit the recorded intree=Y metadata where originally present.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "wlan_drv_gen4m",
+      "observed_license_declarations": [
+        "Dual BSD/GPL"
+      ],
+      "reference_file_sha256": [
+        "2f4762375aebbce34f908389f95872619dfea7dfc7741133292a6a41835ac41b"
+      ],
+      "loaded_build_note_sha256": "8c43b931300fc101f078ecb963a6ce060ae1b3b67119a189e92f0f04f595de94",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": false,
+      "private_rebuild_correspondence_verified": true,
+      "publication_blocker": "Four required hash-pinned inputs remain excluded due to unresolved licensing.",
+      "build_recipe_verified": true,
+      "source_build_group": "wlan",
+      "source_validation": "Private rebuild matches code, non-string data, normalized strings, every relocated referent, globals and layout. Build ID and source-root strings differ.",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "wmt_chrdev_wifi",
+      "observed_license_declarations": [
+        "Dual BSD/GPL"
+      ],
+      "reference_file_sha256": [
+        "5c016e69d6e29588e70669b997a6f7765a61505cb88bdb527468d8b1ff64f1c5"
+      ],
+      "loaded_build_note_sha256": "78cf6fa62ad8785e1211fbea73875fd2a4aa247932ad7122671d47328ece96b8",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "connectivity",
+      "source_validation": "Allocated code/data, globals and relocated string/data references match after exact source-root/string-pool normalization; build IDs differ",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "wmt_drv",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "893aeff0371bf58656e3e16be0bc314feb87aeb233710e52cada30d473d8c2ac"
+      ],
+      "loaded_build_note_sha256": "86ce82a3c2b6477c6ae95134e32049ec5d6dc25d9fd92b49653b16cda9334db3",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "connectivity",
+      "source_validation": "Allocated code/data, globals and relocated string/data references match after exact source-root/string-pool normalization; build IDs differ",
+      "final_license_review_complete": false
+    },
+    {
+      "name": "xfrm_user",
+      "observed_license_declarations": [
+        "GPL"
+      ],
+      "reference_file_sha256": [
+        "85956daea98d3bd9963b0991db61688a979b3852809b3756740fef6ecb1d63e2"
+      ],
+      "loaded_build_note_sha256": "34c7dcfb9ae1f6a47d5889f0fb776405ceafddb1727840c6421dbf74616ca9d5",
+      "evidence": "exact installed artifact and loaded build note",
+      "release_source_packaging_complete": true,
+      "source_build_group": "xfrm",
+      "source_validation": "Allocated contents, relocations, global symbols and layout match after exact source-root offset normalization; GNU build ID differs",
+      "final_license_review_complete": false
+    }
+  ]
+}

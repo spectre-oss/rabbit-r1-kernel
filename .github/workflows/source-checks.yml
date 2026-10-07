@@ -1,0 +1,33 @@
+name: Source checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: source-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  source-checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check release scripts
+        run: |
+          sh -n scripts/rabbit-r1/build.sh
+          sh -n scripts/rabbit-r1/compile-check.sh
+          sh -n scripts/rabbit-r1/prepare-init.sh
+          python3 -m unittest discover -s scripts/rabbit-r1/tests -v
+      - name: Scan publication payload
+        run: python3 scripts/rabbit-r1/audit-source.py
+      - name: Check partial publication scope
+        run: python3 scripts/rabbit-r1/partial-release-gate.py

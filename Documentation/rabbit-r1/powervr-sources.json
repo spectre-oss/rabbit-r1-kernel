@@ -1,0 +1,2786 @@
+{
+  "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+  "scope": "Exact compiled PowerVR source closure and two MediaTek headers; firmware and userspace excluded",
+  "files": [
+    {
+      "path": "GPL-COPYING",
+      "sha256": "a5c87579eae94763551028fce310636daf1223647439325f853c7a0123dfb553",
+      "origin": "standard license text from kernel LICENSES/preferred"
+    },
+    {
+      "path": "MIT-COPYING",
+      "sha256": "29ba069e11794549a03ba0f916dec13b8aaa4a2efa9a4dff4201a7955e01e112",
+      "origin": "standard license text from kernel LICENSES/preferred"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "498b6fab3bbd69ff8a9fa451078f243b7a4eaf5cec54cee3e8c371e5421523e9",
+      "observed_license": "GPL-2.0-only",
+      "origin": "Authored fixed recipe from verified 132-object command records; vendor Makefile replaced"
+    },
+    {
+      "path": "generated/rogue/cache_bridge/client_cache_bridge.h",
+      "sha256": "20d070a96d51797a0899b54302dac6a042f2c5b57333e9b60101f27e81f4ca91",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/cache_bridge/client_cache_bridge.h",
+      "vendor_sha256": "20d070a96d51797a0899b54302dac6a042f2c5b57333e9b60101f27e81f4ca91",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/cache_bridge/client_cache_direct_bridge.c",
+      "sha256": "366dc3db6f8c7a35cb619643a3ab5586cdff4e10b523469eb3c2c94406b9d015",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/cache_bridge/client_cache_direct_bridge.c",
+      "vendor_sha256": "366dc3db6f8c7a35cb619643a3ab5586cdff4e10b523469eb3c2c94406b9d015",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/cache_bridge/common_cache_bridge.h",
+      "sha256": "0365919974ca53dd458561b306efaad8f360261cf5554a5c6b37f07ec8b0583d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/cache_bridge/common_cache_bridge.h",
+      "vendor_sha256": "0365919974ca53dd458561b306efaad8f360261cf5554a5c6b37f07ec8b0583d",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/cache_bridge/server_cache_bridge.c",
+      "sha256": "8af31f9bfce7e40af68c60067ff6ca1c48553fe051482229108f59ce8f84594f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/cache_bridge/server_cache_bridge.c",
+      "vendor_sha256": "8af31f9bfce7e40af68c60067ff6ca1c48553fe051482229108f59ce8f84594f",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/cmm_bridge/common_cmm_bridge.h",
+      "sha256": "e65739e4cae6af42f3803f5c32a41a8007ddb0a148abfbcd3d0a887724dbc0da",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/cmm_bridge/common_cmm_bridge.h",
+      "vendor_sha256": "e65739e4cae6af42f3803f5c32a41a8007ddb0a148abfbcd3d0a887724dbc0da",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/cmm_bridge/server_cmm_bridge.c",
+      "sha256": "f03e9c53d09bdacb9511c0a630607fe89ead35ce744167d6f6476a58b3f6eff3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/cmm_bridge/server_cmm_bridge.c",
+      "vendor_sha256": "f03e9c53d09bdacb9511c0a630607fe89ead35ce744167d6f6476a58b3f6eff3",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/devicememhistory_bridge/client_devicememhistory_bridge.h",
+      "sha256": "4cae0f08ff3695e175ac0773e2024fdf89e2300aba6b9d8261ddca240df07981",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/devicememhistory_bridge/client_devicememhistory_bridge.h",
+      "vendor_sha256": "4cae0f08ff3695e175ac0773e2024fdf89e2300aba6b9d8261ddca240df07981",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/devicememhistory_bridge/client_devicememhistory_direct_bridge.c",
+      "sha256": "4baf591c5c3232d8f5c7483c091d838cd3ffbb0e117e25165b954194b63f1b9b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/devicememhistory_bridge/client_devicememhistory_direct_bridge.c",
+      "vendor_sha256": "4baf591c5c3232d8f5c7483c091d838cd3ffbb0e117e25165b954194b63f1b9b",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/devicememhistory_bridge/common_devicememhistory_bridge.h",
+      "sha256": "58979759b7c52f04ab8d6d42488c47539a7a4d72199b8bdd5e803f76f1cf0c5b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/devicememhistory_bridge/common_devicememhistory_bridge.h",
+      "vendor_sha256": "58979759b7c52f04ab8d6d42488c47539a7a4d72199b8bdd5e803f76f1cf0c5b",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/devicememhistory_bridge/server_devicememhistory_bridge.c",
+      "sha256": "68c8c7809b1e26756661ac49503e1ec5ee0202fdf9142ae520692b4650ef1a67",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/devicememhistory_bridge/server_devicememhistory_bridge.c",
+      "vendor_sha256": "68c8c7809b1e26756661ac49503e1ec5ee0202fdf9142ae520692b4650ef1a67",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/dmabuf_bridge/common_dmabuf_bridge.h",
+      "sha256": "11a934d3450bedc3e362bc948a8fa353e5ae04b543666408fdc75a8630ef25e8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/dmabuf_bridge/common_dmabuf_bridge.h",
+      "vendor_sha256": "11a934d3450bedc3e362bc948a8fa353e5ae04b543666408fdc75a8630ef25e8",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/dmabuf_bridge/server_dmabuf_bridge.c",
+      "sha256": "749deb98314a80dfcfa984335d986725121e61b8e5648ba5b60d07d44c57cdc3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/dmabuf_bridge/server_dmabuf_bridge.c",
+      "vendor_sha256": "749deb98314a80dfcfa984335d986725121e61b8e5648ba5b60d07d44c57cdc3",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/htbuffer_bridge/client_htbuffer_bridge.h",
+      "sha256": "be41a5b75811cff4aeb1bd74c045e1f6660f8960fc773fdd9000da9999c0e6ff",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/htbuffer_bridge/client_htbuffer_bridge.h",
+      "vendor_sha256": "be41a5b75811cff4aeb1bd74c045e1f6660f8960fc773fdd9000da9999c0e6ff",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/htbuffer_bridge/client_htbuffer_direct_bridge.c",
+      "sha256": "0451df34bafc8a84ea19bae69aa2b6c3ae6de41bd0daee2a79d308c9ac1a1db3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/htbuffer_bridge/client_htbuffer_direct_bridge.c",
+      "vendor_sha256": "0451df34bafc8a84ea19bae69aa2b6c3ae6de41bd0daee2a79d308c9ac1a1db3",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/htbuffer_bridge/common_htbuffer_bridge.h",
+      "sha256": "8ad83041971b449738aff40c5bc22d412956e45b8d868722daf9dc07c3f08323",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/htbuffer_bridge/common_htbuffer_bridge.h",
+      "vendor_sha256": "8ad83041971b449738aff40c5bc22d412956e45b8d868722daf9dc07c3f08323",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/htbuffer_bridge/server_htbuffer_bridge.c",
+      "sha256": "b99dba13c8795b4e148c1ca65e18117ddc954d30c0fc1841ab9aa8e553f22e27",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/htbuffer_bridge/server_htbuffer_bridge.c",
+      "vendor_sha256": "b99dba13c8795b4e148c1ca65e18117ddc954d30c0fc1841ab9aa8e553f22e27",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/mm_bridge/client_mm_bridge.h",
+      "sha256": "fea8172e848a257ad84c042d74849f15ba4251b2545a4abe25795a884ca34c11",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/mm_bridge/client_mm_bridge.h",
+      "vendor_sha256": "fea8172e848a257ad84c042d74849f15ba4251b2545a4abe25795a884ca34c11",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/mm_bridge/client_mm_direct_bridge.c",
+      "sha256": "40a7fdcff867cbb3a27486a17b34765a4f4769f95681988c06d313c961b09dc4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/mm_bridge/client_mm_direct_bridge.c",
+      "vendor_sha256": "40a7fdcff867cbb3a27486a17b34765a4f4769f95681988c06d313c961b09dc4",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/mm_bridge/common_mm_bridge.h",
+      "sha256": "885f4e614721cf22b6b6cf55a7a001d3dbe52fd43327dbfd5e9ff78582c14daf",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/mm_bridge/common_mm_bridge.h",
+      "vendor_sha256": "885f4e614721cf22b6b6cf55a7a001d3dbe52fd43327dbfd5e9ff78582c14daf",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/mm_bridge/server_mm_bridge.c",
+      "sha256": "9b149b82b2aaa5576329f687ae458d14ea2d7ca7ba3eed8c35147d330332a5a2",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/mm_bridge/server_mm_bridge.c",
+      "vendor_sha256": "9b149b82b2aaa5576329f687ae458d14ea2d7ca7ba3eed8c35147d330332a5a2",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/pvrtl_bridge/client_pvrtl_bridge.h",
+      "sha256": "8435874e84b19f7893be113b5fd8ac664b3ac04d44bdbf540014b886da4370e5",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/pvrtl_bridge/client_pvrtl_bridge.h",
+      "vendor_sha256": "8435874e84b19f7893be113b5fd8ac664b3ac04d44bdbf540014b886da4370e5",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/pvrtl_bridge/client_pvrtl_direct_bridge.c",
+      "sha256": "e7fe13d35942fe27f5f165f7f6b55ca5aa9538884b387133c5aeb36dc7b62bbe",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/pvrtl_bridge/client_pvrtl_direct_bridge.c",
+      "vendor_sha256": "e7fe13d35942fe27f5f165f7f6b55ca5aa9538884b387133c5aeb36dc7b62bbe",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/pvrtl_bridge/common_pvrtl_bridge.h",
+      "sha256": "e33e042983a2e8190eb1b439d1186a588a9acca1588614c731788b628275af98",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/pvrtl_bridge/common_pvrtl_bridge.h",
+      "vendor_sha256": "e33e042983a2e8190eb1b439d1186a588a9acca1588614c731788b628275af98",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/pvrtl_bridge/server_pvrtl_bridge.c",
+      "sha256": "08b65fba27fac7cd7635aaeebe6c340fc43c9b3d79422a0a1fdeed38e743eca8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/pvrtl_bridge/server_pvrtl_bridge.c",
+      "vendor_sha256": "08b65fba27fac7cd7635aaeebe6c340fc43c9b3d79422a0a1fdeed38e743eca8",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxbreakpoint_bridge/common_rgxbreakpoint_bridge.h",
+      "sha256": "499fdc559d84405f1b4117b8c18718b14028f781b05c5830b1ee0bb7771c8580",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxbreakpoint_bridge/common_rgxbreakpoint_bridge.h",
+      "vendor_sha256": "499fdc559d84405f1b4117b8c18718b14028f781b05c5830b1ee0bb7771c8580",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxbreakpoint_bridge/server_rgxbreakpoint_bridge.c",
+      "sha256": "8d4172764f0fbba8dbb9b61d88ba09561afa17b2fbe8da3f4e33b029c119a46e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxbreakpoint_bridge/server_rgxbreakpoint_bridge.c",
+      "vendor_sha256": "8d4172764f0fbba8dbb9b61d88ba09561afa17b2fbe8da3f4e33b029c119a46e",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxcmp_bridge/common_rgxcmp_bridge.h",
+      "sha256": "cff71f2e85939471f872047d7ebfd76549cb83129a22d7e8cb75c13c17532743",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxcmp_bridge/common_rgxcmp_bridge.h",
+      "vendor_sha256": "cff71f2e85939471f872047d7ebfd76549cb83129a22d7e8cb75c13c17532743",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxcmp_bridge/server_rgxcmp_bridge.c",
+      "sha256": "3282ee9aa58a064a2d0e593b4fdd57fa9cccb3e6013d391a6634e6deca0f6da0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxcmp_bridge/server_rgxcmp_bridge.c",
+      "vendor_sha256": "3282ee9aa58a064a2d0e593b4fdd57fa9cccb3e6013d391a6634e6deca0f6da0",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxfwdbg_bridge/common_rgxfwdbg_bridge.h",
+      "sha256": "309194d799d17d5c7182e44ef4825ea314579e83b5c3f8f68347497ad9dd1dfd",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxfwdbg_bridge/common_rgxfwdbg_bridge.h",
+      "vendor_sha256": "309194d799d17d5c7182e44ef4825ea314579e83b5c3f8f68347497ad9dd1dfd",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxfwdbg_bridge/server_rgxfwdbg_bridge.c",
+      "sha256": "b2280f03c2dca1f7b13e6374177a201eec224d5cec41a8b71f002c66c6eb768b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxfwdbg_bridge/server_rgxfwdbg_bridge.c",
+      "vendor_sha256": "b2280f03c2dca1f7b13e6374177a201eec224d5cec41a8b71f002c66c6eb768b",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxhwperf_bridge/common_rgxhwperf_bridge.h",
+      "sha256": "e28e99187ea45e8e8c0bd08fdf81b1045fb4d7065a00698e4bda93041e655b68",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxhwperf_bridge/common_rgxhwperf_bridge.h",
+      "vendor_sha256": "e28e99187ea45e8e8c0bd08fdf81b1045fb4d7065a00698e4bda93041e655b68",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxhwperf_bridge/server_rgxhwperf_bridge.c",
+      "sha256": "854658c5e0f838e4005d13dcb34de3f86b8a6b33f5d1b5d2a227c095d38f6e7c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxhwperf_bridge/server_rgxhwperf_bridge.c",
+      "vendor_sha256": "854658c5e0f838e4005d13dcb34de3f86b8a6b33f5d1b5d2a227c095d38f6e7c",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxkicksync_bridge/common_rgxkicksync_bridge.h",
+      "sha256": "45dc43bc9df14349b2dea85452f822f092c051bd173ba2ad684240cb6850ed14",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxkicksync_bridge/common_rgxkicksync_bridge.h",
+      "vendor_sha256": "45dc43bc9df14349b2dea85452f822f092c051bd173ba2ad684240cb6850ed14",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxkicksync_bridge/server_rgxkicksync_bridge.c",
+      "sha256": "e3062fa51bf6753555022776319a2b6b675bfe6bff4e76251a59292f28eb3216",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxkicksync_bridge/server_rgxkicksync_bridge.c",
+      "vendor_sha256": "e3062fa51bf6753555022776319a2b6b675bfe6bff4e76251a59292f28eb3216",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxregconfig_bridge/common_rgxregconfig_bridge.h",
+      "sha256": "838c30f978436edeb3acc309d861d2b5231312f9a90d8066b3a862e457dca6a3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxregconfig_bridge/common_rgxregconfig_bridge.h",
+      "vendor_sha256": "838c30f978436edeb3acc309d861d2b5231312f9a90d8066b3a862e457dca6a3",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxregconfig_bridge/server_rgxregconfig_bridge.c",
+      "sha256": "ac80c991446bcdb62c41214ed1f68000ab465c8438c1efcae1739c6fe02588a4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxregconfig_bridge/server_rgxregconfig_bridge.c",
+      "vendor_sha256": "ac80c991446bcdb62c41214ed1f68000ab465c8438c1efcae1739c6fe02588a4",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxsignals_bridge/common_rgxsignals_bridge.h",
+      "sha256": "22335e2c770876d43e9a4afff7e60e3ba071f3bee606ace511485844e3268da4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxsignals_bridge/common_rgxsignals_bridge.h",
+      "vendor_sha256": "22335e2c770876d43e9a4afff7e60e3ba071f3bee606ace511485844e3268da4",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxsignals_bridge/server_rgxsignals_bridge.c",
+      "sha256": "2fd31278d1bbe16826ba21a6e486f507f81834f51a16476f3d1a62bedb5a3be5",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxsignals_bridge/server_rgxsignals_bridge.c",
+      "vendor_sha256": "2fd31278d1bbe16826ba21a6e486f507f81834f51a16476f3d1a62bedb5a3be5",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxta3d_bridge/common_rgxta3d_bridge.h",
+      "sha256": "7bcffdca1c2b8b170fdceb95be92e5f521d8a5cc804a18de1a0c205378792264",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxta3d_bridge/common_rgxta3d_bridge.h",
+      "vendor_sha256": "7bcffdca1c2b8b170fdceb95be92e5f521d8a5cc804a18de1a0c205378792264",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxta3d_bridge/server_rgxta3d_bridge.c",
+      "sha256": "29736b065bacfb9b97fd41f70566daa74626b2390c0a3c485c5a53810bdfe58f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxta3d_bridge/server_rgxta3d_bridge.c",
+      "vendor_sha256": "29736b065bacfb9b97fd41f70566daa74626b2390c0a3c485c5a53810bdfe58f",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxtq2_bridge/common_rgxtq2_bridge.h",
+      "sha256": "b5aa34e9a3e7527835f64a91ee024181d0829adf742fb3e6f73ff2aae301f1b7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxtq2_bridge/common_rgxtq2_bridge.h",
+      "vendor_sha256": "b5aa34e9a3e7527835f64a91ee024181d0829adf742fb3e6f73ff2aae301f1b7",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxtq2_bridge/server_rgxtq2_bridge.c",
+      "sha256": "df46ebfb361ed5821a87be6b95219a6cd771c2f2ed484f611eab127da2ee055c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxtq2_bridge/server_rgxtq2_bridge.c",
+      "vendor_sha256": "df46ebfb361ed5821a87be6b95219a6cd771c2f2ed484f611eab127da2ee055c",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxtq_bridge/common_rgxtq_bridge.h",
+      "sha256": "6415a9c0ef1ad96b0e6c7db90e912f56734ae718cd63069d7f3fbbe148d95955",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxtq_bridge/common_rgxtq_bridge.h",
+      "vendor_sha256": "6415a9c0ef1ad96b0e6c7db90e912f56734ae718cd63069d7f3fbbe148d95955",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/rgxtq_bridge/server_rgxtq_bridge.c",
+      "sha256": "ce83f5530455de20cca680ac33c9061be30d6f690ca8f8790c0b5dab6cbc784d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/rgxtq_bridge/server_rgxtq_bridge.c",
+      "vendor_sha256": "ce83f5530455de20cca680ac33c9061be30d6f690ca8f8790c0b5dab6cbc784d",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/srvcore_bridge/common_srvcore_bridge.h",
+      "sha256": "bd8c423148cc246f7184e2a44000ec7122d4130c0588857927ac2c1b2cc78b59",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/srvcore_bridge/common_srvcore_bridge.h",
+      "vendor_sha256": "bd8c423148cc246f7184e2a44000ec7122d4130c0588857927ac2c1b2cc78b59",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/srvcore_bridge/server_srvcore_bridge.c",
+      "sha256": "6c1480a27a75cbacb8e050f0263ed7acab0dafca701d26633ffa206d6af8ffac",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/srvcore_bridge/server_srvcore_bridge.c",
+      "vendor_sha256": "6c1480a27a75cbacb8e050f0263ed7acab0dafca701d26633ffa206d6af8ffac",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/sync_bridge/client_sync_bridge.h",
+      "sha256": "ed69483900d0cb04116fc7576c8e3344803405d52bc654384df55132d8ecd332",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/sync_bridge/client_sync_bridge.h",
+      "vendor_sha256": "ed69483900d0cb04116fc7576c8e3344803405d52bc654384df55132d8ecd332",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/sync_bridge/client_sync_direct_bridge.c",
+      "sha256": "a27c9a237ac7353e3917ea1667993aeb790a7b9d2cf8ba670108c543f510a8f4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/sync_bridge/client_sync_direct_bridge.c",
+      "vendor_sha256": "a27c9a237ac7353e3917ea1667993aeb790a7b9d2cf8ba670108c543f510a8f4",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/sync_bridge/common_sync_bridge.h",
+      "sha256": "c0db095a02bfb2db697f92829ac4b766dbc5bb25d1d3218ad31610e87d2d33eb",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/sync_bridge/common_sync_bridge.h",
+      "vendor_sha256": "c0db095a02bfb2db697f92829ac4b766dbc5bb25d1d3218ad31610e87d2d33eb",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/sync_bridge/server_sync_bridge.c",
+      "sha256": "98aa27109e7eb922cfa3c884e5a8f61a33363f64131bf927fc93f61875c88d38",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/sync_bridge/server_sync_bridge.c",
+      "vendor_sha256": "98aa27109e7eb922cfa3c884e5a8f61a33363f64131bf927fc93f61875c88d38",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/synctracking_bridge/client_synctracking_bridge.h",
+      "sha256": "be1d5f2cc914e2a723004d4db4c387fb25781e91b0d46472e5dbb1484cae6cef",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/synctracking_bridge/client_synctracking_bridge.h",
+      "vendor_sha256": "be1d5f2cc914e2a723004d4db4c387fb25781e91b0d46472e5dbb1484cae6cef",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/synctracking_bridge/client_synctracking_direct_bridge.c",
+      "sha256": "73116bc281b60d037016dcc5781439397cc1e56203d2bd730bf369e45b63e415",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/synctracking_bridge/client_synctracking_direct_bridge.c",
+      "vendor_sha256": "73116bc281b60d037016dcc5781439397cc1e56203d2bd730bf369e45b63e415",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/synctracking_bridge/common_synctracking_bridge.h",
+      "sha256": "8411adb7aadcf979e759936b392b80715c1bb582b8ccdd9e8b3ad76e8e627b88",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/synctracking_bridge/common_synctracking_bridge.h",
+      "vendor_sha256": "8411adb7aadcf979e759936b392b80715c1bb582b8ccdd9e8b3ad76e8e627b88",
+      "modified": false
+    },
+    {
+      "path": "generated/rogue/synctracking_bridge/server_synctracking_bridge.c",
+      "sha256": "64be87b834c8a6293fe1ddb12491409aa7f1593ce0ac05244abf57be9683dccb",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/generated/rogue/synctracking_bridge/server_synctracking_bridge.c",
+      "vendor_sha256": "64be87b834c8a6293fe1ddb12491409aa7f1593ce0ac05244abf57be9683dccb",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/configs/rgxconfig_km_22.V.104.18.h",
+      "sha256": "e5f2ffc5ac12594ef7d19c728e4055a94d687ee1d9a89c564854fc16e21a4cb6",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/configs/rgxconfig_km_22.V.104.18.h",
+      "vendor_sha256": "e5f2ffc5ac12594ef7d19c728e4055a94d687ee1d9a89c564854fc16e21a4cb6",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/cores/rgxcore_km_22.87.104.18.h",
+      "sha256": "c58fc87d73e04ce0501672b3ca14fda48849b082f9b6408eb39da99fb1e88200",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/cores/rgxcore_km_22.87.104.18.h",
+      "vendor_sha256": "c58fc87d73e04ce0501672b3ca14fda48849b082f9b6408eb39da99fb1e88200",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/rgx_bvnc_defs_km.h",
+      "sha256": "412939386f98966a7b051d001ff06aa283ed5359d55b62c982f6ea4beeaeada2",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/rgx_bvnc_defs_km.h",
+      "vendor_sha256": "412939386f98966a7b051d001ff06aa283ed5359d55b62c982f6ea4beeaeada2",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/rgx_bvnc_table_km.h",
+      "sha256": "2041d62c508c7ff8ee23ee8aa9e8adc269508f40fd09aae5a22bb78651b53dba",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/rgx_bvnc_table_km.h",
+      "vendor_sha256": "2041d62c508c7ff8ee23ee8aa9e8adc269508f40fd09aae5a22bb78651b53dba",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/rgx_cr_defs_km.h",
+      "sha256": "442825eadf9d67fdc6574c2b39add64984914b8513e0e5cec5ebe8902f8cce02",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/rgx_cr_defs_km.h",
+      "vendor_sha256": "442825eadf9d67fdc6574c2b39add64984914b8513e0e5cec5ebe8902f8cce02",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/rgxdefs_km.h",
+      "sha256": "5b84604f3e6e4da4ab54ec3a2b577e7585a37ace6abddb5e7aa9add8b9a0ae7e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/rgxdefs_km.h",
+      "vendor_sha256": "5b84604f3e6e4da4ab54ec3a2b577e7585a37ace6abddb5e7aa9add8b9a0ae7e",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/rgxmhdefs_km.h",
+      "sha256": "df4e363a0d8025fcbda5a6422870d764a096dc4f67d6b796ff615b5ab8175e55",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/rgxmhdefs_km.h",
+      "vendor_sha256": "df4e363a0d8025fcbda5a6422870d764a096dc4f67d6b796ff615b5ab8175e55",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/rgxmmudefs_km.h",
+      "sha256": "bfedc5799e2b57b27cece82d3cd882c557f44ce3356895c9ffa5d7471cdffd28",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/rgxmmudefs_km.h",
+      "vendor_sha256": "bfedc5799e2b57b27cece82d3cd882c557f44ce3356895c9ffa5d7471cdffd28",
+      "modified": false
+    },
+    {
+      "path": "hwdefs/rogue/km/tmp_rgx_cr_defs_riscv_km.h",
+      "sha256": "3c57ca9a32303caff60e3023291da4d2e7f48b2efe0501044105d699f015c6bc",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/hwdefs/rogue/km/tmp_rgx_cr_defs_riscv_km.h",
+      "vendor_sha256": "3c57ca9a32303caff60e3023291da4d2e7f48b2efe0501044105d699f015c6bc",
+      "modified": false
+    },
+    {
+      "path": "include/cache_ops.h",
+      "sha256": "a6fefc59aa75e616d7ed174028a19be1b99f47bce3fd914e7594944e6c6bc0f4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/cache_ops.h",
+      "vendor_sha256": "a6fefc59aa75e616d7ed174028a19be1b99f47bce3fd914e7594944e6c6bc0f4",
+      "modified": false
+    },
+    {
+      "path": "include/config_kernel_user_mt6765.h",
+      "sha256": "66295d4592f5eeb18e89ba5fbbb09b6b611de1f9c500f82e690408667d95e54a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/config_kernel_user_mt6765.h",
+      "vendor_sha256": "b37ab0cbe5b283d560243fadba7421f37c9ed21258c6027be2bb2d3b1576193c",
+      "modified": true
+    },
+    {
+      "path": "include/devicemem_typedefs.h",
+      "sha256": "4e766089a5bc95a994dd360e4e15f68236bd081f6cf91590940659e2c838f384",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/devicemem_typedefs.h",
+      "vendor_sha256": "4e766089a5bc95a994dd360e4e15f68236bd081f6cf91590940659e2c838f384",
+      "modified": false
+    },
+    {
+      "path": "include/dllist.h",
+      "sha256": "92dae4adf29c5b2b67f09c522fc40a424b46c3c0f9ddc1d46c5b8f139fe894fd",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/dllist.h",
+      "vendor_sha256": "92dae4adf29c5b2b67f09c522fc40a424b46c3c0f9ddc1d46c5b8f139fe894fd",
+      "modified": false
+    },
+    {
+      "path": "include/drm/pvr_drm.h",
+      "sha256": "b5d9c726a1fecc38c20ea572218ae6e5c5d5b0fc714c25045ab5baba960cccaf",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/drm/pvr_drm.h",
+      "vendor_sha256": "b5d9c726a1fecc38c20ea572218ae6e5c5d5b0fc714c25045ab5baba960cccaf",
+      "modified": false
+    },
+    {
+      "path": "include/drm/pvr_drm_core.h",
+      "sha256": "cddd1ef78877e035191be1f79635c7fd6fd5813654aa26e785387db3523ada26",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/drm/pvr_drm_core.h",
+      "vendor_sha256": "cddd1ef78877e035191be1f79635c7fd6fd5813654aa26e785387db3523ada26",
+      "modified": false
+    },
+    {
+      "path": "include/img_3dtypes.h",
+      "sha256": "47f0580ac477849d2e0c5496943a6de3bad4337050d1b164c3e646d1023c3154",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/img_3dtypes.h",
+      "vendor_sha256": "47f0580ac477849d2e0c5496943a6de3bad4337050d1b164c3e646d1023c3154",
+      "modified": false
+    },
+    {
+      "path": "include/img_defs.h",
+      "sha256": "73b894a2bfe68dad73becdbf2754b918e61a85f110a7c362128afa4f0a8908df",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/img_defs.h",
+      "vendor_sha256": "73b894a2bfe68dad73becdbf2754b918e61a85f110a7c362128afa4f0a8908df",
+      "modified": false
+    },
+    {
+      "path": "include/img_elf.h",
+      "sha256": "e203123b68ff733d0ad63cc207692110a06713b20e914cd9de0adef0135ecc78",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/img_elf.h",
+      "vendor_sha256": "e203123b68ff733d0ad63cc207692110a06713b20e914cd9de0adef0135ecc78",
+      "modified": false
+    },
+    {
+      "path": "include/img_types.h",
+      "sha256": "455e513ddd4d63127b93e79925f6682f0462c691b54521789efbdcdf58069504",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/img_types.h",
+      "vendor_sha256": "24fb8f662e21c6e8f2fe18035c6e8b467c00787afeae03659335475d94500196",
+      "modified": true
+    },
+    {
+      "path": "include/kernel_types.h",
+      "sha256": "8abcae7672edf2db56429bbde6915cda0a8c77f4b565ba90bd21347a8df4902a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/kernel_types.h",
+      "vendor_sha256": "8abcae7672edf2db56429bbde6915cda0a8c77f4b565ba90bd21347a8df4902a",
+      "modified": false
+    },
+    {
+      "path": "include/linux_sw_sync.h",
+      "sha256": "426be1eff989d3cc101835c033706cc0fc1649705204958187fb6a6ec24be3ea",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/linux_sw_sync.h",
+      "vendor_sha256": "426be1eff989d3cc101835c033706cc0fc1649705204958187fb6a6ec24be3ea",
+      "modified": false
+    },
+    {
+      "path": "include/lock_types.h",
+      "sha256": "75c2a08023c6dc831314fddac0902fea1b684b6028d118b9eabf001cf053d50b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/lock_types.h",
+      "vendor_sha256": "75c2a08023c6dc831314fddac0902fea1b684b6028d118b9eabf001cf053d50b",
+      "modified": false
+    },
+    {
+      "path": "include/log2.h",
+      "sha256": "60da469fd4830c53a5db592eebae0e3e397ed010be70f35686d33f3e29358b34",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/log2.h",
+      "vendor_sha256": "60da469fd4830c53a5db592eebae0e3e397ed010be70f35686d33f3e29358b34",
+      "modified": false
+    },
+    {
+      "path": "include/mtk_pp.h",
+      "sha256": "a095cf1ad8e02f961c5c337a67b34486add3401fba3cda15e783da2e4cdc769b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/mtk_pp.h",
+      "vendor_sha256": "a095cf1ad8e02f961c5c337a67b34486add3401fba3cda15e783da2e4cdc769b",
+      "modified": false
+    },
+    {
+      "path": "include/mtk_version.h",
+      "sha256": "e5eadb1584cd81e12681144ae6b5d7052d1625970b0424375ef3423f0c98bfe7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/mtk_version.h",
+      "vendor_sha256": "e5eadb1584cd81e12681144ae6b5d7052d1625970b0424375ef3423f0c98bfe7",
+      "modified": false
+    },
+    {
+      "path": "include/osfunc_common.h",
+      "sha256": "a26d9e3192cd48d0fe9b046948afa26e27d6710aacc2b4b73966df6ea97e87b8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/osfunc_common.h",
+      "vendor_sha256": "a26d9e3192cd48d0fe9b046948afa26e27d6710aacc2b4b73966df6ea97e87b8",
+      "modified": false
+    },
+    {
+      "path": "include/pdumpdefs.h",
+      "sha256": "3ddc917b0cbe43cc40b14abf28c09089a41f3d7ec2c59d3e553e135fca9a8ace",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pdumpdefs.h",
+      "vendor_sha256": "3ddc917b0cbe43cc40b14abf28c09089a41f3d7ec2c59d3e553e135fca9a8ace",
+      "modified": false
+    },
+    {
+      "path": "include/pdumpdesc.h",
+      "sha256": "c7a2cf1dad968741742ddffaefb05d80781a5107cdf4922c20b9bfd66d19ff79",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pdumpdesc.h",
+      "vendor_sha256": "c7a2cf1dad968741742ddffaefb05d80781a5107cdf4922c20b9bfd66d19ff79",
+      "modified": false
+    },
+    {
+      "path": "include/public/powervr/buffer_attribs.h",
+      "sha256": "45e12770186b842dc51ad24375e64ce11f61fa9978f3fd2a716940bbfbbe2b7e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/public/powervr/buffer_attribs.h",
+      "vendor_sha256": "45e12770186b842dc51ad24375e64ce11f61fa9978f3fd2a716940bbfbbe2b7e",
+      "modified": false
+    },
+    {
+      "path": "include/public/powervr/mem_types.h",
+      "sha256": "13990fb37a6a22ba5efce76b86080bbb9dbc49c35edb741178b488655932e4d1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/public/powervr/mem_types.h",
+      "vendor_sha256": "13990fb37a6a22ba5efce76b86080bbb9dbc49c35edb741178b488655932e4d1",
+      "modified": false
+    },
+    {
+      "path": "include/public/powervr/pvrsrv_sync_ext.h",
+      "sha256": "04fb72cac679bfaae0f96caffe2448b15662fbab7a212a26afbf91c369a51b37",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/public/powervr/pvrsrv_sync_ext.h",
+      "vendor_sha256": "04fb72cac679bfaae0f96caffe2448b15662fbab7a212a26afbf91c369a51b37",
+      "modified": false
+    },
+    {
+      "path": "include/pvr_debug.h",
+      "sha256": "87eb0196ea76fc0c1c943dd7b31e6987eb0f769985818d07f290d1dded5fc6b8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvr_debug.h",
+      "vendor_sha256": "87eb0196ea76fc0c1c943dd7b31e6987eb0f769985818d07f290d1dded5fc6b8",
+      "modified": false
+    },
+    {
+      "path": "include/pvr_fd_sync_kernel.h",
+      "sha256": "66eac4baea68479a7abe05b6858ae69965c56da5581b5569d3a74779294ae255",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvr_fd_sync_kernel.h",
+      "vendor_sha256": "66eac4baea68479a7abe05b6858ae69965c56da5581b5569d3a74779294ae255",
+      "modified": false
+    },
+    {
+      "path": "include/pvr_intrinsics.h",
+      "sha256": "83b323642c7104cfbd2cfd0e504ccd535e34725c3a465de8b89556f638618bb7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvr_intrinsics.h",
+      "vendor_sha256": "83b323642c7104cfbd2cfd0e504ccd535e34725c3a465de8b89556f638618bb7",
+      "modified": false
+    },
+    {
+      "path": "include/pvrmodule.h",
+      "sha256": "883df4269781c6d5c34f6ea62d5046539f276fd22b539850c44a7ee5e857f162",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrmodule.h",
+      "vendor_sha256": "883df4269781c6d5c34f6ea62d5046539f276fd22b539850c44a7ee5e857f162",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_device_types.h",
+      "sha256": "e6c62f19d68c97e9614fcab1368a635e45d172dd6d522894199cc9d6705d48f1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_device_types.h",
+      "vendor_sha256": "e6c62f19d68c97e9614fcab1368a635e45d172dd6d522894199cc9d6705d48f1",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_devvar.h",
+      "sha256": "2e4a626ee95a0989f19a7f3e339ce557f770fc0b539cc2b26ba2e7903191d93e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_devvar.h",
+      "vendor_sha256": "2e4a626ee95a0989f19a7f3e339ce557f770fc0b539cc2b26ba2e7903191d93e",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_error.h",
+      "sha256": "a72edbe9e90c3c1155d55f16e0af62dec160a879a778dd51ea6cd93d1b522f74",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_error.h",
+      "vendor_sha256": "a72edbe9e90c3c1155d55f16e0af62dec160a879a778dd51ea6cd93d1b522f74",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_errors.h",
+      "sha256": "29a423ef395f211295ba4f04211d20b6a92a2ba83fc9c7329af8d9ef3c0c617f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_errors.h",
+      "vendor_sha256": "29a423ef395f211295ba4f04211d20b6a92a2ba83fc9c7329af8d9ef3c0c617f",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_memallocflags.h",
+      "sha256": "16902996d50e6789e0753b21656da6348b001fc4fc0bf148ff72ccd508af209b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_memallocflags.h",
+      "vendor_sha256": "16902996d50e6789e0753b21656da6348b001fc4fc0bf148ff72ccd508af209b",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_sync_km.h",
+      "sha256": "00629dbb53190b23ce21052658f8c0ac461c83c78bd9f57a4261b2a9c894405b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_sync_km.h",
+      "vendor_sha256": "00629dbb53190b23ce21052658f8c0ac461c83c78bd9f57a4261b2a9c894405b",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_tlcommon.h",
+      "sha256": "93ef6f4950323ff55dcb15d68b7cda51435f8de0526dcb772b47c4becfad2002",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_tlcommon.h",
+      "vendor_sha256": "93ef6f4950323ff55dcb15d68b7cda51435f8de0526dcb772b47c4becfad2002",
+      "modified": false
+    },
+    {
+      "path": "include/pvrsrv_tlstreams.h",
+      "sha256": "9320b7da1f5dcdab58d6c2ce779c8bfd7c4b322d70faca3a136972abf7637d2b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrsrv_tlstreams.h",
+      "vendor_sha256": "9320b7da1f5dcdab58d6c2ce779c8bfd7c4b322d70faca3a136972abf7637d2b",
+      "modified": false
+    },
+    {
+      "path": "include/pvrversion.h",
+      "sha256": "9d056ea22db735fec015dd50acf8355173b6bee5406413945705b91aced8366b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/pvrversion.h",
+      "vendor_sha256": "9d056ea22db735fec015dd50acf8355173b6bee5406413945705b91aced8366b",
+      "modified": false
+    },
+    {
+      "path": "include/rgx_heap_firmware.h",
+      "sha256": "0028a729ef0bcc8e75ae18e22861d3a9bbee2ba5ba15092abe6505233e1193b9",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rgx_heap_firmware.h",
+      "vendor_sha256": "0028a729ef0bcc8e75ae18e22861d3a9bbee2ba5ba15092abe6505233e1193b9",
+      "modified": false
+    },
+    {
+      "path": "include/rgx_memallocflags.h",
+      "sha256": "fb8ef3bffc583fddb711cefcad2d28dee10f20447cf200c752d7c3ac062c6995",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rgx_memallocflags.h",
+      "vendor_sha256": "fb8ef3bffc583fddb711cefcad2d28dee10f20447cf200c752d7c3ac062c6995",
+      "modified": false
+    },
+    {
+      "path": "include/rgx_meta.h",
+      "sha256": "1b3c63ac05e1cd474e31606a44093a0d7f3d56fc230d79db4df33af845a24c42",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rgx_meta.h",
+      "vendor_sha256": "1b3c63ac05e1cd474e31606a44093a0d7f3d56fc230d79db4df33af845a24c42",
+      "modified": false
+    },
+    {
+      "path": "include/rgx_mips.h",
+      "sha256": "62f8369ff4247db5260a9c18e7d6eb76065f37a6986e191a98824e684c0b8d6d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rgx_mips.h",
+      "vendor_sha256": "62f8369ff4247db5260a9c18e7d6eb76065f37a6986e191a98824e684c0b8d6d",
+      "modified": false
+    },
+    {
+      "path": "include/rgx_riscv.h",
+      "sha256": "ba0a35bfdae14f9935b137769da6917182dfe24abfc4aa2e91c7657c5370d47f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rgx_riscv.h",
+      "vendor_sha256": "ba0a35bfdae14f9935b137769da6917182dfe24abfc4aa2e91c7657c5370d47f",
+      "modified": false
+    },
+    {
+      "path": "include/ri_typedefs.h",
+      "sha256": "b24e58062c4880d56072208224c56db9c9ac2a69ce85e1ab0434bc0947e9f1ab",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/ri_typedefs.h",
+      "vendor_sha256": "b24e58062c4880d56072208224c56db9c9ac2a69ce85e1ab0434bc0947e9f1ab",
+      "modified": false
+    },
+    {
+      "path": "include/rogue/rgx_common.h",
+      "sha256": "92958eae9ea959a9ea2b3071ca520c69c2c548c9a8f21a3bf7d47df4c4cb7bfd",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rogue/rgx_common.h",
+      "vendor_sha256": "92958eae9ea959a9ea2b3071ca520c69c2c548c9a8f21a3bf7d47df4c4cb7bfd",
+      "modified": false
+    },
+    {
+      "path": "include/rogue/rgx_fwif_alignchecks.h",
+      "sha256": "295490fcda03e91221c0bf74df2c7b09ceeaa18d604bd0a3a5c2c4d79f95c2ba",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rogue/rgx_fwif_alignchecks.h",
+      "vendor_sha256": "295490fcda03e91221c0bf74df2c7b09ceeaa18d604bd0a3a5c2c4d79f95c2ba",
+      "modified": false
+    },
+    {
+      "path": "include/rogue/rgx_fwif_shared.h",
+      "sha256": "f01844f9390194e5935531820bcf25b0ed8ab14fad9353e067bd34efdfd4ed3e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rogue/rgx_fwif_shared.h",
+      "vendor_sha256": "f01844f9390194e5935531820bcf25b0ed8ab14fad9353e067bd34efdfd4ed3e",
+      "modified": false
+    },
+    {
+      "path": "include/rogue/rgx_heaps.h",
+      "sha256": "9c0f4879f9a6b33bf35bd872d6c6a16dcb8c48fb8af9fe75c955d7653a4f29d1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rogue/rgx_heaps.h",
+      "vendor_sha256": "9c0f4879f9a6b33bf35bd872d6c6a16dcb8c48fb8af9fe75c955d7653a4f29d1",
+      "modified": false
+    },
+    {
+      "path": "include/rogue/rgx_hwperf.h",
+      "sha256": "0db2a19f1e1564ee650693086b1be48cb9ac78b74bf08a3c1d2d72234dbeb807",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rogue/rgx_hwperf.h",
+      "vendor_sha256": "0db2a19f1e1564ee650693086b1be48cb9ac78b74bf08a3c1d2d72234dbeb807",
+      "modified": false
+    },
+    {
+      "path": "include/rogue/rgx_options.h",
+      "sha256": "264e409bec0ad38a6f474464a47674001e10cc033097db58f4ec13f9586ace3f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/rogue/rgx_options.h",
+      "vendor_sha256": "264e409bec0ad38a6f474464a47674001e10cc033097db58f4ec13f9586ace3f",
+      "modified": false
+    },
+    {
+      "path": "include/services_km.h",
+      "sha256": "d22a10165885eb55fe5239ff451bc0bfc930d3d9037b52cec5e767c8fadd29c9",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/services_km.h",
+      "vendor_sha256": "d22a10165885eb55fe5239ff451bc0bfc930d3d9037b52cec5e767c8fadd29c9",
+      "modified": false
+    },
+    {
+      "path": "include/servicesext.h",
+      "sha256": "bd46f40d3d629173d2e546559df33663e7c68259074f1e70e0067cba5f6fd5df",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/servicesext.h",
+      "vendor_sha256": "bd46f40d3d629173d2e546559df33663e7c68259074f1e70e0067cba5f6fd5df",
+      "modified": false
+    },
+    {
+      "path": "include/sync_checkpoint_external.h",
+      "sha256": "0f26a9b49df1c0dcc93cc1a1041a0587075bf20a3722d0d6431289456dc75f24",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/sync_checkpoint_external.h",
+      "vendor_sha256": "0f26a9b49df1c0dcc93cc1a1041a0587075bf20a3722d0d6431289456dc75f24",
+      "modified": false
+    },
+    {
+      "path": "include/sync_prim_internal.h",
+      "sha256": "caaef91f59f14c21d5982d7ba322295cfa20d8c23577c1c1b0bd3bc6c2984b88",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/include/sync_prim_internal.h",
+      "vendor_sha256": "caaef91f59f14c21d5982d7ba322295cfa20d8c23577c1c1b0bd3bc6c2984b88",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/kernel_compatibility.h",
+      "sha256": "28d17a60daa04dbdf4d884d3a70062fd4f5517cbad40cdeaf0e166c66bcaf6ed",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/kernel_compatibility.h",
+      "vendor_sha256": "28d17a60daa04dbdf4d884d3a70062fd4f5517cbad40cdeaf0e166c66bcaf6ed",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/kernel_nospec.h",
+      "sha256": "ba71ae5a63bd04293c6a778c18919563173a0799cea454f822a7e8010049588a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/kernel_nospec.h",
+      "vendor_sha256": "ba71ae5a63bd04293c6a778c18919563173a0799cea454f822a7e8010049588a",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_counting_timeline.c",
+      "sha256": "5d89f4e83b1e26d11a4a12e3da12b1053b3e8ce49045efe912717f6ad3abd50c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_counting_timeline.c",
+      "vendor_sha256": "4b35faf75409f0b7fc99f7a97d3a631ab1b0efba5c3c6cd930386313fc53162e",
+      "modified": true
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_counting_timeline.h",
+      "sha256": "c2bc4b80e7ce42198ab4924320e34b569201664bad354c1f80d4cfc27a8d2fdd",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_counting_timeline.h",
+      "vendor_sha256": "c2bc4b80e7ce42198ab4924320e34b569201664bad354c1f80d4cfc27a8d2fdd",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_drm.c",
+      "sha256": "003d898d8f5c719ee949785f39d5ed08ddb3c8b64d9cc114db1f229e798e7185",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_drm.c",
+      "vendor_sha256": "d4fa645e397694f4265e559962b5c4aa8b28fe6251243ce9a20455d668c1464c",
+      "modified": true
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_drv.h",
+      "sha256": "2daf8e5beb34b485ae74de1f68d70ab6bcecf91caa4304090e9dd351fbc5c99c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_drv.h",
+      "vendor_sha256": "2daf8e5beb34b485ae74de1f68d70ab6bcecf91caa4304090e9dd351fbc5c99c",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_fence.c",
+      "sha256": "d806e818daaeb7ad976987fd2d11e4032505714367c3144dcad05a3585b7fa23",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_fence.c",
+      "vendor_sha256": "6f22b148b567b24030df6e3dbe6700ee94199338907ed5725dfeece91b3a2cb7",
+      "modified": true
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_fence.h",
+      "sha256": "76593ee7aae6c15ee02c92aa347746f6c91f450e56b3e2d464da0773f1d55bea",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_fence.h",
+      "vendor_sha256": "76593ee7aae6c15ee02c92aa347746f6c91f450e56b3e2d464da0773f1d55bea",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_fence_trace.h",
+      "sha256": "2391c9eaf2c7e458797b529f7e73b31478edf542f870fe7eb02f0f4f1fb488f2",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_fence_trace.h",
+      "vendor_sha256": "2391c9eaf2c7e458797b529f7e73b31478edf542f870fe7eb02f0f4f1fb488f2",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_linux_fence.h",
+      "sha256": "c4ce9f2211aff9e64d923f1119dcad8f0c00f586d760e7b7e61965196a5098b6",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_linux_fence.h",
+      "vendor_sha256": "c4ce9f2211aff9e64d923f1119dcad8f0c00f586d760e7b7e61965196a5098b6",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_platform_drv.c",
+      "sha256": "81ede299d870da8a5fd430367d6595ff022b6f78e9f4994bd85b82ce964bc77b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_platform_drv.c",
+      "vendor_sha256": "49532ac2fc4b063d9fd4ad9dd9194b29077a77674a97d78ecda339b088059714",
+      "modified": true
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_sw_fence.c",
+      "sha256": "ad2eb16eeef9edfeeab045fd65d032b8291f0585fab4ce189e297f515349388d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_sw_fence.c",
+      "vendor_sha256": "96e6598935ee4db67d8631d44d0ac5a747a4470fbd9111dff2cc6b548956de68",
+      "modified": true
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_sw_fence.h",
+      "sha256": "fbe9cb2782edf3cfb7ebe5a78839a46e9ebb8cf3cd7e2b848f6d8c1bcc935a3c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_sw_fence.h",
+      "vendor_sha256": "fbe9cb2782edf3cfb7ebe5a78839a46e9ebb8cf3cd7e2b848f6d8c1bcc935a3c",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_sync.h",
+      "sha256": "88235c0d1f2b4513ad56c963492c616ce15b38331a34c6c7b62ecff4d2fe93e1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_sync.h",
+      "vendor_sha256": "88235c0d1f2b4513ad56c963492c616ce15b38331a34c6c7b62ecff4d2fe93e1",
+      "modified": false
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/pvr_sync_file.c",
+      "sha256": "f67870ba6a27d82f875ff954980bf9304d960c5addab0d36ab8ea662993f8256",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_sync_file.c",
+      "vendor_sha256": "44fda0e77d0d2675d5bfac3cb4aee32e44f83c7baa7dbe08200b9ec80d364334",
+      "modified": true
+    },
+    {
+      "path": "kernel/drivers/staging/imgtec/services_kernel_client.h",
+      "sha256": "722881d165dc5bf13d55e000b9b11cb4d3d42d1e6814d7332a666c8dc9924236",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/services_kernel_client.h",
+      "vendor_sha256": "722881d165dc5bf13d55e000b9b11cb4d3d42d1e6814d7332a666c8dc9924236",
+      "modified": false
+    },
+    {
+      "path": "r1_linux71_compat.h",
+      "sha256": "22ecf8ab88d85837b86bef764077a9ec300477def80d6d6aef6f6c1aebeb9c3d",
+      "origin": "local Linux 7.1 compatibility header"
+    },
+    {
+      "path": "services/include/htbuffer_sf.h",
+      "sha256": "889b460d5878aaaa7c278d636af2e7e912145f8692e73e7c6351a05ae38755b2",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/htbuffer_sf.h",
+      "vendor_sha256": "889b460d5878aaaa7c278d636af2e7e912145f8692e73e7c6351a05ae38755b2",
+      "modified": false
+    },
+    {
+      "path": "services/include/htbuffer_types.h",
+      "sha256": "505c647af848cec81d970599ce65893d4c75b13f4bcf82c369e762b90bd4da57",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/htbuffer_types.h",
+      "vendor_sha256": "505c647af848cec81d970599ce65893d4c75b13f4bcf82c369e762b90bd4da57",
+      "modified": false
+    },
+    {
+      "path": "services/include/info_page_client.h",
+      "sha256": "98ea257cdbc6b6584913b5cc48961abcd7d4965251a9cd0e82b30ed824583b6d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/info_page_client.h",
+      "vendor_sha256": "98ea257cdbc6b6584913b5cc48961abcd7d4965251a9cd0e82b30ed824583b6d",
+      "modified": false
+    },
+    {
+      "path": "services/include/info_page_defs.h",
+      "sha256": "be2e08d751b63548f235e32b8716be3a1515f4d3564ad03f6def874381e5a290",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/info_page_defs.h",
+      "vendor_sha256": "be2e08d751b63548f235e32b8716be3a1515f4d3564ad03f6def874381e5a290",
+      "modified": false
+    },
+    {
+      "path": "services/include/km_apphint_defs_common.h",
+      "sha256": "f0d9b72dcf291a1cb8e5782f0008fad6b7e4b2342a64aa35c4031d2e57ce058e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/km_apphint_defs_common.h",
+      "vendor_sha256": "f0d9b72dcf291a1cb8e5782f0008fad6b7e4b2342a64aa35c4031d2e57ce058e",
+      "modified": false
+    },
+    {
+      "path": "services/include/os_cpu_cache.h",
+      "sha256": "80bacb64caa244d43a9186a008d630847e17d1fb335a6c4065b6a71819f937da",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/os_cpu_cache.h",
+      "vendor_sha256": "80bacb64caa244d43a9186a008d630847e17d1fb335a6c4065b6a71819f937da",
+      "modified": false
+    },
+    {
+      "path": "services/include/pdump.h",
+      "sha256": "7e6d90e97f956e7437a14feeb06699f2e582e194dba089125f86a5c59bbb8ab7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/pdump.h",
+      "vendor_sha256": "7e6d90e97f956e7437a14feeb06699f2e582e194dba089125f86a5c59bbb8ab7",
+      "modified": false
+    },
+    {
+      "path": "services/include/physheap.h",
+      "sha256": "899c469b8436ec5f7d9d608a94668a6b500ebaa2cb55a473f342cb019da78c18",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/physheap.h",
+      "vendor_sha256": "899c469b8436ec5f7d9d608a94668a6b500ebaa2cb55a473f342cb019da78c18",
+      "modified": false
+    },
+    {
+      "path": "services/include/pvr_bridge.h",
+      "sha256": "e57e3ca2776bd8f52c829e048b54b681591dc00c67ac293b7e7174e4f959d094",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/pvr_bridge.h",
+      "vendor_sha256": "e57e3ca2776bd8f52c829e048b54b681591dc00c67ac293b7e7174e4f959d094",
+      "modified": false
+    },
+    {
+      "path": "services/include/pvr_ricommon.h",
+      "sha256": "5c51f1d2e29801223a433b570820bca9b552f8f7d38eca638e4dd035e2ee3e4b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/pvr_ricommon.h",
+      "vendor_sha256": "5c51f1d2e29801223a433b570820bca9b552f8f7d38eca638e4dd035e2ee3e4b",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgx_bridge.h",
+      "sha256": "6743c1ffd01fd3c397d893936a5a00c5c3c83c0030ebee715690b28d0a8258a2",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgx_bridge.h",
+      "vendor_sha256": "6743c1ffd01fd3c397d893936a5a00c5c3c83c0030ebee715690b28d0a8258a2",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgx_compat_bvnc.h",
+      "sha256": "0f26de06bcc93ff8b86b720282c7f27ac43403a3551d69f675e9c3ba096e4448",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgx_compat_bvnc.h",
+      "vendor_sha256": "0f26de06bcc93ff8b86b720282c7f27ac43403a3551d69f675e9c3ba096e4448",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgx_fw_info.h",
+      "sha256": "90ac87958ffe3f6d475850c34c06812d17ac7ac12ef1b1ff8cb5f2e1180393f5",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgx_fw_info.h",
+      "vendor_sha256": "90ac87958ffe3f6d475850c34c06812d17ac7ac12ef1b1ff8cb5f2e1180393f5",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgx_fwif_sf.h",
+      "sha256": "e7eae6a653bb431c0f17e3d8f1a5e2ba74f999dc2b5f53c865b3d1dee61e36ad",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgx_fwif_sf.h",
+      "vendor_sha256": "e7eae6a653bb431c0f17e3d8f1a5e2ba74f999dc2b5f53c865b3d1dee61e36ad",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgx_pdump_panics.h",
+      "sha256": "758f92be06004d433179cbcdffb857e0ba8e3425644b92c9ec8a4eafdc0cfcbe",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgx_pdump_panics.h",
+      "vendor_sha256": "758f92be06004d433179cbcdffb857e0ba8e3425644b92c9ec8a4eafdc0cfcbe",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgx_tq_shared.h",
+      "sha256": "5809a5fa15668612ed4fa00bf9327bcb4a14533b2737283a15102a534292f24e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgx_tq_shared.h",
+      "vendor_sha256": "5809a5fa15668612ed4fa00bf9327bcb4a14533b2737283a15102a534292f24e",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgxfw_log_helper.h",
+      "sha256": "6e7456bb7696535024b0e0eaba7cf0fc6d342522ac909379d1a5828d75872411",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgxfw_log_helper.h",
+      "vendor_sha256": "6e7456bb7696535024b0e0eaba7cf0fc6d342522ac909379d1a5828d75872411",
+      "modified": false
+    },
+    {
+      "path": "services/include/rgxtransfer_shader.h",
+      "sha256": "7d530952e8c00342cd0169b6f317b0a967ffd1db56951bf21769fbad01b4d846",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rgxtransfer_shader.h",
+      "vendor_sha256": "7d530952e8c00342cd0169b6f317b0a967ffd1db56951bf21769fbad01b4d846",
+      "modified": false
+    },
+    {
+      "path": "services/include/rogue/km_apphint_defs.h",
+      "sha256": "db49d45569402186ebd3be8b2ddd27e14e13d8d446278a805021ecc5c6801cc6",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rogue/km_apphint_defs.h",
+      "vendor_sha256": "db49d45569402186ebd3be8b2ddd27e14e13d8d446278a805021ecc5c6801cc6",
+      "modified": false
+    },
+    {
+      "path": "services/include/rogue/rgx_fwif_hwperf.h",
+      "sha256": "d58758911cd0b3c87b77a2c7354539218bead01a15954ab837aa443afd855f3a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rogue/rgx_fwif_hwperf.h",
+      "vendor_sha256": "d58758911cd0b3c87b77a2c7354539218bead01a15954ab837aa443afd855f3a",
+      "modified": false
+    },
+    {
+      "path": "services/include/rogue/rgx_fwif_km.h",
+      "sha256": "d1fee9245f968fd2654dc9633ca04a8aa9e576de6144283b9b8a8b70b07eb094",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rogue/rgx_fwif_km.h",
+      "vendor_sha256": "d1fee9245f968fd2654dc9633ca04a8aa9e576de6144283b9b8a8b70b07eb094",
+      "modified": false
+    },
+    {
+      "path": "services/include/rogue/rgx_fwif_resetframework.h",
+      "sha256": "7caae288a8c0f68c083df47d3943d0edfff034eb218faed026b7bed2bf27e146",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rogue/rgx_fwif_resetframework.h",
+      "vendor_sha256": "7caae288a8c0f68c083df47d3943d0edfff034eb218faed026b7bed2bf27e146",
+      "modified": false
+    },
+    {
+      "path": "services/include/rogue/rgxapi_km.h",
+      "sha256": "4bf9a9105e18d6e1af55feddfbaa38fc44b7c1c68d87c5f1b0e55b4d306d3bc5",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rogue/rgxapi_km.h",
+      "vendor_sha256": "4bf9a9105e18d6e1af55feddfbaa38fc44b7c1c68d87c5f1b0e55b4d306d3bc5",
+      "modified": false
+    },
+    {
+      "path": "services/include/rogue/rgxheapconfig.h",
+      "sha256": "849320e52a6b817e28fe82661cf1327a4ab82c821fcae4f5a5907583d68239ea",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/rogue/rgxheapconfig.h",
+      "vendor_sha256": "849320e52a6b817e28fe82661cf1327a4ab82c821fcae4f5a5907583d68239ea",
+      "modified": false
+    },
+    {
+      "path": "services/include/sync_checkpoint_internal.h",
+      "sha256": "44df2433162e142493316668ccdc644de6b72d6222832be7c6c76bdf12565944",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/sync_checkpoint_internal.h",
+      "vendor_sha256": "44df2433162e142493316668ccdc644de6b72d6222832be7c6c76bdf12565944",
+      "modified": false
+    },
+    {
+      "path": "services/include/sync_checkpoint_internal_fw.h",
+      "sha256": "cb503ded8144a6641e0b63a914cf87cb0221bb4333e8fa03ad746ff1a6b5d52f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/include/sync_checkpoint_internal_fw.h",
+      "vendor_sha256": "cb503ded8144a6641e0b63a914cf87cb0221bb4333e8fa03ad746ff1a6b5d52f",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/cache_km.c",
+      "sha256": "226a147b048b20a86c6002b87155047862f9ab8e8fe42da2bc14f42110954624",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/cache_km.c",
+      "vendor_sha256": "226a147b048b20a86c6002b87155047862f9ab8e8fe42da2bc14f42110954624",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/connection_server.c",
+      "sha256": "d3cd82d1bf03e18f31e18c915b0d8048ef96a753e47e2bf25784d9a360da55f8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/connection_server.c",
+      "vendor_sha256": "d3cd82d1bf03e18f31e18c915b0d8048ef96a753e47e2bf25784d9a360da55f8",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/devicemem_heapcfg.c",
+      "sha256": "084a05851eaff919887e5b39d8a189aefe10b098a79dd4baefb64d51dd54cae7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/devicemem_heapcfg.c",
+      "vendor_sha256": "084a05851eaff919887e5b39d8a189aefe10b098a79dd4baefb64d51dd54cae7",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/devicemem_history_server.c",
+      "sha256": "4ef7c336409a6b1995ddc57312d8c74412e3d0ef6bd045f638dc3d1fa6d1b524",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/devicemem_history_server.c",
+      "vendor_sha256": "4ef7c336409a6b1995ddc57312d8c74412e3d0ef6bd045f638dc3d1fa6d1b524",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/devicemem_server.c",
+      "sha256": "04234111c57f04305c88e055bebeec7594fdd7c36f4e5923f4d2d36af05d9838",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/devicemem_server.c",
+      "vendor_sha256": "04234111c57f04305c88e055bebeec7594fdd7c36f4e5923f4d2d36af05d9838",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/di_server.c",
+      "sha256": "0043c8ee3b77a9b1b211338b900a0215fac9fee49ddbac5176ab529039ed8ad4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/di_server.c",
+      "vendor_sha256": "0043c8ee3b77a9b1b211338b900a0215fac9fee49ddbac5176ab529039ed8ad4",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/handle.c",
+      "sha256": "7593b44ffb69e2b8530991e8260843e0eebc66446d2e6cad17b535cd1a8dcefc",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/handle.c",
+      "vendor_sha256": "7593b44ffb69e2b8530991e8260843e0eebc66446d2e6cad17b535cd1a8dcefc",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/htb_debug.c",
+      "sha256": "f07c353c43b87f17e90163b8d156a64632180e4b640756b32d7ff664fa1cf444",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/htb_debug.c",
+      "vendor_sha256": "f07c353c43b87f17e90163b8d156a64632180e4b640756b32d7ff664fa1cf444",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/htb_debug.h",
+      "sha256": "be028373fe65e26d9449e0d56e1326c35181ee991a0913f00346299c787db24c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/htb_debug.h",
+      "vendor_sha256": "be028373fe65e26d9449e0d56e1326c35181ee991a0913f00346299c787db24c",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/htbserver.c",
+      "sha256": "d6ec9dfec41a605296afb2508273388b509c5be0b35f9bdecf03c3955a770121",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/htbserver.c",
+      "vendor_sha256": "d6ec9dfec41a605296afb2508273388b509c5be0b35f9bdecf03c3955a770121",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/info_page_km.c",
+      "sha256": "9ff89bbf640eecf2f144215a304833535daf803df75f3d07bafa33b6ebbd8e35",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/info_page_km.c",
+      "vendor_sha256": "9ff89bbf640eecf2f144215a304833535daf803df75f3d07bafa33b6ebbd8e35",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/lists.c",
+      "sha256": "ab7eeb3aa5ea12c83e12a35347f328e0fc154f15afcf5982d485451031c423bd",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/lists.c",
+      "vendor_sha256": "ab7eeb3aa5ea12c83e12a35347f328e0fc154f15afcf5982d485451031c423bd",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/mmu_common.c",
+      "sha256": "8f1c1d63c30f6d62d83b5a9c235fcd7be2175342dc2babc9f417c0a6ec6c3791",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/mmu_common.c",
+      "vendor_sha256": "8f1c1d63c30f6d62d83b5a9c235fcd7be2175342dc2babc9f417c0a6ec6c3791",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/physheap.c",
+      "sha256": "7eadd7d5c3146ac77e54fd073dc8c937dbdfe7f6e4a7e0938635469349ee3973",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/physheap.c",
+      "vendor_sha256": "7eadd7d5c3146ac77e54fd073dc8c937dbdfe7f6e4a7e0938635469349ee3973",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/physmem.c",
+      "sha256": "2de4aea69c161d8534c72d5a03768ebd65111432b1311fbac5fad244ea7cdc01",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/physmem.c",
+      "vendor_sha256": "2de4aea69c161d8534c72d5a03768ebd65111432b1311fbac5fad244ea7cdc01",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/physmem_hostmem.c",
+      "sha256": "f15cb70e8a471cb667f80d355be1e417559aa30fe75525d000235cd81b18ea00",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/physmem_hostmem.c",
+      "vendor_sha256": "f15cb70e8a471cb667f80d355be1e417559aa30fe75525d000235cd81b18ea00",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/physmem_lma.c",
+      "sha256": "8dab5bc32779cf0b35ad6a48af131464a2c4ba7b136206de9e05aa1222dcf00d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/physmem_lma.c",
+      "vendor_sha256": "8dab5bc32779cf0b35ad6a48af131464a2c4ba7b136206de9e05aa1222dcf00d",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/pmr.c",
+      "sha256": "5ca000f20c87ceda9b4c363eeaf30485a0a95bbfdc49a662ba444c770321e8a8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/pmr.c",
+      "vendor_sha256": "5ca000f20c87ceda9b4c363eeaf30485a0a95bbfdc49a662ba444c770321e8a8",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/power.c",
+      "sha256": "6346372a133e0ef00df122d7d28f97974d23c052c719f904d0a3787f4b46d255",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/power.c",
+      "vendor_sha256": "6346372a133e0ef00df122d7d28f97974d23c052c719f904d0a3787f4b46d255",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/process_stats.c",
+      "sha256": "f6ca47d5e5e02bd3b6b8b3d95696e14e0e6084eeb8a9126fc1740d8b2f331ecd",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/process_stats.c",
+      "vendor_sha256": "fecc1796f0e11223be27a61d1aa7d3942ad9d271257147aa759dd82d871794d9",
+      "modified": true
+    },
+    {
+      "path": "services/server/common/pvr_notifier.c",
+      "sha256": "3d1bc1d1d5010ecb3637f56165c13acb9c75358c11748559fa580c03c91fa02d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/pvr_notifier.c",
+      "vendor_sha256": "3d1bc1d1d5010ecb3637f56165c13acb9c75358c11748559fa580c03c91fa02d",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/pvrsrv.c",
+      "sha256": "f2eec60de17a13a2b595cac1d95bc836a10abf099666ab00300aff2624257b1c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/pvrsrv.c",
+      "vendor_sha256": "f2eec60de17a13a2b595cac1d95bc836a10abf099666ab00300aff2624257b1c",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/pvrsrv_bridge_init.c",
+      "sha256": "0c94ec9b6bf9e4a404c10d99667931905d2a5acf4ba1c0c2226a2ca9351481ac",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/pvrsrv_bridge_init.c",
+      "vendor_sha256": "0c94ec9b6bf9e4a404c10d99667931905d2a5acf4ba1c0c2226a2ca9351481ac",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/pvrsrv_pool.c",
+      "sha256": "e4ca80cc226518f9940a3c6b3b5b436b550981bf684566c13f3f57fe0c9a72e1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/pvrsrv_pool.c",
+      "vendor_sha256": "e4ca80cc226518f9940a3c6b3b5b436b550981bf684566c13f3f57fe0c9a72e1",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/srvcore.c",
+      "sha256": "085f58be8e9f601c34d5b36909cfe60f245033df390c7ee1b8069ccaf49acc42",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/srvcore.c",
+      "vendor_sha256": "085f58be8e9f601c34d5b36909cfe60f245033df390c7ee1b8069ccaf49acc42",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/sync_checkpoint.c",
+      "sha256": "81660904229786128f143f288fc0d4eef5509453419864abcb464d470c3beba3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/sync_checkpoint.c",
+      "vendor_sha256": "81660904229786128f143f288fc0d4eef5509453419864abcb464d470c3beba3",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/sync_server.c",
+      "sha256": "82a30832505e9c1f1f259ab393de5bc745374680e16481d550cd1c7f8f3afb9a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/sync_server.c",
+      "vendor_sha256": "82a30832505e9c1f1f259ab393de5bc745374680e16481d550cd1c7f8f3afb9a",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/tlintern.c",
+      "sha256": "b70d7003918b59ff80a1c36376e9219c96976e0e1ddce0f83987a3355f22edd3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/tlintern.c",
+      "vendor_sha256": "b70d7003918b59ff80a1c36376e9219c96976e0e1ddce0f83987a3355f22edd3",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/tlserver.c",
+      "sha256": "aa4966105c90afd6bcbb0d9ffd505901523f65fa09ab321d1db4233da5686ee9",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/tlserver.c",
+      "vendor_sha256": "aa4966105c90afd6bcbb0d9ffd505901523f65fa09ab321d1db4233da5686ee9",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/tlstream.c",
+      "sha256": "e8aa4b11cb6ad955999de7baa4b9526f5257717026740a178ebfd58f107c8637",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/tlstream.c",
+      "vendor_sha256": "e8aa4b11cb6ad955999de7baa4b9526f5257717026740a178ebfd58f107c8637",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/vmm_pvz_client.c",
+      "sha256": "c8e41afde5fbef4e54fae35cf9e23656743e8bb594b7bd47d0dedd6a2a2253e9",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/vmm_pvz_client.c",
+      "vendor_sha256": "c8e41afde5fbef4e54fae35cf9e23656743e8bb594b7bd47d0dedd6a2a2253e9",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/vmm_pvz_server.c",
+      "sha256": "d94f2912da2cf8c93b31a768f6902165d0d94cf1000a08dc8411dc721e389339",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/vmm_pvz_server.c",
+      "vendor_sha256": "d94f2912da2cf8c93b31a768f6902165d0d94cf1000a08dc8411dc721e389339",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/vz_vmm_pvz.c",
+      "sha256": "c81dd26136f0e14622a174eb84a9098c59737ed72091feb489658c917c68d83c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/vz_vmm_pvz.c",
+      "vendor_sha256": "c81dd26136f0e14622a174eb84a9098c59737ed72091feb489658c917c68d83c",
+      "modified": false
+    },
+    {
+      "path": "services/server/common/vz_vmm_vm.c",
+      "sha256": "f223da37893b9cd6ccdfcff4c043e95d7f34d24b658fa5e544480886d237b3f7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/common/vz_vmm_vm.c",
+      "vendor_sha256": "f223da37893b9cd6ccdfcff4c043e95d7f34d24b658fa5e544480886d237b3f7",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxbreakpoint.h",
+      "sha256": "54890bdb210d032bceda685b4ba04b636004a6e149139280fb89ebd7acda0caf",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxbreakpoint.h",
+      "vendor_sha256": "54890bdb210d032bceda685b4ba04b636004a6e149139280fb89ebd7acda0caf",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxbvnc.h",
+      "sha256": "2305d2330dc5f2db568e31a95e7b0f9fd7463f04a5a3e21d108c9ca054092c6a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxbvnc.h",
+      "vendor_sha256": "2305d2330dc5f2db568e31a95e7b0f9fd7463f04a5a3e21d108c9ca054092c6a",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxfwdbg.c",
+      "sha256": "99685f8746644d974789aed696aeb447e5707f0b123186f8894511e3a6b79903",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxfwdbg.c",
+      "vendor_sha256": "99685f8746644d974789aed696aeb447e5707f0b123186f8894511e3a6b79903",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxfwdbg.h",
+      "sha256": "1d88bfbe20e572166625b2ac465d757aca9ee9b526263ce8a9025720768dccd8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxfwdbg.h",
+      "vendor_sha256": "1d88bfbe20e572166625b2ac465d757aca9ee9b526263ce8a9025720768dccd8",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxfwtrace_strings.c",
+      "sha256": "f7f88c6fa6585e1381b615043dec43c930b40e2a17bfb9830208496dba9eab4a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxfwtrace_strings.c",
+      "vendor_sha256": "f7f88c6fa6585e1381b615043dec43c930b40e2a17bfb9830208496dba9eab4a",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxkicksync.h",
+      "sha256": "b82bfc9b8013e3b707fa4db3f0182911efe787c8854221817f7a9b9198536f62",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxkicksync.h",
+      "vendor_sha256": "b82bfc9b8013e3b707fa4db3f0182911efe787c8854221817f7a9b9198536f62",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxmulticore.h",
+      "sha256": "0aa54d827957769c685f5de063430afd1906fb26b818fae75d0bc978776d4747",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxmulticore.h",
+      "vendor_sha256": "0aa54d827957769c685f5de063430afd1906fb26b818fae75d0bc978776d4747",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxregconfig.h",
+      "sha256": "4cd081fa1c9c9fb43c9201e6fdb370669a6f612a26b222a926e66160d6c2fd3d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxregconfig.h",
+      "vendor_sha256": "4cd081fa1c9c9fb43c9201e6fdb370669a6f612a26b222a926e66160d6c2fd3d",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxshader.c",
+      "sha256": "4ab20e33db40bb20dce5a242df1b5934e53373e70aa6ba4491c9e6b3f54b039f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxshader.c",
+      "vendor_sha256": "4ab20e33db40bb20dce5a242df1b5934e53373e70aa6ba4491c9e6b3f54b039f",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxshader.h",
+      "sha256": "47639920cef3b0cf3362d8d89b99d8da8e1c4ec53359a274c29737076750ab3f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxshader.h",
+      "vendor_sha256": "47639920cef3b0cf3362d8d89b99d8da8e1c4ec53359a274c29737076750ab3f",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxsignals.h",
+      "sha256": "5d1f479e4f530b5f6eac8384608df4713bed34ae5b8e09e62e86e4d3e3bc6bfa",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxsignals.h",
+      "vendor_sha256": "5d1f479e4f530b5f6eac8384608df4713bed34ae5b8e09e62e86e4d3e3bc6bfa",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxstartstop.h",
+      "sha256": "90801924598a1ecfeb2f15d402aa9a13e440fab5d8ce6235e0bfaea34f49fe51",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxstartstop.h",
+      "vendor_sha256": "90801924598a1ecfeb2f15d402aa9a13e440fab5d8ce6235e0bfaea34f49fe51",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxsyncutils.h",
+      "sha256": "1a595f8f94dd6ba1265010b5afbdd8403b150880f4476c2f27fac79637fd5e57",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxsyncutils.h",
+      "vendor_sha256": "1a595f8f94dd6ba1265010b5afbdd8403b150880f4476c2f27fac79637fd5e57",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxtimecorr.c",
+      "sha256": "92ce4ff66b90ec3d9c80a21618b8572914df9b9cdd8f165341827eadad3e0e05",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxtimecorr.c",
+      "vendor_sha256": "92ce4ff66b90ec3d9c80a21618b8572914df9b9cdd8f165341827eadad3e0e05",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxtimecorr.h",
+      "sha256": "8cecd5e7b71c43ece41c4ca9cf3c9c53bf2ff2b44a6d7e38433f58b0162a9c37",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxtimecorr.h",
+      "vendor_sha256": "8cecd5e7b71c43ece41c4ca9cf3c9c53bf2ff2b44a6d7e38433f58b0162a9c37",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rgxutils.h",
+      "sha256": "0e0b14b6fbf915766b0e6bb5270ab5d014d4bd09a191b886f7169e1cc3327d8a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rgxutils.h",
+      "vendor_sha256": "0e0b14b6fbf915766b0e6bb5270ab5d014d4bd09a191b886f7169e1cc3327d8a",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxbreakpoint.c",
+      "sha256": "38006b93915d357c82f5ad268d6228267998cd0b7536453f371dd5f7e13c4c7a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxbreakpoint.c",
+      "vendor_sha256": "38006b93915d357c82f5ad268d6228267998cd0b7536453f371dd5f7e13c4c7a",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxbvnc.c",
+      "sha256": "3a8932df44eeb08c63a4875377dc8bb5f56a3a6b16c08d14baf029ea5b3d4588",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxbvnc.c",
+      "vendor_sha256": "3a8932df44eeb08c63a4875377dc8bb5f56a3a6b16c08d14baf029ea5b3d4588",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxccb.c",
+      "sha256": "b0507db14e3a2591087042ab1bfc868249c4fbf4eedeaea1e13a62e3cd7bdecc",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxccb.c",
+      "vendor_sha256": "b0507db14e3a2591087042ab1bfc868249c4fbf4eedeaea1e13a62e3cd7bdecc",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxccb.h",
+      "sha256": "74c41f3fa3992c7526743ac968db08c52ad76c084a0560ea1bd791269f367e21",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxccb.h",
+      "vendor_sha256": "74c41f3fa3992c7526743ac968db08c52ad76c084a0560ea1bd791269f367e21",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxcompute.c",
+      "sha256": "7bf778709ae44c4175105e3165b069a46c4b0c1b51b87e4ce61692aa20aca625",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxcompute.c",
+      "vendor_sha256": "7bf778709ae44c4175105e3165b069a46c4b0c1b51b87e4ce61692aa20aca625",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxcompute.h",
+      "sha256": "1898e9525e6898de5e1ea51dbddfe38fac958cc598129f5fbb7c7afce27754cf",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxcompute.h",
+      "vendor_sha256": "1898e9525e6898de5e1ea51dbddfe38fac958cc598129f5fbb7c7afce27754cf",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxdebug.c",
+      "sha256": "698318d9c3c45457b3fc92de5777b1270863e620a6d99087d907f0b1c693a553",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxdebug.c",
+      "vendor_sha256": "698318d9c3c45457b3fc92de5777b1270863e620a6d99087d907f0b1c693a553",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxdebug.h",
+      "sha256": "f5d88ca0d44b0281f0d5c64321d36f50ec25b1dc84f0ebedc63a03ca3dd66e9b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxdebug.h",
+      "vendor_sha256": "f5d88ca0d44b0281f0d5c64321d36f50ec25b1dc84f0ebedc63a03ca3dd66e9b",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxdevice.h",
+      "sha256": "3d5a03eec9a336a838777fb4641cd6824ebc91f5cac89027a6a5988fdbb57295",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxdevice.h",
+      "vendor_sha256": "3d5a03eec9a336a838777fb4641cd6824ebc91f5cac89027a6a5988fdbb57295",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxfwimageutils.c",
+      "sha256": "2e2194d5cdd9d9ab1f5ef57de5a05945e2a451459f16e9276369ffbbf8cc86f0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxfwimageutils.c",
+      "vendor_sha256": "2e2194d5cdd9d9ab1f5ef57de5a05945e2a451459f16e9276369ffbbf8cc86f0",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxfwimageutils.h",
+      "sha256": "f2efc243661daadbbaca3c14773db3fbf3a8d7fa8056a1e01c474b1e7ee735b0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxfwimageutils.h",
+      "vendor_sha256": "f2efc243661daadbbaca3c14773db3fbf3a8d7fa8056a1e01c474b1e7ee735b0",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxfwutils.c",
+      "sha256": "99eafa0090ac84e758872f7bb6c05ccf99a6600b26f3f479934a6e447219a106",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxfwutils.c",
+      "vendor_sha256": "99eafa0090ac84e758872f7bb6c05ccf99a6600b26f3f479934a6e447219a106",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxfwutils.h",
+      "sha256": "2759d192691fca5cb031e37f954c42b71811bcc73e695205bfebf9d96eb97f88",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxfwutils.h",
+      "vendor_sha256": "2759d192691fca5cb031e37f954c42b71811bcc73e695205bfebf9d96eb97f88",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxhwperf.c",
+      "sha256": "84027e375f5322e84894dd4030bf25c7a52beef19e077eb73c81105742f9df2c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxhwperf.c",
+      "vendor_sha256": "84027e375f5322e84894dd4030bf25c7a52beef19e077eb73c81105742f9df2c",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxhwperf.h",
+      "sha256": "91d41c8e3f29f61f703a563d44a8becf34e7279b612b9002458cace1c244f32c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxhwperf.h",
+      "vendor_sha256": "91d41c8e3f29f61f703a563d44a8becf34e7279b612b9002458cace1c244f32c",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxinit.c",
+      "sha256": "e1402b710c1e160d93419de8ccd5ea12134c46b457e07f3a3d79d6f4a184cc9d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxinit.c",
+      "vendor_sha256": "7b08961844afbce337a59deae105f556f8a543044493999ef7dbc6cbfa9387fd",
+      "modified": true
+    },
+    {
+      "path": "services/server/devices/rogue/rgxinit.h",
+      "sha256": "1e2f5e2280e0c2c91241e677c7a2e0d1ffa037fbc46cec86485ab7c1860c8bf0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxinit.h",
+      "vendor_sha256": "1e2f5e2280e0c2c91241e677c7a2e0d1ffa037fbc46cec86485ab7c1860c8bf0",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxkicksync.c",
+      "sha256": "d63307783059985712bfff42732afb6506e41e70ee8fe508a815fc787b5ed36d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxkicksync.c",
+      "vendor_sha256": "d63307783059985712bfff42732afb6506e41e70ee8fe508a815fc787b5ed36d",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxlayer.h",
+      "sha256": "e094878d56dfe87eace205fb23bbbd93bb78fceac93ecafe323f2b75afb685bf",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxlayer.h",
+      "vendor_sha256": "e094878d56dfe87eace205fb23bbbd93bb78fceac93ecafe323f2b75afb685bf",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxlayer_impl.c",
+      "sha256": "1b0f888bb4bd42f9fe7e15aa720112149e00cdc64e3c712b2c0304521a71b7b0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxlayer_impl.c",
+      "vendor_sha256": "87f018d12b758d358446d7ec64063c1575aecd4cbf4187371e679842741ad034",
+      "modified": true
+    },
+    {
+      "path": "services/server/devices/rogue/rgxlayer_impl.h",
+      "sha256": "384742c172d1afed7842e4aba93cb7e010b277108c46b2279711e9f1bcf017cd",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxlayer_impl.h",
+      "vendor_sha256": "384742c172d1afed7842e4aba93cb7e010b277108c46b2279711e9f1bcf017cd",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxmem.c",
+      "sha256": "dddfefd85209c724f9bb59a457abc6cb77f42bd8906ff6f1311f588181a955a4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmem.c",
+      "vendor_sha256": "dddfefd85209c724f9bb59a457abc6cb77f42bd8906ff6f1311f588181a955a4",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxmem.h",
+      "sha256": "8b72e5aac2fff9a9a4ce4c3796a5c99254233975525e06600db37af7ba3eeaa7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmem.h",
+      "vendor_sha256": "8b72e5aac2fff9a9a4ce4c3796a5c99254233975525e06600db37af7ba3eeaa7",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxmipsmmuinit.c",
+      "sha256": "980a2d8249e1c34a64d16c2756ba04ce08e385ca13f5089491be8519b4c13da4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmipsmmuinit.c",
+      "vendor_sha256": "980a2d8249e1c34a64d16c2756ba04ce08e385ca13f5089491be8519b4c13da4",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxmipsmmuinit.h",
+      "sha256": "cf318be65a2f549a58edfa3217c62fea29be77cff52547c2ebe8a85022d419c4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmipsmmuinit.h",
+      "vendor_sha256": "cf318be65a2f549a58edfa3217c62fea29be77cff52547c2ebe8a85022d419c4",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxmmuinit.c",
+      "sha256": "4593b0310ca44ef22a845e2bc46f4a20c6d5e836f7b4d03fa023c6136ab59246",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmmuinit.c",
+      "vendor_sha256": "4593b0310ca44ef22a845e2bc46f4a20c6d5e836f7b4d03fa023c6136ab59246",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxmmuinit.h",
+      "sha256": "fbb9c5d0906f72014e623b3e01136c419ad41a80ad7500737293397c586e2637",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmmuinit.h",
+      "vendor_sha256": "fbb9c5d0906f72014e623b3e01136c419ad41a80ad7500737293397c586e2637",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxmulticore.c",
+      "sha256": "c3b41a514c339c80e3c92809da5fd25dbf11357f063365e97c2dc6a4e855684a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmulticore.c",
+      "vendor_sha256": "c3b41a514c339c80e3c92809da5fd25dbf11357f063365e97c2dc6a4e855684a",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxpower.c",
+      "sha256": "cfa053776dbf368e5640b59d34d2e2f4d30fa0069474e255fdbbaedf1105287e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxpower.c",
+      "vendor_sha256": "cfa053776dbf368e5640b59d34d2e2f4d30fa0069474e255fdbbaedf1105287e",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxpower.h",
+      "sha256": "ed7e61229036b2e54ed48b66138bc88b5fd0b228f716d2a8d53b56dd48ec31ef",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxpower.h",
+      "vendor_sha256": "ed7e61229036b2e54ed48b66138bc88b5fd0b228f716d2a8d53b56dd48ec31ef",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxregconfig.c",
+      "sha256": "3a52acf75c47370eaac59b03fb4ee83009f011b5e5fe7c876bec795a568dd994",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxregconfig.c",
+      "vendor_sha256": "3a52acf75c47370eaac59b03fb4ee83009f011b5e5fe7c876bec795a568dd994",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxsignals.c",
+      "sha256": "79383aa4482b0e93cc02be8a532ee194aaa7436412acc109d9df5ea4607ab3a7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxsignals.c",
+      "vendor_sha256": "79383aa4482b0e93cc02be8a532ee194aaa7436412acc109d9df5ea4607ab3a7",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxsrvinit.c",
+      "sha256": "6b42b97357e1cbe776e19376b02a1e7dd44ee5573f07a534d57d4cf7a6cdc2db",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxsrvinit.c",
+      "vendor_sha256": "6b42b97357e1cbe776e19376b02a1e7dd44ee5573f07a534d57d4cf7a6cdc2db",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxstartstop.c",
+      "sha256": "6975ff3352b8682656981be8c8e05132481b4b9006deac8101da74a6d2cce182",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxstartstop.c",
+      "vendor_sha256": "6975ff3352b8682656981be8c8e05132481b4b9006deac8101da74a6d2cce182",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxsyncutils.c",
+      "sha256": "e57d2b3d0860ac21fe9cad1b9cc6cbbaaa4f99ccf613ff5c53fd8b376896610a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxsyncutils.c",
+      "vendor_sha256": "e57d2b3d0860ac21fe9cad1b9cc6cbbaaa4f99ccf613ff5c53fd8b376896610a",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxta3d.c",
+      "sha256": "a1e3c527af2c3000fa5b663a66497ca9c31e3f99a60108ea5e4fe260c4a20d16",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxta3d.c",
+      "vendor_sha256": "a1e3c527af2c3000fa5b663a66497ca9c31e3f99a60108ea5e4fe260c4a20d16",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxta3d.h",
+      "sha256": "d07b8958f0b0179eeeafda5bf4a03554e80815f956b9133a7beba60c334d073d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxta3d.h",
+      "vendor_sha256": "d07b8958f0b0179eeeafda5bf4a03554e80815f956b9133a7beba60c334d073d",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxtdmtransfer.c",
+      "sha256": "592e17e48dd3ab27c245468d69ecb9c53e978c2e318884509e3a2b9e1d113f96",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxtdmtransfer.c",
+      "vendor_sha256": "592e17e48dd3ab27c245468d69ecb9c53e978c2e318884509e3a2b9e1d113f96",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxtdmtransfer.h",
+      "sha256": "2a15fed554619999e042e95e180cf0a290c72fb2c7417119594f1b5a082c80ea",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxtdmtransfer.h",
+      "vendor_sha256": "2a15fed554619999e042e95e180cf0a290c72fb2c7417119594f1b5a082c80ea",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxtransfer.c",
+      "sha256": "fbe4760d2955c650d3505b3919ba5282b4548559d833bfbf697256c0c8a2e6de",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxtransfer.c",
+      "vendor_sha256": "fbe4760d2955c650d3505b3919ba5282b4548559d833bfbf697256c0c8a2e6de",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxtransfer.h",
+      "sha256": "9c3561995ee5df64d80c7a4645a88b2a120dd08c3adc50c72ceef8d1a1b51a17",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxtransfer.h",
+      "vendor_sha256": "9c3561995ee5df64d80c7a4645a88b2a120dd08c3adc50c72ceef8d1a1b51a17",
+      "modified": false
+    },
+    {
+      "path": "services/server/devices/rogue/rgxutils.c",
+      "sha256": "93050b11d21268ff272772bef54c01e34e1ac909d859d43a856164b6f7d5ab18",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxutils.c",
+      "vendor_sha256": "93050b11d21268ff272772bef54c01e34e1ac909d859d43a856164b6f7d5ab18",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/allocmem.c",
+      "sha256": "c109c9ccb5387982face342dc2b957c916a62cf96c2f648191afc535615d288d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/allocmem.c",
+      "vendor_sha256": "c109c9ccb5387982face342dc2b957c916a62cf96c2f648191afc535615d288d",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/env_connection.h",
+      "sha256": "bd1690d98e5e6751c388d8c5dc475fda2c52c65c5c364aa8f935a1075b345690",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/env_connection.h",
+      "vendor_sha256": "7f461e5aca4deca9e2230477a868c696b177bf2440b3fdbdb3de4826fb733642",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/event.c",
+      "sha256": "2de08ca31a32e4fa6d6ba69a736ecaee79d2304c786fa366883e695c16d418c9",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/event.c",
+      "vendor_sha256": "2de08ca31a32e4fa6d6ba69a736ecaee79d2304c786fa366883e695c16d418c9",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/event.h",
+      "sha256": "0c1c0c835f5af89911e697a388e59266b7d18721f7cb75ae040b7da0e826cdb6",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/event.h",
+      "vendor_sha256": "0c1c0c835f5af89911e697a388e59266b7d18721f7cb75ae040b7da0e826cdb6",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/fwload.c",
+      "sha256": "02b65902f4f75a8cd98ea23e4a189aee53c3331e363e7607ce1cead95a6df514",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/fwload.c",
+      "vendor_sha256": "02b65902f4f75a8cd98ea23e4a189aee53c3331e363e7607ce1cead95a6df514",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/handle_idr.c",
+      "sha256": "da8bd09e5382079617cb76659052b352c0cebf609d9c977770d047e97865fa82",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/handle_idr.c",
+      "vendor_sha256": "da8bd09e5382079617cb76659052b352c0cebf609d9c977770d047e97865fa82",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/km_apphint.c",
+      "sha256": "3672c3ea4824f40d07c0ca550bd679e0c9b96292db631c7c011fe77db7fac915",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/km_apphint.c",
+      "vendor_sha256": "80660d8966b31f28c2a08fbbb9df0bb96d2e16acf755b04f65a51394b24affe6",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/km_apphint.h",
+      "sha256": "7a2138368f6b74fc9182981c86ed5480051d7c9fce743886824958191b3ea0f0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/km_apphint.h",
+      "vendor_sha256": "7a2138368f6b74fc9182981c86ed5480051d7c9fce743886824958191b3ea0f0",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/linkage.h",
+      "sha256": "8f2382e0c79866aaf748d7127645b72c6f8dbd37826d84d75a3378fca82c5e28",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/linkage.h",
+      "vendor_sha256": "8f2382e0c79866aaf748d7127645b72c6f8dbd37826d84d75a3378fca82c5e28",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/module_common.c",
+      "sha256": "fcfb8a0fe856163239e57af2527ed21cd81c4b405c5fc70819e1f5f0350a4766",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/module_common.c",
+      "vendor_sha256": "fcfb8a0fe856163239e57af2527ed21cd81c4b405c5fc70819e1f5f0350a4766",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/module_common.h",
+      "sha256": "cc97c418b3e79ffb24e568f9a4e8d66a4ec94a0ac257854ffb21b9295d585117",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/module_common.h",
+      "vendor_sha256": "cc97c418b3e79ffb24e568f9a4e8d66a4ec94a0ac257854ffb21b9295d585117",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/osconnection_server.c",
+      "sha256": "39c9505950a6804347c3877e6f978775626732c1b971f1405b80609cb45fe427",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/osconnection_server.c",
+      "vendor_sha256": "3d223afc9d181fc21e0d6abc2b39984b01cc4f24a9cb617ecf33bef0ab5db3cb",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/osfunc.c",
+      "sha256": "19f80399ad1b9ea56cc65004740ea24c4b512409d5efb9f71a91198846e22f13",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/osfunc.c",
+      "vendor_sha256": "f2d295bf779fc9e2f2b8ab69e692b8db2e1924c35f5c64c29c4ad177d183c22e",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/osfunc_arm64.c",
+      "sha256": "25a184701e69899327a6979546bb1ad510146708b7cfe7d69480f8b867a5cfc3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/osfunc_arm64.c",
+      "vendor_sha256": "4c49895beb64d12b90e7fa8d8fd24cdc7f6eaa0f76d64d07607dcbd0cb098e10",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/osmmap_stub.c",
+      "sha256": "5ce4571662d495577f3f574dd2370ce7165c5d61c1ce88bd92e40cc68d15d86f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/osmmap_stub.c",
+      "vendor_sha256": "5ce4571662d495577f3f574dd2370ce7165c5d61c1ce88bd92e40cc68d15d86f",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/physmem_dmabuf.c",
+      "sha256": "4de93ea9be495402c3bacd6bdbe1cc692bfbc0b7f11f8d6e8f358fd120c99eb5",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_dmabuf.c",
+      "vendor_sha256": "4de93ea9be495402c3bacd6bdbe1cc692bfbc0b7f11f8d6e8f358fd120c99eb5",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/physmem_osmem_linux.c",
+      "sha256": "8d933fa542a7c2c2d525fb2a257326100f80da390a09f043c3da978a278fa316",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_osmem_linux.c",
+      "vendor_sha256": "38f6ef1f0d91f3c460af0cfb363b68f343c3d653c57619c183804c7514f71731",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/physmem_osmem_linux.h",
+      "sha256": "b7fa6d07b7b61cab6ae738c0abdb5f1b49842b431aeb45ba357052b08bc8076a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_osmem_linux.h",
+      "vendor_sha256": "be5433096c1366a75ef831c200683c61229acbc8be57b9248187933559ae584a",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/physmem_test.c",
+      "sha256": "a564645157732393dbafdd4a34fdb48d72cca41d9eb0672245071abacc9b8ba8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_test.c",
+      "vendor_sha256": "a564645157732393dbafdd4a34fdb48d72cca41d9eb0672245071abacc9b8ba8",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/physmem_test.h",
+      "sha256": "64187b97ae0ee5f6b35414c4dc5c73ce9882deefe27e126ddaaa6023dd8f4f29",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_test.h",
+      "vendor_sha256": "64187b97ae0ee5f6b35414c4dc5c73ce9882deefe27e126ddaaa6023dd8f4f29",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pmr_os.c",
+      "sha256": "a2818129b44a1dda3e1b3458adc1b86cf2bad26f4753d05649528fc65335884f",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pmr_os.c",
+      "vendor_sha256": "ef12ef9297a3ebb5ed4bed0a6345dd12fc7020422978e83aee9ca176f1b9e8e1",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/private_data.h",
+      "sha256": "6d1d456ca16d8dc1d37a87c7b8d1a197d10f2fbbf40e72ebd044d797d5301e7a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/private_data.h",
+      "vendor_sha256": "6d1d456ca16d8dc1d37a87c7b8d1a197d10f2fbbf40e72ebd044d797d5301e7a",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_bridge_k.c",
+      "sha256": "6b6a0138aa38bc358d0b25f150a6d13089aec6b9ab6938dbaab2b9933a982d90",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_bridge_k.c",
+      "vendor_sha256": "6b6a0138aa38bc358d0b25f150a6d13089aec6b9ab6938dbaab2b9933a982d90",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_bridge_k.h",
+      "sha256": "5dccbb5c543f6065ee581845031729537041d1b3e94d6105d3b0265801acf0a6",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_bridge_k.h",
+      "vendor_sha256": "5dccbb5c543f6065ee581845031729537041d1b3e94d6105d3b0265801acf0a6",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_debug.c",
+      "sha256": "59ed243d33ef40f4fd5e20589adf7a8c5645454ce7e0960a7bbd96293b2877b4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_debug.c",
+      "vendor_sha256": "7fd2ca4cea717d18eb1f41fc5761f14b67b05bd1a5c935a8e2ab48edb7e02d8d",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/pvr_debugfs.c",
+      "sha256": "22ab2301d07a694a27fd727d0ceff7419398d2fd6858bd7a32c630f429acd1d2",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_debugfs.c",
+      "vendor_sha256": "22ab2301d07a694a27fd727d0ceff7419398d2fd6858bd7a32c630f429acd1d2",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_debugfs.h",
+      "sha256": "0c75faf07fac1396e502245536bc1cd6ec2bbbe5673cc74444d7f6e7255f8219",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_debugfs.h",
+      "vendor_sha256": "0c75faf07fac1396e502245536bc1cd6ec2bbbe5673cc74444d7f6e7255f8219",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_gputrace.c",
+      "sha256": "30f7000f06158b40de9c548ddf23cc2161d88cde056fbfc5e818f838e034f420",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_gputrace.c",
+      "vendor_sha256": "30f7000f06158b40de9c548ddf23cc2161d88cde056fbfc5e818f838e034f420",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_ion_stats.h",
+      "sha256": "c55ce5940fed69f36bca8daee0808c2fb99c2d0fe54f02dae405fe91c253ff54",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_ion_stats.h",
+      "vendor_sha256": "c55ce5940fed69f36bca8daee0808c2fb99c2d0fe54f02dae405fe91c253ff54",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_procfs.c",
+      "sha256": "721d19a0abf1f0267d459dd70475099db29f37f559bfebb0769754547660bab8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_procfs.c",
+      "vendor_sha256": "ad05f25e851d2caa6b8d9a332b0df863092939066b2156f9cea4556de5987a03",
+      "modified": true
+    },
+    {
+      "path": "services/server/env/linux/pvr_procfs.h",
+      "sha256": "dd1f3c24d05ceeaf7060a2fcc37499e3ee045bb16eee79780988445784e24fef",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_procfs.h",
+      "vendor_sha256": "dd1f3c24d05ceeaf7060a2fcc37499e3ee045bb16eee79780988445784e24fef",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/pvr_uaccess.h",
+      "sha256": "c21dee8005fc3eb97770e92f0402e8c2cbaa485d73b65997afd1737b01d2c253",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_uaccess.h",
+      "vendor_sha256": "c21dee8005fc3eb97770e92f0402e8c2cbaa485d73b65997afd1737b01d2c253",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/rogue_trace_events.h",
+      "sha256": "53ed249cbb6f95720282815949fed8c24cd8add9f125424452043319c1092cf0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/rogue_trace_events.h",
+      "vendor_sha256": "53ed249cbb6f95720282815949fed8c24cd8add9f125424452043319c1092cf0",
+      "modified": false
+    },
+    {
+      "path": "services/server/env/linux/trace_events.h",
+      "sha256": "825565ba318aa234728164ccd7fe8c8de96b74aaa355dc9f734edb1fa69e3306",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/env/linux/trace_events.h",
+      "vendor_sha256": "825565ba318aa234728164ccd7fe8c8de96b74aaa355dc9f734edb1fa69e3306",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/cache_km.h",
+      "sha256": "14eceadcc18929153c18a2015c612546b695b3328a3ea2814b33973653d6ccb8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/cache_km.h",
+      "vendor_sha256": "14eceadcc18929153c18a2015c612546b695b3328a3ea2814b33973653d6ccb8",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/connection_server.h",
+      "sha256": "9c9c0de45e9d83332edb73669461282706af5b8a57613093824e4102c5643500",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/connection_server.h",
+      "vendor_sha256": "9c9c0de45e9d83332edb73669461282706af5b8a57613093824e4102c5643500",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/device.h",
+      "sha256": "53d4caf9555645c98d33a06998e03213f8295e87ef3fe889554bdb03fd5462bb",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/device.h",
+      "vendor_sha256": "53d4caf9555645c98d33a06998e03213f8295e87ef3fe889554bdb03fd5462bb",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/devicemem_heapcfg.h",
+      "sha256": "52592b1c4f451fd132697e86baff007f36741d066f61a7df9c99b7ccc95f1afe",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/devicemem_heapcfg.h",
+      "vendor_sha256": "52592b1c4f451fd132697e86baff007f36741d066f61a7df9c99b7ccc95f1afe",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/devicemem_history_server.h",
+      "sha256": "1d8c756552c22d699a1b80df42933232748f923bc64cf05b1048c2448929ece7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/devicemem_history_server.h",
+      "vendor_sha256": "1d8c756552c22d699a1b80df42933232748f923bc64cf05b1048c2448929ece7",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/devicemem_server.h",
+      "sha256": "098bc9ccb68fe6a3ef02a7a518f15650a6f9ac23c9493e9adf65f0cb6c36f86d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/devicemem_server.h",
+      "vendor_sha256": "098bc9ccb68fe6a3ef02a7a518f15650a6f9ac23c9493e9adf65f0cb6c36f86d",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/devicemem_server_utils.h",
+      "sha256": "59d04b890febd39a68d758abc85686479ffd2998561415535de60f1a5132bab7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/devicemem_server_utils.h",
+      "vendor_sha256": "59d04b890febd39a68d758abc85686479ffd2998561415535de60f1a5132bab7",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/di_common.h",
+      "sha256": "5095f6692eae271e5f2c9a6e8f2cd9ee0face3548b734f9d452155b42b90d8f0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/di_common.h",
+      "vendor_sha256": "5095f6692eae271e5f2c9a6e8f2cd9ee0face3548b734f9d452155b42b90d8f0",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/di_server.h",
+      "sha256": "8ec9bc0892135cfadeb25ffad744a30e2e072c170502b801f67b4108ea16b4b8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/di_server.h",
+      "vendor_sha256": "3d537a8aea29f4098aa78eaa9d0f596b221177187b074c26a85a5a52d63417c6",
+      "modified": true
+    },
+    {
+      "path": "services/server/include/fwload.h",
+      "sha256": "0a031e7b194e99f0f8e117e5cf2dc5e8392cc8401dda6c8e7a4c385d9396f264",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/fwload.h",
+      "vendor_sha256": "0a031e7b194e99f0f8e117e5cf2dc5e8392cc8401dda6c8e7a4c385d9396f264",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/fwtrace_string.h",
+      "sha256": "d8a08d1a2e0b3589d18911bf9ebbc30192fc50dc08e1e3e7ed7d169608bb6ead",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/fwtrace_string.h",
+      "vendor_sha256": "d8a08d1a2e0b3589d18911bf9ebbc30192fc50dc08e1e3e7ed7d169608bb6ead",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/handle.h",
+      "sha256": "2e095426161dfdcc5199ee6a7fb693351332c5a9380fd250b419200c52e21c44",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/handle.h",
+      "vendor_sha256": "2e095426161dfdcc5199ee6a7fb693351332c5a9380fd250b419200c52e21c44",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/handle_impl.h",
+      "sha256": "d77841801dd68ed86e2fc264acd9df3f526c7d0020bd85639a045a972b8878e4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/handle_impl.h",
+      "vendor_sha256": "d77841801dd68ed86e2fc264acd9df3f526c7d0020bd85639a045a972b8878e4",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/handle_types.h",
+      "sha256": "9b169d8fe75b6bcb686e45047738f6751f623c4011e70173404364a6d4269971",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/handle_types.h",
+      "vendor_sha256": "9b169d8fe75b6bcb686e45047738f6751f623c4011e70173404364a6d4269971",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/htbserver.h",
+      "sha256": "aa779bcff0d27028b211bab5ab6e9e6f8bb53153a21908592137a3ef032fe0d3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/htbserver.h",
+      "vendor_sha256": "aa779bcff0d27028b211bab5ab6e9e6f8bb53153a21908592137a3ef032fe0d3",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/info_page.h",
+      "sha256": "c68d73e1a0c036610f3ad574dcd1e6576fe85ce32ff19e7b8d3ee5555674c03c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/info_page.h",
+      "vendor_sha256": "c68d73e1a0c036610f3ad574dcd1e6576fe85ce32ff19e7b8d3ee5555674c03c",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/lists.h",
+      "sha256": "0819635b149312a8e21376f27a051676b0ead00621fd21b1132a04cc6c17a8ad",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/lists.h",
+      "vendor_sha256": "02b5588d4db19b90ef4b47891ad86ddf97c867dedca85e1d2ad2b10358f502b4",
+      "modified": true
+    },
+    {
+      "path": "services/server/include/mmu_common.h",
+      "sha256": "ce6298d346a852183246aaceaa917a4ae024df6b7cfbcbae0b67bf8c0aead8dc",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/mmu_common.h",
+      "vendor_sha256": "ce6298d346a852183246aaceaa917a4ae024df6b7cfbcbae0b67bf8c0aead8dc",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/opaque_types.h",
+      "sha256": "21e0101d49be82c6e309188dc763cac48d0ccb90292bf8010c0576c861e5f283",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/opaque_types.h",
+      "vendor_sha256": "21e0101d49be82c6e309188dc763cac48d0ccb90292bf8010c0576c861e5f283",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/os_srvinit_param.h",
+      "sha256": "c1785b186a00fe7bc48c20d947932e43bb55de8d09feaca2754d67a66b9de5a8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/os_srvinit_param.h",
+      "vendor_sha256": "c1785b186a00fe7bc48c20d947932e43bb55de8d09feaca2754d67a66b9de5a8",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/osconnection_server.h",
+      "sha256": "1f864789ba14d6b77413f65a3e0a5aa279c4caf760d275eafc000755e24c588b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/osconnection_server.h",
+      "vendor_sha256": "1f864789ba14d6b77413f65a3e0a5aa279c4caf760d275eafc000755e24c588b",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/osdi_impl.h",
+      "sha256": "21e933a4e4f3c404f1497e6801de52fe96075d8f40fadbf9626a21e46280df92",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/osdi_impl.h",
+      "vendor_sha256": "21e933a4e4f3c404f1497e6801de52fe96075d8f40fadbf9626a21e46280df92",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/osfunc.h",
+      "sha256": "b9d94d49509b1ee1c9f73b95635a7fc16fbddb945ac889d9829f4f9f6848928a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/osfunc.h",
+      "vendor_sha256": "83d41747f8f804d7887a040114b129bbd4c06349f5c03277dd314d2bc114364e",
+      "modified": true
+    },
+    {
+      "path": "services/server/include/oskm_apphint.h",
+      "sha256": "53b6120b6df44322a94b8442f604515ad9c01a455da08be3c782d926ab591025",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/oskm_apphint.h",
+      "vendor_sha256": "53b6120b6df44322a94b8442f604515ad9c01a455da08be3c782d926ab591025",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/ospvr_gputrace.h",
+      "sha256": "8b049aca41a8e84ddba54e8c8e1653be56523a4d7b06f5717748fe48d821a210",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/ospvr_gputrace.h",
+      "vendor_sha256": "8b049aca41a8e84ddba54e8c8e1653be56523a4d7b06f5717748fe48d821a210",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pdump_km.h",
+      "sha256": "57b8484bbedd6b8fb2fa5b81c3ec49dff31639bce427d6fc7dec68669cdb3b12",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pdump_km.h",
+      "vendor_sha256": "af4674038a044a6da8ec9c29848751eb3fa31c7bb54a83cdafae017f20a144ec",
+      "modified": true
+    },
+    {
+      "path": "services/server/include/pdump_mmu.h",
+      "sha256": "d2cb1f43dad4b574e7bf61105af1740b13b38332c4a6dc79a598cbeecae8126a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pdump_mmu.h",
+      "vendor_sha256": "d2cb1f43dad4b574e7bf61105af1740b13b38332c4a6dc79a598cbeecae8126a",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pdump_physmem.h",
+      "sha256": "e0869ba238e2eb27dddb41020e2c5bda744ad6c230db11fcfcb31ef01411a1b5",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pdump_physmem.h",
+      "vendor_sha256": "e0869ba238e2eb27dddb41020e2c5bda744ad6c230db11fcfcb31ef01411a1b5",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pdump_symbolicaddr.h",
+      "sha256": "259895aff21bcc0c4a762ca63e57a203f856df646bf3a5f4787393067ce0e101",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pdump_symbolicaddr.h",
+      "vendor_sha256": "259895aff21bcc0c4a762ca63e57a203f856df646bf3a5f4787393067ce0e101",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/physmem.h",
+      "sha256": "65b1139cb872dca0bc9cc6f510a18831eeb7d2074ad53b9a5b46edb359cc6366",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/physmem.h",
+      "vendor_sha256": "65b1139cb872dca0bc9cc6f510a18831eeb7d2074ad53b9a5b46edb359cc6366",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/physmem_dmabuf.h",
+      "sha256": "6333b914093cb0a3b6067e26f8933807b1c4c0231d91932b7f8ff5123899da43",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/physmem_dmabuf.h",
+      "vendor_sha256": "6333b914093cb0a3b6067e26f8933807b1c4c0231d91932b7f8ff5123899da43",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/physmem_hostmem.h",
+      "sha256": "86cbae3a0ccf8ad428d99a7800fbdec6b7bcbe28dc9adbab5b71f4656e7389b8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/physmem_hostmem.h",
+      "vendor_sha256": "86cbae3a0ccf8ad428d99a7800fbdec6b7bcbe28dc9adbab5b71f4656e7389b8",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/physmem_lma.h",
+      "sha256": "099402ccae4ffcdc4702550465f309167a013091f227f0d377f00f850f315855",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/physmem_lma.h",
+      "vendor_sha256": "099402ccae4ffcdc4702550465f309167a013091f227f0d377f00f850f315855",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/physmem_osmem.h",
+      "sha256": "2e11b86bdc4800bf3e9a826ba58e0957f338510fc7e7163325be6b49c10de0d0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/physmem_osmem.h",
+      "vendor_sha256": "2e11b86bdc4800bf3e9a826ba58e0957f338510fc7e7163325be6b49c10de0d0",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pmr.h",
+      "sha256": "f42c3b4aaa160fda75f6f3094fd9a5cf51893bece5ee416c3d1772eb5cc93631",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pmr.h",
+      "vendor_sha256": "f42c3b4aaa160fda75f6f3094fd9a5cf51893bece5ee416c3d1772eb5cc93631",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pmr_impl.h",
+      "sha256": "cc7cee091801c0c9b719036b692a99f274176821c7c3c294adbc032637e5e20a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pmr_impl.h",
+      "vendor_sha256": "cc7cee091801c0c9b719036b692a99f274176821c7c3c294adbc032637e5e20a",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pmr_os.h",
+      "sha256": "37d75780beeacfa8f60ed00a26be3ad28ae1c9f0fbd947a0324554d9b1c0f3ba",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pmr_os.h",
+      "vendor_sha256": "37d75780beeacfa8f60ed00a26be3ad28ae1c9f0fbd947a0324554d9b1c0f3ba",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/power.h",
+      "sha256": "03d4c216bdbd84bae9285bf7d528a54348b569fbb906f1782423fe313489ae30",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/power.h",
+      "vendor_sha256": "03d4c216bdbd84bae9285bf7d528a54348b569fbb906f1782423fe313489ae30",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/process_stats.h",
+      "sha256": "3a7d1e3b4bab7790a4b4c3da98287451071390ef19239e5003205151865e4448",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/process_stats.h",
+      "vendor_sha256": "3a7d1e3b4bab7790a4b4c3da98287451071390ef19239e5003205151865e4448",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvr_notifier.h",
+      "sha256": "f48ac2c6ee2c7edab70e9bb6da7083df61d8b252ef48f0c652e442ad6a1f607a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvr_notifier.h",
+      "vendor_sha256": "f48ac2c6ee2c7edab70e9bb6da7083df61d8b252ef48f0c652e442ad6a1f607a",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvrsrv.h",
+      "sha256": "b21405fbb400d9e9d7f4239269bc1c4d241e96107af76483c0efa1bb765cc9b6",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvrsrv.h",
+      "vendor_sha256": "b21405fbb400d9e9d7f4239269bc1c4d241e96107af76483c0efa1bb765cc9b6",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvrsrv_apphint.h",
+      "sha256": "0edf678523c698e786102eb80abbd0baa29819e0fd0d379385b8b4741bb4400e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvrsrv_apphint.h",
+      "vendor_sha256": "0edf678523c698e786102eb80abbd0baa29819e0fd0d379385b8b4741bb4400e",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvrsrv_bridge_init.h",
+      "sha256": "e582b0c07a2adf508cf2e6006b0c5f968f2790cc017e1fadbd987b630e87c6c9",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvrsrv_bridge_init.h",
+      "vendor_sha256": "e582b0c07a2adf508cf2e6006b0c5f968f2790cc017e1fadbd987b630e87c6c9",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvrsrv_cleanup.h",
+      "sha256": "afd1bc67ee51b1257316b63158d660c0345bb150b90d1f0219b439eb854f23fc",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvrsrv_cleanup.h",
+      "vendor_sha256": "afd1bc67ee51b1257316b63158d660c0345bb150b90d1f0219b439eb854f23fc",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvrsrv_device.h",
+      "sha256": "96641d5441a1de72c3e04c2eea8edfb0e6af4e2011dc8e2c51433ca9a2092e22",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvrsrv_device.h",
+      "vendor_sha256": "96641d5441a1de72c3e04c2eea8edfb0e6af4e2011dc8e2c51433ca9a2092e22",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvrsrv_pool.h",
+      "sha256": "1e12d6e26713eea9385908a047860f2d9b027ef335c4ca66925d4b4e795949f4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvrsrv_pool.h",
+      "vendor_sha256": "1e12d6e26713eea9385908a047860f2d9b027ef335c4ca66925d4b4e795949f4",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/pvrsrv_sync_server.h",
+      "sha256": "8d75a65ef4bdc91823e7c39244ddf7848a56967c99269ccc7ff64ca18f7208e1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/pvrsrv_sync_server.h",
+      "vendor_sha256": "8d75a65ef4bdc91823e7c39244ddf7848a56967c99269ccc7ff64ca18f7208e1",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/ri_server.h",
+      "sha256": "54d440bbf561f50f0de2fb458c1044b8078e247ac578e904e75022ccead60a42",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/ri_server.h",
+      "vendor_sha256": "54d440bbf561f50f0de2fb458c1044b8078e247ac578e904e75022ccead60a42",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/sofunc_pvr.h",
+      "sha256": "31dbd7c2dc5bf4949b85c7a9e8cbe4e8228d54430a7cc48157b223804dc9a51c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/sofunc_pvr.h",
+      "vendor_sha256": "31dbd7c2dc5bf4949b85c7a9e8cbe4e8228d54430a7cc48157b223804dc9a51c",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/sofunc_rgx.h",
+      "sha256": "3bd941ff09f7e7ac0f2c40046b6270ca8ef5548935c925e56280e626fa4bf561",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/sofunc_rgx.h",
+      "vendor_sha256": "3bd941ff09f7e7ac0f2c40046b6270ca8ef5548935c925e56280e626fa4bf561",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/srvcore.h",
+      "sha256": "7d704282d666a125006662ab72621333990d57628b4ff787d869a9e1e0ad5ce3",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/srvcore.h",
+      "vendor_sha256": "7d704282d666a125006662ab72621333990d57628b4ff787d869a9e1e0ad5ce3",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/srvinit.h",
+      "sha256": "f2f7bbf07634fd64c93255c68ca15252d30f27cf5f1f4130fde9a9f3245655b2",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/srvinit.h",
+      "vendor_sha256": "f2f7bbf07634fd64c93255c68ca15252d30f27cf5f1f4130fde9a9f3245655b2",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/srvkm.h",
+      "sha256": "3d4b00cab1580013ca9a6e42bf597ffd06994fdfa659458ffc7f99ad04f93f55",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/srvkm.h",
+      "vendor_sha256": "3d4b00cab1580013ca9a6e42bf597ffd06994fdfa659458ffc7f99ad04f93f55",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/sync_checkpoint.h",
+      "sha256": "0486b60128b7304547f983f74557baa004b20d38c18945c40e42ddd9778d1c93",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/sync_checkpoint.h",
+      "vendor_sha256": "0486b60128b7304547f983f74557baa004b20d38c18945c40e42ddd9778d1c93",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/sync_checkpoint_init.h",
+      "sha256": "e824f7ea086347577b037af01ab5c4a107bdfe3047733998de78f8b436fc04eb",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/sync_checkpoint_init.h",
+      "vendor_sha256": "e824f7ea086347577b037af01ab5c4a107bdfe3047733998de78f8b436fc04eb",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/sync_fallback_server.h",
+      "sha256": "499f608a72346d29f30beaefd724b8294d3684f266486af2fb2477481dcbb3d8",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/sync_fallback_server.h",
+      "vendor_sha256": "499f608a72346d29f30beaefd724b8294d3684f266486af2fb2477481dcbb3d8",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/sync_server.h",
+      "sha256": "522688cd07f833943fe873847b0d987df6730099b29ba1bbcd3080fe67c4ee79",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/sync_server.h",
+      "vendor_sha256": "522688cd07f833943fe873847b0d987df6730099b29ba1bbcd3080fe67c4ee79",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/tlintern.h",
+      "sha256": "79481330a7d9a6874ce5b786cd143f9e1e2b4eac4ef9694eb79a8a56edec68a0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/tlintern.h",
+      "vendor_sha256": "79481330a7d9a6874ce5b786cd143f9e1e2b4eac4ef9694eb79a8a56edec68a0",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/tlserver.h",
+      "sha256": "beefed2005d10ecb8d7d9296419e50da67f0942e7e55c044d0f152e3c1d7f4b7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/tlserver.h",
+      "vendor_sha256": "beefed2005d10ecb8d7d9296419e50da67f0942e7e55c044d0f152e3c1d7f4b7",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/tlstream.h",
+      "sha256": "82e4b88fa587993a77a85ae57abdf192cc9ba1c2939449f9461c7d275f385f59",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/tlstream.h",
+      "vendor_sha256": "82e4b88fa587993a77a85ae57abdf192cc9ba1c2939449f9461c7d275f385f59",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/vmm_impl.h",
+      "sha256": "f59bf8e26df201c497b14d3cbf74cf0f662d6d289132496aa6c40c0b8d149e03",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/vmm_impl.h",
+      "vendor_sha256": "f59bf8e26df201c497b14d3cbf74cf0f662d6d289132496aa6c40c0b8d149e03",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/vmm_pvz_client.h",
+      "sha256": "b8639ff1d49cbf69933564cafb414c76a6861368930ea1ceb6afe83c291148f9",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/vmm_pvz_client.h",
+      "vendor_sha256": "b8639ff1d49cbf69933564cafb414c76a6861368930ea1ceb6afe83c291148f9",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/vmm_pvz_common.h",
+      "sha256": "617f1941884e24c12c17258ba43079ab609e3196b333af9bc0c01d80739397b1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/vmm_pvz_common.h",
+      "vendor_sha256": "617f1941884e24c12c17258ba43079ab609e3196b333af9bc0c01d80739397b1",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/vmm_pvz_server.h",
+      "sha256": "07bc7e8168947cd275a95c5dfd496606bae8c8e2f073e223cd97b7e9046c46b1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/vmm_pvz_server.h",
+      "vendor_sha256": "07bc7e8168947cd275a95c5dfd496606bae8c8e2f073e223cd97b7e9046c46b1",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/vz_vm.h",
+      "sha256": "84952f464d785c4826344049f871f8e111ce7b6afca64f6a6547e3bee59ccebb",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/vz_vm.h",
+      "vendor_sha256": "84952f464d785c4826344049f871f8e111ce7b6afca64f6a6547e3bee59ccebb",
+      "modified": false
+    },
+    {
+      "path": "services/server/include/vz_vmm_pvz.h",
+      "sha256": "ece04dc3a4111ec76f982f1d3664f24829fb3885f79465e9bb5ec5a45b8b89ce",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/server/include/vz_vmm_pvz.h",
+      "vendor_sha256": "ece04dc3a4111ec76f982f1d3664f24829fb3885f79465e9bb5ec5a45b8b89ce",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/devicemem.c",
+      "sha256": "7d525e48bb1d431c2d58ba7e2652dfb8c11c5bc5dd8ab327e1e7e197ca9f9f4a",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/devicemem.c",
+      "vendor_sha256": "7d525e48bb1d431c2d58ba7e2652dfb8c11c5bc5dd8ab327e1e7e197ca9f9f4a",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/devicemem_utils.c",
+      "sha256": "5f598653fb3c41d9b514aa8010b8da557d50977f9f50186177540623e2a23bf4",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/devicemem_utils.c",
+      "vendor_sha256": "5f598653fb3c41d9b514aa8010b8da557d50977f9f50186177540623e2a23bf4",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/hash.c",
+      "sha256": "876db5a6813f48b97cd8ca60b35f7516d778c1d85b3f97a3138b461cafb59093",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/hash.c",
+      "vendor_sha256": "876db5a6813f48b97cd8ca60b35f7516d778c1d85b3f97a3138b461cafb59093",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/htbuffer.c",
+      "sha256": "626a246b9f744bd48edb0d7e85395e37a6c5ecf4a8b9bcc4e7627d54396e961e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/htbuffer.c",
+      "vendor_sha256": "9b44ede2f8a3831dbd563d9dbb319b4ab54c4874424fb679399ad6e0882011d7",
+      "modified": true
+    },
+    {
+      "path": "services/shared/common/mem_utils.c",
+      "sha256": "0b6331c3ca3a25197ccccd680fcba55f422c472ffe0299038232a65b19e6a070",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/mem_utils.c",
+      "vendor_sha256": "0b6331c3ca3a25197ccccd680fcba55f422c472ffe0299038232a65b19e6a070",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/pvrsrv_error.c",
+      "sha256": "80c16484f37208cea8a9702b955a7dbea8357335e498a2c23bee4f7ed1fb2c00",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/pvrsrv_error.c",
+      "vendor_sha256": "80c16484f37208cea8a9702b955a7dbea8357335e498a2c23bee4f7ed1fb2c00",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/ra.c",
+      "sha256": "ae68233fa6b3321f231919ef0b483260083e26d39f6c4ac771d6262c780e6149",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/ra.c",
+      "vendor_sha256": "ae68233fa6b3321f231919ef0b483260083e26d39f6c4ac771d6262c780e6149",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/sync.c",
+      "sha256": "da1bcea15d5f87d2e2d29b830307ecf92d5f97ac650d1f8cd97cf09f198e21f1",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/sync.c",
+      "vendor_sha256": "da1bcea15d5f87d2e2d29b830307ecf92d5f97ac650d1f8cd97cf09f198e21f1",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/tlclient.c",
+      "sha256": "f404c5cdb24d0b1f5e4c3e0c5878140016a4f9d915329faf0e0a199f960caf20",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/tlclient.c",
+      "vendor_sha256": "f404c5cdb24d0b1f5e4c3e0c5878140016a4f9d915329faf0e0a199f960caf20",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/uniq_key_splay_tree.c",
+      "sha256": "bbe40e1aa8eb0bd23df34919f2c0611becfab5b4fb80bb245d732060cfa15289",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/uniq_key_splay_tree.c",
+      "vendor_sha256": "bbe40e1aa8eb0bd23df34919f2c0611becfab5b4fb80bb245d732060cfa15289",
+      "modified": false
+    },
+    {
+      "path": "services/shared/common/uniq_key_splay_tree.h",
+      "sha256": "ad04532ab7723bd10a81bfd13739871617f4a3858e9e28677f0caded1d7f5bec",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/common/uniq_key_splay_tree.h",
+      "vendor_sha256": "ad04532ab7723bd10a81bfd13739871617f4a3858e9e28677f0caded1d7f5bec",
+      "modified": false
+    },
+    {
+      "path": "services/shared/devices/rogue/rgx_hwperf_table.c",
+      "sha256": "061f2271e283d3b1233bd9c37b5f87d1173fb19efe28204e655cc8831dcedf31",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/devices/rogue/rgx_hwperf_table.c",
+      "vendor_sha256": "061f2271e283d3b1233bd9c37b5f87d1173fb19efe28204e655cc8831dcedf31",
+      "modified": false
+    },
+    {
+      "path": "services/shared/devices/rogue/rgx_hwperf_table.h",
+      "sha256": "bea0ec6960cf22b0e9a3bdf12f4a651c9eea088af431f7d613612d41937a62bb",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/devices/rogue/rgx_hwperf_table.h",
+      "vendor_sha256": "bea0ec6960cf22b0e9a3bdf12f4a651c9eea088af431f7d613612d41937a62bb",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/allocmem.h",
+      "sha256": "12279970ec8e0872929950c79be4c9a7a837de2587c61f4816f684058ec9c6ea",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/allocmem.h",
+      "vendor_sha256": "12279970ec8e0872929950c79be4c9a7a837de2587c61f4816f684058ec9c6ea",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/device_connection.h",
+      "sha256": "b88afad5d01b52c0a259523f68199ce1a1f4800f19827f19abdb306f1d82b74d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/device_connection.h",
+      "vendor_sha256": "b88afad5d01b52c0a259523f68199ce1a1f4800f19827f19abdb306f1d82b74d",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/devicemem.h",
+      "sha256": "7304debafbf0b5d7012151f01dd984dc7b06b6d2d16dcff4452d188dfafd92e0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/devicemem.h",
+      "vendor_sha256": "7304debafbf0b5d7012151f01dd984dc7b06b6d2d16dcff4452d188dfafd92e0",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/devicemem_pdump.h",
+      "sha256": "54b686c67cde81d9b11f60348e3b0d2bbb1c52787ec54dcc0dc2c6b7c66a1c87",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/devicemem_pdump.h",
+      "vendor_sha256": "54b686c67cde81d9b11f60348e3b0d2bbb1c52787ec54dcc0dc2c6b7c66a1c87",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/devicemem_utils.h",
+      "sha256": "00e6030e9c956e7ab9da43496f777ce7306ed83e26546ed428eddedb503ebd8e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/devicemem_utils.h",
+      "vendor_sha256": "00e6030e9c956e7ab9da43496f777ce7306ed83e26546ed428eddedb503ebd8e",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/hash.h",
+      "sha256": "fb87b5b1dcaf54e5ce2da084099bf6e132996f90a6587734925598f451c61a14",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/hash.h",
+      "vendor_sha256": "fb87b5b1dcaf54e5ce2da084099bf6e132996f90a6587734925598f451c61a14",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/htbuffer.h",
+      "sha256": "f8ab1ead4e5b15bab3f07e196d908ba57cb6b5a6eae9b5e68b902f6a20f53508",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/htbuffer.h",
+      "vendor_sha256": "f8ab1ead4e5b15bab3f07e196d908ba57cb6b5a6eae9b5e68b902f6a20f53508",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/htbuffer_init.h",
+      "sha256": "dedf078b0d6f951b722633f95bf3e2d0e5fe9f51b50c85e82706e292445117f6",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/htbuffer_init.h",
+      "vendor_sha256": "dedf078b0d6f951b722633f95bf3e2d0e5fe9f51b50c85e82706e292445117f6",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/lock.h",
+      "sha256": "46102a901024280fbf0bc77f0433eb0a95af3f403307efb24d347609a5ec2109",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/lock.h",
+      "vendor_sha256": "46102a901024280fbf0bc77f0433eb0a95af3f403307efb24d347609a5ec2109",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/osmmap.h",
+      "sha256": "92afe2ce0805bf71f27e941a8568128c9bb7e917967a53d75f0fddc47db7d544",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/osmmap.h",
+      "vendor_sha256": "92afe2ce0805bf71f27e941a8568128c9bb7e917967a53d75f0fddc47db7d544",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/proc_stats.h",
+      "sha256": "459a5b449df78926f3655a379895dbdc532bc9d9f1cec1ba92264370e4151939",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/proc_stats.h",
+      "vendor_sha256": "459a5b449df78926f3655a379895dbdc532bc9d9f1cec1ba92264370e4151939",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/ra.h",
+      "sha256": "c1cc4e0f5ba38ea033d1af3b04059f5aa11123b8d520db1ba881b078f555eed5",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/ra.h",
+      "vendor_sha256": "c1cc4e0f5ba38ea033d1af3b04059f5aa11123b8d520db1ba881b078f555eed5",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/sync.h",
+      "sha256": "ba06e95bc08bc07dbc9777b8bcd10859571765f40b393b4b966ec94d5ca788ff",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/sync.h",
+      "vendor_sha256": "ba06e95bc08bc07dbc9777b8bcd10859571765f40b393b4b966ec94d5ca788ff",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/sync_internal.h",
+      "sha256": "5ad0dff114deab7d89f6465368121624109838c7ff409a6a30c3a72c7576ab6d",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/sync_internal.h",
+      "vendor_sha256": "5ad0dff114deab7d89f6465368121624109838c7ff409a6a30c3a72c7576ab6d",
+      "modified": false
+    },
+    {
+      "path": "services/shared/include/tlclient.h",
+      "sha256": "9e00ec2970d8798b8c902eb729bbcd3175aa7186579302ca398cc9ee8db54a5c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/shared/include/tlclient.h",
+      "vendor_sha256": "9e00ec2970d8798b8c902eb729bbcd3175aa7186579302ca398cc9ee8db54a5c",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/common/env/linux/dma_support.c",
+      "sha256": "5caf17d9d3700675150101f805946c1e045b43cc894d6aba5ccb83ee853397b7",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/common/env/linux/dma_support.c",
+      "vendor_sha256": "5caf17d9d3700675150101f805946c1e045b43cc894d6aba5ccb83ee853397b7",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/common/env/linux/interrupt_support.c",
+      "sha256": "08322787fcfa8c4729ffb28d4cedb601c25fdf1e766c61bd4f745cf46041bd4b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/common/env/linux/interrupt_support.c",
+      "vendor_sha256": "08322787fcfa8c4729ffb28d4cedb601c25fdf1e766c61bd4f745cf46041bd4b",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/common/vmm_type_stub.c",
+      "sha256": "3e198483e1bb94f41ccf01bcd05954b0a98a0c3104d25aadf4c929c454ed3785",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/common/vmm_type_stub.c",
+      "vendor_sha256": "3e198483e1bb94f41ccf01bcd05954b0a98a0c3104d25aadf4c929c454ed3785",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/include/dma_support.h",
+      "sha256": "a8d5f531554b3a61e772d47b6afd9861dc976eaa199d3dbce6977aaaffd1f262",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/include/dma_support.h",
+      "vendor_sha256": "a8d5f531554b3a61e772d47b6afd9861dc976eaa199d3dbce6977aaaffd1f262",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/include/interrupt_support.h",
+      "sha256": "f4d7c997091c175aa9f8e45047280ee2c0465abad96a5ac2fb22d94d1d2cb20b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/include/interrupt_support.h",
+      "vendor_sha256": "f4d7c997091c175aa9f8e45047280ee2c0465abad96a5ac2fb22d94d1d2cb20b",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/include/ion_support.h",
+      "sha256": "9b86cb1d528c673fb106440eb464fd559dca59400129349925b12011db956932",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/include/ion_support.h",
+      "vendor_sha256": "9b86cb1d528c673fb106440eb464fd559dca59400129349925b12011db956932",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/include/syscommon.h",
+      "sha256": "b54506bfa0fd6ff01e8a20449f1ffac7019ba82bc28f120e26ef1a7ccbbce31b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/include/syscommon.h",
+      "vendor_sha256": "b54506bfa0fd6ff01e8a20449f1ffac7019ba82bc28f120e26ef1a7ccbbce31b",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/include/sysvalidation.h",
+      "sha256": "ea7c3829036e5a4ecc4cc9214acfd8fc777c2a41c4c31ecc115bca21259febf0",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/include/sysvalidation.h",
+      "vendor_sha256": "ea7c3829036e5a4ecc4cc9214acfd8fc777c2a41c4c31ecc115bca21259febf0",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/ion_support.c",
+      "sha256": "cb18976caf348cdeacd35b15981d41da4737089d387b636e2099c9ed90af0d6c",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/ion_support.c",
+      "vendor_sha256": "cb18976caf348cdeacd35b15981d41da4737089d387b636e2099c9ed90af0d6c",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/mt6765/mtk_mfgsys.c",
+      "sha256": "098f3352a5260ba75bde5898fec25c27234cbbf4b69f627604c343af3015b616",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/mt6765/mtk_mfgsys.c",
+      "vendor_sha256": "6a1dbfe4b33d500c12f44dd2e70658e6ebb580474864aed305aea703b0dcc19b",
+      "modified": true,
+      "notice_review": "Original MediaTek copyright restored in trailing comment; preceding source bytes unchanged."
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/mt6765/mtk_mfgsys.h",
+      "sha256": "fd48f960c614dbd3449a848c00ebc5cb5cce19e06a425a74d231a1f762766622",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/mt6765/mtk_mfgsys.h",
+      "vendor_sha256": "fd48f960c614dbd3449a848c00ebc5cb5cce19e06a425a74d231a1f762766622",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/mtk_ion_support.h",
+      "sha256": "a917b674c13a8d6e65f389a6eaeff9ad11fc7d27052dfe53ecf0ec061d08a788",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/mtk_ion_support.h",
+      "vendor_sha256": "a917b674c13a8d6e65f389a6eaeff9ad11fc7d27052dfe53ecf0ec061d08a788",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/mtk_pp.c",
+      "sha256": "6bbc2a277b86fba5e550e75a01c6d48d00fde31793c278430f99db51ee082f5b",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/mtk_pp.c",
+      "vendor_sha256": "5ebfd0b3e77f8f51ad2888e280c4fad9eeaaf5717e655d5bcc7655fe18d79f43",
+      "modified": true
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/sysconfig.c",
+      "sha256": "7e9efb4f6355829778ee2a865787f4708df4eb2d18b58b0e845644eed9ed9a70",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/sysconfig.c",
+      "vendor_sha256": "c62cf9850a56383d3cba60f1a55b5135d5c1b2cfd30e58008d646764b3848267",
+      "modified": true
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/sysconfig.h",
+      "sha256": "8adbed7efaaa2fec8e19e3ca45de17f8fe3c0b41406ac21a14bbec0358b68831",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/sysconfig.h",
+      "vendor_sha256": "8adbed7efaaa2fec8e19e3ca45de17f8fe3c0b41406ac21a14bbec0358b68831",
+      "modified": false
+    },
+    {
+      "path": "services/system/rogue/rgx_mtk/sysinfo.h",
+      "sha256": "72acc450c2595a93329de2823885ecce545d8d2e0f9e00a17c6296095826676e",
+      "vendor_path": "drivers/gpu/mediatek/gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/sysinfo.h",
+      "vendor_sha256": "72acc450c2595a93329de2823885ecce545d8d2e0f9e00a17c6296095826676e",
+      "modified": false
+    },
+    {
+      "path": "vendor-headers/ged_dvfs.h",
+      "sha256": "b7ad3a888810ebbde507e79c9bb1cd8c4d6d84a6f41e930ee9087a55db0828bf",
+      "vendor_path": "drivers/gpu/mediatek/ged/include/ged_dvfs.h",
+      "vendor_sha256": "b7ad3a888810ebbde507e79c9bb1cd8c4d6d84a6f41e930ee9087a55db0828bf",
+      "modified": false
+    },
+    {
+      "path": "vendor-headers/ged_type.h",
+      "sha256": "071dbfd74dcf55aa0312e6a25f171bd446d726f19d1670cf5680ace085cdb236",
+      "vendor_path": "drivers/gpu/mediatek/ged/include/ged_type.h",
+      "vendor_sha256": "071dbfd74dcf55aa0312e6a25f171bd446d726f19d1670cf5680ace085cdb236",
+      "modified": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "origin": "Host-only emulation of owner-extracted codec library; original research documented before release audit",
+  "data_categories": [
+    "Image geometry",
+    "Work-buffer allocation sizes",
+    "Hardware register writes and control settings",
+    "H.264 SPS/PPS syntax"
+  ],
+  "separate_excluded_firmware": "r1-venc-rc.bin",
+  "header_review": [
+    {
+      "mode": "320x240",
+      "nal_payloads_byte_identical": true,
+      "all_payload_bits_accounted_for": true,
+      "parameter_sets": 2,
+      "unexplained_payload_bytes": 0
+    },
+    {
+      "mode": "640x480",
+      "nal_payloads_byte_identical": true,
+      "all_payload_bits_accounted_for": true,
+      "parameter_sets": 2,
+      "unexplained_payload_bytes": 0
+    },
+    {
+      "mode": "1280x720",
+      "nal_payloads_byte_identical": true,
+      "all_payload_bits_accounted_for": true,
+      "parameter_sets": 2,
+      "unexplained_payload_bytes": 0
+    },
+    {
+      "mode": "1920x1080",
+      "nal_payloads_byte_identical": true,
+      "all_payload_bits_accounted_for": true,
+      "parameter_sets": 2,
+      "unexplained_payload_bytes": 0
+    }
+  ],
+  "disposition": "Included as recovered functional hardware configuration and standard stream syntax; vendor executable library and rate-control firmware excluded.",
+  "limits": [
+    "Does not bundle or authorize vendor library or rate-control firmware",
+    "Header review is static and does not execute hardware",
+    "Functional-data classification is distinct from copied implementation licensing"
+  ],
+  "mode_data_sha256": "c73a15dd1c862c52f6fb3a522d544becb3046f572ad6ce7286d38fb70bb3306d",
+  "address_fields": "DMA address writes omitted by original generator; runtime driver supplies owned DMA allocations"
+}

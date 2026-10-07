@@ -1,0 +1,537 @@
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Device Tree for rabbit r1 (MediaTek MT6765 Helio P35)
+ *
+ * Board facts from vendor r1_defconfig / DTS / ROM:
+ *   - 4x A53 2.3 GHz + 4x A53 1.8 GHz
+ *   - 4 GiB DRAM @ 0x40000000
+ *   - eMMC only (no MicroSD)
+ *   - USB-C, UART0 earlycon
+ *   - Panel: 480x640, vendor LCM named ili9883_boe; active init is ST7701-like
+ *   - Touch: Hynitron @ i2c4 0x15
+ *   - Amp: AW87390FCR @ i2c0 0x58
+ *   - Mag: OCH1970 @ i2c6 0x0d
+ *
+ * Base: TheKnightSky linux-mt6765 (mt6765-devel) + Nokia ROO / dandelion patterns.
+ */
+
+/dts-v1/;
+
+#include <dt-bindings/gpio/gpio.h>
+#include <dt-bindings/iio/adc/mediatek,mt6370_adc.h>
+#include <dt-bindings/input/input.h>
+#include <dt-bindings/leds/common.h>
+#include <dt-bindings/pinctrl/mediatek,mt6765-pinfunc.h>
+#include <dt-bindings/power/mediatek,mt6765-power.h>
+
+#include "mt6765.dtsi"
+#include "mt6357.dtsi"
+
+/ {
+	chassis-type = "handset";
+	compatible = "rabbit,r1", "mediatek,mt6765";
+	model = "rabbit r1";
+
+	aliases {
+		mmc0 = &mmc0;
+		serial0 = &uart0;
+	};
+
+	/* Stock overlay: mediatek,vibrator + regulator-vibrator on MT6357 VIBR.
+	 * vib_vol 0x09 is 2.8 V. Mainline consumer is regulator-haptic. */
+	haptics {
+		compatible = "regulator-haptic";
+		haptic-supply = <&mt6357_vibr_reg>;
+		min-microvolt = <2300000>;
+		max-microvolt = <3200000>;
+	};
+
+	chosen {
+		#address-cells = <2>;
+		#size-cells = <2>;
+		ranges;
+		stdout-path = "serial0:921600n8";
+		bootargs = "earlycon=mtk8250,mmio32,0x11002000 console=ttyS0,921600n8 clk_ignore_unused nowatchdog maxcpus=1";
+
+		/* Off until stay-up: wrong PA oopses; LK already owns scanout. */
+		framebuffer0: framebuffer@7efe0000 {
+			compatible = "simple-framebuffer";
+			memory-region = <&framebuffer_reserved>;
+			width = <480>;
+			height = <640>;
+			stride = <(480 * 4)>;
+			format = "a8b8g8r8";
+			status = "disabled";
+		};
+	};
+
+	/* Nameless /memory so LK fdt_path_offset("/memory") can rewrite it.
+	 * First 2 GiB bank only (covers live FB). Do not claim the high bank. */
+	memory {
+		device_type = "memory";
+		reg = <0 0x40000000 0 0x80000000>;
+	};
+
+	reserved-memory {
+		#address-cells = <2>;
+		#size-cells = <2>;
+		ranges;
+
+		framebuffer_reserved: framebuffer@7efe0000 {
+			reg = <0 0x7efe0000 0 0x420000>;
+			no-map;
+		};
+
+		/* LK looks these names up (stock boot DTB). */
+		reserve-memory-sspm_share {
+			compatible = "mediatek,reserve-memory-sspm_share";
+			no-map;
+			size = <0 0x510000>;
+			alignment = <0 0x10000>;
+			alloc-ranges = <0 0x40000000 0 0x80000000>;
+		};
+
+		reserve-memory-scp_share {
+			compatible = "mediatek,reserve-memory-scp_share";
+			no-map;
+			size = <0 0x300000>;
+			alignment = <0 0x1000000>;
+			alloc-ranges = <0 0x40000000 0 0x80000000>;
+		};
+
+		consys-reserve-memory {
+			compatible = "mediatek,consys-reserve-memory";
+			no-map;
+			size = <0 0x400000>;
+			alignment = <0 0x1000000>;
+			alloc-ranges = <0 0x40000000 0 0x80000000>;
+		};
+
+		wifi-reserve-memory {
+			compatible = "shared-dma-pool";
+			no-map;
+			size = <0 0x300000>;
+			alignment = <0 0x1000000>;
+			alloc-ranges = <0 0x40000000 0 0x80000000>;
+		};
+
+		ssmr-reserved-cma_memory {
+			compatible = "shared-dma-pool";
+			reusable;
+			size = <0 0x10000000>;
+			alignment = <0 0x1000000>;
+			alloc-ranges = <0 0xc0000000 0 0x10000000>;
+		};
+
+		/* Buchanan LK mblock carves in the first bank. */
+		tee-secmem@7f400000 {
+			reg = <0 0x7f400000 0 0x200000>;
+			no-map;
+		};
+
+		sspm@7f700000 {
+			reg = <0 0x7f700000 0 0xc0000>;
+			no-map;
+		};
+
+		gz@7f800000 {
+			reg = <0 0x7f800000 0 0x800000>;
+			no-map;
+		};
+	};
+
+	/* LK contract stub only. 7.1 CONFIG_MTK_SCP does not match this compatible. */
+	scp@10500000 {
+		compatible = "mediatek,scp";
+	};
+
+	/* Path only — no 0xdead phandle (that fights pio@10005000). */
+	gpio@10005000 {
+	};
+
+	/* Stock dtbo fragment@1 targets &odm. Missing label → LK can die before Linux. */
+	odm: odm {
+		compatible = "simple-bus";
+		#address-cells = <1>;
+		#size-cells = <1>;
+		ranges;
+	};
+};
+
+&cpu0 {
+	clock-frequency = <2300000000>;
+	proc-supply = <&mt6357_vproc_reg>;
+	sram-supply = <&mt6357_vsram_proc_reg>;
+};
+
+&cpu1 {
+	clock-frequency = <2300000000>;
+	proc-supply = <&mt6357_vproc_reg>;
+	sram-supply = <&mt6357_vsram_proc_reg>;
+};
+
+&cpu2 {
+	clock-frequency = <2300000000>;
+	proc-supply = <&mt6357_vproc_reg>;
+	sram-supply = <&mt6357_vsram_proc_reg>;
+};
+
+&cpu3 {
+	clock-frequency = <2300000000>;
+	proc-supply = <&mt6357_vproc_reg>;
+	sram-supply = <&mt6357_vsram_proc_reg>;
+};
+
+/* Nokia ROO / ALPS10: cluster1 power-up can hang. Do not rely on maxcpus=4. */
+&cpu4 {
+	status = "disabled";
+};
+
+&cpu5 {
+	status = "disabled";
+};
+
+&cpu6 {
+	status = "disabled";
+};
+
+&cpu7 {
+	status = "disabled";
+};
+
+&mt6357_pmic {
+	interrupt-controller;
+	interrupt-parent = <&pio>;
+	interrupts = <144 IRQ_TYPE_LEVEL_HIGH>;
+	#interrupt-cells = <2>;
+};
+
+&mt6357_vdram_reg {
+	regulator-always-on;
+};
+
+&pwrap {
+	status = "okay";
+};
+
+&watchdog {
+	/* Must stay okay: LK leaves TOPRGU armed. If the driver does not
+	 * bind, HANDLE_BOOT_ENABLED cannot pet it and we bootloop (~31s). */
+	status = "okay";
+	#reset-cells = <1>;
+};
+
+&mt6357_keys {
+	/* Preserve stock hardware long-press reset configuration.
+	 * Debian uses a click only to blank/wake the display. */
+	mediatek,long-press-mode = <1>;
+	power-off-time-sec = <0>;
+};
+
+&mmc0 {
+	status = "disabled";
+
+	pinctrl-names = "default", "state_uhs";
+	pinctrl-0 = <&mmc0_pins_default>;
+	pinctrl-1 = <&mmc0_pins_uhs>;
+
+	max-frequency = <200000000>;
+	non-removable;
+	vmmc-supply = <&mt6357_vemc_reg>;
+	vqmmc-supply = <&mt6357_vio18_reg>;
+	hs400-ds-delay = <0x12814>;
+};
+
+&uart0 {
+	status = "okay";
+
+	pinctrl-0 = <&uart0_pins>;
+	pinctrl-names = "default";
+};
+
+/* Off this flash: musb/phy probe can hang with no UART. Re-enable after stay-up. */
+&usb2 {
+	status = "disabled";
+};
+
+&u2phy {
+	status = "disabled";
+};
+
+&u2port {
+	phy-supply = <&mt6357_vusb33_reg>;
+};
+
+/* Leave LK DSI running. Do not probe DRM/IOMMU/CMDQ on first stay-up. */
+&iommu { status = "disabled"; };
+&gce { status = "disabled"; };
+&mmsys { status = "disabled"; };
+&disp_mutex { status = "disabled"; };
+&smi_common { status = "disabled"; };
+&smi_larb0 { status = "disabled"; };
+&smi_larb1 { status = "disabled"; };
+&smi_larb2 { status = "disabled"; };
+&smi_larb3 { status = "disabled"; };
+&ovl0 { status = "disabled"; };
+&ovl_2l0 { status = "disabled"; };
+&rdma0 { status = "disabled"; };
+&wdma0 { status = "disabled"; };
+&color0 { status = "disabled"; };
+&ccorr0 { status = "disabled"; };
+&aal0 { status = "disabled"; };
+&gamma0 { status = "disabled"; };
+&dither0 { status = "disabled"; };
+&dsi { status = "disabled"; };
+&dsi_phy { status = "disabled"; };
+
+/* Speaker amp AW87390FCR — bus off until 7.1 stays up */
+&i2c0 {
+	status = "disabled";
+	clock-frequency = <400000>;
+	pinctrl-0 = <&i2c0_pins>;
+	pinctrl-names = "default";
+
+	/* DS_AW87390 V1.3: 7-bit addr 0x58 when AD1=AD2=0; VDD 3.0–5.5 V; 1.8 V I2C */
+	aw87390: audio-amplifier@58 {
+		compatible = "awinic,aw87390";
+		reg = <0x58>;
+		#sound-dai-cells = <0>;
+		awinic,audio-channel = <0>;
+		status = "disabled";
+	};
+};
+
+/* Hynitron touch (CST836 / CST328 family @ 0x15).
+ * Flashed image uses stock DTB (patch-stock-dtb-r1fb.py). This node is
+ * for a 7.1 DTB pack. Do not bind cst816s — wrong protocol / 240×240.
+ * Userspace mamal polls 0x15 on /dev/i2c-4. */
+&i2c4 {
+	status = "okay";
+	clock-frequency = <400000>;
+	/* pinctrl probe is -22 on this unit; LK already muxed SCL4/SDA4. */
+
+	touchscreen@15 {
+		compatible = "hynitron,hyn_ts";
+		reg = <0x15>;
+		reset-gpios = <&pio 174 GPIO_ACTIVE_LOW>;
+		interrupt-parent = <&pio>;
+		interrupts = <0 IRQ_TYPE_EDGE_FALLING>;
+		touchscreen-size-x = <480>;
+		touchscreen-size-y = <640>;
+		status = "disabled";
+	};
+};
+
+/* Sub-PMIC / charger family (MT6370-class @ 0x34) */
+&i2c5 {
+	status = "disabled";
+	clock-frequency = <400000>;
+	pinctrl-0 = <&i2c5_pins>;
+	pinctrl-names = "default";
+
+	pmic@34 {
+		compatible = "mediatek,mt6370";
+		reg = <0x34>;
+		/* Vendor: typec irq GPIO41; charger bc12_sel/mivr/cv/ieoc set in k65 overlay */
+		status = "disabled";
+	};
+};
+
+/* OCH1970 hall / side wheel. Flashed image uses stock DTB
+ * (patch-stock-dtb-r1fb.py). This node is for a 7.1 DTB pack. */
+&i2c6 {
+	status = "okay";
+	clock-frequency = <400000>;
+
+	magnetometer@d {
+		compatible = "orientchip,och1970", "och1970";
+		reg = <0x0d>;
+		reset-gpios = <&pio 173 GPIO_ACTIVE_HIGH>;
+		status = "okay";
+	};
+
+	/*
+	 * AW37004DNR DS: I2C 400 kHz; VIN1 0.6–2 V, VIN2 3–5.5 V;
+	 * DVDD 0.6–1.8 V / ≥1 A; AVDD 1.2–4.3 V / ≥300 mA.
+	 * init-microvolt from official overlay (camera analog 2.8 V / digital 1.2 V).
+	 */
+	aw37004: regulator@28 {
+		compatible = "awinic,aw37004";
+		reg = <0x28>;
+		status = "disabled";
+
+		aw37004_dvdd1: dvdd1 {
+			regulator-name = "aw37004-dvdd1";
+			regulator-min-microvolt = <600000>;
+			regulator-max-microvolt = <1800000>;
+			regulator-init-microvolt = <1200000>;
+		};
+
+		aw37004_dvdd2: dvdd2 {
+			regulator-name = "aw37004-dvdd2";
+			regulator-min-microvolt = <600000>;
+			regulator-max-microvolt = <1800000>;
+			regulator-init-microvolt = <1200000>;
+		};
+
+		aw37004_avdd1: avdd1 {
+			regulator-name = "aw37004-avdd1";
+			regulator-min-microvolt = <1200000>;
+			regulator-max-microvolt = <4300000>;
+			regulator-init-microvolt = <2800000>;
+		};
+
+		aw37004_avdd2: avdd2 {
+			regulator-name = "aw37004-avdd2";
+			regulator-min-microvolt = <1200000>;
+			regulator-max-microvolt = <4300000>;
+			regulator-init-microvolt = <2800000>;
+		};
+	};
+};
+
+/* HI846 (YACG4D0C9SHC) — official camera_main @ 0x1a; DS default 7-bit 0x20 if ID pads low */
+&i2c2 {
+	status = "disabled";
+	clock-frequency = <400000>;
+	pinctrl-0 = <&i2c2_pins>;
+	pinctrl-names = "default";
+
+	/* DS: VDDA 2.8 V, VDDD 1.2 V, VDDIO 1.8/2.8 V; 3264x2448; MIPI 2/4-lane */
+	hi846: camera@1a {
+		compatible = "hynix,hi846";
+		reg = <0x1a>;
+		vddd-supply = <&aw37004_dvdd1>;
+		vdda-supply = <&aw37004_avdd1>;
+		vddio-supply = <&aw37004_avdd2>;
+		status = "disabled";
+	};
+};
+
+/*
+ * Camera stepper MS35774 (official overlay).
+ * Pins from k65v1_64_bsp.dts — no mainline driver; documented for later gpio/pinctrl.
+ *   VM=163 ENN=166 DIR=167 STEP=168 PDN=164 MS1=171 MS2=170
+ */
+
+&pio {
+	i2c0_pins: i2c0-pins {
+		pins-bus {
+			pinmux = <PINMUX_GPIO83__FUNC_SCL0>,
+				 <PINMUX_GPIO82__FUNC_SDA0>;
+			bias-disable;
+		};
+	};
+
+	i2c2_pins: i2c2-pins {
+		pins-bus {
+			pinmux = <PINMUX_GPIO103__FUNC_SCL2>,
+				 <PINMUX_GPIO104__FUNC_SDA2>;
+			bias-disable;
+		};
+	};
+
+	i2c4_pins: i2c4-pins {
+		pins-bus {
+			pinmux = <PINMUX_GPIO105__FUNC_SCL4>,
+				 <PINMUX_GPIO106__FUNC_SDA4>;
+			bias-disable;
+		};
+	};
+
+	i2c5_pins: i2c5-pins {
+		pins-bus {
+			pinmux = <PINMUX_GPIO48__FUNC_SCL5>,
+				 <PINMUX_GPIO49__FUNC_SDA5>;
+			bias-disable;
+		};
+	};
+
+	i2c6_pins: i2c6-pins {
+		pins-bus {
+			pinmux = <PINMUX_GPIO161__FUNC_SCL6>,
+				 <PINMUX_GPIO162__FUNC_SDA6>;
+			bias-disable;
+		};
+	};
+
+	mmc0_pins_default: mmc0-pins-default {
+		pins_cmd_dat {
+			pinmux = <PINMUX_GPIO129__FUNC_MSDC0_DAT0>,
+				 <PINMUX_GPIO127__FUNC_MSDC0_DAT1>,
+				 <PINMUX_GPIO126__FUNC_MSDC0_DAT2>,
+				 <PINMUX_GPIO132__FUNC_AUX1_MSDC0_DAT3>,
+				 <PINMUX_GPIO123__FUNC_MSDC0_DAT4>,
+				 <PINMUX_GPIO125__FUNC_MSDC0_DAT5>,
+				 <PINMUX_GPIO128__FUNC_MSDC0_DAT6>,
+				 <PINMUX_GPIO130__FUNC_AUX2_MSDC0_DAT7>,
+				 <PINMUX_GPIO122__FUNC_AUX2_MSDC0_CMD>;
+			input-enable;
+			drive-strength = <3>;
+			bias-pull-up = <MTK_PUPD_SET_R1R0_01>;
+		};
+
+		pins_clk {
+			pinmux = <PINMUX_GPIO124__FUNC_AUX2_MSDC0_CLK>;
+			drive-strength = <3>;
+			bias-pull-down = <MTK_PUPD_SET_R1R0_10>;
+		};
+
+		pins_rst {
+			pinmux = <PINMUX_GPIO133__FUNC_AUX2_MSDC0_RSTB>;
+			drive-strength = <3>;
+			bias-pull-down = <MTK_PUPD_SET_R1R0_01>;
+		};
+	};
+
+	mmc0_pins_uhs: mmc0-pins-uhs {
+		pins_cmd_dat {
+			pinmux = <PINMUX_GPIO129__FUNC_MSDC0_DAT0>,
+				 <PINMUX_GPIO127__FUNC_MSDC0_DAT1>,
+				 <PINMUX_GPIO126__FUNC_MSDC0_DAT2>,
+				 <PINMUX_GPIO132__FUNC_AUX1_MSDC0_DAT3>,
+				 <PINMUX_GPIO123__FUNC_MSDC0_DAT4>,
+				 <PINMUX_GPIO125__FUNC_MSDC0_DAT5>,
+				 <PINMUX_GPIO128__FUNC_MSDC0_DAT6>,
+				 <PINMUX_GPIO130__FUNC_AUX2_MSDC0_DAT7>,
+				 <PINMUX_GPIO122__FUNC_AUX2_MSDC0_CMD>;
+			input-enable;
+			drive-strength = <4>;
+			bias-pull-up = <MTK_PUPD_SET_R1R0_01>;
+		};
+
+		pins_clk {
+			pinmux = <PINMUX_GPIO124__FUNC_AUX2_MSDC0_CLK>;
+			drive-strength = <4>;
+			bias-pull-down = <MTK_PUPD_SET_R1R0_10>;
+		};
+
+		pins_ds {
+			pinmux = <PINMUX_GPIO131__FUNC_AUX2_MSDC0_DSL>;
+			drive-strength = <4>;
+			bias-pull-down = <MTK_PUPD_SET_R1R0_10>;
+		};
+
+		pins_rst {
+			pinmux = <PINMUX_GPIO133__FUNC_AUX2_MSDC0_RSTB>;
+			drive-strength = <3>;
+			bias-pull-down = <MTK_PUPD_SET_R1R0_01>;
+		};
+	};
+
+	uart0_pins: uart0-pins {
+		pins {
+			pinmux = <PINMUX_GPIO95__FUNC_URXD0>,
+				 <PINMUX_GPIO96__FUNC_UTXD0>;
+		};
+	};
+
+	/* Official CONSYS GPS LNA GPIO177 */
+	gpslna_pins: gpslna-pins {
+		pins {
+			pinmux = <PINMUX_GPIO177__FUNC_GPIO177>;
+			output-low;
+			bias-disable;
+		};
+	};
+};

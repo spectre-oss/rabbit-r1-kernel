@@ -1,0 +1,929 @@
+{
+  "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+  "scope": "Compiled source closure for three modem modules; no firmware or device data",
+  "files": [
+    {
+      "path": "Makefile",
+      "sha256": "c9973ec9ebdeec045e6dda74a9b8ac0a3eb10c471eeec84ae153847eb9efb245",
+      "origin": "local Linux 7.1 port source/build recipe",
+      "observed_license": "GPL-2.0-only"
+    },
+    {
+      "path": "ccci_util/ccci_private_log.c",
+      "sha256": "360bc685a7fbb185dc05d24f98d93d1a5e64b8cf508b685784a761650f726238",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_private_log.c",
+      "vendor_sha256": "f0b6612b1d41cc3a317f3a21f87b01e9ef5fbed1cabc9763c440ed22c16e0987",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_broadcast.c",
+      "sha256": "2299c6c1d551258bcc9cae92030ece760374421e268846dd8c0cc0bec127859f",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_broadcast.c",
+      "vendor_sha256": "06daca8f4e8d9b55b0c6bf1a62afb2e00dc5ec2e31eef690510abf437f5ab351",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_ld_md_errno.c",
+      "sha256": "ed5bd6b546e5f2d2414dfea09d29656408c6044c808bcd6074db3a27147419cb",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_ld_md_errno.c",
+      "vendor_sha256": "ed5bd6b546e5f2d2414dfea09d29656408c6044c808bcd6074db3a27147419cb",
+      "modified": false
+    },
+    {
+      "path": "ccci_util/ccci_util_lib_fo.c",
+      "sha256": "33eb533b7d3144c268b68934a4bde9b44c2b9a6956952644a39e39506ad8240b",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_lib_fo.c",
+      "vendor_sha256": "420e21279c890b4d797ba7797fc2816a7ff4b8844d4cc70c12e8de0a7ece57c6",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_lib_load_img.c",
+      "sha256": "797f38c4d85d517ac2716bad897bcabd7d46428b4ecd689fbc8a5419995e14a0",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_lib_load_img.c",
+      "vendor_sha256": "72bbb73203e48a95b5049db1769ee0b6b74d7f4c9385e7e03731a552f419ed4d",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_lib_main.c",
+      "sha256": "597ee4f18ee49f5f78e9361900c89a79183992d7013e9efb1a2032dccb129561",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_lib_main.c",
+      "vendor_sha256": "89f9dc2e13dec243267a83d70fbf45379081e849137582602799cafef4437d45",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_lib_main.h",
+      "sha256": "45c48677a392ec953e9b73055b617e6956ab04a47dfab390b4a21b6618075c2f",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_lib_main.h",
+      "vendor_sha256": "45c48677a392ec953e9b73055b617e6956ab04a47dfab390b4a21b6618075c2f",
+      "modified": false
+    },
+    {
+      "path": "ccci_util/ccci_util_lib_sys.c",
+      "sha256": "c0a8ef55316f85a36365f78f88e40267aa027651a4920ab2f9da2109ff0a0636",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_lib_sys.c",
+      "vendor_sha256": "545adf93529ee084ea46abffe81a2f280753852c8c7cb2771ba3d8fd50d2dede",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_lib_sys.h",
+      "sha256": "67da7d6268a9ebd54566ef8b25a287e4f9e1aee4b5f186cf4b52164e3b8c8c79",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_lib_sys.h",
+      "vendor_sha256": "67da7d6268a9ebd54566ef8b25a287e4f9e1aee4b5f186cf4b52164e3b8c8c79",
+      "modified": false
+    },
+    {
+      "path": "ccci_util/ccci_util_lib_time.c",
+      "sha256": "d0a6c886a772bd0f2b923431fb51a55b2191dc9366be4369b06f8a1acfae56c0",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_lib_time.c",
+      "vendor_sha256": "d0a6c886a772bd0f2b923431fb51a55b2191dc9366be4369b06f8a1acfae56c0",
+      "modified": false
+    },
+    {
+      "path": "ccci_util/ccci_util_log.h",
+      "sha256": "628769189f01dd110ff106b685c00c356af53c85e0d33566383694dd70e98283",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_log.h",
+      "vendor_sha256": "628769189f01dd110ff106b685c00c356af53c85e0d33566383694dd70e98283",
+      "modified": false
+    },
+    {
+      "path": "ccci_util/ccci_util_md_rat.c",
+      "sha256": "33bd40dfe6463bc59095df3b55a3d7aca08e6eb175ef5a38c7dfc6b6e9cabbef",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_md_rat.c",
+      "vendor_sha256": "33bd40dfe6463bc59095df3b55a3d7aca08e6eb175ef5a38c7dfc6b6e9cabbef",
+      "modified": false
+    },
+    {
+      "path": "ccci_util/ccci_util_pin_broadcast.c",
+      "sha256": "bc76aad797013b4d16e16c0eb41c09ec2671440c1c76985ccccbc0d2d65403f0",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_pin_broadcast.c",
+      "vendor_sha256": "9b945dd5a1ed48fa8c380561ad5fbfc7f4fcfb55b02a360ba3d9512c3b264542",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_sib.c",
+      "sha256": "de9dbe341bf83def39ef0336ddc1d9d5fa18db2f5982a3e92b73b2fc61da59bb",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_sib.c",
+      "vendor_sha256": "b055e13bcb860df39dba105e61ec3b4569d2bc6a2ce70c725000f242780cff59",
+      "modified": true
+    },
+    {
+      "path": "ccci_util/ccci_util_sib.h",
+      "sha256": "56079960267542b007424b35f07d065d042c7f1c499c5b8803c242a77505f5d5",
+      "vendor_path": "drivers/misc/mediatek/ccci_util/ccci_util_sib.h",
+      "vendor_sha256": "56079960267542b007424b35f07d065d042c7f1c499c5b8803c242a77505f5d5",
+      "modified": false
+    },
+    {
+      "path": "ccmni/ccmni.c",
+      "sha256": "1790f3671cba14f2000d442b5579cd504870d33738005fb62da137e18446619a",
+      "vendor_path": "drivers/misc/mediatek/ccmni/ccmni.c",
+      "vendor_sha256": "b37f237ef795ff40ec51a197d43fb95ac8864195d20b1c2761e99969b268a28b",
+      "modified": true
+    },
+    {
+      "path": "ccmni/ccmni.h",
+      "sha256": "dbac9ebb48d735c8787b93487d72156cc58a4f92346b461cd313ed1b234afd9a",
+      "vendor_path": "drivers/misc/mediatek/ccmni/ccmni.h",
+      "vendor_sha256": "072043ab620f709c4c53b53a4cb76020d19feefd0078b3bc32723fb631939d85",
+      "modified": true
+    },
+    {
+      "path": "eccci/ccci_auxadc.c",
+      "sha256": "2da4906f7e36ebe8a6ff332f8d6efffdc4f369086c4a3ec0ffbb148cb8cad923",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_auxadc.c",
+      "vendor_sha256": "d1c418aa661151f8468f7190245669cbb9a6cca635871583815ab606f7646108",
+      "modified": true
+    },
+    {
+      "path": "eccci/ccci_auxadc.h",
+      "sha256": "526c73a8d69e4ea1332ace2fd2f85e89d71d68013f6cdb6f372644e7b5df332a",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_auxadc.h",
+      "vendor_sha256": "526c73a8d69e4ea1332ace2fd2f85e89d71d68013f6cdb6f372644e7b5df332a",
+      "modified": false
+    },
+    {
+      "path": "eccci/ccci_bm.c",
+      "sha256": "cd04332738576c84e681177ee4039ac3d1bd2c6d9b4e314b197b5383de3a45e7",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_bm.c",
+      "vendor_sha256": "7877ebf6fefb10b98b8b7f4470e83c94a339629aaa36e548de7e7229679046fc",
+      "modified": true
+    },
+    {
+      "path": "eccci/ccci_common_config.h",
+      "sha256": "39abd3c81375cd4ffe3a4f3bff1eb0a71a825be7d0ee391d6b808251644d14a5",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_common_config.h",
+      "vendor_sha256": "39abd3c81375cd4ffe3a4f3bff1eb0a71a825be7d0ee391d6b808251644d14a5",
+      "modified": false
+    },
+    {
+      "path": "eccci/ccci_core.c",
+      "sha256": "ac2cc92db2e44d3a175e5456c43f788246ef740e44fb5481ff947f997f604581",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_core.c",
+      "vendor_sha256": "2e9922ed0ca01feb8aa07f6b3d2463d8209aeb4979350bf8dd7f3d28ac9cfd42",
+      "modified": true
+    },
+    {
+      "path": "eccci/ccci_ipc_msg_id.h",
+      "sha256": "bb59d05ae56cd6ace18cdec2684acad12606611472e0ef493cb5597c96f46252",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_ipc_msg_id.h",
+      "vendor_sha256": "bb59d05ae56cd6ace18cdec2684acad12606611472e0ef493cb5597c96f46252",
+      "modified": false
+    },
+    {
+      "path": "eccci/ccci_ipc_task_ID.h",
+      "sha256": "e2e0c227e5bc2600f9a46d64ce6980f564c245bdc095bfe706d215c4ba9ee17f",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_ipc_task_ID.h",
+      "vendor_sha256": "e2e0c227e5bc2600f9a46d64ce6980f564c245bdc095bfe706d215c4ba9ee17f",
+      "modified": false
+    },
+    {
+      "path": "eccci/ccci_md_clk.c",
+      "sha256": "6ebba2119c9746101f9e2eb07b2d417bd891792055e66ef82bd9d51aa11f0c69",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_md_clk.c",
+      "vendor_sha256": "81175d7d348a92b97fefbfe0f1782202384a81ff4dd9ff84767d81094645b5d7",
+      "modified": true
+    },
+    {
+      "path": "eccci/ccci_modem.c",
+      "sha256": "05802caa9a3b25f38ce3b574de3ce574528325ca2c0a5cc7027b89c5685c62c0",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_modem.c",
+      "vendor_sha256": "b7795c060f5066db1489008a2bd90345ca417f2c3953dc9614c631ff63f15d79",
+      "modified": true
+    },
+    {
+      "path": "eccci/ccci_rtc.c",
+      "sha256": "241a7eb14bdb9d766dcd8ef7a6952ad0d6a4ac787a1cb942a6ba15e29c4ac76e",
+      "vendor_path": "drivers/misc/mediatek/eccci/ccci_rtc.c",
+      "vendor_sha256": "006513ec098cd351b1b992d497902dc2d4b141e06d5e06cb7d2ef85e95ef9945",
+      "modified": true
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm.c",
+      "sha256": "8aac95215c7a6f10056e28a0e25b50450310f7489663af88a5ee0317c28e96bc",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm.c",
+      "vendor_sha256": "b9428bab452a4a1bdf32b9b9f1ae222f980757641d7803557a39923601f08acb",
+      "modified": true
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_ee.c",
+      "sha256": "e512d6211045bc16164b25585b4286f0073749795b076f068885a7e6f7b42130",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_ee.c",
+      "vendor_sha256": "e512d6211045bc16164b25585b4286f0073749795b076f068885a7e6f7b42130",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_internal.h",
+      "sha256": "37de993b60706e1435e8b9c7df12c3784534f895ef968f5df9208f4c17fd6924",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_internal.h",
+      "vendor_sha256": "37de993b60706e1435e8b9c7df12c3784534f895ef968f5df9208f4c17fd6924",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_ioctl.c",
+      "sha256": "bfc9ce6a61f4d6a3121eda8dc9f971e0a0fa536ca8e11ee997483dfb50fc57df",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_ioctl.c",
+      "vendor_sha256": "bfc9ce6a61f4d6a3121eda8dc9f971e0a0fa536ca8e11ee997483dfb50fc57df",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_monitor.c",
+      "sha256": "921704024de6e32d4e5552cd081aebceecf0a6e69f42cb23ad8212ef665ccba5",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_monitor.c",
+      "vendor_sha256": "921704024de6e32d4e5552cd081aebceecf0a6e69f42cb23ad8212ef665ccba5",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_poller.c",
+      "sha256": "3a32cf083a140a130877ca574a350e441cf2fd19238784d9178bdcc975042396",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_poller.c",
+      "vendor_sha256": "3a32cf083a140a130877ca574a350e441cf2fd19238784d9178bdcc975042396",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_scp.c",
+      "sha256": "fb066de7e3728a44abbeafb6f8d93d4899ac6fb223a2e2b17af6a00bdd09b0ea",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_scp.c",
+      "vendor_sha256": "fb066de7e3728a44abbeafb6f8d93d4899ac6fb223a2e2b17af6a00bdd09b0ea",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_sys.c",
+      "sha256": "5840ae09ab149a028f9051ce7281dbf82de3b7bb97e799590c280fada0f03042",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_sys.c",
+      "vendor_sha256": "aa11f038e2475e405a5fd418981815a78708bd7b4b67f639b3e4b4769598e219",
+      "modified": true
+    },
+    {
+      "path": "eccci/fsm/ccci_fsm_sys.h",
+      "sha256": "d5a783bdae036faa61fc63d52541ebe431ece854536106f39d46aac28750839c",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/ccci_fsm_sys.h",
+      "vendor_sha256": "d5a783bdae036faa61fc63d52541ebe431ece854536106f39d46aac28750839c",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/mdee_dumper_v1.c",
+      "sha256": "5b0942e0f6deb861a8a325bf0fb5c3bf75e81b7891cfc3d0316caa7d1df97ee5",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/mdee_dumper_v1.c",
+      "vendor_sha256": "27f68e6957ececebdfd421985df8c274dd6f4d0b38f59a5c881d4acaa4615927",
+      "modified": true
+    },
+    {
+      "path": "eccci/fsm/mdee_dumper_v1.h",
+      "sha256": "21ec67904d17fa18527146fca82f0fea38cb43715d927b4ec1ba68a53e1c1ad6",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/mdee_dumper_v1.h",
+      "vendor_sha256": "21ec67904d17fa18527146fca82f0fea38cb43715d927b4ec1ba68a53e1c1ad6",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/mdee_dumper_v2.c",
+      "sha256": "5bc2c589fbf29ec20a2b7c428747532c6ef530251491f6e67929bdc28ec97755",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/mdee_dumper_v2.c",
+      "vendor_sha256": "d44eb51a8f86c72ac009f856f0d74afe0fbb86ff950e935dfcb58807de8c560d",
+      "modified": true
+    },
+    {
+      "path": "eccci/fsm/mdee_dumper_v2.h",
+      "sha256": "6dfbc27e842f8ba71d227331423f75d83db0bbe5b405fa3d1183b97e5b40b78c",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/mdee_dumper_v2.h",
+      "vendor_sha256": "6dfbc27e842f8ba71d227331423f75d83db0bbe5b405fa3d1183b97e5b40b78c",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/mdee_dumper_v3.c",
+      "sha256": "5c0cd8937e01547388363fd1cef05eb28b5f007f63c28daca0db41da470cacbf",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/mdee_dumper_v3.c",
+      "vendor_sha256": "5c0cd8937e01547388363fd1cef05eb28b5f007f63c28daca0db41da470cacbf",
+      "modified": false
+    },
+    {
+      "path": "eccci/fsm/mdee_dumper_v3.h",
+      "sha256": "245688e7dba9d7ac947cbe8cef3624a116e131efda8430299a02962283edd757",
+      "vendor_path": "drivers/misc/mediatek/eccci/fsm/mdee_dumper_v3.h",
+      "vendor_sha256": "245688e7dba9d7ac947cbe8cef3624a116e131efda8430299a02962283edd757",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_cldma_plat.c",
+      "sha256": "a45ab6ad4fb57f6cbd3cf792415eda54b9c85ac522fd20523e4e1b98116aeb7a",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_cldma_plat.c",
+      "vendor_sha256": "a45ab6ad4fb57f6cbd3cf792415eda54b9c85ac522fd20523e4e1b98116aeb7a",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_cldma_plat.h",
+      "sha256": "512673a170dba8e81dbebb25f9e4cb48dc627b647b1c5eb9235e63dd3f755f94",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_cldma_plat.h",
+      "vendor_sha256": "512673a170dba8e81dbebb25f9e4cb48dc627b647b1c5eb9235e63dd3f755f94",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_debug_info.c",
+      "sha256": "f1de8e531707238b55fce9e75d754444655de4ac65e3300013ec0155846d78bc",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_debug_info.c",
+      "vendor_sha256": "f1de8e531707238b55fce9e75d754444655de4ac65e3300013ec0155846d78bc",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_debug_info.h",
+      "sha256": "e83ce14e2c0816c4399d92611a3ff6e167fe019e343326be798aab15df370f2b",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_debug_info.h",
+      "vendor_sha256": "e83ce14e2c0816c4399d92611a3ff6e167fe019e343326be798aab15df370f2b",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_hif.c",
+      "sha256": "2c9e4b0d5665119a75e56801a551b5276749c3f1806de0e7163aa03bd5984a77",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif.c",
+      "vendor_sha256": "2c9e4b0d5665119a75e56801a551b5276749c3f1806de0e7163aa03bd5984a77",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_hif_ccif.c",
+      "sha256": "a814dd95e1bfb64d9459aaa08a16638de8b14f078520d412317c4f501ddc3713",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif_ccif.c",
+      "vendor_sha256": "3cd65c930d6345784ec4fa1b68f534d1dc6b14cd07897d26537d78e69d28dce5",
+      "modified": true
+    },
+    {
+      "path": "eccci/hif/ccci_hif_ccif.h",
+      "sha256": "5cbeacdaa0431974f47be9b6eb638488554b5d5d14987dc05c9ae50acce265b4",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif_ccif.h",
+      "vendor_sha256": "5cbeacdaa0431974f47be9b6eb638488554b5d5d14987dc05c9ae50acce265b4",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_hif_cldma.c",
+      "sha256": "33a8054c0f2bd08792a3bfc6c47800f0c1a7338d754ccb3bae6af635044027bb",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif_cldma.c",
+      "vendor_sha256": "cde1ead0171660d01b47e220ee27a3b3d5d9508db468fdb91e7a1f64c3a47fef",
+      "modified": true
+    },
+    {
+      "path": "eccci/hif/ccci_hif_cldma.h",
+      "sha256": "68b9c2686d1fb726d6ee0028529da0aa8b454b4e2a704403396fcdd0189b72d2",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif_cldma.h",
+      "vendor_sha256": "5ba79881df84b258f25e85616d4171eff2c1e52f293bf649811830757cb0b49d",
+      "modified": true
+    },
+    {
+      "path": "eccci/hif/ccci_hif_dpmaif.c",
+      "sha256": "bd8e0d84b502e06d2d56731d73df4bcb0ac2f0b00b48f06bb27b7f866c34fadd",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif_dpmaif.c",
+      "vendor_sha256": "c40e55f28e3185e338f77101076596f6be5c34db067a413572f53cb921ace166",
+      "modified": true
+    },
+    {
+      "path": "eccci/hif/ccci_hif_dpmaif.h",
+      "sha256": "8db3ab83f19e2e970e1e7f93797f9af187c9223bd33948ae0dd6126b3cb9ffa3",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif_dpmaif.h",
+      "vendor_sha256": "b7fdc8aa1b53c3028dd42e251175b64332c0ee44fc54ef969d0d7043f56ab771",
+      "modified": true
+    },
+    {
+      "path": "eccci/hif/ccci_hif_internal.h",
+      "sha256": "55adfadb45eeda733b90b07cdeb50c4815cfbf11caa57567c63373bb436aa786",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_hif_internal.h",
+      "vendor_sha256": "55adfadb45eeda733b90b07cdeb50c4815cfbf11caa57567c63373bb436aa786",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_ringbuf.c",
+      "sha256": "7777c24ec3b336f7a86b7d79bde2adc8a8601b681ef38ff11e289540311f5e54",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_ringbuf.c",
+      "vendor_sha256": "7777c24ec3b336f7a86b7d79bde2adc8a8601b681ef38ff11e289540311f5e54",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/ccci_ringbuf.h",
+      "sha256": "545ce24e09ec792e13e8386cafed05697b9036bbb817d85749c4435cd09c18f4",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/ccci_ringbuf.h",
+      "vendor_sha256": "545ce24e09ec792e13e8386cafed05697b9036bbb817d85749c4435cd09c18f4",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/dpmaif_drv.c",
+      "sha256": "6e6e3b049c1ea32abbcbaa274815d1d7bc3729fda8e60a43d7c51639ba2206c9",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/dpmaif_drv.c",
+      "vendor_sha256": "6e6e3b049c1ea32abbcbaa274815d1d7bc3729fda8e60a43d7c51639ba2206c9",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/dpmaif_drv.h",
+      "sha256": "158d9d7554ac5a413d8b5c1fc4c1564576a7c6fecd595a67c8baec0e018f437f",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/dpmaif_drv.h",
+      "vendor_sha256": "158d9d7554ac5a413d8b5c1fc4c1564576a7c6fecd595a67c8baec0e018f437f",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/dpmaif_reg.h",
+      "sha256": "6098408fc49cfad843d5b65ff283f31863b51ec11e54bdef13385aca64783cb9",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/dpmaif_reg.h",
+      "vendor_sha256": "6098408fc49cfad843d5b65ff283f31863b51ec11e54bdef13385aca64783cb9",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/modem_cldma_events.h",
+      "sha256": "59c8c967ec31c9b45d4234f3eb6d4dfe1a0c1d236809895c93c01a73541b06be",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/modem_cldma_events.h",
+      "vendor_sha256": "59c8c967ec31c9b45d4234f3eb6d4dfe1a0c1d236809895c93c01a73541b06be",
+      "modified": false
+    },
+    {
+      "path": "eccci/hif/net_speed_monitor.c",
+      "sha256": "9568e88c9243d5e816eafc3660b4c1a7eb432ef4754153b1bdd310cf87e49137",
+      "vendor_path": "drivers/misc/mediatek/eccci/hif/net_speed_monitor.c",
+      "vendor_sha256": "9568e88c9243d5e816eafc3660b4c1a7eb432ef4754153b1bdd310cf87e49137",
+      "modified": false
+    },
+    {
+      "path": "eccci/inc/ccci_bm.h",
+      "sha256": "ab3e0bb1dac0f6232d81587e232fffef77fb7b5d2ee579fd0686e8b7c150f96f",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_bm.h",
+      "vendor_sha256": "f66267e7519047212bcef8877e6444da1625578ffa456a2dfdcb8107ce2e11be",
+      "modified": true
+    },
+    {
+      "path": "eccci/inc/ccci_core.h",
+      "sha256": "cc73a69d1663412f10dd3fbf8e3cc71638a195279ec3bd4c70a04327f0c973b4",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_core.h",
+      "vendor_sha256": "cc73a69d1663412f10dd3fbf8e3cc71638a195279ec3bd4c70a04327f0c973b4",
+      "modified": false
+    },
+    {
+      "path": "eccci/inc/ccci_debug.h",
+      "sha256": "570aae8139debb82e36d15765c65f7d6516667cc410eba2148e3dce0ac235cad",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_debug.h",
+      "vendor_sha256": "570aae8139debb82e36d15765c65f7d6516667cc410eba2148e3dce0ac235cad",
+      "modified": false
+    },
+    {
+      "path": "eccci/inc/ccci_fsm.h",
+      "sha256": "478823dfaa04cb850aec56c4275242928c6eed466bd25c1e4bb45d17b78036d2",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_fsm.h",
+      "vendor_sha256": "478823dfaa04cb850aec56c4275242928c6eed466bd25c1e4bb45d17b78036d2",
+      "modified": false
+    },
+    {
+      "path": "eccci/inc/ccci_hif.h",
+      "sha256": "c0140f2297c8cce2ffb39c1e061717391953c7e2cd8f4d4188ce543544e6dfc1",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_hif.h",
+      "vendor_sha256": "c0140f2297c8cce2ffb39c1e061717391953c7e2cd8f4d4188ce543544e6dfc1",
+      "modified": false
+    },
+    {
+      "path": "eccci/inc/ccci_modem.h",
+      "sha256": "3a458c676d7a86070e8a4554d7b3c1af1130e6b1d4e222c39fa66007c9c5bbae",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_modem.h",
+      "vendor_sha256": "3a458c676d7a86070e8a4554d7b3c1af1130e6b1d4e222c39fa66007c9c5bbae",
+      "modified": false
+    },
+    {
+      "path": "eccci/inc/ccci_port.h",
+      "sha256": "ce4680b061d27f2af48912fc35de580cb26ac99088c8b50ff281e225206468c1",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_port.h",
+      "vendor_sha256": "ce4680b061d27f2af48912fc35de580cb26ac99088c8b50ff281e225206468c1",
+      "modified": false
+    },
+    {
+      "path": "eccci/inc/ccci_rtc.h",
+      "sha256": "6374d9db2d2d49d0141c92a0edb0a3a7e4b5306c4d68cb4402a333e0a9ec343d",
+      "vendor_path": "drivers/misc/mediatek/eccci/inc/ccci_rtc.h",
+      "vendor_sha256": "6374d9db2d2d49d0141c92a0edb0a3a7e4b5306c4d68cb4402a333e0a9ec343d",
+      "modified": false
+    },
+    {
+      "path": "eccci/mdrf_notify_list.h",
+      "sha256": "5ea06a71475084360ed52e35a394a0fe9dbb680e61350655a89ec6a08b9348c8",
+      "vendor_path": "drivers/misc/mediatek/eccci/mdrf_notify_list.h",
+      "vendor_sha256": "5ea06a71475084360ed52e35a394a0fe9dbb680e61350655a89ec6a08b9348c8",
+      "modified": false
+    },
+    {
+      "path": "eccci/modem_sys.h",
+      "sha256": "24b531161e6e12b4d1d23fd29bddffa469174f251770d0be25db685fdc27fa9c",
+      "vendor_path": "drivers/misc/mediatek/eccci/modem_sys.h",
+      "vendor_sha256": "24b531161e6e12b4d1d23fd29bddffa469174f251770d0be25db685fdc27fa9c",
+      "modified": false
+    },
+    {
+      "path": "eccci/modem_sys1.c",
+      "sha256": "ed033545bd0abd25b89f8424f701bd9539269142030a4489209ce98be9e38841",
+      "vendor_path": "drivers/misc/mediatek/eccci/modem_sys1.c",
+      "vendor_sha256": "73847810d0bf6b4dda84ba23b6086590b6e92b9039380e1957e183f02e890bbb",
+      "modified": true
+    },
+    {
+      "path": "eccci/mt6765/ccci_config.h",
+      "sha256": "a283350ce3ef0c951ef4ae3427b2ad7bca592ef5944a6b41f38503f4e718298d",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/ccci_config.h",
+      "vendor_sha256": "a283350ce3ef0c951ef4ae3427b2ad7bca592ef5944a6b41f38503f4e718298d",
+      "modified": false
+    },
+    {
+      "path": "eccci/mt6765/ccci_platform.c",
+      "sha256": "0b2db83eb74f6d9c2f16af6a41421c9b494b5af524baeacb0d2a8041949c1671",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/ccci_platform.c",
+      "vendor_sha256": "0b2db83eb74f6d9c2f16af6a41421c9b494b5af524baeacb0d2a8041949c1671",
+      "modified": false
+    },
+    {
+      "path": "eccci/mt6765/ccci_platform.h",
+      "sha256": "854c32c6b08da979000b93b665221685bc20c4b4ac3fbcfdaf5eb37d163c83c8",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/ccci_platform.h",
+      "vendor_sha256": "854c32c6b08da979000b93b665221685bc20c4b4ac3fbcfdaf5eb37d163c83c8",
+      "modified": false
+    },
+    {
+      "path": "eccci/mt6765/ccif_hif_platform.h",
+      "sha256": "36c1254970c2613353c56ab97d8d7944f8fc0518624305f44b696a48fcf678f5",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/ccif_hif_platform.h",
+      "vendor_sha256": "36c1254970c2613353c56ab97d8d7944f8fc0518624305f44b696a48fcf678f5",
+      "modified": false
+    },
+    {
+      "path": "eccci/mt6765/cldma_reg.h",
+      "sha256": "06de3f67592130a638dd2b4933ad55076e4391953f13afb1ae69d9c381ec020d",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/cldma_reg.h",
+      "vendor_sha256": "06de3f67592130a638dd2b4933ad55076e4391953f13afb1ae69d9c381ec020d",
+      "modified": false
+    },
+    {
+      "path": "eccci/mt6765/md_sys1_platform.c",
+      "sha256": "7f2a123a023c79024b526da8b7cc1926b76acbc9d7c111e4a84e831b0ea52994",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/md_sys1_platform.c",
+      "vendor_sha256": "367afa6dd93bc4d253b140a762802bcf0eae1df64d4fa152be59c4aa7d26d75c",
+      "modified": true
+    },
+    {
+      "path": "eccci/mt6765/md_sys1_platform.h",
+      "sha256": "fb5930db67e5d7741a06d5d6ddf71c090dde96c317a3f2fb1c5b3c8929a3b0a3",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/md_sys1_platform.h",
+      "vendor_sha256": "fb5930db67e5d7741a06d5d6ddf71c090dde96c317a3f2fb1c5b3c8929a3b0a3",
+      "modified": false
+    },
+    {
+      "path": "eccci/mt6765/modem_reg_base.h",
+      "sha256": "91aa9f44092615af9ee196ae96b761815dba7a8e275f96db51a1f293f3382d15",
+      "vendor_path": "drivers/misc/mediatek/eccci/mt6765/modem_reg_base.h",
+      "vendor_sha256": "91aa9f44092615af9ee196ae96b761815dba7a8e275f96db51a1f293f3382d15",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/ccci_swtp.c",
+      "sha256": "c66d66dc6cd8987fe710966169bbb054cd94c81a270c358d0b8176ed1499d441",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/ccci_swtp.c",
+      "vendor_sha256": "2f40363bfea18f7f021f268e296ed127e7703649cc476f29255f07ea35cacf4e",
+      "modified": true
+    },
+    {
+      "path": "eccci/port/ccci_swtp.h",
+      "sha256": "e294582989288d7cd458af9c5fd950ec935b202e57d9207cebb0d28899bbf8eb",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/ccci_swtp.h",
+      "vendor_sha256": "e294582989288d7cd458af9c5fd950ec935b202e57d9207cebb0d28899bbf8eb",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_cfg.c",
+      "sha256": "37e6ecd4e5110c62911fb5f3b348810bc046da18dffa21a09ea7aac8cfec58b7",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_cfg.c",
+      "vendor_sha256": "37e6ecd4e5110c62911fb5f3b348810bc046da18dffa21a09ea7aac8cfec58b7",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_cfg.h",
+      "sha256": "233a4e057ebf1c4f1e40f71ab563f83b10eba165bcc70a48c12c551bedbb4b95",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_cfg.h",
+      "vendor_sha256": "233a4e057ebf1c4f1e40f71ab563f83b10eba165bcc70a48c12c551bedbb4b95",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_char.c",
+      "sha256": "3ccc9ea25f0ad851dd18c6e5efd8133ca4c2a3a0084a323903f7c83c5cd6bd5b",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_char.c",
+      "vendor_sha256": "3ccc9ea25f0ad851dd18c6e5efd8133ca4c2a3a0084a323903f7c83c5cd6bd5b",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_char.h",
+      "sha256": "17cef4073b5cd64fb8d85de8b517a1da18b645e7df1835b89651803a7375e035",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_char.h",
+      "vendor_sha256": "17cef4073b5cd64fb8d85de8b517a1da18b645e7df1835b89651803a7375e035",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_ctlmsg.c",
+      "sha256": "a455b7bbadac640f61b1aaa7ba3b3af16383dfdcc30d3337d1b72020c7b51e3d",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_ctlmsg.c",
+      "vendor_sha256": "a455b7bbadac640f61b1aaa7ba3b3af16383dfdcc30d3337d1b72020c7b51e3d",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_ctlmsg.h",
+      "sha256": "fac179c5898d10ff3f24f117617ad34f928a0d7c261cb5c6b2f82673add9b3ba",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_ctlmsg.h",
+      "vendor_sha256": "fac179c5898d10ff3f24f117617ad34f928a0d7c261cb5c6b2f82673add9b3ba",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_ipc.c",
+      "sha256": "ad56f249afc5743f821456da9eb2d8e758e69cb50879e4c48f650fca31fbfedf",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_ipc.c",
+      "vendor_sha256": "6212199ed80d4e8d31fefee0cd4c5240eca14541898bf35c4d942bb7bc2106f9",
+      "modified": true
+    },
+    {
+      "path": "eccci/port/port_ipc_internal.h",
+      "sha256": "88f414e4d9ef96dfa746a35618eee050b92bcd24d51d131d48fa3a6554d4747a",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_ipc_internal.h",
+      "vendor_sha256": "88f414e4d9ef96dfa746a35618eee050b92bcd24d51d131d48fa3a6554d4747a",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_misc.c",
+      "sha256": "1047ff6cb9ed707d51669658549aaf1e89771fc14ee8e337601795a3f0980430",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_misc.c",
+      "vendor_sha256": "c6512cfe56d2575d58afeb104992b0a8a3a3d851896b641be1fcaa790b907ea0",
+      "modified": true
+    },
+    {
+      "path": "eccci/port/port_misc.h",
+      "sha256": "51217f2a59d3e759bfd16969fce31d2dd485c26aa9fcc5bf7e710b6b2cf90069",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_misc.h",
+      "vendor_sha256": "51217f2a59d3e759bfd16969fce31d2dd485c26aa9fcc5bf7e710b6b2cf90069",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_net.c",
+      "sha256": "45ed6180dab0a59517eebb2941240e87fe947932ab6ff7f5250ee61e967b1758",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_net.c",
+      "vendor_sha256": "45ed6180dab0a59517eebb2941240e87fe947932ab6ff7f5250ee61e967b1758",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_net.h",
+      "sha256": "6cba5652b212325e876ca78564cb3593b9e1aeaa3ee3df3c71be4a7cdcf96d17",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_net.h",
+      "vendor_sha256": "6cba5652b212325e876ca78564cb3593b9e1aeaa3ee3df3c71be4a7cdcf96d17",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_poller.c",
+      "sha256": "83ebfe89f6b89e9653ce0c2132c9e331ffd4645bcc5b80671652a863aa2bdc26",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_poller.c",
+      "vendor_sha256": "83ebfe89f6b89e9653ce0c2132c9e331ffd4645bcc5b80671652a863aa2bdc26",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_poller.h",
+      "sha256": "c6e453fb4c16c893177c094bdcf81bc5368a7b1342b62db23372b8a2df32ee42",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_poller.h",
+      "vendor_sha256": "c6e453fb4c16c893177c094bdcf81bc5368a7b1342b62db23372b8a2df32ee42",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_proxy.c",
+      "sha256": "7fc20aa8f79d3fe60a5df487e5aeaab79b9b3c76f73e8b53019b4c0a0199cb6f",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_proxy.c",
+      "vendor_sha256": "41d8a03ea647fe369ce94285887fd9e9eac135adffd083a5412d86ec53d88447",
+      "modified": true
+    },
+    {
+      "path": "eccci/port/port_proxy.h",
+      "sha256": "f7063aef0f326df0c083a0e303b7bb4c080e99a2e2149bc2922d926118df0957",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_proxy.h",
+      "vendor_sha256": "f7063aef0f326df0c083a0e303b7bb4c080e99a2e2149bc2922d926118df0957",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_rpc.c",
+      "sha256": "40d019d69860c3d85f412a6c62a3ad5eb01f752fa9f3aee194cc1b24222a565f",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_rpc.c",
+      "vendor_sha256": "9f8a62fab7d6fd119e69272aea882204c64642e0d827794d73850701f85083bd",
+      "modified": true
+    },
+    {
+      "path": "eccci/port/port_rpc.h",
+      "sha256": "3fb7d3461c82125643d7eab44f47346c2ad42ee939a094f39734664258621a2e",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_rpc.h",
+      "vendor_sha256": "3fb7d3461c82125643d7eab44f47346c2ad42ee939a094f39734664258621a2e",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_smem.c",
+      "sha256": "5128438e7c7e321b72436d5cea0b941c1643f269a91c7893c818cbb3806e626a",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_smem.c",
+      "vendor_sha256": "2ccf14d445976ebe101d273870c5b1cd500de055ca5770ae2002b5c7a266154c",
+      "modified": true
+    },
+    {
+      "path": "eccci/port/port_smem.h",
+      "sha256": "bde5962f960008bf084de1aadbc03e83b63850e3d6db3800e3d4448d89b9058a",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_smem.h",
+      "vendor_sha256": "bde5962f960008bf084de1aadbc03e83b63850e3d6db3800e3d4448d89b9058a",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_sysmsg.c",
+      "sha256": "82ef3388f7bd0c4a840ee6aecddf1963ec7a5bfbd1d1208d598e4e28b2494257",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_sysmsg.c",
+      "vendor_sha256": "82ef3388f7bd0c4a840ee6aecddf1963ec7a5bfbd1d1208d598e4e28b2494257",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_sysmsg.h",
+      "sha256": "e1a1a8749645515cc9ff618900bac8769ffadb2ebe32c07651e68678d982d4ad",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_sysmsg.h",
+      "vendor_sha256": "e1a1a8749645515cc9ff618900bac8769ffadb2ebe32c07651e68678d982d4ad",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_t.h",
+      "sha256": "f28014cf364dd8472e69c302c23aa35bd07123a7f58e704de5d9208dbf3a9386",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_t.h",
+      "vendor_sha256": "f28014cf364dd8472e69c302c23aa35bd07123a7f58e704de5d9208dbf3a9386",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_udc.c",
+      "sha256": "98ca831d01cb4af85ff05e2e6336c2ad7bcc9097e3685502103f47b79b6dbc29",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_udc.c",
+      "vendor_sha256": "98ca831d01cb4af85ff05e2e6336c2ad7bcc9097e3685502103f47b79b6dbc29",
+      "modified": false
+    },
+    {
+      "path": "eccci/port/port_udc.h",
+      "sha256": "e19e016592cc3d67bbea54ab2c37693bcdd393056789f53369f9aba68fcb9b2e",
+      "vendor_path": "drivers/misc/mediatek/eccci/port/port_udc.h",
+      "vendor_sha256": "e19e016592cc3d67bbea54ab2c37693bcdd393056789f53369f9aba68fcb9b2e",
+      "modified": false
+    },
+    {
+      "path": "eccci/port_ipc.h",
+      "sha256": "46ba3747b677bfda85a4ad579b415d2867f10863c490b09471bfc654995df674",
+      "vendor_path": "drivers/misc/mediatek/eccci/port_ipc.h",
+      "vendor_sha256": "46ba3747b677bfda85a4ad579b415d2867f10863c490b09471bfc654995df674",
+      "modified": false
+    },
+    {
+      "path": "eccci/udc/udc.c",
+      "sha256": "17ef513b9eb0e6161c139ba85ea1783a9002c7b95218abed906064e7b16c7b39",
+      "vendor_path": "drivers/misc/mediatek/eccci/udc/udc.c",
+      "vendor_sha256": "17ef513b9eb0e6161c139ba85ea1783a9002c7b95218abed906064e7b16c7b39",
+      "modified": false
+    },
+    {
+      "path": "eccci/udc/udc.h",
+      "sha256": "5a01d115add8eaad2189fd5a8ed3c102da041eca26624ce40e09d849154959ba",
+      "vendor_path": "drivers/misc/mediatek/eccci/udc/udc.h",
+      "vendor_sha256": "5a01d115add8eaad2189fd5a8ed3c102da041eca26624ce40e09d849154959ba",
+      "modified": false
+    },
+    {
+      "path": "eccci/udc/udc_dictionary.h",
+      "sha256": "2c715ef34a57efa327caf9ce8638ad12664a897d5072c8e3ef0295450f066835",
+      "vendor_path": "drivers/misc/mediatek/eccci/udc/udc_dictionary.h",
+      "vendor_sha256": "2c715ef34a57efa327caf9ce8638ad12664a897d5072c8e3ef0295450f066835",
+      "modified": false
+    },
+    {
+      "path": "eccci/udc/udc_lib_inc/udc_zlib.h",
+      "sha256": "5461a6b35e587c4057f8f69bb111c77c3d33d5fc98d19ffbfc5009bbf72f988f",
+      "vendor_path": "drivers/misc/mediatek/eccci/udc/udc_lib_inc/udc_zlib.h",
+      "vendor_sha256": "5461a6b35e587c4057f8f69bb111c77c3d33d5fc98d19ffbfc5009bbf72f988f",
+      "modified": false
+    },
+    {
+      "path": "r1_auxadc.c",
+      "sha256": "14046c140db596f32e04e9d9555617ecdb560a56baed5ee293877d1e01927a8d",
+      "origin": "local Linux 7.1 port source/build recipe"
+    },
+    {
+      "path": "r1_compat.h",
+      "sha256": "ed3374e1ef10b93f303287a7d92326972d10c540f2eecc7fa29e541bd59ca78e",
+      "origin": "local Linux 7.1 port source/build recipe"
+    },
+    {
+      "path": "r1_entry.c",
+      "sha256": "3c9d8ad32dab65a1fc4c41ed769ba1195e441f6a203518a3da49c4fb660db4fc",
+      "origin": "local Linux 7.1 port source/build recipe"
+    },
+    {
+      "path": "r1_gpio.h",
+      "sha256": "5f610d087de32cf99c0bb900392fbaa04efd5e7377da94341ef1be38c1fd36ff",
+      "origin": "local Linux 7.1 port source/build recipe"
+    },
+    {
+      "path": "r1_md_power.c",
+      "sha256": "d753029053927e9c9ad7a797e32790c20574ec9fb3abdd765e2f5cd93003f4b6",
+      "origin": "local Linux 7.1 port source/build recipe"
+    },
+    {
+      "path": "r1_nodes.c",
+      "sha256": "a86e4663b0c1fefe4551befa06e8152e1f55e1d89aeb9c867277506d72c60243",
+      "origin": "local Linux 7.1 port source/build recipe"
+    },
+    {
+      "path": "r1_platform.c",
+      "sha256": "2614a6eaa57065ebaf9b8b4f954ff509698bbb507e42368fc3e79922990dd424",
+      "origin": "local Linux 7.1 port source/build recipe"
+    },
+    {
+      "path": "vendor-source/drivers/devfreq/helio-dvfsrc.h",
+      "sha256": "6b173047f27106e474bd24c593ca3d584e62c394c7b1b06bcb27dd55d2dac2a9",
+      "vendor_path": "drivers/devfreq/helio-dvfsrc.h",
+      "vendor_sha256": "6b173047f27106e474bd24c593ca3d584e62c394c7b1b06bcb27dd55d2dac2a9",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/devfreq/helio-dvfsrc_v1.h",
+      "sha256": "00042ba151e51d24420c816ead48db1a63bb84d4b8ceeb64199b50793a3676d9",
+      "vendor_path": "drivers/devfreq/helio-dvfsrc_v1.h",
+      "vendor_sha256": "00042ba151e51d24420c816ead48db1a63bb84d4b8ceeb64199b50793a3676d9",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/cpu_ctrl.h",
+      "sha256": "12f3523706c8406104f5d7ce986e55db50394387b15412b32abc029751741d2c",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/cpu_ctrl.h",
+      "vendor_sha256": "12f3523706c8406104f5d7ce986e55db50394387b15412b32abc029751741d2c",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/mtk-clkbuf-bridge.h",
+      "sha256": "f27a8ad043c4023f93480a4b07db623158ec697e208a7e2be879aa9cdd8bca9c",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk-clkbuf-bridge.h",
+      "vendor_sha256": "f27a8ad043c4023f93480a4b07db623158ec697e208a7e2be879aa9cdd8bca9c",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/mtk_boot_common.h",
+      "sha256": "2532dd2c8382d26055491e0512d04e0018c296920d274937cbbff32bcb9631ea",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk_boot_common.h",
+      "vendor_sha256": "2532dd2c8382d26055491e0512d04e0018c296920d274937cbbff32bcb9631ea",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/mtk_ccci_common.h",
+      "sha256": "c4479642f2c907d150e58a4be3d88150f3a73c9317d178d8584d588d41f0fb39",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk_ccci_common.h",
+      "vendor_sha256": "c4479642f2c907d150e58a4be3d88150f3a73c9317d178d8584d588d41f0fb39",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/mtk_dlpt.h",
+      "sha256": "ba83760177f091f56dfc76bcf7790e682c3b0535c7224e45f1206247c340a3e9",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk_dlpt.h",
+      "vendor_sha256": "ba83760177f091f56dfc76bcf7790e682c3b0535c7224e45f1206247c340a3e9",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/mtk_mdpm_api.h",
+      "sha256": "3786da1694623c57471171c578952c6cda8506fc8d983f77581049ae5428d12a",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk_mdpm_api.h",
+      "vendor_sha256": "3786da1694623c57471171c578952c6cda8506fc8d983f77581049ae5428d12a",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/mtk_pbm.h",
+      "sha256": "f97c18c2387f801c697730bc410aca89a3943df9777725b9cc749a13eaba6793",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk_pbm.h",
+      "vendor_sha256": "f97c18c2387f801c697730bc410aca89a3943df9777725b9cc749a13eaba6793",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/mtk_ppm_api.h",
+      "sha256": "a96a1e98a9c21904a94ad4bae8a343c956b4a5ac4c1406de44fc6da6710a92b1",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk_ppm_api.h",
+      "vendor_sha256": "a96a1e98a9c21904a94ad4bae8a343c956b4a5ac4c1406de44fc6da6710a92b1",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/include/mt-plat/sync_write.h",
+      "sha256": "a5c28f646a6c9f0157e9261ad569068aa9b9949d5da01d4f846e5b24f97c32c0",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/sync_write.h",
+      "vendor_sha256": "a5c28f646a6c9f0157e9261ad569068aa9b9949d5da01d4f846e5b24f97c32c0",
+      "modified": false
+    },
+    {
+      "path": "vendor-source/drivers/misc/mediatek/rps/rps_perf.h",
+      "sha256": "c9aa3ba4a978bf892fef77155736a370e81b28d08d55ff104b051653d4d648cb",
+      "vendor_path": "drivers/misc/mediatek/rps/rps_perf.h",
+      "vendor_sha256": "c9aa3ba4a978bf892fef77155736a370e81b28d08d55ff104b051653d4d648cb",
+      "modified": false
+    },
+    {
+      "path": "vendorinclude/linux/soc/mediatek/mtk-pm-qos.h",
+      "sha256": "325096f2ac73985034c5129bb7db63b27cf635f367c17a125f29697355e310f4",
+      "vendor_path": "include/linux/soc/mediatek/mtk-pm-qos.h",
+      "vendor_sha256": "325096f2ac73985034c5129bb7db63b27cf635f367c17a125f29697355e310f4",
+      "modified": false
+    },
+    {
+      "path": "vendorinclude/memory/mediatek/emi.h",
+      "sha256": "aea86a503d32ee9e2de2187eb27af66a7173e589d6a5f26bff87783eb61b07d3",
+      "vendor_path": "include/memory/mediatek/emi.h",
+      "vendor_sha256": "aea86a503d32ee9e2de2187eb27af66a7173e589d6a5f26bff87783eb61b07d3",
+      "modified": false
+    }
+  ]
+}

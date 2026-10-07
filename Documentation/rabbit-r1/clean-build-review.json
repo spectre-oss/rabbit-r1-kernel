@@ -1,0 +1,22 @@
+{
+  "scope": "Fresh kernel and all 21 supported external groups using pinned external panel/WLAN/calibration inputs",
+  "kernel_config_matches": true,
+  "kernel_modules": 11,
+  "external_artifacts_including_duplicate_dependencies": 103,
+  "external_exact_matches_to_prior_verified_builds": 102,
+  "external_metadata_only_matches": 1,
+  "wmt_checks": [
+    "allocated contents except build ID",
+    "allocated relocations",
+    "global symbols",
+    "layout"
+  ],
+  "kernel_image_differences_from_prior_normalized_build": "Two verified GNU build-ID descriptors only (40 bytes)",
+  "all_builds_exit_zero": true,
+  "limits": [
+    "Vendor external-driver warnings retained",
+    "Private inputs are not newly authorized for redistribution",
+    "Not cross-host byte reproducibility",
+    "No installation or new hardware acceptance"
+  ]
+}

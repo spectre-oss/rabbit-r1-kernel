@@ -1,0 +1,28 @@
+// SPDX-License-Identifier: GPL-2.0-only
+/dts-v1/;
+/plugin/;
+/* Diagnostic sibling controller: only domain 10; no existing domain is rebound.
+ * References are validated by the loader against this boot's providers.
+ * All clocks lack '-' so scpsys enables them BEFORE the SRAM handshake.
+ */
+/ {
+ fragment@0 {
+  target-path = "/sleep@10006000";
+  __overlay__ {
+   jpeg-power-controller {
+    phandle = <1>;
+    compatible = "mediatek,mt6765-power-controller";
+    #address-cells = <1>;
+    #size-cells = <0>;
+    #power-domain-cells = <1>;
+    access-controllers = <0x25>;
+    power-domain@a {
+     reg = <10>;
+     #power-domain-cells = <0>;
+     clocks = <0x61 19>, <0x61 21>, <0x61 22>;
+     clock-names = "smi", "comm0", "comm1";
+    };
+   };
+  };
+ };
+};

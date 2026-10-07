@@ -1,0 +1,72 @@
+{
+  "scope": "Manual review of five installed text startup scripts; reads only, no scripts executed",
+  "loaders": [
+    {
+      "startup_script": "/usr/lib/r1-audio/start-audio.sh",
+      "script_sha256": "f9ee5dd1ee4f1ddc5ef16168f399e660d825cac0fd7c0da75561a4b5555b718b",
+      "resolved_module_names": [
+        "r1_audio",
+        "snd",
+        "snd_pcm",
+        "snd_timer",
+        "soundcore"
+      ],
+      "all_in_verified_loaded_set": true
+    },
+    {
+      "startup_script": "/usr/lib/r1-jpgenc/decoder-20260927/start.sh",
+      "script_sha256": "a312f6aab0fdf0116cc747e7b612731559ced64c6b5e3b6a13a81c067bff1fed",
+      "resolved_module_names": [
+        "mc",
+        "mtk_iommu",
+        "mtk_jpeg",
+        "mtk_jpeg_dec_hw",
+        "mtk_jpeg_enc_hw",
+        "mtk_smi",
+        "r1_jpeg_iommu_nodes",
+        "r1_jpeg_nodes",
+        "r1_jpeg_power_clocks",
+        "r1_jpeg_power_links",
+        "r1_jpeg_power_nodes",
+        "r1_jpeg_selector_nodes",
+        "r1_vcodec_owner",
+        "v4l2_mem2mem",
+        "videobuf2_common",
+        "videobuf2_dma_contig",
+        "videobuf2_memops",
+        "videobuf2_v4l2",
+        "videodev"
+      ],
+      "all_in_verified_loaded_set": true
+    },
+    {
+      "startup_script": "/usr/lib/spectrer1/usb-role/start.sh",
+      "script_sha256": "6ad63efd0461368437b362879b0a7e966336ca912db05a19320c3b5b22ff2d2b",
+      "resolved_module_names": [
+        "r1_typec_bus",
+        "r1_usb_host_speed",
+        "r1_usb_session_v2",
+        "r1_usb_tcpc"
+      ],
+      "all_in_verified_loaded_set": true
+    },
+    {
+      "startup_script": "/usr/lib/r1-boot-power/start-support-fast.sh",
+      "script_sha256": "68293dbe8c9c9caa1a610d2ab935922b722a079fe9effd2b97f720062ea3c34e",
+      "resolved_module_names": [
+        "xfrm_user"
+      ],
+      "all_in_verified_loaded_set": true
+    },
+    {
+      "startup_script": "/usr/lib/spectrer1/start.sh",
+      "script_sha256": "dcc22b964d6ef8f69d466720a420be007f35668c47ba2fb1dedca6b6cf2f9eb1",
+      "resolved_module_names": [
+        "r1_ms35774"
+      ],
+      "all_in_verified_loaded_set": true
+    }
+  ],
+  "new_module_names": [],
+  "limits": "Completes the identified variable-based text loaders; not an exhaustive proof of arbitrary ELF loaders or future configuration changes."
+}

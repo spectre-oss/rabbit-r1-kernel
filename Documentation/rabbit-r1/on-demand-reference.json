@@ -1,0 +1,63 @@
+{
+  "observed_date": "2026-10-07",
+  "selection_evidence": "Read-only installed service/startup references, launcher GPS action, and exact hashes of selected module files. No feature was started.",
+  "camera_service_was_inactive": true,
+  "modules": [
+    {
+      "name": "i2c_algo_bit",
+      "sha256": "e3782e8d28d5703fca3363356461f61f9a4083ca6624a33045aa4e41f14786b1",
+      "local_artifact_exact_match": true,
+      "source_packaging_complete": true,
+      "selection": "Inactive camera service module selection"
+    },
+    {
+      "name": "r1_camera_live",
+      "sha256": "3205267752846b3d3527ca50da0638d27cacf590a5ddd00e3e415756d74e504c",
+      "local_artifact_exact_match": true,
+      "source_packaging_complete": true,
+      "selection": "Inactive camera service module selection"
+    },
+    {
+      "name": "bt_drv_connac1x",
+      "sha256": "eb066daaac5d1dbff36f2399b3f6a04216efa8bd30056866f34c130f70ec7cc0",
+      "local_artifact_exact_match": true,
+      "source_packaging_complete": true,
+      "selection": "Configured Bluetooth transport startup; unit currently disabled",
+      "role": "on-demand driver",
+      "rebuild_verification": "Code, non-string data, normalized string multiset, every relocation referent, globals and layout match; build ID and source-root strings differ."
+    },
+    {
+      "name": "gps_drv",
+      "sha256": "ba2725642b566b0d86700bce68844602e4c71ae3f6157780157eaa708af28a00",
+      "local_artifact_exact_match": true,
+      "source_packaging_complete": true,
+      "selection": "Launcher-selected GPS test service",
+      "role": "on-demand driver",
+      "rebuild_verification": "Code, non-string data, normalized strings, every relocated referent, globals and layout match; build IDs and source-root strings differ."
+    },
+    {
+      "name": "wmt_drv",
+      "sha256": "e94f7f072be69356569c99fe10613affaa6832b10f1ba169641c975203617622",
+      "local_artifact_exact_match": true,
+      "source_packaging_complete": true,
+      "selection": "Launcher-selected GPS service; fallback WMT used only if shared WMT not already loaded",
+      "role": "alternate WMT implementation requiring separate source comparison",
+      "rebuild_verification": "Code, non-string data, normalized strings, every relocated referent, globals and layout match; build IDs and source-root strings differ."
+    }
+  ],
+  "source_packaging_complete": true,
+  "receiver_table_provenance": "Unresolved Efuse input origin; private table excluded from source, supplied and hash-checked externally",
+  "private_build_dependency_required": true,
+  "camera_rebuild_verification": "Both modules match installed reference contents/relocations/globals with documented build-ID/source-root normalization",
+  "selection_limits": "Bounded text-script traversal cannot prove every possible dynamic or ELF loader path; final review still required.",
+  "excluded_paths": [
+    {
+      "area": "MT6370 charger modules",
+      "reason": "Configured no-charger flag exists; startup returns before optional modules"
+    },
+    {
+      "area": "older CPU services",
+      "reason": "Disabled historical services; current selected CPU service uses already matched four-module set"
+    }
+  ]
+}

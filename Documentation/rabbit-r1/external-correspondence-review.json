@@ -1,0 +1,12 @@
+{
+  "scope": "60 recorded loaded modules plus five selected on-demand artifacts; bounded startup-path review",
+  "evidence_index_sha256": "63b3619239956da2eac9fcfcb685a73aa7a78d2c943992711588cf444401c265",
+  "evidence_record_hashes_verified": true,
+  "new_camera_video_builds_byte_identical_to_prior_verified_builds": true,
+  "normalization": "Recorded build IDs, source-path strings and corresponding offsets; intree metadata explicitly accounted for",
+  "limits": [
+    "Not byte identity for every installed module",
+    "Not exhaustive arbitrary future loader discovery",
+    "Does not resolve license clearance or missing distributable WLAN/panel inputs"
+  ]
+}

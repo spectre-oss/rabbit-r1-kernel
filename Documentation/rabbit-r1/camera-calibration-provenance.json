@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "Reference-device camera receiver provenance and calibration separation",
+  "recovery_method": "Host-only observation of sensor HAL register writes; functional receiver template with separately supplied device calibration",
+  "calibration_origin": "Boot devinfo port-2 fields, confirmed by read-only equality check",
+  "calibration_bundled": false,
+  "generated_header_matches_verified_build": true,
+  "module_results": [
+    {
+      "module": "i2c-algo-bit.ko",
+      "sha256": "f03a327713850fab22baa508d8e110b6b65f4b826d18e9a805f44c354a162f65",
+      "byte_identical_to_verified_build": true
+    },
+    {
+      "module": "r1_camera_live.ko",
+      "sha256": "3874fee2a4181f1ec07b6d35e76e38efa4c4e2b3f12ea53b36441e65865e122f",
+      "byte_identical_to_verified_build": true
+    }
+  ],
+  "template_sha256": "06d284dcf3a9c3806e15fa02343628eaaf3202139f93622f1fac8a67b974f13e",
+  "limits": [
+    "No claim of other-device hardware acceptance",
+    "No deployment during release audit",
+    "Provenance pass does not replace full license review",
+    "Generated calibration headers and resulting device-specific binaries remain private"
+  ]
+}

@@ -1,0 +1,247 @@
+[
+  {
+    "path": "DATASHEET-NOTES.md",
+    "change": "added",
+    "disposition": "replaced by release documentation"
+  },
+  {
+    "path": "Documentation/devicetree/bindings/media/mediatek-jpeg-encoder.yaml",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "README.md",
+    "change": "modified",
+    "disposition": "replaced by release documentation"
+  },
+  {
+    "path": "README.rabbit-r1.md",
+    "change": "added",
+    "disposition": "replaced by release documentation"
+  },
+  {
+    "path": "SOURCES.md",
+    "change": "added",
+    "disposition": "replaced by release documentation"
+  },
+  {
+    "path": "arch/arm64/boot/dts/mediatek/Makefile",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "arch/arm64/boot/dts/mediatek/mt6357.dtsi",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "arch/arm64/boot/dts/mediatek/mt6765-rabbit-r1.dts",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "arch/arm64/boot/dts/mediatek/mt6765.dtsi",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "arch/arm64/configs/rabbit_r1_defconfig",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "arch/arm64/kernel/Makefile",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "arch/arm64/kernel/rabbit_r1_uniprocessor.c",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/android/binder.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/clk/mediatek/clk-mt6765-mm.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/firmware/psci/psci.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/gpu/drm/mediatek/mtk_crtc.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/gpu/drm/mediatek/mtk_disp_ovl.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/gpu/drm/mediatek/mtk_drm_drv.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/gpu/drm/mediatek/mtk_drm_drv.h",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/gpu/drm/mediatek/mtk_dsi.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/gpu/drm/panel/Kconfig",
+    "change": "modified",
+    "disposition": "panel review deferred by owner; existing correspondence evidence retained"
+  },
+  {
+    "path": "drivers/gpu/drm/panel/Makefile",
+    "change": "modified",
+    "disposition": "panel review deferred by owner; existing correspondence evidence retained"
+  },
+  {
+    "path": "drivers/gpu/drm/panel/panel-rabbit-r1-init.h",
+    "change": "added",
+    "disposition": "excluded restricted table; generated privately from explicit input; all 40 steps match"
+  },
+  {
+    "path": "drivers/gpu/drm/panel/panel-rabbit-r1.c",
+    "change": "added",
+    "disposition": "omitted from partial publication at owner request"
+  },
+  {
+    "path": "drivers/input/keyboard/mtk-pmic-keys.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/input/misc/Kconfig",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/input/misc/Makefile",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/input/misc/och1970.c",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/iommu/mtk_iommu.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/media/platform/mediatek/jpeg/Makefile",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/media/platform/mediatek/jpeg/mtk_jpeg_core.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/media/platform/mediatek/jpeg/mtk_jpeg_core.h",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/media/platform/mediatek/jpeg/mtk_jpeg_enc_hw.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/media/platform/mediatek/jpeg/r1_vcodec_owner.c",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/media/platform/mediatek/jpeg/r1_vcodec_owner.h",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/memory/mtk-smi.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/misc/Kconfig",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/misc/Makefile",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/misc/r1ctl.c",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/mmc/host/mtk-sd.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/pmdomain/mediatek/mt6765-pm-domains.h",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/regulator/mt6357-regulator.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/soc/mediatek/mt6765-mmsys.h",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/usb/musb/mediatek.c",
+    "change": "modified",
+    "disposition": "uninstalled experiment excluded; retained pre-experiment source"
+  },
+  {
+    "path": "drivers/video/fbdev/Kconfig",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/video/fbdev/Makefile",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/video/fbdev/r1fb.c",
+    "change": "added",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "drivers/watchdog/mtk_wdt.c",
+    "change": "modified",
+    "disposition": "source correspondence reviewed in kernel-correspondence.json; license context reviewed in nondeferred-license-review.json"
+  },
+  {
+    "path": "usr/r1-initramfs/init",
+    "change": "added",
+    "disposition": "prebuilt excluded; reconstructed source tools/rabbit-r1/minit.c reproduces binary exactly with pinned toolchain"
+  }
+]

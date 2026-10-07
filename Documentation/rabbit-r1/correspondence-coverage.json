@@ -1,0 +1,12 @@
+{
+  "observed_loaded_modules": 60,
+  "selected_on_demand_artifacts": 5,
+  "distinct_module_names": 64,
+  "private_evidence_index_sha256": "63b3619239956da2eac9fcfcb685a73aa7a78d2c943992711588cf444401c265",
+  "coverage": "All indexed artifacts have named, nonempty comparison records. Raw differences and normalization limits remain explicit in those records.",
+  "limitations": [
+    "Startup-loader review is bounded to the recorded installed services and inspected helpers; not arbitrary future loader paths",
+    "Four WLAN inputs and panel input remain external pending license disposition; target camera calibration stays private; functional encoder mode data is bundled",
+    "Index presence alone does not prove each comparison remains tied to current source and output hashes"
+  ]
+}

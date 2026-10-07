@@ -1,0 +1,1130 @@
+{
+  "scope": "BTIF, WMT and Wi-Fi adapter only; WLAN source and firmware excluded",
+  "files": [
+    {
+      "path": "btif/Makefile",
+      "sha256": "c2db389212b509dfceb4edeaffc20b0c77250e515180c7542c96377e7ada40f1",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/Makefile",
+      "vendor_sha256": "c2db389212b509dfceb4edeaffc20b0c77250e515180c7542c96377e7ada40f1",
+      "modified": false
+    },
+    {
+      "path": "btif/btif_dma_plat.c",
+      "sha256": "a46afabb9c3ffdeb01a96e17b98498f4a6e4ec7ab385b624f7c83fac20c40c3a",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/btif_dma_plat.c",
+      "vendor_sha256": "a46afabb9c3ffdeb01a96e17b98498f4a6e4ec7ab385b624f7c83fac20c40c3a",
+      "modified": false
+    },
+    {
+      "path": "btif/btif_plat.c",
+      "sha256": "ca62faac096365c973b15baea4628d4387c363650ccaa3aee02a56b082429ea6",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/btif_plat.c",
+      "vendor_sha256": "ca62faac096365c973b15baea4628d4387c363650ccaa3aee02a56b082429ea6",
+      "modified": false
+    },
+    {
+      "path": "btif/inc/mtk_btif.h",
+      "sha256": "6be0074d3656f5b92c28dd87410a74c5bdb122c012d9599ca4befe99b23810f3",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/inc/mtk_btif.h",
+      "vendor_sha256": "6be0074d3656f5b92c28dd87410a74c5bdb122c012d9599ca4befe99b23810f3",
+      "modified": false
+    },
+    {
+      "path": "btif/inc/mtk_btif_exp.h",
+      "sha256": "ef322b10a3288f990296347fbc6952f817afe4e196c5c8bc68252f13f2119709",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/inc/mtk_btif_exp.h",
+      "vendor_sha256": "ef322b10a3288f990296347fbc6952f817afe4e196c5c8bc68252f13f2119709",
+      "modified": false
+    },
+    {
+      "path": "btif/mtk_btif.c",
+      "sha256": "5815bea374ee45500f45df396b5438f709250cdb4fd97dd72524c9b723ae9dab",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/mtk_btif.c",
+      "vendor_sha256": "4ccee11e673eb536723a485544acef353da8bde3be96172f788cb5ca0b4d28e1",
+      "modified": true
+    },
+    {
+      "path": "btif/mtk_btif_exp.c",
+      "sha256": "bed26abf4fe3c5d5825a3dcf53c4aa28ce8967670a6945d4d86ee762c6ef3ecc",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/mtk_btif_exp.c",
+      "vendor_sha256": "bed26abf4fe3c5d5825a3dcf53c4aa28ce8967670a6945d4d86ee762c6ef3ecc",
+      "modified": false
+    },
+    {
+      "path": "btif/plat_inc/btif_dma_priv.h",
+      "sha256": "9e065dd84ec657a6545389d5d9e1096e8d8d8ad7b7a8b8e0aa881d86e77ac9c4",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/plat_inc/btif_dma_priv.h",
+      "vendor_sha256": "9e065dd84ec657a6545389d5d9e1096e8d8d8ad7b7a8b8e0aa881d86e77ac9c4",
+      "modified": false
+    },
+    {
+      "path": "btif/plat_inc/btif_dma_pub.h",
+      "sha256": "0e2b91415a6e8e580011103feca0ec8a9d7d6e57f56c0bbd96b65e934aacb20f",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/plat_inc/btif_dma_pub.h",
+      "vendor_sha256": "0e2b91415a6e8e580011103feca0ec8a9d7d6e57f56c0bbd96b65e934aacb20f",
+      "modified": false
+    },
+    {
+      "path": "btif/plat_inc/btif_priv.h",
+      "sha256": "448909713434e567f49fc4790077b76afb6ee1daf25c32bf5ec4d66c33c5114f",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/plat_inc/btif_priv.h",
+      "vendor_sha256": "448909713434e567f49fc4790077b76afb6ee1daf25c32bf5ec4d66c33c5114f",
+      "modified": false
+    },
+    {
+      "path": "btif/plat_inc/btif_pub.h",
+      "sha256": "4cb0f7bf8694c1cdfee512617976482c0ddbdfca8c502d1d9e829f93a204ca5a",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/plat_inc/btif_pub.h",
+      "vendor_sha256": "4cb0f7bf8694c1cdfee512617976482c0ddbdfca8c502d1d9e829f93a204ca5a",
+      "modified": false
+    },
+    {
+      "path": "btif/plat_inc/plat_common.h",
+      "sha256": "079eb7979aa5a09f19e0ab87bdbd69d808aed40d95f121d9fac57c6990872bcc",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/btif/common/plat_inc/plat_common.h",
+      "vendor_sha256": "079eb7979aa5a09f19e0ab87bdbd69d808aed40d95f121d9fac57c6990872bcc",
+      "modified": false
+    },
+    {
+      "path": "vendor-headers/connectivity_build_in_adapter.h",
+      "sha256": "c196e24213f87e1e9522f27eb99e744d35368fdf1abd8695a4383fcd9f62996f",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/connectivity/common/connectivity_build_in_adapter.h",
+      "vendor_sha256": "c196e24213f87e1e9522f27eb99e744d35368fdf1abd8695a4383fcd9f62996f",
+      "modified": false
+    },
+    {
+      "path": "vendor-headers/mtk-clkbuf-bridge.h",
+      "sha256": "f27a8ad043c4023f93480a4b07db623158ec697e208a7e2be879aa9cdd8bca9c",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk-clkbuf-bridge.h",
+      "vendor_sha256": "f27a8ad043c4023f93480a4b07db623158ec697e208a7e2be879aa9cdd8bca9c",
+      "modified": false
+    },
+    {
+      "path": "vendor-headers/mtk_wcn_cmb_stub.h",
+      "sha256": "99c1926b701c80819834f35b030db1d3b07f2eb36c04a7d0a2690d0d78faefc5",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/include/mt-plat/mtk_wcn_cmb_stub.h",
+      "vendor_sha256": "99c1926b701c80819834f35b030db1d3b07f2eb36c04a7d0a2690d0d78faefc5",
+      "modified": false
+    },
+    {
+      "path": "vendor-headers/wmt_build_in_adapter.h",
+      "sha256": "77e1de3022cb2a9596aa7a5840e53ea72b99f258378a260c3f0bd7e0e503b652",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_rabbit_mt6765",
+      "vendor_path": "drivers/misc/mediatek/connectivity/common/wmt_build_in_adapter.h",
+      "vendor_sha256": "77e1de3022cb2a9596aa7a5840e53ea72b99f258378a260c3f0bd7e0e503b652",
+      "modified": false
+    },
+    {
+      "path": "wmt/Kbuild",
+      "sha256": "1b53436a506fafd4bdab845090e4169de6eef5dcc71d185b374d870ecc4e24b5",
+      "observed_license": "GPL-2.0-only",
+      "origin": "Authored fixed target recipe from 52 recorded object commands; replaces vendor build file"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/bluetooth_drv_init.c",
+      "sha256": "c936cc9146b19ad9a6ed4b352281c71d3b0854da1c37ad2424bcaa94e9b394fd",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/bluetooth_drv_init.c",
+      "vendor_sha256": "c936cc9146b19ad9a6ed4b352281c71d3b0854da1c37ad2424bcaa94e9b394fd",
+      "modified": false,
+      "vendor_git_blob": "d89d5da4357b61fdb983aab7219504fb00e0fdde",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/common_drv_init.c",
+      "sha256": "a514c663359c6a4bf574a41c0b716fe0f9285fb8186c0876d9b1891583109a26",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/common_drv_init.c",
+      "vendor_sha256": "a514c663359c6a4bf574a41c0b716fe0f9285fb8186c0876d9b1891583109a26",
+      "modified": false,
+      "vendor_git_blob": "e6c64529eaff714bf2d23cd03ef70c8b71a87d58",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/conn_drv_init.c",
+      "sha256": "bacd7379699880921b6352e4cbdc24ffa1eb5f13456fa5f8573fc16561b821e1",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/conn_drv_init.c",
+      "vendor_sha256": "bacd7379699880921b6352e4cbdc24ffa1eb5f13456fa5f8573fc16561b821e1",
+      "modified": false,
+      "vendor_git_blob": "ab03a5b14fe788b7fc9c5c0e58ce1bfe64f89b43",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/fm_drv_init.c",
+      "sha256": "4939c94627beb782f9d7813dd04856584f0d93c09b9f273381a0a9bc379610bf",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/fm_drv_init.c",
+      "vendor_sha256": "4939c94627beb782f9d7813dd04856584f0d93c09b9f273381a0a9bc379610bf",
+      "modified": false,
+      "vendor_git_blob": "4ec149e77046a6a1f1e78a752442e9029fc01f80",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/gps_drv_init.c",
+      "sha256": "3190eff71ccc9c6325929a7d2c5f34f6747371903872e71b5e58c81a2026b669",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/gps_drv_init.c",
+      "vendor_sha256": "3190eff71ccc9c6325929a7d2c5f34f6747371903872e71b5e58c81a2026b669",
+      "modified": false,
+      "vendor_git_blob": "ac48b231a3d0e8a8cbfa22ed63d62e8c0821abed",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/inc/bluetooth_drv_init.h",
+      "sha256": "e34ed7bccbb1e6d0d7fab72f843fd51a80ead56ffe2174430401df835588c13d",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/inc/bluetooth_drv_init.h",
+      "vendor_sha256": "e34ed7bccbb1e6d0d7fab72f843fd51a80ead56ffe2174430401df835588c13d",
+      "modified": false,
+      "vendor_git_blob": "8a847d361fc8c66158a07b328133906e87480ee6",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/inc/common_drv_init.h",
+      "sha256": "b19a46dc2d24b075fc46c16c2773ba6fe71c1ba1d38cee503e50a8da1cae2abf",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/inc/common_drv_init.h",
+      "vendor_sha256": "b19a46dc2d24b075fc46c16c2773ba6fe71c1ba1d38cee503e50a8da1cae2abf",
+      "modified": false,
+      "vendor_git_blob": "dae155e1d4039c8b699b2704bba6a4b158083abb",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/inc/conn_drv_init.h",
+      "sha256": "26ad92c3ea1cfb34e2943a569c2f11b7e0bf12728f71f98d2fa7a50f2b42a82c",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/inc/conn_drv_init.h",
+      "vendor_sha256": "26ad92c3ea1cfb34e2943a569c2f11b7e0bf12728f71f98d2fa7a50f2b42a82c",
+      "modified": false,
+      "vendor_git_blob": "971193eade9e9b5226f49cf0145809f0556f06e2",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/inc/fm_drv_init.h",
+      "sha256": "b408d5ccdbfd8e72f62c6a369e17a5283a52b58151ff16d67df91d0797f8fb7f",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/inc/fm_drv_init.h",
+      "vendor_sha256": "b408d5ccdbfd8e72f62c6a369e17a5283a52b58151ff16d67df91d0797f8fb7f",
+      "modified": false,
+      "vendor_git_blob": "f6ea30addc5da1f231e2bb0e0213e209b7ea80fc",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/inc/gps_drv_init.h",
+      "sha256": "0c9163123478552f86955f4cca50ed9003e3440b3f30d867117889af34ed5df3",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/inc/gps_drv_init.h",
+      "vendor_sha256": "0c9163123478552f86955f4cca50ed9003e3440b3f30d867117889af34ed5df3",
+      "modified": false,
+      "vendor_git_blob": "006ce072c53b6680b79e3f73c8689c06950aa352",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/inc/wlan_drv_init.h",
+      "sha256": "908cd6feeb26d6df7a58774f94d350d58a1d8890b531bff52d63720312bf6e72",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/inc/wlan_drv_init.h",
+      "vendor_sha256": "908cd6feeb26d6df7a58774f94d350d58a1d8890b531bff52d63720312bf6e72",
+      "modified": false,
+      "vendor_git_blob": "6ed7d4e458d1e824240300b0aef5a6f6faac3943",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/drv_init/wlan_drv_init.c",
+      "sha256": "1617f3515b3647afbc5a4aed203bbe433abf1a529661d8a20f0f925d10ed7019",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/drv_init/wlan_drv_init.c",
+      "vendor_sha256": "1617f3515b3647afbc5a4aed203bbe433abf1a529661d8a20f0f925d10ed7019",
+      "modified": false,
+      "vendor_git_blob": "7b28ad934f83f4ea0f5654254a27e462a2855a2a",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/mtk_wcn_stub_alps.c",
+      "sha256": "82df6864fabfa243f722101473956f96b847ee770b19736783cc293a93c45a67",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/mtk_wcn_stub_alps.c",
+      "vendor_sha256": "82df6864fabfa243f722101473956f96b847ee770b19736783cc293a93c45a67",
+      "modified": false,
+      "vendor_git_blob": "cf281b416d85875c155256d170a985a3815d482d",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/sdio_detect.c",
+      "sha256": "0daa1fafdc1b676375bd723d9cec6cf9f865606d7e3bb07b2fbf9c0de7a72ac0",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/sdio_detect.c",
+      "vendor_sha256": "0daa1fafdc1b676375bd723d9cec6cf9f865606d7e3bb07b2fbf9c0de7a72ac0",
+      "modified": false,
+      "vendor_git_blob": "42dbafecd265d0cca0cf1741c00cc0d462938d62",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/sdio_detect.h",
+      "sha256": "06453346a769b24da005aee1241ff01c0d7cbb6f9c6e09e63b9db692abe20a95",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/sdio_detect.h",
+      "vendor_sha256": "06453346a769b24da005aee1241ff01c0d7cbb6f9c6e09e63b9db692abe20a95",
+      "modified": false,
+      "vendor_git_blob": "274261d6075d1c04c02c77aeb89cfe0da6ff60b7",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/wmt_detect.c",
+      "sha256": "044ebd4b5698ac908be27fa015c650f7640d1870adc36edcc6e28ad66d0b5918",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/wmt_detect.c",
+      "vendor_sha256": "4fd3a2ade9a6521dba868d6a1f36a72f701165052dfd7cbbd738cce7a624411e",
+      "modified": true,
+      "vendor_git_blob": "7a17aa009115dbd7d51d239822bf9059c0c43228",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/wmt_detect.h",
+      "sha256": "51c2db67cc91f741e2587a052989d806e33f7477fec930be5df7cdd2d13215c3",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/wmt_detect.h",
+      "vendor_sha256": "51c2db67cc91f741e2587a052989d806e33f7477fec930be5df7cdd2d13215c3",
+      "modified": false,
+      "vendor_git_blob": "3c4150df4c642a62d57ac78d61bb44b833e0284a",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/wmt_detect_pwr.c",
+      "sha256": "e11de1c54df0583f219589599109504cdef3db0575df3b36f7dc1701b8960b84",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/wmt_detect_pwr.c",
+      "vendor_sha256": "e11de1c54df0583f219589599109504cdef3db0575df3b36f7dc1701b8960b84",
+      "modified": false,
+      "vendor_git_blob": "7d26c2df4f21048be73c99be8fdceea6321d9119",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/wmt_detect_pwr.h",
+      "sha256": "f9be833546aac427c235ffa10660b7024181b75515a36b85b36ae7ffa88ae0c2",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/wmt_detect_pwr.h",
+      "vendor_sha256": "f9be833546aac427c235ffa10660b7024181b75515a36b85b36ae7ffa88ae0c2",
+      "modified": false,
+      "vendor_git_blob": "32e661520fd0d09ac92244c950258df291cf695e",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/wmt_gpio.c",
+      "sha256": "be286b3134b36f9378842abf40241a6cf9ece07bd7e93dd46087f375ab95ef71",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/wmt_gpio.c",
+      "vendor_sha256": "be286b3134b36f9378842abf40241a6cf9ece07bd7e93dd46087f375ab95ef71",
+      "modified": false,
+      "vendor_git_blob": "55a483895f8faae045b2dd7d3f1d210d30bc6b0d",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_detect/wmt_gpio.h",
+      "sha256": "c1237e497af2ef8dd40235c9a9e7f957dbc43cdc45e00787cc1840c6a0db3dd4",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_detect/wmt_gpio.h",
+      "vendor_sha256": "d1129ce478506298f3b52ae68016d72c30f6905187b1a27963f4ff4549653b2d",
+      "modified": true,
+      "vendor_git_blob": "4e42dba212a15ef16b6a2a4fec379e3100f60fec",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/btm_core.c",
+      "sha256": "4a530a74f95e24aebeb0e57152ece45f98cdcd34050e85f1d782929c866c89d0",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/btm_core.c",
+      "vendor_sha256": "4a530a74f95e24aebeb0e57152ece45f98cdcd34050e85f1d782929c866c89d0",
+      "modified": false,
+      "vendor_git_blob": "a77460bdfaf81efc318ab63b77ff6fb7be950523",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/btm_core.h",
+      "sha256": "67f159cdf5b5547c33c33d652673b7dd55f4c9cbdbee45c600acdc53ee95b9ca",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/btm_core.h",
+      "vendor_sha256": "67f159cdf5b5547c33c33d652673b7dd55f4c9cbdbee45c600acdc53ee95b9ca",
+      "modified": false,
+      "vendor_git_blob": "158bf7ef9af100031e9d64198001f8bf381655d2",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/psm_core.h",
+      "sha256": "3d5944f25676735bb0452a1545d4ef58ae34e9d379035b8d030b3fe08daa2e85",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/psm_core.h",
+      "vendor_sha256": "3d5944f25676735bb0452a1545d4ef58ae34e9d379035b8d030b3fe08daa2e85",
+      "modified": false,
+      "vendor_git_blob": "393d0f41227dd99fa35472edda341ab2b82d5993",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/stp_core.h",
+      "sha256": "831203509d7314d932e5bc9c7eb98d5c859c212f6b8477730e62b6dfeea694cb",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/stp_core.h",
+      "vendor_sha256": "831203509d7314d932e5bc9c7eb98d5c859c212f6b8477730e62b6dfeea694cb",
+      "modified": false,
+      "vendor_git_blob": "2099131738bedde3c361eec1a523dcefcabb8710",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/stp_wmt.h",
+      "sha256": "d059c492ed6193ccf3ec892e7f1e4cd00a46a6b8312103103fe47400625e8beb",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/stp_wmt.h",
+      "vendor_sha256": "d059c492ed6193ccf3ec892e7f1e4cd00a46a6b8312103103fe47400625e8beb",
+      "modified": false,
+      "vendor_git_blob": "63d237a058b22886abb12b320972b6cb79fe0ea2",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/wmt_conf.h",
+      "sha256": "1a24b9fc51c9a70127d14aafc6e90eff4be562b3f204f13cb4e95ccdb2a1f0df",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/wmt_conf.h",
+      "vendor_sha256": "1a24b9fc51c9a70127d14aafc6e90eff4be562b3f204f13cb4e95ccdb2a1f0df",
+      "modified": false,
+      "vendor_git_blob": "99788d3d2c63ac14f8ba5cf7fc27da5e10d70850",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/wmt_core.h",
+      "sha256": "a0f21315767974c9ecf52842306d63c039878fbd431053f472a7684bbda807d9",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/wmt_core.h",
+      "vendor_sha256": "a0f21315767974c9ecf52842306d63c039878fbd431053f472a7684bbda807d9",
+      "modified": false,
+      "vendor_git_blob": "db80655ec54144529975e1de4b1c39f7b03c54e7",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/wmt_ctrl.h",
+      "sha256": "734f1cd81c98dc7e83ba51a3fd18e9b501f9f5d0c9dfc90e3b9afdec4085ec00",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/wmt_ctrl.h",
+      "vendor_sha256": "734f1cd81c98dc7e83ba51a3fd18e9b501f9f5d0c9dfc90e3b9afdec4085ec00",
+      "modified": false,
+      "vendor_git_blob": "6bb71ba0e2fd3f76989fb2f71c408fa3b607a1d3",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/wmt_func.h",
+      "sha256": "d1c2cd82a5fc88e3796a0158eef8775434bdc6646ac6b0d2c081bbd0c3451104",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/wmt_func.h",
+      "vendor_sha256": "d1c2cd82a5fc88e3796a0158eef8775434bdc6646ac6b0d2c081bbd0c3451104",
+      "modified": false,
+      "vendor_git_blob": "9145bb205ba8c887f876734c585950d7f114e38c",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/wmt_ic.h",
+      "sha256": "6677995be21cfad11b6a95d4aee6a7a43b4a7e8d941c75388f2f5b6b0482b02d",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/wmt_ic.h",
+      "vendor_sha256": "6677995be21cfad11b6a95d4aee6a7a43b4a7e8d941c75388f2f5b6b0482b02d",
+      "modified": false,
+      "vendor_git_blob": "aa44dff600b4831ddad6cc9f66a4ac5d98af211c",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/include/wmt_lib.h",
+      "sha256": "94a88d52b7dfeb06a09c5e359228822171466d27b7fae878085d9dc302eebb75",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/include/wmt_lib.h",
+      "vendor_sha256": "94a88d52b7dfeb06a09c5e359228822171466d27b7fae878085d9dc302eebb75",
+      "modified": false,
+      "vendor_git_blob": "9c80b515b899479b81e0b84175fc9f79cedadbd2",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/psm_core.c",
+      "sha256": "fd4b7a27a33aab957836519a6f00bfca56d2138c7f5097d528f4099b0caf4608",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/psm_core.c",
+      "vendor_sha256": "fd4b7a27a33aab957836519a6f00bfca56d2138c7f5097d528f4099b0caf4608",
+      "modified": false,
+      "vendor_git_blob": "f4f7700f868f8a40a75c456ae6886981143713ea",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/stp_core.c",
+      "sha256": "fc1f296f1f87ced383f738f2cb81b3c5e6cf593a9f8c9e6a8391d2e11d4f0b8c",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/stp_core.c",
+      "vendor_sha256": "fc1f296f1f87ced383f738f2cb81b3c5e6cf593a9f8c9e6a8391d2e11d4f0b8c",
+      "modified": false,
+      "vendor_git_blob": "80abc6b948b55b1aed679aebaedb55d2719509ec",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/stp_exp.c",
+      "sha256": "57ce809c5a96022373813e3772d79750f290a9df856ddfac6c6519472fb5d530",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/stp_exp.c",
+      "vendor_sha256": "57ce809c5a96022373813e3772d79750f290a9df856ddfac6c6519472fb5d530",
+      "modified": false,
+      "vendor_git_blob": "2696f5bf4975e8044d2a0a4c291734c92ea1aae1",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_conf.c",
+      "sha256": "fca03f4796a57419ace2e40fa67be2b007879b2ae87413152b9bbe9461bf398d",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_conf.c",
+      "vendor_sha256": "fca03f4796a57419ace2e40fa67be2b007879b2ae87413152b9bbe9461bf398d",
+      "modified": false,
+      "vendor_git_blob": "1329a8096db87ceec9b105cc926beca0d2107e81",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_core.c",
+      "sha256": "a55dae69043ff2eef957abcae70afca41b91abdedaf8baff529cd26a92a6a1d9",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_core.c",
+      "vendor_sha256": "a55dae69043ff2eef957abcae70afca41b91abdedaf8baff529cd26a92a6a1d9",
+      "modified": false,
+      "vendor_git_blob": "b57fe0ac4a5a5be869bf3a5ade0f8149e848c900",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_ctrl.c",
+      "sha256": "3b7a22017c4b72694da580d3da1702c0e1bd708c0a0b251695064768687c0f01",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_ctrl.c",
+      "vendor_sha256": "3b7a22017c4b72694da580d3da1702c0e1bd708c0a0b251695064768687c0f01",
+      "modified": false,
+      "vendor_git_blob": "80ac7aa4fdb196b30c47836c04d48493a5cedc20",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_exp.c",
+      "sha256": "46f2199f3a345814db745932a7fa8cddcdcd88cb98b4296087c69ee4d0a91851",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_exp.c",
+      "vendor_sha256": "46f2199f3a345814db745932a7fa8cddcdcd88cb98b4296087c69ee4d0a91851",
+      "modified": false,
+      "vendor_git_blob": "835f29a8e5b17a5ee9fd5339f2b56892155da703",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_func.c",
+      "sha256": "6ebbb587d5393ba50c971fe7b21dbcf23445c9efd03b5be49e00cbf9b1812e28",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_func.c",
+      "vendor_sha256": "6ebbb587d5393ba50c971fe7b21dbcf23445c9efd03b5be49e00cbf9b1812e28",
+      "modified": false,
+      "vendor_git_blob": "d0374a4727e6b6a5ccdeeaee4a41169dddb1356a",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_ic_6620.c",
+      "sha256": "fb7c8e070d8c5664cfe614f0222b80efd0a29ae40fcc164a126c5cb85cde9ac8",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_ic_6620.c",
+      "vendor_sha256": "fb7c8e070d8c5664cfe614f0222b80efd0a29ae40fcc164a126c5cb85cde9ac8",
+      "modified": false,
+      "vendor_git_blob": "9b033ad92dd4c42183bc86b441884bede8a69d49",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_ic_6628.c",
+      "sha256": "468e3a4519ff2950f327a507f0179ef453a225813b77725571a86f8e328209b1",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_ic_6628.c",
+      "vendor_sha256": "468e3a4519ff2950f327a507f0179ef453a225813b77725571a86f8e328209b1",
+      "modified": false,
+      "vendor_git_blob": "68b5336e3022015b26c492adf3f8f924182786aa",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_ic_6630.c",
+      "sha256": "f2c9d3899e6b5cf7339248be732cd36d45a7bebb9edbd50c7d75cae481dfb559",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_ic_6630.c",
+      "vendor_sha256": "f2c9d3899e6b5cf7339248be732cd36d45a7bebb9edbd50c7d75cae481dfb559",
+      "modified": false,
+      "vendor_git_blob": "31974df9853fbfbeb7a348a296e7db647edc0c9a",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_ic_6632.c",
+      "sha256": "a935537a48a22e170221f36801e258ae6cc9ca9e31a825f41864498cf008a9eb",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_ic_6632.c",
+      "vendor_sha256": "a935537a48a22e170221f36801e258ae6cc9ca9e31a825f41864498cf008a9eb",
+      "modified": false,
+      "vendor_git_blob": "20847f00a4a1511d8ecbf272f98b2fc1ed829f11",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_ic_soc.c",
+      "sha256": "c8cb50b1a32886db23f009e40010a31011aed87099ed8669707f1cf431745f46",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_ic_soc.c",
+      "vendor_sha256": "c8cb50b1a32886db23f009e40010a31011aed87099ed8669707f1cf431745f46",
+      "modified": false,
+      "vendor_git_blob": "e19728189cd7dd7e5789fafe993b32fc110a58a5",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/core/wmt_lib.c",
+      "sha256": "674bcd58cb45c4a5623fe5aaec289934a89d28bb863a9d24bbc63ecfd18229fe",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/core/wmt_lib.c",
+      "vendor_sha256": "674bcd58cb45c4a5623fe5aaec289934a89d28bb863a9d24bbc63ecfd18229fe",
+      "modified": false,
+      "vendor_git_blob": "6124cfc462c8e42339645266c5b8377c8c9114c8",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/include/mtk_wcn_cmb_hw.h",
+      "sha256": "cb7b6977f7a76cc952e36777d9dfc7f184458673da83080bf1600722d0286cff",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/include/mtk_wcn_cmb_hw.h",
+      "vendor_sha256": "cb7b6977f7a76cc952e36777d9dfc7f184458673da83080bf1600722d0286cff",
+      "modified": false,
+      "vendor_git_blob": "adbd4399a872e2dcf3566f1ea3aeca834eb3cb04",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/include/stp_exp.h",
+      "sha256": "0048d40d1dec3259d9f63da97b762776537d10e71d7a1634805df64a8e1a9814",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/include/stp_exp.h",
+      "vendor_sha256": "0048d40d1dec3259d9f63da97b762776537d10e71d7a1634805df64a8e1a9814",
+      "modified": false,
+      "vendor_git_blob": "7df686b4cf39de87ec082de40e52bb273ceef628",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/include/wmt_exp.h",
+      "sha256": "6b024dca1625abfc020dcb94a7bdad956587d53d1bdc4f221b5cc08708ea1c45",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/include/wmt_exp.h",
+      "vendor_sha256": "6b024dca1625abfc020dcb94a7bdad956587d53d1bdc4f221b5cc08708ea1c45",
+      "modified": false,
+      "vendor_git_blob": "7941f11482d225dc091d7c772ed889543be28d7c",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/include/wmt_plat.h",
+      "sha256": "017d57d01e1b902b3fc52f2b29a1fc4c5e07f57401cd46de65eae96037217f00",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/include/wmt_plat.h",
+      "vendor_sha256": "017d57d01e1b902b3fc52f2b29a1fc4c5e07f57401cd46de65eae96037217f00",
+      "modified": false,
+      "vendor_git_blob": "6f595683e366d77f8d1c4497caaabffcabe171ca",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/include/wmt_plat_stub.h",
+      "sha256": "840531e851467d3f2a2ed3874e7d95171a598b40d02268cb8df080fdf4bcdecd",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/include/wmt_plat_stub.h",
+      "vendor_sha256": "840531e851467d3f2a2ed3874e7d95171a598b40d02268cb8df080fdf4bcdecd",
+      "modified": false,
+      "vendor_git_blob": "59d30fa735a2efc6bc31323f3be1b7195e561f0b",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/bgw_desense.c",
+      "sha256": "952c62ac5164daf262be9d8db8dd16e683700a64942e5750232e085ea6c0f431",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/bgw_desense.c",
+      "vendor_sha256": "952c62ac5164daf262be9d8db8dd16e683700a64942e5750232e085ea6c0f431",
+      "modified": false,
+      "vendor_git_blob": "35d6a7c6a00e16d5c5a403cfa5ffcb162ba68137",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/hif_sdio.c",
+      "sha256": "9eaf78f1922a36aa7aa5de081175acf6f799d60831e25850d92e4500e2744d55",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/hif_sdio.c",
+      "vendor_sha256": "9eaf78f1922a36aa7aa5de081175acf6f799d60831e25850d92e4500e2744d55",
+      "modified": false,
+      "vendor_git_blob": "207064aa7f87ecab8bd5107f3dfce02bc94b9283",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/bgw_desense.h",
+      "sha256": "ef773a26216cb0d25a18a558fa6b2882fd80d4c656c078567d02a351ab2e234a",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/bgw_desense.h",
+      "vendor_sha256": "ef773a26216cb0d25a18a558fa6b2882fd80d4c656c078567d02a351ab2e234a",
+      "modified": false,
+      "vendor_git_blob": "4e9db7cbeb9338b33a812af5a850252e567506af",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/hif_sdio.h",
+      "sha256": "f5c8626d5e6ff8ba9cd267cf236f82d6e5fe1ab6d390c8f8f1901d073bb26d66",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/hif_sdio.h",
+      "vendor_sha256": "f5c8626d5e6ff8ba9cd267cf236f82d6e5fe1ab6d390c8f8f1901d073bb26d66",
+      "modified": false,
+      "vendor_git_blob": "bafbc26fd8b218129ad16c2603a3572a84791b9e",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/osal.h",
+      "sha256": "6689ceb3e468a24082e52b9f1b4402c7d3e8023e5c3341b681d49025f2eb9c12",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/osal.h",
+      "vendor_sha256": "b4e83acf54cd2c94b31c10719b69326bf71bdee57d28f28af28424fd2886628e",
+      "modified": true,
+      "vendor_git_blob": "fd067fb081defc5c12fa8062908736dc1a81f319",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/osal_typedef.h",
+      "sha256": "ba67869706e81c55a8f3848bdc4e7eac665bfd45fb9fb28420f730e3867b526c",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/osal_typedef.h",
+      "vendor_sha256": "ba67869706e81c55a8f3848bdc4e7eac665bfd45fb9fb28420f730e3867b526c",
+      "modified": false,
+      "vendor_git_blob": "ca48a7b7bac512d99dffea3cd7d56cca9dbecdac",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/stp_btif.h",
+      "sha256": "6ecb72575d63972d2df275f6be5022c84ca9547379db27fb3653190cab16fdd4",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/stp_btif.h",
+      "vendor_sha256": "6ecb72575d63972d2df275f6be5022c84ca9547379db27fb3653190cab16fdd4",
+      "modified": false,
+      "vendor_git_blob": "68f6d2ae5f9ab542aa6b0ee34898f77e5e1d563f",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/stp_dbg.h",
+      "sha256": "4d5758d4c136e93579fd4c208d0077ffed69095812271bf7da7ef37923746b05",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/stp_dbg.h",
+      "vendor_sha256": "4d5758d4c136e93579fd4c208d0077ffed69095812271bf7da7ef37923746b05",
+      "modified": false,
+      "vendor_git_blob": "dc4ef2388e0f90bfab55b4d21774aa96ec09192d",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/stp_dbg_combo.h",
+      "sha256": "90b6b2013aaa5fc69d7b86d8380deee4b06ad10c17624cd0b24ff4b7f744a748",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/stp_dbg_combo.h",
+      "vendor_sha256": "90b6b2013aaa5fc69d7b86d8380deee4b06ad10c17624cd0b24ff4b7f744a748",
+      "modified": false,
+      "vendor_git_blob": "47c25d8e5fc75b05758e135bd81086fc9b71a99f",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/stp_dbg_soc.h",
+      "sha256": "b3acff64b8ba3b4d22562844dee86451f886e741a6f968265b1194a584d28140",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/stp_dbg_soc.h",
+      "vendor_sha256": "b3acff64b8ba3b4d22562844dee86451f886e741a6f968265b1194a584d28140",
+      "modified": false,
+      "vendor_git_blob": "f79c0fecb069d08b192e63e5c7e1a4a2983b7574",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/stp_sdio.h",
+      "sha256": "9e0304a45b7feda8108ad2310974a443f59a844b94cc3d4d98f47d46311f9657",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/stp_sdio.h",
+      "vendor_sha256": "9e0304a45b7feda8108ad2310974a443f59a844b94cc3d4d98f47d46311f9657",
+      "modified": false,
+      "vendor_git_blob": "c1b9f45082c9b101ccc52d268480ee06413d039b",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/wmt_alarm.h",
+      "sha256": "5ff6f597027ba3e6e2f1664af179e42d87218f297bf84c2b9f013a914c9deccd",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/wmt_alarm.h",
+      "vendor_sha256": "5ff6f597027ba3e6e2f1664af179e42d87218f297bf84c2b9f013a914c9deccd",
+      "modified": false,
+      "vendor_git_blob": "d45d632770578032de1765665665e5c3dd58f8b8",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/wmt_dbg.h",
+      "sha256": "2bb0714d09b0a5d634a364407b656a0e9df0855cd33822331aaca460ff77f64c",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/wmt_dbg.h",
+      "vendor_sha256": "2bb0714d09b0a5d634a364407b656a0e9df0855cd33822331aaca460ff77f64c",
+      "modified": false,
+      "vendor_git_blob": "bc16dbd6acd3d8d6f6d98765d43898b3755aed3c",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/wmt_dev.h",
+      "sha256": "3a34cb822ee1225c1cbee4bb6b133414427b7cf205eaee990c57e8beca490907",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/wmt_dev.h",
+      "vendor_sha256": "3a34cb822ee1225c1cbee4bb6b133414427b7cf205eaee990c57e8beca490907",
+      "modified": false,
+      "vendor_git_blob": "0aec923213db586304b32036351bd7d23047dbf5",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/wmt_idc.h",
+      "sha256": "eb2048effc5b6801232656f14b97fe81f438845419c381c823fe6058d0c6bc68",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/wmt_idc.h",
+      "vendor_sha256": "eb2048effc5b6801232656f14b97fe81f438845419c381c823fe6058d0c6bc68",
+      "modified": false,
+      "vendor_git_blob": "3ea063561949262fb982ee651c4e488a724941bf",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/wmt_proc_dbg.h",
+      "sha256": "b5ec5ac0765ad0af169866e3b282b9e9455d8919d1c66246d64c81f648935f36",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/wmt_proc_dbg.h",
+      "vendor_sha256": "b5ec5ac0765ad0af169866e3b282b9e9455d8919d1c66246d64c81f648935f36",
+      "modified": false,
+      "vendor_git_blob": "1e8ed9be99f8d60ac8245e8be949dbc4ce3a3636",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/wmt_step.h",
+      "sha256": "34bcf4cd6525007a50236c81244f7f3250cf72b0d62c47915afd6395791a82de",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/wmt_step.h",
+      "vendor_sha256": "34bcf4cd6525007a50236c81244f7f3250cf72b0d62c47915afd6395791a82de",
+      "modified": false,
+      "vendor_git_blob": "8be5dc860b610b1bb058b762cdb9a7ae3e71acb7",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/include/wmt_user_proc.h",
+      "sha256": "52ecabf9f160fbbfbf7553ffe22c060163689a83462193b4bfad06bc59fd91cb",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/include/wmt_user_proc.h",
+      "vendor_sha256": "52ecabf9f160fbbfbf7553ffe22c060163689a83462193b4bfad06bc59fd91cb",
+      "modified": false,
+      "vendor_git_blob": "1bef0e0f78dddee4e3578fb37cbad800e04ffe9c",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/osal.c",
+      "sha256": "ed7f0f589f19d91fcdfb07d87a0b456878b678dbda1141811615d8b1b1a11290",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/osal.c",
+      "vendor_sha256": "21665cbab7043595ebe6f857331bd5ce2326786ba863912be0d3b947817b6156",
+      "modified": true,
+      "vendor_git_blob": "5bb4707db2550e6b13159660345b4e25845a5521",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/stp_btif.c",
+      "sha256": "726bc16f5748ac2466d060da90f1acb9a0c945b160251b161da26cc3a84a0a13",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/stp_btif.c",
+      "vendor_sha256": "726bc16f5748ac2466d060da90f1acb9a0c945b160251b161da26cc3a84a0a13",
+      "modified": false,
+      "vendor_git_blob": "3d26156b878f6d765ff3b7ded0afd133ccee4990",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/stp_dbg.c",
+      "sha256": "1c6e1304fe2c3b091888375050a8bf2dbd536cd2e85266d78718852bfb2c6244",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/stp_dbg.c",
+      "vendor_sha256": "1c6e1304fe2c3b091888375050a8bf2dbd536cd2e85266d78718852bfb2c6244",
+      "modified": false,
+      "vendor_git_blob": "5be09e8a9b87a0181a0ad1ada32a8c2d1605a8bc",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/stp_dbg_combo.c",
+      "sha256": "fa49a7033abda29589bed9c25d168143c00851f434a97bdf2b33248724ae0393",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/stp_dbg_combo.c",
+      "vendor_sha256": "fa49a7033abda29589bed9c25d168143c00851f434a97bdf2b33248724ae0393",
+      "modified": false,
+      "vendor_git_blob": "008fd66acae9f57afa408ea39ac9ed1ffccb31c8",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/stp_dbg_soc.c",
+      "sha256": "7d96de3d7e07fe4bd6892a03cdf4bf72daf3385bc19475aa02062414314409ce",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/stp_dbg_soc.c",
+      "vendor_sha256": "7d96de3d7e07fe4bd6892a03cdf4bf72daf3385bc19475aa02062414314409ce",
+      "modified": false,
+      "vendor_git_blob": "31b6a40b1a90d2d4090c7cbe5e0025d761871bb7",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/stp_sdio.c",
+      "sha256": "2d688f0d626060baef26e3766d2438c14cc4957239af00f522d99ca2ae9e5f0b",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/stp_sdio.c",
+      "vendor_sha256": "2d688f0d626060baef26e3766d2438c14cc4957239af00f522d99ca2ae9e5f0b",
+      "modified": false,
+      "vendor_git_blob": "d97e4c097f81ed64f01b1c7ae61166bd0a0d3a26",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/stp_uart.c",
+      "sha256": "b0cba75b61fa4df99e46ce7079981584dda62356e096e4c9c12dacbeafa6080c",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/stp_uart.c",
+      "vendor_sha256": "61a64f0f44f4968c9ba9d30466b24f69d47ba6e2c7a559a9f9f376f25a2c45e9",
+      "modified": true,
+      "vendor_git_blob": "5333dbfd2160671a253426aaaaf45f450984001e",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/wmt_alarm.c",
+      "sha256": "7f6a982824b5243d6bee772d467451f06c349074737f927dd76c7f25dd11befb",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/wmt_alarm.c",
+      "vendor_sha256": "6e94e70377df35974cac150e74fff97cc92bfdb7d1c7f52c094403f75c015a20",
+      "modified": true,
+      "vendor_git_blob": "1ad1c263156bd0b237ec28802d79b0b412cf0a2e",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/wmt_dbg.c",
+      "sha256": "32c343dea0a0108d5871316f6bc42b0c593e614c21f441df374a690ea54431c4",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/wmt_dbg.c",
+      "vendor_sha256": "32c343dea0a0108d5871316f6bc42b0c593e614c21f441df374a690ea54431c4",
+      "modified": false,
+      "vendor_git_blob": "68778450e5328b9163b520d47a2236fca2e89c4a",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/wmt_dev.c",
+      "sha256": "4c3b33e26bf31b919425c1560d5f20c3cc26cad40ae1155c1ce3c5624e7a1d96",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/wmt_dev.c",
+      "vendor_sha256": "77768dc8b8628b081004967413d14d87c39309abfacaded51ba8ee89288c5183",
+      "modified": true,
+      "vendor_git_blob": "238ac31f94a4f73a5241c9e30b504e2f6d415e71",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/wmt_idc.c",
+      "sha256": "4fb8d0acb3e0d1c9ba41c110bcc56fabc03b7d34c34613864918c01db2b55dcf",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/wmt_idc.c",
+      "vendor_sha256": "4fb8d0acb3e0d1c9ba41c110bcc56fabc03b7d34c34613864918c01db2b55dcf",
+      "modified": false,
+      "vendor_git_blob": "864b2ac18eb6559fda93243b66eebd3865445399",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/wmt_proc_dbg.c",
+      "sha256": "f3da587bd7cbb51094d9fc44141c4b8fca1999d3497a1e25b3e3ac64709c4853",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/wmt_proc_dbg.c",
+      "vendor_sha256": "f3da587bd7cbb51094d9fc44141c4b8fca1999d3497a1e25b3e3ac64709c4853",
+      "modified": false,
+      "vendor_git_blob": "d4204f260f5b6e957bbbe71fb9ac1ee395317859",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/wmt_user_proc.c",
+      "sha256": "8ecfa8908ea470ad5d1dbf1b8e82e444017bbacc5c2f4c0f5c384ba60d475ec4",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/wmt_user_proc.c",
+      "vendor_sha256": "8ecfa8908ea470ad5d1dbf1b8e82e444017bbacc5c2f4c0f5c384ba60d475ec4",
+      "modified": false,
+      "vendor_git_blob": "2757906c2db1a9988f9ccaf45314eeae39a227b1",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/include/mt6765.h",
+      "sha256": "901c326ea2682464254fd4d75c16d03401bd138369988f71a2a46e24bac9673d",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/include/mt6765.h",
+      "vendor_sha256": "901c326ea2682464254fd4d75c16d03401bd138369988f71a2a46e24bac9673d",
+      "modified": false,
+      "vendor_git_blob": "9a05cd6a8aba144bf980231d972e1da655cf85da",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/include/mtk_wcn_consys_hw.h",
+      "sha256": "aeda881de4eff7454c1b4a6158d759bc2e583dc76d975f9f87e49f67fbcf58a4",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/include/mtk_wcn_consys_hw.h",
+      "vendor_sha256": "aeda881de4eff7454c1b4a6158d759bc2e583dc76d975f9f87e49f67fbcf58a4",
+      "modified": false,
+      "vendor_git_blob": "0fe28ea088dfef8ae0b7a3f572b597f516f17aab",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/mt6765.c",
+      "sha256": "61b36147c9db818d17bc8097f915ab2cb772b505226ddd96565d3c9f9529a129",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/mt6765.c",
+      "vendor_sha256": "5f7b115ad6a413c9f1fbf6f1a1096fd8f80b229caeb0a8902895881892ef482c",
+      "modified": true,
+      "vendor_git_blob": "1a030bcdfd2e744d2fa93d99fb8134c1eebfea72",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/mt6765_dbg.c",
+      "sha256": "fafba3a2644b6cfa5836880d4bde12576df2ac38850c3a29ec033ea150f0af08",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/mt6765_dbg.c",
+      "vendor_sha256": "fafba3a2644b6cfa5836880d4bde12576df2ac38850c3a29ec033ea150f0af08",
+      "modified": false,
+      "vendor_git_blob": "40055178d7073bfac3f7c12cb9ad727febdc072e",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/mtk_wcn_cmb_hw.c",
+      "sha256": "57e96d515e37d51ddf00ea0794a03cff5006b6b858da5130b1cc18ee4b62a508",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/mtk_wcn_cmb_hw.c",
+      "vendor_sha256": "57e96d515e37d51ddf00ea0794a03cff5006b6b858da5130b1cc18ee4b62a508",
+      "modified": false,
+      "vendor_git_blob": "b2fd526e632f1d03010756deb4cbfbe42801b3f1",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/mtk_wcn_consys_hw.c",
+      "sha256": "dd4ab9132a826851f674014184b8b8e4a8d7b2031a76534cd54e502d9635f769",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/mtk_wcn_consys_hw.c",
+      "vendor_sha256": "58e481cd595d74a21c180c6f69922b2ef78d30b6d4cd28ccb339194f4c16ac9d",
+      "modified": true,
+      "vendor_git_blob": "5af539761e860f63e9d844f75a98d9cdeae08c91",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/mtk_wcn_dump_util.c",
+      "sha256": "14985e9b7d21c011047d16b3c4eb950faa7ac1fb09bf8a820e6b87548ce12155",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/mtk_wcn_dump_util.c",
+      "vendor_sha256": "14985e9b7d21c011047d16b3c4eb950faa7ac1fb09bf8a820e6b87548ce12155",
+      "modified": false,
+      "vendor_git_blob": "b683f7ea8ee213aaf912a265ebd76671a1238cb1",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/wmt_plat_alps.c",
+      "sha256": "a39ca07c1ba611bee13de9f539d8d384c4807272dcd910d5e64e2e230e8e92b0",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/wmt_plat_alps.c",
+      "vendor_sha256": "a39ca07c1ba611bee13de9f539d8d384c4807272dcd910d5e64e2e230e8e92b0",
+      "modified": false,
+      "vendor_git_blob": "e0de64de3025693060c87c790c6f13d62c35b656",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/debug_utility/connsys_debug_utility.c",
+      "sha256": "2e2a9e952fb47a32cd2739a7e077890be9dbd45d2219c7c4974f51e51276f25f",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/debug_utility/connsys_debug_utility.c",
+      "vendor_sha256": "e31e73a099ccf34cec8fa7f71c51d494eb8d2c97cb5ba86c3a5e9011fc834ffd",
+      "modified": true,
+      "vendor_git_blob": "b0039f343167e15e1bd6e971a2aab13351e55a74",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/debug_utility/connsys_debug_utility.h",
+      "sha256": "f4436d3b49675ebb5f724da6fcdcbf699f9489194aa98ac20d8c98486bac89ad",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/debug_utility/connsys_debug_utility.h",
+      "vendor_sha256": "f4436d3b49675ebb5f724da6fcdcbf699f9489194aa98ac20d8c98486bac89ad",
+      "modified": false,
+      "vendor_git_blob": "ea6da81ee23cdd24e49f31b13270685738ae476e",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/debug_utility/connsys_debug_utility_emi.h",
+      "sha256": "c9312e59a3cedfd7a0d4595b76bb9fca2c531aba1c7773714d689ddbdafa6442",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/debug_utility/connsys_debug_utility_emi.h",
+      "vendor_sha256": "c9312e59a3cedfd7a0d4595b76bb9fca2c531aba1c7773714d689ddbdafa6442",
+      "modified": false,
+      "vendor_git_blob": "485c8119aa108e16ce7b4339d90761ddd5f9f018",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/debug_utility/ring.c",
+      "sha256": "be5213da79f428c0779efb5a90c76d3678a9b67b11b6ac65de826520e4397a97",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/debug_utility/ring.c",
+      "vendor_sha256": "be5213da79f428c0779efb5a90c76d3678a9b67b11b6ac65de826520e4397a97",
+      "modified": false,
+      "vendor_git_blob": "51fbf82160621a5a83e333efca3f0882b8e33af3",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/debug_utility/ring.h",
+      "sha256": "19b3c072ebe7294cef081da24868076c22b7be41441ac46c35b0703615fcb06b",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/debug_utility/ring.h",
+      "vendor_sha256": "19b3c072ebe7294cef081da24868076c22b7be41441ac46c35b0703615fcb06b",
+      "modified": false,
+      "vendor_git_blob": "81168ce86615152d0999befe251fa5e69e292f1f",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/debug_utility/ring_emi.c",
+      "sha256": "51cfd912149b9b38739baea035c68fb7b9f32ea20911461001d9542ca2e2e62a",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/debug_utility/ring_emi.c",
+      "vendor_sha256": "51cfd912149b9b38739baea035c68fb7b9f32ea20911461001d9542ca2e2e62a",
+      "modified": false,
+      "vendor_git_blob": "3d0d111dfd4c9b3dba85757e3d76cd86c38f5125",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/debug_utility/ring_emi.h",
+      "sha256": "f4e1697c3473570c76cedeb9ab9da995a923022c49b243abd9a60bf3a49c03d6",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/debug_utility/ring_emi.h",
+      "vendor_sha256": "f4e1697c3473570c76cedeb9ab9da995a923022c49b243abd9a60bf3a49c03d6",
+      "modified": false,
+      "vendor_git_blob": "30e9e475e7c0f8500049d73aecaede752b6070a2",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/r1_adapter.c",
+      "sha256": "c780b1bc8fc204107531607f86c3b7b114c2b85c2cbe128110f313e2d1adff18",
+      "origin": "local Linux 7.1 port source"
+    },
+    {
+      "path": "wmt/r1_compat.h",
+      "sha256": "54b66183b9b33eb49d9f3895e47808d6fe75312fcbd70ddbf7c3615d31a019a2",
+      "origin": "local Linux 7.1 port source"
+    },
+    {
+      "path": "wmt/wmt_build_in_adapter.c",
+      "sha256": "f57ce7e44a3763930f9273ee68de59b34f3312670a62c7ec9dc1eeec204d8d7d",
+      "origin": "local Linux 7.1 port source"
+    }
+  ],
+  "partial_release_omitted_paths": [
+    "adaptor/Makefile",
+    "adaptor/fw_log_wifi.h",
+    "adaptor/wmt_cdev_wifi.c"
+  ],
+  "scope_note": "Partial publication; earlier build/review evidence describes the complete private preparation tree, not a fresh build of this filtered tree."
+}

@@ -1,0 +1,71 @@
+{
+  "scope": "GPS driver and alternate WMT overlay; common sources and headers supplied by connectivity group",
+  "files": [
+    {
+      "path": "driver/Makefile",
+      "sha256": "9a49397d6c6e0a7c6a1bb6ad47fbe2fcd153dbbade6aafcab62aa8d69c98aa45",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/gps/Makefile",
+      "vendor_sha256": "f403fe4e866c8917b135bcabba80de96368173ffa6f6a35e49273ad990ad9aea",
+      "modified": true,
+      "vendor_git_blob": "cff299b7cf5b94ec0d3558d9707f1bdc7aa20071",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "driver/gps_stp/gps.h",
+      "sha256": "71b61234c2e64eecb519df5a324183e9f5c3b560d3d8cb42ba01e3fd6e72b4eb",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/gps/gps_stp/gps.h",
+      "vendor_sha256": "71b61234c2e64eecb519df5a324183e9f5c3b560d3d8cb42ba01e3fd6e72b4eb",
+      "modified": false,
+      "vendor_git_blob": "9713ee9a36ea9d83a1e76609077bba9dc6ae1bda",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "driver/gps_stp/stp_chrdev_gps.c",
+      "sha256": "7cf270fa260fbd371e7d6a2d256da314ea491431897518d80834ecaa985f5ca1",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/gps/gps_stp/stp_chrdev_gps.c",
+      "vendor_sha256": "1d833903b428b5dceb50162fe24c9ebc9bbdc9573c4f2de8ca76f48203eabefb",
+      "modified": true,
+      "vendor_git_blob": "8ad98b77ec37aecf7f9c3d870a12282b122bd7cf",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/linux/osal.c",
+      "sha256": "398124940b031276349b7073b1d96f557593eed588bfc2e25681725b6e69b813",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/linux/osal.c",
+      "vendor_sha256": "21665cbab7043595ebe6f857331bd5ce2326786ba863912be0d3b947817b6156",
+      "modified": true,
+      "vendor_git_blob": "5bb4707db2550e6b13159660345b4e25845a5521",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/mtk_wcn_consys_hw.c",
+      "sha256": "6e5ec9f158da15de8bdc6c95c34f318324ba8cd568b9355fb821e2e5441cdc5b",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/mtk_wcn_consys_hw.c",
+      "vendor_sha256": "58e481cd595d74a21c180c6f69922b2ef78d30b6d4cd28ccb339194f4c16ac9d",
+      "modified": true,
+      "vendor_git_blob": "5af539761e860f63e9d844f75a98d9cdeae08c91",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/common_main/platform/wmt_plat_alps.c",
+      "sha256": "4cf655c2689b501aaba8801dec500aa8588c2f9d5052ebaaa381f6415c78d1d3",
+      "repository": "https://github.com/rabbit-hmi-oss/android_kernel_modules_rabbit_mt6765",
+      "vendor_path": "connectivity/common/common_main/platform/wmt_plat_alps.c",
+      "vendor_sha256": "a39ca07c1ba611bee13de9f539d8d384c4807272dcd910d5e64e2e230e8e92b0",
+      "modified": true,
+      "vendor_git_blob": "e0de64de3025693060c87c790c6f13d62c35b656",
+      "vendor_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f"
+    },
+    {
+      "path": "wmt/r1_gps_lna.c",
+      "sha256": "504d14f06d15bf4346c156f5b97b3cb8b41b829d3249830bedfcdf49d393c790",
+      "origin": "Local GPIO consumer for Rabbit R1 GPS LNA",
+      "observed_license": "GPL-2.0-only"
+    }
+  ]
+}
