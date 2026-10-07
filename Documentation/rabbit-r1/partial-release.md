@@ -8,9 +8,9 @@ The verified upstream Linux base, non-panel Rabbit kernel adaptations, and revie
 
 ## Excluded
 
-The Rabbit-specific panel implementation, its generated command table and generator, the entire external gen4m WLAN tree, and the separate Wi-Fi adapter source directory. Proprietary firmware/userspace, private calibration, device data and compiled artifacts remain excluded. Panel/WLAN paths and hashes mentioned in audit documents are evidence references, not bundled source.
+The active source tree omits the Rabbit-specific panel implementation/generator, its generated command table, the entire external gen4m WLAN tree, and the separate Wi-Fi adapter source directory. Our panel integration and Wi-Fi compatibility changes are available separately as [optional patches](../../patches/rabbit-r1/README.md); the original table and complete vendor sources are not bundled. Proprietary firmware/userspace, private calibration, device data and compiled artifacts remain excluded. Panel/WLAN paths and hashes mentioned in audit documents are evidence references, not bundled source.
 
-The publication uses a new root commit with no preparation/development history, so excluded components cannot be retrieved from ancestor commits.
+The publication began with a fresh root commit and no preparation/development history. Later optional patches contain reviewed integration changes; they do not add the original panel table or the four deferred WLAN inputs.
 
 For the public stock source repositories and official GPU firmware archive, see [where to obtain excluded sources and GPU blobs](external-sources-and-gpu-blobs.md).
 

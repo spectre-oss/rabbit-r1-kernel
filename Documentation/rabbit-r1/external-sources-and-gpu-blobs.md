@@ -1,6 +1,6 @@
 # Where to obtain the excluded sources and GPU blobs
 
-This partial release does not bundle the Rabbit panel/WLAN implementations or proprietary GPU binaries. The links below identify Rabbit's public originals; they do not reinstate those components in this repository.
+This partial release does not bundle the Rabbit panel/WLAN implementations or proprietary GPU binaries. The links below identify Rabbit's public originals. Apply our [optional compatibility patches](../../patches/rabbit-r1/README.md) to prepare the Linux integration locally; the vendor originals remain separate downloads.
 
 ## Panel source
 

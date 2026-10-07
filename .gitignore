@@ -198,3 +198,16 @@ sphinx_*/
 !/.github/
 !/.github/workflows/
 !/.github/workflows/source-checks.yml
+
+# Reviewed optional source patches; keep generated/private inputs excluded.
+!/patches/
+/patches/*
+!/patches/rabbit-r1/
+/patches/rabbit-r1/*
+!/patches/rabbit-r1/README.md
+!/patches/rabbit-r1/0001-rabbit-wlan-linux71.patch
+!/patches/rabbit-r1/0002-spectre-optional-integration.patch
+!/patches/rabbit-r1/manifest.json
+!/patches/rabbit-r1/validation.json
+!/patches/rabbit-r1/prepare.py
+!/patches/rabbit-r1/check.py

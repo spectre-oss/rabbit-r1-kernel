@@ -2,13 +2,15 @@
 
 Linux device support for Rabbit R1, maintained by [Spectre OSS](https://github.com/spectre-oss).
 
-**Partial source release: Rabbit R1 panel and Wi-Fi implementations are excluded. This snapshot is not a complete device kernel or a flashable image.**
+**Partial source release: Complete vendor panel/Wi-Fi sources are excluded; optional compatibility patches are available. This snapshot is not a complete device kernel or a flashable image.**
 
 See [included/excluded scope and build limitations](Documentation/rabbit-r1/partial-release.md). Earlier full-build results document the private preparation tree, not this filtered snapshot.
 
 The target is the Linux 7.1.0 Rabbit R1 development kernel, together with the kernel-side support required by its external hardware modules. It is a downstream community kernel, not an upstream Linux release or a complete operating system.
 
 ## Documentation
+
+- [Optional panel/Wi-Fi compatibility patches and preparation instructions](patches/rabbit-r1/README.md)
 
 - [Rabbit panel/Wi-Fi source links and official GPU blob downloads](Documentation/rabbit-r1/external-sources-and-gpu-blobs.md)
 

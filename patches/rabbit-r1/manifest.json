@@ -1,0 +1,1397 @@
+{
+  "schema_version": 1,
+  "spectre_base_commit": "ffd6fc4ecb6797bb8c29245e0de19f28c35fd576",
+  "rabbit_kernel_commit": "8167c8c1087f057d2ef302fc93b47554291687ec",
+  "rabbit_modules_commit": "0afdf059a0dfa17becc4bbe47363280a42224c2f",
+  "vendor_files": [
+    {
+      "source": "connectivity/wlan/core/gen4m/chips/common/cmm_asic_connac.c",
+      "destination": "external/rabbit-r1/wlan/chips/common/cmm_asic_connac.c",
+      "source_sha256": "46180e8c539dd26d1f7e322f7365c9ca3def58ef844cfa2c89e8efd181ff6693",
+      "prepared_sha256": "46180e8c539dd26d1f7e322f7365c9ca3def58ef844cfa2c89e8efd181ff6693"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/chips/common/dbg_connac.c",
+      "destination": "external/rabbit-r1/wlan/chips/common/dbg_connac.c",
+      "source_sha256": "41cd15d20f1e733c62cc04e7837b057e852925a7ee35de654ebcd8f2ed4360e7",
+      "prepared_sha256": "41cd15d20f1e733c62cc04e7837b057e852925a7ee35de654ebcd8f2ed4360e7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/chips/common/fw_dl.c",
+      "destination": "external/rabbit-r1/wlan/chips/common/fw_dl.c",
+      "source_sha256": "3c60b1d7cc32cc047f5d5184d781ed394187e82db40eaa1b81612c280b35d661",
+      "prepared_sha256": "3c60b1d7cc32cc047f5d5184d781ed394187e82db40eaa1b81612c280b35d661"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/chips/connac/connac.c",
+      "destination": "external/rabbit-r1/wlan/chips/connac/connac.c",
+      "source_sha256": "652c093d904a3ddffcb653f96b1cc5ffe7e753ee126901463e1af33b4a6a38e8",
+      "prepared_sha256": "652c093d904a3ddffcb653f96b1cc5ffe7e753ee126901463e1af33b4a6a38e8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/common/dump.c",
+      "destination": "external/rabbit-r1/wlan/common/dump.c",
+      "source_sha256": "5488403f6f5160e16b10c1d3ff5789c13261143079c76caf3d25de59f659ff15",
+      "prepared_sha256": "5488403f6f5160e16b10c1d3ff5789c13261143079c76caf3d25de59f659ff15"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/common/wlan_bow.c",
+      "destination": "external/rabbit-r1/wlan/common/wlan_bow.c",
+      "source_sha256": "b7694e09bfe8c5b58221db06b44b52f7caebf2734b2a7d98211360aa5404f41d",
+      "prepared_sha256": "b7694e09bfe8c5b58221db06b44b52f7caebf2734b2a7d98211360aa5404f41d"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/common/wlan_he.c",
+      "destination": "external/rabbit-r1/wlan/common/wlan_he.c",
+      "source_sha256": "790f5d799db9c2e19b2d2517761335aa2df4c8e72cc0289dc0a024e70fa8dfc6",
+      "prepared_sha256": "790f5d799db9c2e19b2d2517761335aa2df4c8e72cc0289dc0a024e70fa8dfc6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/common/wlan_lib.c",
+      "destination": "external/rabbit-r1/wlan/common/wlan_lib.c",
+      "source_sha256": "24f0d8b816c74e1deadecb4be988747f56fbf3edb846307b3dedf6e99f376124",
+      "prepared_sha256": "5d15009008b2bd4c98b1b4aa1e83cd5a279380721ddcf8fa03f3135c1ded7e72"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/common/wlan_oid.c",
+      "destination": "external/rabbit-r1/wlan/common/wlan_oid.c",
+      "source_sha256": "c8006f925854b58862f0ef569013aeb99e6948f2d5c988abd24ab6f59953606e",
+      "prepared_sha256": "4357c51fcde2e5403af43691dccc35ea70f7af946520f6bce011cf3a3565bb21"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/common/wlan_p2p.c",
+      "destination": "external/rabbit-r1/wlan/common/wlan_p2p.c",
+      "source_sha256": "3f0b9110b8a05f420fef60bf642aa93f2bbb8c009db87a2ae840839c6c642ce8",
+      "prepared_sha256": "3f0b9110b8a05f420fef60bf642aa93f2bbb8c009db87a2ae840839c6c642ce8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/CFG_Wifi_File.h",
+      "destination": "external/rabbit-r1/wlan/include/CFG_Wifi_File.h",
+      "source_sha256": "5b8f6fe524662fc2544c71acd8e439746fa3edbd940df223b8ca84dcabe2df4b",
+      "prepared_sha256": "5b8f6fe524662fc2544c71acd8e439746fa3edbd940df223b8ca84dcabe2df4b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/cmm_asic_connac.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/cmm_asic_connac.h",
+      "source_sha256": "ccd5431a7f6e2618dcdbd13bafd966b76b509479d9afb536a77b277239dca721",
+      "prepared_sha256": "ccd5431a7f6e2618dcdbd13bafd966b76b509479d9afb536a77b277239dca721"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/cmm_asic_connac2x.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/cmm_asic_connac2x.h",
+      "source_sha256": "c9614b33a773cfe5390e12bd761349af73673bc446b70dc3c50ccb1ab142d3e8",
+      "prepared_sha256": "c9614b33a773cfe5390e12bd761349af73673bc446b70dc3c50ccb1ab142d3e8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/connac.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/connac.h",
+      "source_sha256": "428a2e8ff76bf4bdd47c7a923aa47509586e513257e31b9c39da83de924f7837",
+      "prepared_sha256": "428a2e8ff76bf4bdd47c7a923aa47509586e513257e31b9c39da83de924f7837"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/dma_sch.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/dma_sch.h",
+      "source_sha256": "646288a951e0e912cd3623676135ec598cec51f263f9d4b8215baefabd0976e9",
+      "prepared_sha256": "646288a951e0e912cd3623676135ec598cec51f263f9d4b8215baefabd0976e9"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/fw_dl.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/fw_dl.h",
+      "source_sha256": "29b7ceced522dfce32f09e21fcbec15cd4174789d5cc14fb8f623c9fd18d8775",
+      "prepared_sha256": "29b7ceced522dfce32f09e21fcbec15cd4174789d5cc14fb8f623c9fd18d8775"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/host_csr.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/host_csr.h",
+      "source_sha256": "be331f20ee5571eb1fdc67ff082062406e51544019eb1dde20c053329187c2c7",
+      "prepared_sha256": "be331f20ee5571eb1fdc67ff082062406e51544019eb1dde20c053329187c2c7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/mt_dmac.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/mt_dmac.h",
+      "source_sha256": "35f3f3a530b9a6a7ba32143f09629a7a22d8cf2601f713b0e26a31998964e6f8",
+      "prepared_sha256": "35f3f3a530b9a6a7ba32143f09629a7a22d8cf2601f713b0e26a31998964e6f8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/pre_cal.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/pre_cal.h",
+      "source_sha256": "577704313df41fa7db5d31fd1211a5681fe14330bc7dedc8af4a5a36fc1465ea",
+      "prepared_sha256": "577704313df41fa7db5d31fd1211a5681fe14330bc7dedc8af4a5a36fc1465ea"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/pse.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/pse.h",
+      "source_sha256": "ea95aecd2c4b6a69030fb5da8cea19b5ea1c09c3d764c6f44124b2cb5837d4c3",
+      "prepared_sha256": "ea95aecd2c4b6a69030fb5da8cea19b5ea1c09c3d764c6f44124b2cb5837d4c3"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/chips/wf_ple.h",
+      "destination": "external/rabbit-r1/wlan/include/chips/wf_ple.h",
+      "source_sha256": "f9a2a771115caf6910fd7133aa2a74d48db1023676d6234249310956f1eabf6e",
+      "prepared_sha256": "f9a2a771115caf6910fd7133aa2a74d48db1023676d6234249310956f1eabf6e"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/config.h",
+      "destination": "external/rabbit-r1/wlan/include/config.h",
+      "source_sha256": "bcd8df4d0e03ba76c22ca6c33d975969f3a5662e1d2d065eb9e68eea262abd36",
+      "prepared_sha256": "32bf70f45487bd29afeedf242cd3d20f119771ac9a4521c46807df0a455c74cb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/debug.h",
+      "destination": "external/rabbit-r1/wlan/include/debug.h",
+      "source_sha256": "c90df4e588bb6732e4b4a3b2d64c63321d02e45291be40db4769421c6f523f14",
+      "prepared_sha256": "c90df4e588bb6732e4b4a3b2d64c63321d02e45291be40db4769421c6f523f14"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/hif_cmm.h",
+      "destination": "external/rabbit-r1/wlan/include/hif_cmm.h",
+      "source_sha256": "821840a01be14f187d7c64225bda2dcfe75f64a513b0a7aa611ef2364794488f",
+      "prepared_sha256": "821840a01be14f187d7c64225bda2dcfe75f64a513b0a7aa611ef2364794488f"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/link.h",
+      "destination": "external/rabbit-r1/wlan/include/link.h",
+      "source_sha256": "3cb78bea0fc3eb9916cc82dc72cd9ccea1df222842ae2b57137b7c59dd37d74a",
+      "prepared_sha256": "3cb78bea0fc3eb9916cc82dc72cd9ccea1df222842ae2b57137b7c59dd37d74a"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/aa_fsm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/aa_fsm.h",
+      "source_sha256": "fb550f0d8428a4280a53f4be3503347a9ae29127cb7d94cb84506ebb353535ce",
+      "prepared_sha256": "fb550f0d8428a4280a53f4be3503347a9ae29127cb7d94cb84506ebb353535ce"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/ais_fsm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/ais_fsm.h",
+      "source_sha256": "a4151b4f8f650a6b1bc44161d1a213175fdea3e971d908e6dfa7c1d2f63a0cd6",
+      "prepared_sha256": "a4151b4f8f650a6b1bc44161d1a213175fdea3e971d908e6dfa7c1d2f63a0cd6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/ap_selection.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/ap_selection.h",
+      "source_sha256": "37823c0fa9ad0e6b220e1b1bfa3135514bc68015a735bfe6582c77934cb23958",
+      "prepared_sha256": "37823c0fa9ad0e6b220e1b1bfa3135514bc68015a735bfe6582c77934cb23958"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/assoc.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/assoc.h",
+      "source_sha256": "9088ff6bc28ce15ae51ba23ebe1e655f210488cd6bdce6558528d5f571cd4548",
+      "prepared_sha256": "9088ff6bc28ce15ae51ba23ebe1e655f210488cd6bdce6558528d5f571cd4548"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/auth.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/auth.h",
+      "source_sha256": "f9f5c93d932a7a3fc5f38b4a5a94189468dc3757ec8c8efb858453922bc422db",
+      "prepared_sha256": "f9f5c93d932a7a3fc5f38b4a5a94189468dc3757ec8c8efb858453922bc422db"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/bss.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/bss.h",
+      "source_sha256": "f89998d136c4816915fa23d640f9d00d1fdfea645ba708f0e8c051d6d5df1c5f",
+      "prepared_sha256": "f89998d136c4816915fa23d640f9d00d1fdfea645ba708f0e8c051d6d5df1c5f"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/cnm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/cnm.h",
+      "source_sha256": "095c4d2ad70bedd4fae2be8b5f058dfb8a64169965f458deab270eb226140543",
+      "prepared_sha256": "095c4d2ad70bedd4fae2be8b5f058dfb8a64169965f458deab270eb226140543"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/cnm_mem.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/cnm_mem.h",
+      "source_sha256": "83da786551a62f2daf9e7920df6e4efad9fe285ff5d9de5f398270dbf49e2f64",
+      "prepared_sha256": "83da786551a62f2daf9e7920df6e4efad9fe285ff5d9de5f398270dbf49e2f64"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/cnm_scan.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/cnm_scan.h",
+      "source_sha256": "5fdddfa8faad059bdaac7bb65eb623ac049af74a96e189978798b87c4dbe353c",
+      "prepared_sha256": "5fdddfa8faad059bdaac7bb65eb623ac049af74a96e189978798b87c4dbe353c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/cnm_timer.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/cnm_timer.h",
+      "source_sha256": "d3ccab54ebf8a3b6d7a37079fc3e98812b93b0f11684bbf02101b3db471cdcfb",
+      "prepared_sha256": "d3ccab54ebf8a3b6d7a37079fc3e98812b93b0f11684bbf02101b3db471cdcfb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/hem_mbox.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/hem_mbox.h",
+      "source_sha256": "d977982145117e539c19513f75d673f90f33b15337a89190e6db3a3b62f51822",
+      "prepared_sha256": "d977982145117e539c19513f75d673f90f33b15337a89190e6db3a3b62f51822"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/hs20.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/hs20.h",
+      "source_sha256": "d9bb6713077f9647eefdb9b718c55106f166c4b275217460c3069fedda6896f0",
+      "prepared_sha256": "d9bb6713077f9647eefdb9b718c55106f166c4b275217460c3069fedda6896f0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/ie_sort.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/ie_sort.h",
+      "source_sha256": "eb52af0516ff51dc4040ad7a366167b6adb92655601334e310271880fc6b43ea",
+      "prepared_sha256": "eb52af0516ff51dc4040ad7a366167b6adb92655601334e310271880fc6b43ea"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/mddp.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/mddp.h",
+      "source_sha256": "dec6b3845fed8e81e478dee1037827ca7ec2b7ed9416808667f677d7c762a798",
+      "prepared_sha256": "dec6b3845fed8e81e478dee1037827ca7ec2b7ed9416808667f677d7c762a798"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/mib.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/mib.h",
+      "source_sha256": "17423ff3eaa44f5398271ffa96ede34d779370b00bb6068ef4c6e4a0e0b5d235",
+      "prepared_sha256": "17423ff3eaa44f5398271ffa96ede34d779370b00bb6068ef4c6e4a0e0b5d235"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/mscs.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/mscs.h",
+      "source_sha256": "34f3b79a657bace5c45e66683ae23f37d22604aa4f20ec61509d7075b7ea8309",
+      "prepared_sha256": "34f3b79a657bace5c45e66683ae23f37d22604aa4f20ec61509d7075b7ea8309"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_assoc.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_assoc.h",
+      "source_sha256": "32c99b727ec43a4a5f4137892a1ed32f27a7da2b6f786f6e9faa888803e8e1dc",
+      "prepared_sha256": "32c99b727ec43a4a5f4137892a1ed32f27a7da2b6f786f6e9faa888803e8e1dc"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_bss.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_bss.h",
+      "source_sha256": "05ef56a7d0c74589697b1a6a167ef6f04b9b55bb134132d1bfa1b4d60d501d0a",
+      "prepared_sha256": "05ef56a7d0c74589697b1a6a167ef6f04b9b55bb134132d1bfa1b4d60d501d0a"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_dev.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_dev.h",
+      "source_sha256": "a937ec07d2aa0f3afd38cee4272f432d2ec3eba0fa584e0f07c1b42119b4e74c",
+      "prepared_sha256": "a937ec07d2aa0f3afd38cee4272f432d2ec3eba0fa584e0f07c1b42119b4e74c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_dev_state.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_dev_state.h",
+      "source_sha256": "6a8753623736f423b917a6d8fe6d7beff922416a5176504a8b72ea5cabf47eb3",
+      "prepared_sha256": "6a8753623736f423b917a6d8fe6d7beff922416a5176504a8b72ea5cabf47eb3"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_fsm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_fsm.h",
+      "source_sha256": "7b0cdec034c9c8381aa6e1c28af8e6379c5842f5d21f1001887e6369779b9fad",
+      "prepared_sha256": "7b0cdec034c9c8381aa6e1c28af8e6379c5842f5d21f1001887e6369779b9fad"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_func.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_func.h",
+      "source_sha256": "17d7da28383ea75eba13b39bce6e8a605dcfb1f4e6089104fb791046503d8ab6",
+      "prepared_sha256": "17d7da28383ea75eba13b39bce6e8a605dcfb1f4e6089104fb791046503d8ab6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_ie.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_ie.h",
+      "source_sha256": "2756bf8f800ad805eb2e2fff158a8aaa563c756564674077c5ac88b88c5205d5",
+      "prepared_sha256": "2756bf8f800ad805eb2e2fff158a8aaa563c756564674077c5ac88b88c5205d5"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_rlm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_rlm.h",
+      "source_sha256": "47ebb7da9d8255805a8a15a439585042e3fcffc8602f8057cac2bb082966cb2b",
+      "prepared_sha256": "47ebb7da9d8255805a8a15a439585042e3fcffc8602f8057cac2bb082966cb2b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_rlm_obss.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_rlm_obss.h",
+      "source_sha256": "00a123c3048559076ccfe78affed05bc3c201cd0c6bb8b0bbee7632074b59202",
+      "prepared_sha256": "00a123c3048559076ccfe78affed05bc3c201cd0c6bb8b0bbee7632074b59202"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_role.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_role.h",
+      "source_sha256": "8e4fb3259075c62945da882e6076fcba0d25b278884caf177dc145e2e2cbe723",
+      "prepared_sha256": "8e4fb3259075c62945da882e6076fcba0d25b278884caf177dc145e2e2cbe723"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_role_state.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_role_state.h",
+      "source_sha256": "0e72230f7e95c443c378edc9e9e6b7e57bc4353247e84b6b47ca90671c8ab05c",
+      "prepared_sha256": "0e72230f7e95c443c378edc9e9e6b7e57bc4353247e84b6b47ca90671c8ab05c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/p2p_scan.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/p2p_scan.h",
+      "source_sha256": "7beccf371f9cd451d2fbd7212a464f19f958c4015456282b13be76daeffa0eca",
+      "prepared_sha256": "7beccf371f9cd451d2fbd7212a464f19f958c4015456282b13be76daeffa0eca"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/privacy.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/privacy.h",
+      "source_sha256": "273e33cc1f51ee15a738318e06509b3e5a8e4490fdee576add0577cab81779f5",
+      "prepared_sha256": "273e33cc1f51ee15a738318e06509b3e5a8e4490fdee576add0577cab81779f5"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/qosmap.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/qosmap.h",
+      "source_sha256": "ce968014ed487e4022156fb092874a75e85a0d53b2c309b54c32b88fad3d191e",
+      "prepared_sha256": "ce968014ed487e4022156fb092874a75e85a0d53b2c309b54c32b88fad3d191e"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rate.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rate.h",
+      "source_sha256": "dab9e3dd71b2eed075ef2ffcdcca17d25f14251c5c4cdbb93cba048e938072e4",
+      "prepared_sha256": "dab9e3dd71b2eed075ef2ffcdcca17d25f14251c5c4cdbb93cba048e938072e4"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rlm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rlm.h",
+      "source_sha256": "a51f7d8f849bf947a1d933e8dd62d05813a9ee341d29be764367d64aa869b7f6",
+      "prepared_sha256": "a51f7d8f849bf947a1d933e8dd62d05813a9ee341d29be764367d64aa869b7f6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rlm_domain.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rlm_domain.h",
+      "source_sha256": "b962dcf5f528ecf577e727b00247118f999814e20c6f5285a89f4d408990f0f4",
+      "prepared_sha256": "b962dcf5f528ecf577e727b00247118f999814e20c6f5285a89f4d408990f0f4"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rlm_obss.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rlm_obss.h",
+      "source_sha256": "405648500a6e3143cca69a9449532e2d0c7ea33572caf94faff9348b6bdc41fa",
+      "prepared_sha256": "405648500a6e3143cca69a9449532e2d0c7ea33572caf94faff9348b6bdc41fa"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rlm_protection.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rlm_protection.h",
+      "source_sha256": "7baa8f1ce94f597af65c20fa999f970d465f1c6c99822f387fca0663ecb15925",
+      "prepared_sha256": "7baa8f1ce94f597af65c20fa999f970d465f1c6c99822f387fca0663ecb15925"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rlm_txpwr_init.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rlm_txpwr_init.h",
+      "source_sha256": "0619c4ce9eb254cfa23f830be8dea796a8ff0300b1d1b79941419091045d1dea",
+      "prepared_sha256": "0619c4ce9eb254cfa23f830be8dea796a8ff0300b1d1b79941419091045d1dea"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/roaming_fsm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/roaming_fsm.h",
+      "source_sha256": "c7669f6aeb19854bd364a2ea3a075d814f85e5e36f7ff9cffaabddf25ff93348",
+      "prepared_sha256": "c7669f6aeb19854bd364a2ea3a075d814f85e5e36f7ff9cffaabddf25ff93348"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rrm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rrm.h",
+      "source_sha256": "dcc65ffd0a1c81f312dbdbf8332327b3782c2402f893e678bde10b89aa906dee",
+      "prepared_sha256": "dcc65ffd0a1c81f312dbdbf8332327b3782c2402f893e678bde10b89aa906dee"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/rsn.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/rsn.h",
+      "source_sha256": "27ac4f8492ad7bea5a674c0a35f4ff4b2ebe14e9cb9eaa44c57ef9ea30799f26",
+      "prepared_sha256": "27ac4f8492ad7bea5a674c0a35f4ff4b2ebe14e9cb9eaa44c57ef9ea30799f26"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/scan.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/scan.h",
+      "source_sha256": "43f8a6514237da2db5500a126f62b12ad5b088c8c6e7e05d977a1260bb681053",
+      "prepared_sha256": "43f8a6514237da2db5500a126f62b12ad5b088c8c6e7e05d977a1260bb681053"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/stats.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/stats.h",
+      "source_sha256": "3299081632aba7b5cded81b818f83e36c2b9455accd5dede776f8c88202dd0a8",
+      "prepared_sha256": "3299081632aba7b5cded81b818f83e36c2b9455accd5dede776f8c88202dd0a8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/swcr.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/swcr.h",
+      "source_sha256": "3fa5a8d2d973eec92a230e8382d00168c8a46b62e36dc0a0046cadbb378981a1",
+      "prepared_sha256": "3fa5a8d2d973eec92a230e8382d00168c8a46b62e36dc0a0046cadbb378981a1"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/tdls.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/tdls.h",
+      "source_sha256": "04cf74fbb3272bc347eb51b032aebba04f3d77130bad05e6b35afbcbdadb4b58",
+      "prepared_sha256": "04cf74fbb3272bc347eb51b032aebba04f3d77130bad05e6b35afbcbdadb4b58"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/wapi.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/wapi.h",
+      "source_sha256": "6a36899257c6375cf666cea824ef41117393221df958140290559e72691f3f9b",
+      "prepared_sha256": "6a36899257c6375cf666cea824ef41117393221df958140290559e72691f3f9b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/wlan_typedef.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/wlan_typedef.h",
+      "source_sha256": "add4f9743469df770dbb8d212d72a0ba8766ead855a2dcab6c0c6e4784b9bdf1",
+      "prepared_sha256": "add4f9743469df770dbb8d212d72a0ba8766ead855a2dcab6c0c6e4784b9bdf1"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/wmm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/wmm.h",
+      "source_sha256": "23602e59d3f06d4d842fa40db235511b7cf5a03f0a0b32854a37898c87a51c7b",
+      "prepared_sha256": "23602e59d3f06d4d842fa40db235511b7cf5a03f0a0b32854a37898c87a51c7b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mgmt/wnm.h",
+      "destination": "external/rabbit-r1/wlan/include/mgmt/wnm.h",
+      "source_sha256": "a70e098a429aa21ba1534e0df526dd6eb041ff548f08aac0a691d442951e9957",
+      "prepared_sha256": "a70e098a429aa21ba1534e0df526dd6eb041ff548f08aac0a691d442951e9957"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/mtk_wifi_trace.h",
+      "destination": "external/rabbit-r1/wlan/include/mtk_wifi_trace.h",
+      "source_sha256": "e328c67de8f7445c46a2fd08c5d00e4fb3d470e0ec03136439429111d45124d0",
+      "prepared_sha256": "e328c67de8f7445c46a2fd08c5d00e4fb3d470e0ec03136439429111d45124d0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/adapter.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/adapter.h",
+      "source_sha256": "1077804878308beca95947245dd89b6779ed9b5d29c62f35e77830eafbaa8124",
+      "prepared_sha256": "1077804878308beca95947245dd89b6779ed9b5d29c62f35e77830eafbaa8124"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/bow.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/bow.h",
+      "source_sha256": "b2bab6d41a8f71b2b23655316b5e11f4a6a8fef2da292824e00bc73b5d2ddbb6",
+      "prepared_sha256": "b2bab6d41a8f71b2b23655316b5e11f4a6a8fef2da292824e00bc73b5d2ddbb6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/cmd_buf.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/cmd_buf.h",
+      "source_sha256": "091480399dbfbca151b52b2310894d7b456686cfa1664536d80ae25c01ccbcb2",
+      "prepared_sha256": "091480399dbfbca151b52b2310894d7b456686cfa1664536d80ae25c01ccbcb2"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/connac_dmashdl.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/connac_dmashdl.h",
+      "source_sha256": "f02583781588d73b8e9b4430d49adc9e72467bc499681e114164381b304ea274",
+      "prepared_sha256": "f02583781588d73b8e9b4430d49adc9e72467bc499681e114164381b304ea274"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/connac_reg.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/connac_reg.h",
+      "source_sha256": "e982f4d592419d203d1d0c86c2ae0be0ce2a64fe282351dea3f075820e5c00ca",
+      "prepared_sha256": "e982f4d592419d203d1d0c86c2ae0be0ce2a64fe282351dea3f075820e5c00ca"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/hal.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/hal.h",
+      "source_sha256": "b3a5d5d07851973c408cab17a79938391817819b62e0239f55dcb7dfcc42a882",
+      "prepared_sha256": "b3a5d5d07851973c408cab17a79938391817819b62e0239f55dcb7dfcc42a882"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/hif_rx.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/hif_rx.h",
+      "source_sha256": "3c72bc004c5834039db5e2a3a7710c5285dde61350d0511c5c5fd2dee4f19ee1",
+      "prepared_sha256": "3c72bc004c5834039db5e2a3a7710c5285dde61350d0511c5c5fd2dee4f19ee1"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/hif_tx.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/hif_tx.h",
+      "source_sha256": "31dd9322c1ec78a556e9b30733497ef3810200977e1206cc1891241be0fd96fb",
+      "prepared_sha256": "31dd9322c1ec78a556e9b30733497ef3810200977e1206cc1891241be0fd96fb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/mac.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/mac.h",
+      "source_sha256": "ec7f5f07ba54f879d256c4ed4c038481fe80092ee05accd5cb854f228a500a53",
+      "prepared_sha256": "ec7f5f07ba54f879d256c4ed4c038481fe80092ee05accd5cb854f228a500a53"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/mt66xx_reg.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/mt66xx_reg.h",
+      "source_sha256": "f05698ef57e047576f137caf455476d8e7f4a9f3739da8b08c7198f09fcf1988",
+      "prepared_sha256": "f05698ef57e047576f137caf455476d8e7f4a9f3739da8b08c7198f09fcf1988"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic.h",
+      "source_sha256": "0e1bec24cccd86e0d37df573f86a50c6ed543670d4173c402efee04aa97a5a46",
+      "prepared_sha256": "0e1bec24cccd86e0d37df573f86a50c6ed543670d4173c402efee04aa97a5a46"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_connac2x_rx.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_connac2x_rx.h",
+      "source_sha256": "81699a162f18de450e9bac3239030460ff12b37520342c73a611e1056ca835b3",
+      "prepared_sha256": "81699a162f18de450e9bac3239030460ff12b37520342c73a611e1056ca835b3"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_connac2x_tx.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_connac2x_tx.h",
+      "source_sha256": "6f72ca1e076f0c4e4a3c58a7b30f4529b0073d0779d1602b5682ac9a684d1113",
+      "prepared_sha256": "6f72ca1e076f0c4e4a3c58a7b30f4529b0073d0779d1602b5682ac9a684d1113"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_rate.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_rate.h",
+      "source_sha256": "2339c369b82730c002f3956b6fa2d75ed10fc9440081a92a96666b74937235f7",
+      "prepared_sha256": "2339c369b82730c002f3956b6fa2d75ed10fc9440081a92a96666b74937235f7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_rx.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_rx.h",
+      "source_sha256": "4c2c99562951c6cdb3a06a41091fcb1a41f70ff1f33555f666212f2424680477",
+      "prepared_sha256": "4c2c99562951c6cdb3a06a41091fcb1a41f70ff1f33555f666212f2424680477"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_rxd_v1.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_rxd_v1.h",
+      "source_sha256": "a6b0ab8496bb7eed804e43bd3204e364c09b2bdacbae62ac53601c0c9290b1eb",
+      "prepared_sha256": "a6b0ab8496bb7eed804e43bd3204e364c09b2bdacbae62ac53601c0c9290b1eb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_rxd_v2.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_rxd_v2.h",
+      "source_sha256": "cafb179dc0a6ed479f86f49f33af75c34b2271d58c86ba8ac767f10b8f96dd1a",
+      "prepared_sha256": "cafb179dc0a6ed479f86f49f33af75c34b2271d58c86ba8ac767f10b8f96dd1a"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_tx.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_tx.h",
+      "source_sha256": "d52d23eec6bcff3225aa22484f608d4d317381d29f6a82a9e8a5aa7bc79a342c",
+      "prepared_sha256": "d52d23eec6bcff3225aa22484f608d4d317381d29f6a82a9e8a5aa7bc79a342c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_txd_v1.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_txd_v1.h",
+      "source_sha256": "e85ba2c5131ce3ef5219799e1185b6ff3b5af51e55bcc373d60f6f19d40950a1",
+      "prepared_sha256": "e85ba2c5131ce3ef5219799e1185b6ff3b5af51e55bcc373d60f6f19d40950a1"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_txd_v2.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_txd_v2.h",
+      "source_sha256": "eb954888793f7cb4222f1ba622ad7ea56cccbf7b2469b7cbac2e43849fe8ade5",
+      "prepared_sha256": "eb954888793f7cb4222f1ba622ad7ea56cccbf7b2469b7cbac2e43849fe8ade5"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/nic_umac.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/nic_umac.h",
+      "source_sha256": "f5dc380fb1b48ca8616bf47c9d1b471afb25d510521f6fd32990e0a90b3144d7",
+      "prepared_sha256": "f5dc380fb1b48ca8616bf47c9d1b471afb25d510521f6fd32990e0a90b3144d7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/p2p.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/p2p.h",
+      "source_sha256": "dabb517f22e3cdb94619d6d4038d655a797caa62f9d9252b09b6563eb572169c",
+      "prepared_sha256": "dabb517f22e3cdb94619d6d4038d655a797caa62f9d9252b09b6563eb572169c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/p2p_cmd_buf.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/p2p_cmd_buf.h",
+      "source_sha256": "e522e9b661a686349dcbd21eeb6bfc2899d959fe042507ebedfa72f4676d1162",
+      "prepared_sha256": "e522e9b661a686349dcbd21eeb6bfc2899d959fe042507ebedfa72f4676d1162"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/p2p_mac.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/p2p_mac.h",
+      "source_sha256": "ff8bb4232a7361de7b40c0086b3f8661f1a9415bb9ae50489af3ead7f22c95a0",
+      "prepared_sha256": "ff8bb4232a7361de7b40c0086b3f8661f1a9415bb9ae50489af3ead7f22c95a0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/p2p_nic.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/p2p_nic.h",
+      "source_sha256": "55aa86d4db7660523cee0a87aab099b71b88b76abf4823a34a20450784c9c349",
+      "prepared_sha256": "55aa86d4db7660523cee0a87aab099b71b88b76abf4823a34a20450784c9c349"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/p2p_nic_cmd_event.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/p2p_nic_cmd_event.h",
+      "source_sha256": "c818e8ed63dfc7dae627a9a09ab781dc7d33f10ffe3808d65a87f5f5f765b27e",
+      "prepared_sha256": "c818e8ed63dfc7dae627a9a09ab781dc7d33f10ffe3808d65a87f5f5f765b27e"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/que_mgt.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/que_mgt.h",
+      "source_sha256": "a50ab15edde3c6bd3a792ecb93be934025bef54a6e7f2cb605def7b53b438ac5",
+      "prepared_sha256": "a50ab15edde3c6bd3a792ecb93be934025bef54a6e7f2cb605def7b53b438ac5"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/radiotap.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/radiotap.h",
+      "source_sha256": "788ae2f92d439658514c14db4122885ab0df684c6062c6b16792ef79575f49aa",
+      "prepared_sha256": "788ae2f92d439658514c14db4122885ab0df684c6062c6b16792ef79575f49aa"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic/wlan_def.h",
+      "destination": "external/rabbit-r1/wlan/include/nic/wlan_def.h",
+      "source_sha256": "2d250e3b1bc7c5dc8e02d93adf041757e4276d5d5d06098103d66fdee1b0e559",
+      "prepared_sha256": "2d250e3b1bc7c5dc8e02d93adf041757e4276d5d5d06098103d66fdee1b0e559"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic_cmd_event.h",
+      "destination": "external/rabbit-r1/wlan/include/nic_cmd_event.h",
+      "source_sha256": "8fa31ca08567b73f4a796350f77e5c813274b9c068ffcb6098dc30e178a7da47",
+      "prepared_sha256": "8fa31ca08567b73f4a796350f77e5c813274b9c068ffcb6098dc30e178a7da47"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic_ext_cmd_event.h",
+      "destination": "external/rabbit-r1/wlan/include/nic_ext_cmd_event.h",
+      "source_sha256": "f6b38560711625b07d119a46eda14167d0cce5ccfb13b5385cf9244cf6cd4a10",
+      "prepared_sha256": "f6b38560711625b07d119a46eda14167d0cce5ccfb13b5385cf9244cf6cd4a10"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/nic_init_cmd_event.h",
+      "destination": "external/rabbit-r1/wlan/include/nic_init_cmd_event.h",
+      "source_sha256": "6288c0f2ff419fc959853c890046cbdb3960ad056814fa5c61fabf996f1d89b8",
+      "prepared_sha256": "6288c0f2ff419fc959853c890046cbdb3960ad056814fa5c61fabf996f1d89b8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/p2p_typedef.h",
+      "destination": "external/rabbit-r1/wlan/include/p2p_typedef.h",
+      "source_sha256": "459abc8c79f8ecbbe00281f2723e7c0ac748d4209614d2fa46851d4da3f877fa",
+      "prepared_sha256": "459abc8c79f8ecbbe00281f2723e7c0ac748d4209614d2fa46851d4da3f877fa"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/precomp.h",
+      "destination": "external/rabbit-r1/wlan/include/precomp.h",
+      "source_sha256": "e325eeddf47619731cf98baa73a4e77c305ecf9644e9aa956bb1ec1153a37148",
+      "prepared_sha256": "e325eeddf47619731cf98baa73a4e77c305ecf9644e9aa956bb1ec1153a37148"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/pwr_mgt.h",
+      "destination": "external/rabbit-r1/wlan/include/pwr_mgt.h",
+      "source_sha256": "7f1d6d09f34a14ec08a8771eb4781727132f3f88fc8c73bc5b7c7433033d9828",
+      "prepared_sha256": "7f1d6d09f34a14ec08a8771eb4781727132f3f88fc8c73bc5b7c7433033d9828"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/queue.h",
+      "destination": "external/rabbit-r1/wlan/include/queue.h",
+      "source_sha256": "fdfc063fb9d191cb0cd7bdb5376d48b9929551c1747cd32c37e5f98943b3d24b",
+      "prepared_sha256": "fdfc063fb9d191cb0cd7bdb5376d48b9929551c1747cd32c37e5f98943b3d24b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/rftest.h",
+      "destination": "external/rabbit-r1/wlan/include/rftest.h",
+      "source_sha256": "3581bc823deb5f1341ecb9bf3a10dda714d0efe091accbc0654d06019da2914b",
+      "prepared_sha256": "3581bc823deb5f1341ecb9bf3a10dda714d0efe091accbc0654d06019da2914b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/typedef.h",
+      "destination": "external/rabbit-r1/wlan/include/typedef.h",
+      "source_sha256": "05a8fe9366aeccc1f6465d50432f2da060e030ec682400508beb7cf8c10121c7",
+      "prepared_sha256": "05a8fe9366aeccc1f6465d50432f2da060e030ec682400508beb7cf8c10121c7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/wlan_bow.h",
+      "destination": "external/rabbit-r1/wlan/include/wlan_bow.h",
+      "source_sha256": "00ead79a541b0f9e3a5594a41bcc7114538374f21db5cafb4fa268cbb25f49d0",
+      "prepared_sha256": "00ead79a541b0f9e3a5594a41bcc7114538374f21db5cafb4fa268cbb25f49d0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/wlan_lib.h",
+      "destination": "external/rabbit-r1/wlan/include/wlan_lib.h",
+      "source_sha256": "468098a716445fc5f5783ebaa8c56b1686711cda0c8a625077058dcf145bb72c",
+      "prepared_sha256": "468098a716445fc5f5783ebaa8c56b1686711cda0c8a625077058dcf145bb72c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/wlan_oid.h",
+      "destination": "external/rabbit-r1/wlan/include/wlan_oid.h",
+      "source_sha256": "861bfa6bdbc1e83ed305d79c655f8d4f16f229d6fd3129227f81faaed3bb4c4f",
+      "prepared_sha256": "861bfa6bdbc1e83ed305d79c655f8d4f16f229d6fd3129227f81faaed3bb4c4f"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/include/wlan_p2p.h",
+      "destination": "external/rabbit-r1/wlan/include/wlan_p2p.h",
+      "source_sha256": "d138bea71540aef95316a07219613248b8669cb02ae1a2844759f25e1da616d5",
+      "prepared_sha256": "d138bea71540aef95316a07219613248b8669cb02ae1a2844759f25e1da616d5"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/aaa_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/aaa_fsm.c",
+      "source_sha256": "42e3b165b9a4513ea425638b58b2bb7f7de57eeda8d99cb50fbb94953df61062",
+      "prepared_sha256": "42e3b165b9a4513ea425638b58b2bb7f7de57eeda8d99cb50fbb94953df61062"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/ais_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/ais_fsm.c",
+      "source_sha256": "f5d8daa591256463d130e377b6d9857d124e0cd052a510ef7eb5daee241c7d52",
+      "prepared_sha256": "f5d8daa591256463d130e377b6d9857d124e0cd052a510ef7eb5daee241c7d52"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/ap_selection.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/ap_selection.c",
+      "source_sha256": "98d900d28a2ba1aa5e4e144352634eb784789537d9b53b86a68e2229c55a2634",
+      "prepared_sha256": "98d900d28a2ba1aa5e4e144352634eb784789537d9b53b86a68e2229c55a2634"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/assoc.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/assoc.c",
+      "source_sha256": "6cff509813c7b7ddaa7a33b689caec177fc40b9f07af39fad7f4ea2fb97360ed",
+      "prepared_sha256": "6cff509813c7b7ddaa7a33b689caec177fc40b9f07af39fad7f4ea2fb97360ed"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/auth.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/auth.c",
+      "source_sha256": "a346dc07392f7812163b50a1178dfca0f464fa267a1518a61d89858715e97be8",
+      "prepared_sha256": "a346dc07392f7812163b50a1178dfca0f464fa267a1518a61d89858715e97be8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/bss.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/bss.c",
+      "source_sha256": "242dfff91dd8d4f8c8f3788201b91429f6a23a426732eed29a103411e56d6b16",
+      "prepared_sha256": "242dfff91dd8d4f8c8f3788201b91429f6a23a426732eed29a103411e56d6b16"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/cnm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/cnm.c",
+      "source_sha256": "f52cba67bb6a00c05d4fb53a81f77f58f813c61091cf4b714a3d7f1f6295a78f",
+      "prepared_sha256": "f52cba67bb6a00c05d4fb53a81f77f58f813c61091cf4b714a3d7f1f6295a78f"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/cnm_mem.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/cnm_mem.c",
+      "source_sha256": "1452e0dfb082e0a575756b44e35020740e6924ef2133300e252789a2b2f31186",
+      "prepared_sha256": "1452e0dfb082e0a575756b44e35020740e6924ef2133300e252789a2b2f31186"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/cnm_timer.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/cnm_timer.c",
+      "source_sha256": "a56776a9f89e36bfe31c1ae1703475f00a9555550541873ffaa8517c571c184f",
+      "prepared_sha256": "a56776a9f89e36bfe31c1ae1703475f00a9555550541873ffaa8517c571c184f"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/hem_mbox.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/hem_mbox.c",
+      "source_sha256": "4d3c7d768482529b039f641ac677e85f2561fa793b7e87f4e6c1df2cfd91ac4e",
+      "prepared_sha256": "4d3c7d768482529b039f641ac677e85f2561fa793b7e87f4e6c1df2cfd91ac4e"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/hs20.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/hs20.c",
+      "source_sha256": "ece751511716b1fd007a55e1be2e64d731d2be65b70a3a765e18ac1b00471874",
+      "prepared_sha256": "ece751511716b1fd007a55e1be2e64d731d2be65b70a3a765e18ac1b00471874"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/ie_sort.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/ie_sort.c",
+      "source_sha256": "9adbd2eccfc7f37b7744dd288612119a3642cb07824a4880d74efba68d6b8eda",
+      "prepared_sha256": "9adbd2eccfc7f37b7744dd288612119a3642cb07824a4880d74efba68d6b8eda"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/mddp.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/mddp.c",
+      "source_sha256": "c07897937d787e7075dc35e8a3d8c9ac1a489889e519b65678c0a770a3be439c",
+      "prepared_sha256": "c07897937d787e7075dc35e8a3d8c9ac1a489889e519b65678c0a770a3be439c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/mib.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/mib.c",
+      "source_sha256": "84e88d55e5665a302b61f3e35c1eb05fa860aa08fe7425d782aba9e9b3519085",
+      "prepared_sha256": "84e88d55e5665a302b61f3e35c1eb05fa860aa08fe7425d782aba9e9b3519085"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/mscs.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/mscs.c",
+      "source_sha256": "5dd929856add4c1254b8fe805dc9ef46cecefaefc3285f525f0f4ac8b42b8805",
+      "prepared_sha256": "5dd929856add4c1254b8fe805dc9ef46cecefaefc3285f525f0f4ac8b42b8805"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_assoc.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_assoc.c",
+      "source_sha256": "c93a028bf8d70efff9f7c12dbcc4999f797373e2bbd9f33fa799ccd3a9da3fbb",
+      "prepared_sha256": "c93a028bf8d70efff9f7c12dbcc4999f797373e2bbd9f33fa799ccd3a9da3fbb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_bss.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_bss.c",
+      "source_sha256": "3176182669dc4d1c6558a1a84ea603fec9df098d11ae1296086709b0a17fcdcf",
+      "prepared_sha256": "3176182669dc4d1c6558a1a84ea603fec9df098d11ae1296086709b0a17fcdcf"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_dev_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_dev_fsm.c",
+      "source_sha256": "26151aadcbac1bb199e683985aae5267ef29fc73fe399e48e32243cb0449cf95",
+      "prepared_sha256": "26151aadcbac1bb199e683985aae5267ef29fc73fe399e48e32243cb0449cf95"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_dev_state.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_dev_state.c",
+      "source_sha256": "b84bb8eef4877dc776e46a16d2a157ce50bfd7adb142f314c82e5565a6f43d96",
+      "prepared_sha256": "b84bb8eef4877dc776e46a16d2a157ce50bfd7adb142f314c82e5565a6f43d96"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_fsm.c",
+      "source_sha256": "7b258e2a79067e4b2634f838c59c2b98ab4d84a84581cd1b6a68c9fdc405ae36",
+      "prepared_sha256": "7b258e2a79067e4b2634f838c59c2b98ab4d84a84581cd1b6a68c9fdc405ae36"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_func.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_func.c",
+      "source_sha256": "543be796a79887873ebe6e12288396a2da6b46c7f6aa51f2a997bc5493ee9c34",
+      "prepared_sha256": "543be796a79887873ebe6e12288396a2da6b46c7f6aa51f2a997bc5493ee9c34"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_ie.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_ie.c",
+      "source_sha256": "0cab1d9bec862de5835e6c688455be5aae83eb2cdaf75d4fb76dcccc229e61b2",
+      "prepared_sha256": "0cab1d9bec862de5835e6c688455be5aae83eb2cdaf75d4fb76dcccc229e61b2"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_rlm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_rlm.c",
+      "source_sha256": "7718ae4a84e36d1726efad96bd4f5f4d573d9c089c38d8c60cc30f68f4542cb0",
+      "prepared_sha256": "7718ae4a84e36d1726efad96bd4f5f4d573d9c089c38d8c60cc30f68f4542cb0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_rlm_obss.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_rlm_obss.c",
+      "source_sha256": "a66e540507b036d5a2513059a0bc65c51c433c4e67124ce0454a20b3a781b470",
+      "prepared_sha256": "a66e540507b036d5a2513059a0bc65c51c433c4e67124ce0454a20b3a781b470"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_role_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_role_fsm.c",
+      "source_sha256": "e5b45600274e245c4f42ca45959234786c71a3a2e6b3824710de4e0a7e362fb6",
+      "prepared_sha256": "e5b45600274e245c4f42ca45959234786c71a3a2e6b3824710de4e0a7e362fb6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_role_state.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_role_state.c",
+      "source_sha256": "ca12ec9817087fedff40491fc1c50a355c9752c2648880469f22e5e7af74ea6c",
+      "prepared_sha256": "ca12ec9817087fedff40491fc1c50a355c9752c2648880469f22e5e7af74ea6c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/p2p_scan.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/p2p_scan.c",
+      "source_sha256": "20e8bee2e6e05d64a71271d3d40591fc9f6df07b704916038f7236beb1899665",
+      "prepared_sha256": "20e8bee2e6e05d64a71271d3d40591fc9f6df07b704916038f7236beb1899665"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/privacy.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/privacy.c",
+      "source_sha256": "55919ee40a59ea35b932d3f211baa3a9962ed70dfabdeae2e54e9f20f104fd60",
+      "prepared_sha256": "55919ee40a59ea35b932d3f211baa3a9962ed70dfabdeae2e54e9f20f104fd60"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/qosmap.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/qosmap.c",
+      "source_sha256": "aef04ca6031795982984ccee129d0ff2d0c1f5b8ea85648cd0bf31f5d6b0ac6a",
+      "prepared_sha256": "aef04ca6031795982984ccee129d0ff2d0c1f5b8ea85648cd0bf31f5d6b0ac6a"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/rate.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/rate.c",
+      "source_sha256": "2a52fde760a2596604ca53734c6809320fcd201e949e5885819e09e8b80ca8df",
+      "prepared_sha256": "2a52fde760a2596604ca53734c6809320fcd201e949e5885819e09e8b80ca8df"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/rlm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/rlm.c",
+      "source_sha256": "41648da95453710c90ea38e577bfb190483a3771457c60f4d704f459dcb25bbe",
+      "prepared_sha256": "41648da95453710c90ea38e577bfb190483a3771457c60f4d704f459dcb25bbe"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/rlm_domain.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/rlm_domain.c",
+      "source_sha256": "ec8200fbde85f9d1addb125492649c6e696640caa6a0fd5db647d3906b86384b",
+      "prepared_sha256": "ec8200fbde85f9d1addb125492649c6e696640caa6a0fd5db647d3906b86384b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/rlm_obss.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/rlm_obss.c",
+      "source_sha256": "171de52febb11a1e9486e6f641d9e67e051947ca08c9a0506fa8902be2e3bd9a",
+      "prepared_sha256": "171de52febb11a1e9486e6f641d9e67e051947ca08c9a0506fa8902be2e3bd9a"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/rlm_protection.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/rlm_protection.c",
+      "source_sha256": "08849c723ecd2423cf14f78e863cb8e416fe5b3db5365973bb9a9f9fb2eb9e61",
+      "prepared_sha256": "08849c723ecd2423cf14f78e863cb8e416fe5b3db5365973bb9a9f9fb2eb9e61"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/roaming_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/roaming_fsm.c",
+      "source_sha256": "fd4b8f36ed05d98e265a9924fcef64de006ce779740d2c225d316467310a2f0e",
+      "prepared_sha256": "fd4b8f36ed05d98e265a9924fcef64de006ce779740d2c225d316467310a2f0e"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/rrm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/rrm.c",
+      "source_sha256": "a28b9905e7cc225f89eaefd381fb8b5ac29d1f5993696882662ac8f7538aad43",
+      "prepared_sha256": "a28b9905e7cc225f89eaefd381fb8b5ac29d1f5993696882662ac8f7538aad43"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/rsn.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/rsn.c",
+      "source_sha256": "f7fe9368915f637052bd124f1a98ecb241d1deacc33b0b07bf2e6b4cc9b7d28c",
+      "prepared_sha256": "f7fe9368915f637052bd124f1a98ecb241d1deacc33b0b07bf2e6b4cc9b7d28c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/saa_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/saa_fsm.c",
+      "source_sha256": "e27e10484ba24902f32168382782944a6f5a15344493f59a3f1bbdf6848db2af",
+      "prepared_sha256": "e27e10484ba24902f32168382782944a6f5a15344493f59a3f1bbdf6848db2af"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/scan.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/scan.c",
+      "source_sha256": "301e1363565fad9ee6beae3ee6b2617240dd3ca10ac26532e85af9068e784dfb",
+      "prepared_sha256": "301e1363565fad9ee6beae3ee6b2617240dd3ca10ac26532e85af9068e784dfb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/scan_cache.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/scan_cache.c",
+      "source_sha256": "27338bf4d79980782648823bc7427f87708a88372119cfc5850abf94d1f52131",
+      "prepared_sha256": "27338bf4d79980782648823bc7427f87708a88372119cfc5850abf94d1f52131"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/scan_fsm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/scan_fsm.c",
+      "source_sha256": "ad9892d1fb3ad2c727d14e2182653a41c8ae186dc64d18a7fd6ffa94ea41d40d",
+      "prepared_sha256": "ad9892d1fb3ad2c727d14e2182653a41c8ae186dc64d18a7fd6ffa94ea41d40d"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/stats.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/stats.c",
+      "source_sha256": "7f39aefe3440aec36a87f94db3e9405894a0315535aaae23ade007ebae3fa1b8",
+      "prepared_sha256": "7f39aefe3440aec36a87f94db3e9405894a0315535aaae23ade007ebae3fa1b8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/swcr.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/swcr.c",
+      "source_sha256": "cd2af8e24eea5fff20e50be4069cfd7fbc512cc1b6cafd81f468332f0e28f475",
+      "prepared_sha256": "cd2af8e24eea5fff20e50be4069cfd7fbc512cc1b6cafd81f468332f0e28f475"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/tdls.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/tdls.c",
+      "source_sha256": "cfa25f8f223814d40df846c91f924b5194fa86118551c810dc9dbd2beb5d9225",
+      "prepared_sha256": "cfa25f8f223814d40df846c91f924b5194fa86118551c810dc9dbd2beb5d9225"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/thrm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/thrm.c",
+      "source_sha256": "cf9ac335b0659f41d225beb87f0af6a92019343d9bec37f81c8109ea521e9907",
+      "prepared_sha256": "cf9ac335b0659f41d225beb87f0af6a92019343d9bec37f81c8109ea521e9907"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/wapi.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/wapi.c",
+      "source_sha256": "faf05052d9ef04770b8ba7d45f0e66b4182e6f81d97704815d8b7a91923daf91",
+      "prepared_sha256": "faf05052d9ef04770b8ba7d45f0e66b4182e6f81d97704815d8b7a91923daf91"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/wmm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/wmm.c",
+      "source_sha256": "f93b688d676ca58c66f91ae8ac45a843d580bf2bbe59e371c4c0e30b14cd8d8e",
+      "prepared_sha256": "f93b688d676ca58c66f91ae8ac45a843d580bf2bbe59e371c4c0e30b14cd8d8e"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/mgmt/wnm.c",
+      "destination": "external/rabbit-r1/wlan/mgmt/wnm.c",
+      "source_sha256": "868c290b1769f8cde4a5860981a600fb21c9df1dcd0b02a89cb8fbcd0a129ca6",
+      "prepared_sha256": "868c290b1769f8cde4a5860981a600fb21c9df1dcd0b02a89cb8fbcd0a129ca6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/cmd_buf.c",
+      "destination": "external/rabbit-r1/wlan/nic/cmd_buf.c",
+      "source_sha256": "207d1da77c65f1948804333f953302b3a3a4f7a827699064cfd3f6c23bf7ad74",
+      "prepared_sha256": "207d1da77c65f1948804333f953302b3a3a4f7a827699064cfd3f6c23bf7ad74"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic.c",
+      "source_sha256": "a8efb71281ca3f443d387dd4378ff9e07afe50a4861399d91dab74e461e1bee0",
+      "prepared_sha256": "a8efb71281ca3f443d387dd4378ff9e07afe50a4861399d91dab74e461e1bee0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_cmd_event.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_cmd_event.c",
+      "source_sha256": "12f772305599c1ebdf98ca9245c9627aa1d03342cfda27750ea83bbd799efc0b",
+      "prepared_sha256": "12f772305599c1ebdf98ca9245c9627aa1d03342cfda27750ea83bbd799efc0b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_pwr_mgt.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_pwr_mgt.c",
+      "source_sha256": "45be9b93f4324b6a81ce24f1112e6e9d3a829c0d998920d23489d1e2c4bd1f5a",
+      "prepared_sha256": "45be9b93f4324b6a81ce24f1112e6e9d3a829c0d998920d23489d1e2c4bd1f5a"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_rate.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_rate.c",
+      "source_sha256": "664451b4f6ebca288478684e51e8608bdab798edb213e7ca51930f7e4ea0e7e1",
+      "prepared_sha256": "664451b4f6ebca288478684e51e8608bdab798edb213e7ca51930f7e4ea0e7e1"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_rx.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_rx.c",
+      "source_sha256": "c83a919c72b1d623195de3adc7450c49593ece752d4fed78257d05392e1c8ffb",
+      "prepared_sha256": "c83a919c72b1d623195de3adc7450c49593ece752d4fed78257d05392e1c8ffb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_rxd_v1.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_rxd_v1.c",
+      "source_sha256": "43e6dda21da8d49cab10960407cc1a1dbcf198b6a37feb82489d22c0464bcecc",
+      "prepared_sha256": "43e6dda21da8d49cab10960407cc1a1dbcf198b6a37feb82489d22c0464bcecc"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_tx.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_tx.c",
+      "source_sha256": "0fa732a162a5d34a692ffcfcdceb22e4d1a09d07625786e66978cad4a14807da",
+      "prepared_sha256": "93850869dcd2b72d614868561c2e0acf4836ad460e47d180a4bff66aff005265"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_txd_v1.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_txd_v1.c",
+      "source_sha256": "1fd4bfac836db552d45ea93085d52a4c70d06b5e2416d7bf98d433ca69e797f8",
+      "prepared_sha256": "1fd4bfac836db552d45ea93085d52a4c70d06b5e2416d7bf98d433ca69e797f8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/nic_umac.c",
+      "destination": "external/rabbit-r1/wlan/nic/nic_umac.c",
+      "source_sha256": "8d9153412bc7ec1677f9279d92b5748e411e443b2d11a00c6dae6a9c0a0bdb25",
+      "prepared_sha256": "8d9153412bc7ec1677f9279d92b5748e411e443b2d11a00c6dae6a9c0a0bdb25"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/p2p_nic.c",
+      "destination": "external/rabbit-r1/wlan/nic/p2p_nic.c",
+      "source_sha256": "b01c662aed6f20b7ec8dc3ed3ee50b761f938cc69d2c95a22171ab30d302c7b1",
+      "prepared_sha256": "b01c662aed6f20b7ec8dc3ed3ee50b761f938cc69d2c95a22171ab30d302c7b1"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/que_mgt.c",
+      "destination": "external/rabbit-r1/wlan/nic/que_mgt.c",
+      "source_sha256": "57e8f526302f76b3c98ff0b506ee8fe28c938838299b262a5283a0999da55c61",
+      "prepared_sha256": "57e8f526302f76b3c98ff0b506ee8fe28c938838299b262a5283a0999da55c61"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/nic/radiotap.c",
+      "destination": "external/rabbit-r1/wlan/nic/radiotap.c",
+      "source_sha256": "3cbd5f54b7108bd08710406eff79932fc8d5b95d520a237ad790bcd2e7dea5c8",
+      "prepared_sha256": "3cbd5f54b7108bd08710406eff79932fc8d5b95d520a237ad790bcd2e7dea5c8"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_ate_agent.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_ate_agent.c",
+      "source_sha256": "337dc24446635cdaf13bc24cc1c8544fc06d6fe67ac1895a2f46d0e1f927c5e0",
+      "prepared_sha256": "337dc24446635cdaf13bc24cc1c8544fc06d6fe67ac1895a2f46d0e1f927c5e0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_bow.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_bow.c",
+      "source_sha256": "e1c15eab4c10536d19c83e8e84f26962337156845ff6ed7d34d2da794cbcf87b",
+      "prepared_sha256": "e1c15eab4c10536d19c83e8e84f26962337156845ff6ed7d34d2da794cbcf87b"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_cfg80211.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_cfg80211.c",
+      "source_sha256": "871941dba85520912b02ce90dc4ca5b1ffeded38249e8a9bd0cfabfc477407a9",
+      "prepared_sha256": "bcd3e955ba33c779bbe1375b4d4cf5f3158164221c3a4d4302d30091e14c3007"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_hook_api.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_hook_api.c",
+      "source_sha256": "fe28c54d0c4ebe22bc13c7b499ac6d802778a5da4afa3391b4668b13dfa88323",
+      "prepared_sha256": "fe28c54d0c4ebe22bc13c7b499ac6d802778a5da4afa3391b4668b13dfa88323"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_init.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_init.c",
+      "source_sha256": "4c36fb97a68b0fbfade336e741c0d8cd4633b803729ffc30937fcb9820a06623",
+      "prepared_sha256": "4118714fed2fda485a16da765e334409d3d21a494244224fdd21868079eaff32"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_kal.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_kal.c",
+      "source_sha256": "76d4280ed8595aecabba905ab282531ebd47b7d9a5f70b1f9e84707be924763f",
+      "prepared_sha256": "4bac5d0f6687317f5451ec41fdf6207af442194a96f05d204d2b302f252753cb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_p2p.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_p2p.c",
+      "source_sha256": "e581730530e30c52902a4c522715d0345c331299b5672d704fcb17edacdefcee",
+      "prepared_sha256": "0e0153c56f0fcf24b2d4cdd2ae88452689808670e084375eb886305ee7ae6049"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_p2p_cfg80211.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_p2p_cfg80211.c",
+      "source_sha256": "3941fe72a99140cbe02cce17cd2f2ad5f952f80401968a96a68fa62c34f15bc8",
+      "prepared_sha256": "0faac5bdbedcb562893c5651ea6a63588f990e1a08fdcad8408b5ab80cc60d1d"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_p2p_init.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_p2p_init.c",
+      "source_sha256": "a7b3432eac8c959104452abcf2042ccc26c4872476742ef696fbc0a91ef9e992",
+      "prepared_sha256": "a7b3432eac8c959104452abcf2042ccc26c4872476742ef696fbc0a91ef9e992"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_p2p_kal.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_p2p_kal.c",
+      "source_sha256": "714e701b39825085b1c345b530f4c5e46cc12e9039bcb898ad9ebff4698e8d0d",
+      "prepared_sha256": "8b292e9ca042cfb8e644d9d883a9dca8490060985293df61a4733ae1e7fa9b00"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_proc.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_proc.c",
+      "source_sha256": "12be0684cdc879735dd285f7c06d0f5772c8c863d78f2e83adf99644380205f9",
+      "prepared_sha256": "12be0684cdc879735dd285f7c06d0f5772c8c863d78f2e83adf99644380205f9"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_qa_agent.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_qa_agent.c",
+      "source_sha256": "94a29030bb4793890e48be96450988f16bd085da163b8dcff31e3c67777a3f6c",
+      "prepared_sha256": "a79135d07e4de8a238230c7c8279ebf554400e5e3ee09c634636837a924336c7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_rst.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_rst.c",
+      "source_sha256": "4111e68540d74dce09b226c3ae3dd6944cd150d8c69a69cd9029141de13aef5d",
+      "prepared_sha256": "4111e68540d74dce09b226c3ae3dd6944cd150d8c69a69cd9029141de13aef5d"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_sys.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_sys.c",
+      "source_sha256": "89a13cf2e7eafb5fd708d19b359a9cc0b5b625bfd9d68bd0456312c5008035af",
+      "prepared_sha256": "89a13cf2e7eafb5fd708d19b359a9cc0b5b625bfd9d68bd0456312c5008035af"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_vendor.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_vendor.c",
+      "source_sha256": "2d7717e89b53f97f4ecc6fd8eb21981ee9e6bca9f12240af6bae794e5320ea12",
+      "prepared_sha256": "2d7717e89b53f97f4ecc6fd8eb21981ee9e6bca9f12240af6bae794e5320ea12"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_wext.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_wext.c",
+      "source_sha256": "79f140d54144f1a3b1e0843c985f46527e239863a494327a9c827f37e99c6d52",
+      "prepared_sha256": "5d3423701a25d6b4b518a013c6e6e09cd2ba473166ac7a42c9a14274698ca17c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/gl_wext_priv.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/gl_wext_priv.c",
+      "source_sha256": "7174e851dc38ded4931a5f3cad669039a5dc492902b3a11089d453481f8f557d",
+      "prepared_sha256": "7174e851dc38ded4931a5f3cad669039a5dc492902b3a11089d453481f8f557d"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/hif/axi/axi.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/hif/axi/axi.c",
+      "source_sha256": "2ee2ae1d2114bf08139e6c31e3a00e1cf7c76adf07c4aef48e791b52eae8326b",
+      "prepared_sha256": "b3a91d3aae6bb5dbadc2c5d3cb6c510cf58f2b3029a7055fdb2a5198ef82d8bf"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/hif/axi/include/hif.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/hif/axi/include/hif.h",
+      "source_sha256": "5aa796ef7d8c62318121483a067594e431fb68b153f9daeb262f32f211511998",
+      "prepared_sha256": "5aa796ef7d8c62318121483a067594e431fb68b153f9daeb262f32f211511998"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/hif/common/dbg_pdma.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/hif/common/dbg_pdma.c",
+      "source_sha256": "0ba6b397c899ba4d20698f88b02134ba8af41301031e83684d36a765069c3946",
+      "prepared_sha256": "0ba6b397c899ba4d20698f88b02134ba8af41301031e83684d36a765069c3946"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/hif/common/hal_pdma.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/hif/common/hal_pdma.c",
+      "source_sha256": "3c2bce106ed6c030b9fa9b3ece0ecac32c04e4f4e5f5599150936dd2ad67501e",
+      "prepared_sha256": "fe0623156360187b25f01ff2b40e906c9f977e3354310842453bbe3f7cc68ee6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/hif/common/include/hif_pdma.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/hif/common/include/hif_pdma.h",
+      "source_sha256": "0a5096d2b071555e0a2806910a2a070c4bf98acb5da7c4b5cf7ab5fa2c45bb8c",
+      "prepared_sha256": "0a5096d2b071555e0a2806910a2a070c4bf98acb5da7c4b5cf7ab5fa2c45bb8c"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/hif/common/kal_pdma.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/hif/common/kal_pdma.c",
+      "source_sha256": "995d1651600fc6199867394ef7fc5d300415fb3cee8107fe64e24987e11a84b8",
+      "prepared_sha256": "95ebe02c4fb2d469c78fdc23a02968e802f9a76deb5386f95f22d10a441c83bb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/hif/common/sw_wfdma.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/hif/common/sw_wfdma.c",
+      "source_sha256": "ae7dfcfb56395d21fe2727de8cc8721a97da3aabeb0d6858b9aa3d5fd3a2b670",
+      "prepared_sha256": "ae7dfcfb56395d21fe2727de8cc8721a97da3aabeb0d6858b9aa3d5fd3a2b670"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_ate_agent.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_ate_agent.h",
+      "source_sha256": "52f4ece2c12c7b5260e6b640695e9cbaf448dc11351ea776ec30a387844a4b45",
+      "prepared_sha256": "52f4ece2c12c7b5260e6b640695e9cbaf448dc11351ea776ec30a387844a4b45"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_cfg80211.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_cfg80211.h",
+      "source_sha256": "2012006a150249781c250b2b20835f90192a2c4a5fbbb00808ddb7abe13c0fdb",
+      "prepared_sha256": "2012006a150249781c250b2b20835f90192a2c4a5fbbb00808ddb7abe13c0fdb"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_hook_api.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_hook_api.h",
+      "source_sha256": "b6907d104cb1f333df98e79649ccfea70a858852ac7e074b9e539bb171874ab2",
+      "prepared_sha256": "b6907d104cb1f333df98e79649ccfea70a858852ac7e074b9e539bb171874ab2"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_kal.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_kal.h",
+      "source_sha256": "db38159d8d4814b64ddedb2a8ce4dec1630337b335c58d6a3936248644f6f538",
+      "prepared_sha256": "db38159d8d4814b64ddedb2a8ce4dec1630337b335c58d6a3936248644f6f538"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_os.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_os.h",
+      "source_sha256": "24a0d52e2612e7d3a53ace83d152b9fe2fabc6f207182840f104de9e406fe2b9",
+      "prepared_sha256": "111caf3e725322ff86f001c6f04a09b8257b1505ecaf0ac4c8df20a9bc25741e"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_p2p_ioctl.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_p2p_ioctl.h",
+      "source_sha256": "3511692a822f150695352e21daa26089d63e65c79b85920a9380a5d2022d3311",
+      "prepared_sha256": "3511692a822f150695352e21daa26089d63e65c79b85920a9380a5d2022d3311"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_p2p_kal.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_p2p_kal.h",
+      "source_sha256": "13c3ff1859b7b40b70a62660bfc0a336f0b5f58b340f838c0e254053fcb02f96",
+      "prepared_sha256": "13c3ff1859b7b40b70a62660bfc0a336f0b5f58b340f838c0e254053fcb02f96"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_p2p_os.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_p2p_os.h",
+      "source_sha256": "6266ee7ab76e8e16f5a94078ff8648fb21603cc3d7b88743df25c03b16a92562",
+      "prepared_sha256": "6266ee7ab76e8e16f5a94078ff8648fb21603cc3d7b88743df25c03b16a92562"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_qa_agent.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_qa_agent.h",
+      "source_sha256": "504b069ca760b4aa8f3cb3823501658bdda25313ff4807a08bde851b683f6671",
+      "prepared_sha256": "830420a626e624376f09ecd1392f370460e98e36ddb2d78877df6bdc35276748"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_rst.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_rst.h",
+      "source_sha256": "f002e6ca15b6480f96b13a5cca0b8700074dc10321e2db3a0204034382e2a837",
+      "prepared_sha256": "f002e6ca15b6480f96b13a5cca0b8700074dc10321e2db3a0204034382e2a837"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_sec.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_sec.h",
+      "source_sha256": "b70db30dd3b30da21e79286ea5649c2ec215607ce28eecb14cc3dafa78e5add7",
+      "prepared_sha256": "b70db30dd3b30da21e79286ea5649c2ec215607ce28eecb14cc3dafa78e5add7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_typedef.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_typedef.h",
+      "source_sha256": "3d55f0eef3e1c511de802c2bf0ef27a3c1898b6f00d3fb0de3d0fd779dec2ca8",
+      "prepared_sha256": "37eaec60beb5624896c5c30fcb43abaaadd92503006f5a9c1e76448d6b79d1e3"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_vendor.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_vendor.h",
+      "source_sha256": "477d7a14c9b1e8001de9ea562c007b8a612b6ecedb95e6aaeb71f05ffa463d32",
+      "prepared_sha256": "477d7a14c9b1e8001de9ea562c007b8a612b6ecedb95e6aaeb71f05ffa463d32"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_wext.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_wext.h",
+      "source_sha256": "9451473e6e12da494cabfb56fa0bf4703d58186f3b7a3e0e580fc7cac6b0f3d7",
+      "prepared_sha256": "9451473e6e12da494cabfb56fa0bf4703d58186f3b7a3e0e580fc7cac6b0f3d7"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/include/gl_wext_priv.h",
+      "destination": "external/rabbit-r1/wlan/os/linux/include/gl_wext_priv.h",
+      "source_sha256": "b268c3a630b60f492b6462fdcc44abe88df278e9786f1e524ed395c66bab9652",
+      "prepared_sha256": "b268c3a630b60f492b6462fdcc44abe88df278e9786f1e524ed395c66bab9652"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/plat/mt6765/plat_priv.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/plat/mt6765/plat_priv.c",
+      "source_sha256": "1211ac7f42b9a4fa20d10cd26287896a95abf84e3575d470adc31d743e16b7a2",
+      "prepared_sha256": "14e5d116ef6f9dd64f1f0714e47b04dc41908bf0bda0e446c41a745153f372d0"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/linux/platform.c",
+      "destination": "external/rabbit-r1/wlan/os/linux/platform.c",
+      "source_sha256": "567389bc79797d86966706d837ee4ec9579d28bbff0dabc83221df97d5a3bfe6",
+      "prepared_sha256": "567389bc79797d86966706d837ee4ec9579d28bbff0dabc83221df97d5a3bfe6"
+    },
+    {
+      "source": "connectivity/wlan/core/gen4m/os/version.h",
+      "destination": "external/rabbit-r1/wlan/os/version.h",
+      "source_sha256": "fb455315a0848abdccabe9b9a9bd33786192aab168e5e7ab31ce8e33c1f356b3",
+      "prepared_sha256": "fb455315a0848abdccabe9b9a9bd33786192aab168e5e7ab31ce8e33c1f356b3"
+    },
+    {
+      "source": "connectivity/wlan/adaptor/fw_log_wifi.h",
+      "destination": "external/rabbit-r1/connectivity/adaptor/fw_log_wifi.h",
+      "source_sha256": "b414ea8335a480a9e2bca332fa3573655bf9f9a56345186ec116642cd14f466f",
+      "prepared_sha256": "b414ea8335a480a9e2bca332fa3573655bf9f9a56345186ec116642cd14f466f"
+    },
+    {
+      "source": "connectivity/wlan/adaptor/wmt_cdev_wifi.c",
+      "destination": "external/rabbit-r1/connectivity/adaptor/wmt_cdev_wifi.c",
+      "source_sha256": "3b919685a0e2cca023130e1f3af3b96b1185eed882d1e98db8f3acf2fba93ef1",
+      "prepared_sha256": "58a8a8323328202fd39ca7c77082a2aed0a78176214700aa4248cb10f44f839f"
+    }
+  ],
+  "integration_files": [
+    {
+      "path": "drivers/gpu/drm/panel/Kconfig",
+      "before_sha256": "c6efdb028746a1b56299636f0ede8703cb04f506d769dabfab8ab513ce052b44",
+      "after_sha256": "6246a11e08df37f6efbbfd83250ba9a79db89fe62ffec078a283689c4015d015"
+    },
+    {
+      "path": "drivers/gpu/drm/panel/Makefile",
+      "before_sha256": "63964efbfb9a22940952606a8d79b765dfeeac664e6632ce425360d838f69366",
+      "after_sha256": "fa06d72db6ac7b999de7f45c67330340a7641535df0fe73577fecccb9f11295a"
+    },
+    {
+      "path": "drivers/gpu/drm/panel/panel-rabbit-r1.c",
+      "before_sha256": null,
+      "after_sha256": "fcaa492c5a475be0078d8066a980502165ea3c08ce0f5e7dfa4a7079100f3c25"
+    },
+    {
+      "path": "scripts/rabbit-r1/prepare-panel.py",
+      "before_sha256": null,
+      "after_sha256": "ccbd03ca1c9e5fafca0cd327e0cfbff5310122b94ebc5851e5d8050086b11fdd"
+    },
+    {
+      "path": "scripts/rabbit-r1/build.sh",
+      "before_sha256": "15b3ef32a33c7b237ca6f6dfb91aa9d0ff6f90f5cd7c4fb245e679caaac25fb4",
+      "after_sha256": "f7a1293c01dd79658b180d00a7814167b59dfc877cdd137b3ace4eec3ff19df7"
+    },
+    {
+      "path": "scripts/rabbit-r1/build-external.py",
+      "before_sha256": "329b22e3cee85b11d69a02db2c579f9f8fe3fde19bcb7ff3bd8e7161edd6ec12",
+      "after_sha256": "08437c33d9383eb8a401af99d22696f2dc67b9067d03335dd7891ef3575184ef"
+    },
+    {
+      "path": "scripts/rabbit-r1/compile-check.sh",
+      "before_sha256": "913024270d8dc3d083bdff5b4e1965dbbeefd7a85b7f6baaaf7acb341acc9693",
+      "after_sha256": "2dfdeba99d917ad5aa02a03cf5f2894b35a65eb689890591fe861f9d9b768dd0"
+    },
+    {
+      "path": "external/rabbit-r1/wlan/os/linux/r1_cfg80211_ops.h",
+      "before_sha256": null,
+      "after_sha256": "bb18b7ce72760cf70d70aac239c2ea7555c56388daa669f3ebf800b383185741"
+    },
+    {
+      "path": "external/rabbit-r1/wlan/r1_compat.h",
+      "before_sha256": null,
+      "after_sha256": "1018a9e5f2bec3ee768209ad4e90e21cfae4bac4fcec0702b8899d78e128762e"
+    },
+    {
+      "path": "external/rabbit-r1/wlan/Makefile",
+      "before_sha256": null,
+      "after_sha256": "25bcc612eb6c6a585a2e8681c537816fd70437e0506d55e47ec95f4a27131518"
+    },
+    {
+      "path": "external/rabbit-r1/connectivity/adaptor/Makefile",
+      "before_sha256": null,
+      "after_sha256": "12832440fd376e37a3fd31b16b733eb9285cede44719bd37d2e19171080807be"
+    }
+  ],
+  "patch_sha256": {
+    "0001-rabbit-wlan-linux71.patch": "80a7d6e9f67cceb3ce07985d6533c05aef852de32c894f0f0d844eef52201b8b",
+    "0002-spectre-optional-integration.patch": "ec458d05823b5406a49dac07db1eea714772298990f70791f456db6c20825905"
+  },
+  "excluded_vendor_inputs": [
+    "common/debug.c",
+    "include/wsys_cmd_handler_fw.h",
+    "mgmt/reg_rule.c",
+    "mgmt/tkip_mic.c"
+  ],
+  "panel_source": "drivers/misc/mediatek/lcm/ili9883_boe_mipi_hd/ili9883_boe_mipi_hd.c",
+  "panel_sha256": "9fd1eb026a320b1a63fd78cc3739663e0f2fb28db3ec090f0d46a2b0a8d69fc9"
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-07",
+  "vendor_source_inputs_verified": 220,
+  "changed_vendor_files": 20,
+  "integration_file_outputs_verified": 11,
+  "git_apply_check_and_apply": "pass on both pinned bases",
+  "prepared_sources_match_previous_verified_sources": true,
+  "panel_generated_steps": 40,
+  "panel_generated_header_matches_prior_clean_build": true,
+  "panel_external_module_build_exit": 0,
+  "wlan_build_exit": 0,
+  "wlan_modules_byte_identical_to_prior_clean_build": [
+    "btif_drv.ko",
+    "wmt_drv.ko",
+    "wmt_chrdev_wifi.ko",
+    "wlan_drv_gen4m.ko"
+  ],
+  "limits": [
+    "Existing prepared kernel build used for module validation; no new full kernel build in this turn",
+    "Vendor compiler warnings remain; successful build does not mean warning-free",
+    "No device installation, radio operation or new hardware acceptance",
+    "No panel table, four deferred WLAN files, firmware or private calibration bundled"
+  ]
+}

@@ -25,6 +25,7 @@ def main():
         raise SystemExit('Excluded paths occur in publication history')
     if subprocess.check_output(['git', '-C', str(ROOT), 'status', '--porcelain']).strip():
         raise SystemExit('Working tree differs from reviewed commit')
+    subprocess.run([sys.executable, str(ROOT / 'patches/rabbit-r1/check.py')], check=True)
     print('Partial source scope and exclusion-safe history pass; full release remains deferred.')
     return 0
 if __name__ == '__main__':
