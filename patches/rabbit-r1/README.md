@@ -56,3 +56,20 @@ Both output directories must be new. The WLAN command builds BTIF, WMT, the Wi-F
 ## Validation
 
 See [validation.json](validation.json) for the recorded application, source-identity and build checks. Hardware behavior is supported only by the prior scoped reference evidence; this publication performs no new device or radio test.
+
+## Optional GPU blob extraction in Python
+
+The GPU kernel source is already included. To obtain the separate stock firmware/libraries locally, use `extract-gpu.py` after extracting Rabbit's official v0.8.293 archive into raw `vendor_a.img` and, optionally, `system_a.img` partitions:
+
+```sh
+python3 patches/rabbit-r1/extract-gpu.py \
+  --vendor-image /absolute/path/vendor_a.img \
+  --system-image /absolute/path/system_a.img \
+  --output /absolute/private/non-git/path/r1-gpu-stock
+```
+
+Omit `--system-image` for vendor files only. The output must be new, its parent must exist, and it must be outside Git checkouts. `debugfs` from e2fsprogs is required. No downloads or package installation happen automatically. See the [stock image extraction guide](../../Documentation/rabbit-r1/external-sources-and-gpu-blobs.md) for obtaining the partition images; this script does not accept the ZIP or sparse `super.img` directly.
+
+The tool uses read-only filesystem extraction, checks each file against `gpu-blobs.json`, writes private non-executable files, and removes its newly created partial output on failure. It never mounts images, executes extracted libraries, installs files, or touches a device. It extracts only the listed GPU files and their stock Android runtime dependencies, not personal partitions or calibration. Keep the output out of Git.
+
+Validation extracted and verified all 80 vendor/system entries from the reference stock images. Two stock library hashes differ from the earlier development runtime manifest; this manifest intentionally pins the unmodified stock versions. The output preserves partition-relative layout under `vendor/` and `system/`, including the system image's inner `system/` directory. It is a collection of original files, **not an installed or configured GPU runtime**; loader integration and any development-specific adaptations remain separate.

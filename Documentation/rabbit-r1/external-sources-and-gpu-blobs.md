@@ -45,3 +45,7 @@ The extracted firmware reference is 114,688 bytes, SHA256 `26450212605f42cecb11b
 These are Android/Bionic binaries, not drop-in glibc/Mesa libraries. They need a compatible loader, dependencies, allocator and kernel ABI. The stock firmware is not compatible merely by renaming it for the upstream open PowerVR driver. Kernel source alone does not provide a complete accelerated desktop stack.
 
 The blobs remain outside this repository. This document points to their official distribution and records the tested reference; it does not grant new redistribution rights for them.
+
+### Python extraction tool
+
+After unpacking the raw partition images, [extract-gpu.py](../../patches/rabbit-r1/extract-gpu.py) can extract the pinned GPU firmware/libraries from `vendor_a.img` and optional Android runtime dependencies from `system_a.img`. See [usage and safeguards](../../patches/rabbit-r1/README.md#optional-gpu-blob-extraction-in-python). The script contains no proprietary blob payload: it reads your local official image, verifies file hashes, and writes a new private directory outside Git. It neither downloads firmware nor installs or executes extracted files.

@@ -211,3 +211,5 @@ sphinx_*/
 !/patches/rabbit-r1/validation.json
 !/patches/rabbit-r1/prepare.py
 !/patches/rabbit-r1/check.py
+!/patches/rabbit-r1/extract-gpu.py
+!/patches/rabbit-r1/gpu-blobs.json

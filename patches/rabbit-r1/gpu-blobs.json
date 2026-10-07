@@ -1,0 +1,406 @@
+{
+  "reference": "rabbitOS v0.8.293; PowerVR DDK 1.13@5776728",
+  "download": "https://github.com/rabbit-hmi-oss/firmware/releases/tag/v0.8.293",
+  "files": [
+    {
+      "partition": "system",
+      "source": "/system/apex/com.android.runtime/bin/linker64",
+      "sha256": "2180f72c801a72a6722dd8cbd7a5978bd6e53bf40df76cc44c22299849c0e111"
+    },
+    {
+      "partition": "system",
+      "source": "/system/bin/toybox",
+      "sha256": "1eeb636d8ecdae05b2666261ba703e7b36d477cdfa28f5a1d8b5564cc7a7c671"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/egl/libEGL_mtk.so",
+      "sha256": "4799c5c81b6c7e47adfc5b21f620877ea8437e5ff0b30c0572f1fb996f46e38c"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/egl/libGLESv2_mtk.so",
+      "sha256": "b008191ff39a67f7f00b06c856966e48c2a277e4b1b5adf5b1af961f69e234eb"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libsrv_um.so",
+      "sha256": "5b3048e576df364bf82e9d85e2a61e05726fae03778b2c7f6f4c4df036658641"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/hw/gralloc.rogue.so",
+      "sha256": "765be3b547bf3cff3c888b4834a31870c3ad263c9dbc768548fa2002ce9ea92c"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libmpvr.so",
+      "sha256": "07080f442d0d5f1b024a1d14be4665c387cf81ee46100a99752485900cf1446d"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/egl/libGLESv1_CM_mtk.so",
+      "sha256": "c1982d834d22d6d965000ef0c224cd3b9152f7ba00f583970e36a01573dde5cf"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libcrypto.so",
+      "sha256": "616b152e64c43e9a3c10ff6a7e6624f6b2e85c67e415a8b99ff62f5630eca48a"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libz.so",
+      "sha256": "758c7ab99e3188a8378344d18594780d347741d5557c8049be8fc4c2576dc78c"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/liblog.so",
+      "sha256": "66ea42d34b8c1235c1c77e58e5bda12ee3d7986533f3ce5a49ca623ac44e7936"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libprocessgroup.so",
+      "sha256": "df3a31269d797aebfc060d55bda4427f66b6f2f442e8c69d0164b1093bc0a2a1"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libselinux.so",
+      "sha256": "58dd0796c7ca3019bc5fe56acb9935bd86eaeda5fbe2e7401c67b87e3735d9e3"
+    },
+    {
+      "partition": "system",
+      "source": "/system/apex/com.android.runtime/lib64/bionic/libc.so",
+      "sha256": "0939254b4859d44f7d5bdb93ea8148930b46cc25f6debf61baecddd3d14b9424"
+    },
+    {
+      "partition": "system",
+      "source": "/system/apex/com.android.runtime/lib64/bionic/libm.so",
+      "sha256": "a62661aa89b6895a693ee61b0e3041350f382a65436d94181dda9c75a468e2a1"
+    },
+    {
+      "partition": "system",
+      "source": "/system/apex/com.android.runtime/lib64/bionic/libdl.so",
+      "sha256": "80dc33b1cac10b597291c4e9f72ff00907b5e077c1092c76f6461dc1586512d9"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libIMGegl.so",
+      "sha256": "3a99a474bef0f7442d0068a1feb77e07e6b83170fc645ca6319807c2295060aa"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libglslcompiler.so",
+      "sha256": "2d3b846a0d58c98e9ba80fd67bf14fc8631f3112392d0445f09de9d472fbd1e5"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libusc.so",
+      "sha256": "55f45926b4a5ef4568b25c0312e21c360279dfdc48cc9586521dd33feb093f71"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libPVRMtkutils.so",
+      "sha256": "5acf3bf2c420a92693638fd161b4fc3c01c7da9c2ce482ef338bd3b9cfd4b115"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libgpu_aux.so",
+      "sha256": "c8a1ab97c9a4d89dfbee54a15a5fcc9a63118cbeeb5bee4a022a5aebc66927b1"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libgralloc_extra.so",
+      "sha256": "90ebd250a8440590de4502c4febe316ca30098fd38455a79d9b38745d51a7524"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libged.so",
+      "sha256": "2947954cdf4fd49cf72814f27c6ba89b5ea0702bd1b8167ba5dd251fc8b3f4ab"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libgpud.so",
+      "sha256": "15d82f9638c878cb9f069f6d83f13a9621f975bb53cb00a9f758c025de197f2a"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libsync.so",
+      "sha256": "82c857e42818db16b089d19ea09a2f300ec114e6a8c61037991e1f3093094d30"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libhardware.so",
+      "sha256": "46fe1a4b5e0c8b6c7700b64c8d2b24300a9e0327b4a4b74c31c556919350f02e"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libion.so",
+      "sha256": "ef54aa19d456f8bb4a2e9b4096d4246eac6163b46c533b2ad85712d7ccb17801"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libion_mtk.so",
+      "sha256": "8e0d194d3d11d77dd6896e4d83989db68571d3d24814bca61e9726cf7516e8a4"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libcutils.so",
+      "sha256": "098880318e429cae34cd01322506781071d6e7d51ad9f7923993d9ba0b6ff86c"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libdrm.so",
+      "sha256": "106f5b9a2b59e0a77eea0a3d782ff7e52862de448c2a64b1558e598060d5fca7"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libc++.so",
+      "sha256": "6c04467cda80ed52ab5081423373eabbbd3dea8bafb3781d4b1f31733f03a762"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libbase.so",
+      "sha256": "67efc0806da51235028ec4effe822797b553e05b9bd91afd7776706395447e94"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libcgrouprc.so",
+      "sha256": "33ec3c23059f5500b5c41018efa2d290b0d9066fe4f5093e57a1edcab28042a0"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libpcre2.so",
+      "sha256": "9dbf24cbef3877307f71f8936e17f2c0aea94c9b681b26c6ac91b73756cd4bce"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libpackagelistparser.so",
+      "sha256": "e7b9bc87c02c1e1623275ac523eed0b132e19f1767bd817f102dd94788fdbf73"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libutils.so",
+      "sha256": "5b753921589d18e3aabd41ab7ec3aa3ab1aac57d092a8f4c6f6f7ac42e6cf5ec"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libhidlbase.so",
+      "sha256": "915e9c6200a8d921b65a082eeee0a329f37c47b382ea4ccca2378998cb5a37ad"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libhidlmemory.so",
+      "sha256": "e657cfef01b2fb7b8393fe81e88fe47332b8e1d1a9796385383c2405b5ee0131"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libgralloctypes.so",
+      "sha256": "b60a93370b623e5e33b9a0faaa96054eb9497b8d630c3a3330a06340f79437a3"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libvndksupport.so",
+      "sha256": "2b4a503f75142825120e2e14ba76f45c14522355bc8ffcc6d6fba189efd03474"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libutilscallstack.so",
+      "sha256": "e49ec238e95de8fe6e15ecf73350be7513b43950971b0367d4d8d3d4ed23cf45"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libgralloc_metadata.so",
+      "sha256": "d264d72c6ea3c5ac373c421cd011e40f9e9a115e88fb07984fcc4a47837be47c"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libdpframework.so",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libnativewindow.so",
+      "sha256": "17a200f73bad87fe45091658ef57ddeef6add0ff272e33cdf09524ce1cef3381"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.common@1.0.so",
+      "sha256": "6a28d832b96aede111b54254e23da3b6777dd02e7f0e2a5dc9153eee587e96a8"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.common@1.1.so",
+      "sha256": "7fe433d9e114ff35acc71ed67562118f29b07abed9c7d07e514d5b61229ec536"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.common@1.2.so",
+      "sha256": "640d92cab2246cb1079b2eb0a3deb2a42ecb00b0197132f753be43bbbbc1ec7b"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.mapper@2.0.so",
+      "sha256": "42eca4a492d652cba28465ff82f7bc9e1425fec6f0097908cf69eca0a78bbab1"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.mapper@2.1.so",
+      "sha256": "e01a0a7183e58b85784afa8bd55d5780701f5b061b6d067b46627cc55253b928"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.mapper@3.0.so",
+      "sha256": "093050ca9a76492a512ddf5fa7caf8c0498c20b821d5f1275b90ddc5b6d81405"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.mapper@4.0.so",
+      "sha256": "b3b481a77c6eb2cf5aae695dcd441f53333bc3de9ad73fbeef9d38c0ceac702f"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/vendor.mediatek.hardware.mms@1.5.so",
+      "sha256": "3996938e201821ab28223d392ba25f6c71072076cf358af02bcd84756a7576c0"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libdmabufheap.so",
+      "sha256": "923f5e096917b1160ecf2eaa6fb88346b8232e7e72a2ae19594d3d12082b8130"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libion_ulit.so",
+      "sha256": "74128b533a1d0d7a9fbb213319a0b39135faf9df638fdb84d3b9d7150f23bdc4"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hidl.memory@1.0.so",
+      "sha256": "8d9c53f648fb6cfe01062cb95d8aabb58ebfca6c288fb973e98b7481bba66fc9"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hidl.memory.token@1.0.so",
+      "sha256": "ae4fe417bea6825993ff0db40f12dfa3cedd67d9b405b7167946acb923f3f096"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.common-V3-ndk.so",
+      "sha256": "67fa937ec63649df5c9b4ab7b50098389b1bf6558595023e8c3c4968f850c036"
+    },
+    {
+      "partition": "system",
+      "source": "/system/apex/com.android.runtime/lib64/bionic/libdl_android.so",
+      "sha256": "2bb828c9d6e3887e40590e741a93c43fe295e31a70e6edd03c8ebb65e3e24235"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libbacktrace.so",
+      "sha256": "4420b7f6c12b2788b3e476857c2bcf72b9da4c1b57abcf8325e8a922809c3d7f"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/vendor.mediatek.hardware.pq@2.0.so",
+      "sha256": "bde57e4a81c43774ca71b36e80f506a664719468adf44dacf38b1a6a867232a9"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libpq_prot.so",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libui.so",
+      "sha256": "04ad56bf3d65452ba337d8a0da81686e40d02358c752821297ba00d1fb2b0a7f"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/vendor.mediatek.hardware.mms@1.0.so",
+      "sha256": "830da09a4e63d6300a8ef6a26c1f502ed5ab4510f73013548b8c95dc24502762"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/vendor.mediatek.hardware.mms@1.1.so",
+      "sha256": "ab5d27c8b49a7ac79e3774b9aa5b4717615cc1786af85ef90948c87d6cf04ea8"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/vendor.mediatek.hardware.mms@1.2.so",
+      "sha256": "4dd20ea6e21d885edf9a8a4630415e6e1b0ab96cda3b378807c91dcea69f51af"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/vendor.mediatek.hardware.mms@1.3.so",
+      "sha256": "28f169c4860f94321aed118e5f42069a65203479a89a7a111003a6013b0b28e4"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/vendor.mediatek.hardware.mms@1.4.so",
+      "sha256": "9ae40b90fe523ef19ea06b042e85dc778c7944f6338f070d87e850c4f74bccc9"
+    },
+    {
+      "partition": "vendor",
+      "source": "/lib64/libladder.so",
+      "sha256": "5861edca136ba3f26234a750f9455c3833674ac10be7ff229c0295263187e768"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libbinder_ndk.so",
+      "sha256": "1b0d51568a99301e1133614d78569e6857bd256f0a771015da02e8e648fa7921"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.common-V2-ndk.so",
+      "sha256": "933cce6de381df599e176b463d762db5ad49fa89877a7c9c33fc27eaf3d88059"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libunwindstack.so",
+      "sha256": "51b5db315d0d9b7b209dd60a2c9b11010a0c0e29d198defa0ea07e5d57ca728b"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.allocator@2.0.so",
+      "sha256": "f1a0f989f9e99de8eb686ceeb795788af457c20444c0454ce9015ac4d9f0eea3"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.allocator@3.0.so",
+      "sha256": "de327dc386c9f65122ec3c1a94de38b266fbf3eb5c511e9ae8fbb164fb5ab1a1"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.allocator@4.0.so",
+      "sha256": "86dc2bc90a2c1dd2fde2550f584b80866722d736b64a6dff2b8fab239808649f"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/android.hardware.graphics.allocator-V1-ndk.so",
+      "sha256": "5f88c721ff87075bce3270be13bbd50f10d3d13791be270062eb33d750987234"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libandroid_runtime_lazy.so",
+      "sha256": "2bbc5c3a49fadfe5724184baee928ee61a974b52b73a41a6b23cc5f7d8f1115d"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/libbinder.so",
+      "sha256": "288e3e3c39ffd3191b2204f8895bf6f065d84db78dc11ba67f96086d0fee9371"
+    },
+    {
+      "partition": "system",
+      "source": "/system/lib64/liblzma.so",
+      "sha256": "734150bee191f41d9242f8b5423f49866ee57f6c2615f078df858fb53895178e"
+    },
+    {
+      "partition": "vendor",
+      "source": "/firmware/rgx.fw",
+      "sha256": "26450212605f42cecb11b254c7c1a27d628db361ba735436b4a9c79bd22101e3"
+    },
+    {
+      "partition": "vendor",
+      "source": "/firmware/rgx.sh",
+      "sha256": "9e7459b14dc9a316963db2df0f16d4f36c54e8505818e5956b40342f9ce2517a"
+    }
+  ]
+}
