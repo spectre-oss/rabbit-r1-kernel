@@ -10,6 +10,8 @@ The target is the Linux 7.1.0 Rabbit R1 development kernel, together with the ke
 
 ## Documentation
 
+- [Rabbit panel/Wi-Fi source links and official GPU blob downloads](Documentation/rabbit-r1/external-sources-and-gpu-blobs.md)
+
 - [Release audit and outstanding requirements](Documentation/rabbit-r1/release-audit.md)
 - [Source provenance and licensing](Documentation/rabbit-r1/provenance.md)
 - [Kernel changes and compatibility limits](Documentation/rabbit-r1/patches.md)

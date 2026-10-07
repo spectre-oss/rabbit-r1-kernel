@@ -17,11 +17,15 @@ def main():
     for name in ['drivers/gpu/drm/panel/Kconfig', 'drivers/gpu/drm/panel/Makefile']:
         if 'CONFIG_DRM_PANEL_RABBIT_R1' in (ROOT / name).read_text() or 'config DRM_PANEL_RABBIT_R1' in (ROOT / name).read_text():
             raise SystemExit('Omitted panel remains enabled in build files')
-    if subprocess.check_output(['git', '-C', str(ROOT), 'rev-list', '--count', 'HEAD']).strip() != b'1':
-        raise SystemExit('This publication must have exactly one fresh root commit')
+    roots = subprocess.check_output(['git', '-C', str(ROOT), 'rev-list', '--max-parents=0', 'HEAD']).decode().split()
+    if roots != ['c351d322823fce6d41635cb6e3b582b713e666e3']:
+        raise SystemExit('History must descend only from the audited partial root')
+    history = subprocess.check_output(['git', '-C', str(ROOT), 'log', '--format=', '--name-only', 'HEAD', '--', *excluded]).strip()
+    if history:
+        raise SystemExit('Excluded paths occur in publication history')
     if subprocess.check_output(['git', '-C', str(ROOT), 'status', '--porcelain']).strip():
         raise SystemExit('Working tree differs from reviewed commit')
-    print('Partial source scope and single-commit history pass; full release remains deferred.')
+    print('Partial source scope and exclusion-safe history pass; full release remains deferred.')
     return 0
 if __name__ == '__main__':
     sys.exit(main())
